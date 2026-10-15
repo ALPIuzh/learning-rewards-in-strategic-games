@@ -1,0 +1,21 @@
+{
+  "toy": {
+    "command": [
+      "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/python",
+      "-m",
+      "experiments.run",
+      "--config-name",
+      "runs/toy",
+      "experiment.name=efficiency-toy",
+      "experiment.seed_count=3",
+      "experiment.total_samples=64",
+      "experiment.warmup_budget=24",
+      "experiment.evaluation_interval=8",
+      "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-round2/plain-before-4",
+      "run.require_clean_git=false",
+      "run.resume=false"
+    ],
+    "seconds": 1.4228667079951265,
+    "returncode": 0
+  }
+}

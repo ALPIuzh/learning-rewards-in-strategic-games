@@ -1,0 +1,342 @@
+{
+  "command": [
+    ".venv/bin/mairl-plot",
+    "run_dir=artifacts/runs/sparse-information-comparison/1bbeb97e90a21732",
+    "plot.metric=stackelberg_suboptimality",
+    "plot.name=stackelberg-suboptimality",
+    "require_clean_git=false"
+  ],
+  "figure_sha256": "ba149552284dc0346a1f9f60cd92d5b8107bcb385381bff8ce337da291d27569",
+  "git": {
+    "branch": "main",
+    "commit": "ba86ad637dea251fafe7c1ceb6e0c0bcf6960e38",
+    "dirty": true,
+    "fingerprint": "d74ac5dffeda6eb1a9be2d4a24b88840d3a9ae7f6fc02bcce90cfe28459b5562",
+    "status": [
+      " M src/mairl_exp/cli/run_experiment.py",
+      "?? conf/application/sparse_information.yaml",
+      "?? conf/experiment/sparse_information_comparison.yaml",
+      "?? conf/sparse_information_config.yaml",
+      "?? experiments/sparse_information/README.md",
+      "?? experiments/sparse_information/__init__.py",
+      "?? experiments/sparse_information/application.py",
+      "?? experiments/sparse_information/run.py",
+      "?? tests/test_sparse_information_application.py",
+      "?? tmp/pdfs/ewrl-page-30.png",
+      "?? tmp/pdfs/ewrl-page-31.png",
+      "?? tmp/pdfs/ewrl-page-32.png",
+      "?? tmp/pdfs/mairl_ewrl_final_draft.txt"
+    ],
+    "untracked": [
+      {
+        "path": "conf/application/sparse_information.yaml",
+        "sha256": "95d80dcbc8bdc2aaed66f4ce4f263965fbe7d4bf780fd124f2b504cece950323"
+      },
+      {
+        "path": "conf/experiment/sparse_information_comparison.yaml",
+        "sha256": "4c8e1af4f96b1036030eec4beeaf8bfc06f016d4963b085b6b9c36e6b5fc1f7c"
+      },
+      {
+        "path": "conf/sparse_information_config.yaml",
+        "sha256": "59b46d4636b89b616d4b4862d4b79e127d31624beff7211c749cc50c5753cac9"
+      },
+      {
+        "path": "experiments/sparse_information/README.md",
+        "sha256": "7cc186b08439e91b2701f9d11d421776ae45e833a633071abaf288181c3d89b2"
+      },
+      {
+        "path": "experiments/sparse_information/__init__.py",
+        "sha256": "00375fceb09677fe214755c05345fabc58712627b2802c41f99c28c9acceb7f7"
+      },
+      {
+        "path": "experiments/sparse_information/application.py",
+        "sha256": "31f9e8ba596f077068df9777677a2257a3f193b6714c98ea897837a956700737"
+      },
+      {
+        "path": "experiments/sparse_information/run.py",
+        "sha256": "3393af53b76481440862f70632e2b113b6105796e3eab2fa4b3a5da5fe01637b"
+      },
+      {
+        "path": "tests/test_sparse_information_application.py",
+        "sha256": "bb88758c2693a5d578f483e8a2c8e533abf07b50caf3255b7eb28c95f6f0b6a8"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-30.png",
+        "sha256": "93565fa604dbe7ea9fd7069354d90dde978b222ab2b3f93d7da697fa861686e5"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-31.png",
+        "sha256": "86542858a7716fc3891484e2627e3cd11861eab4a2b7721bd77b5e31ee2ef585"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-32.png",
+        "sha256": "a7d6a45a055edf533ce3074b7771c27861161e2af14e072ce04f5cd8b61477dc"
+      },
+      {
+        "path": "tmp/pdfs/mairl_ewrl_final_draft.txt",
+        "sha256": "f51959f15cc4e6903bd5821ce4757a01c3e1cef884e2fb4c7fb234de6d792201"
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "result_sha256": "b53d8e49f924f1edac8073d52a88647e8ce2e34433c9378033a8346aa3118243"
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "result_sha256": "4c527f7527e5813301d85df87510ca00951e9f65cd7f7798dc00d00f0382137b"
+    },
+    {
+      "job_id": "aff96d3589ddc19a",
+      "label": "warmup/active/seed=102",
+      "result_sha256": "1b40b302f3f47dd884b70208e2194d385e7d4265ca40b11918aed7057ea9aa5a"
+    },
+    {
+      "job_id": "e392309d9c1f4a78",
+      "label": "warmup/active/seed=103",
+      "result_sha256": "77057b29de0a8c68f9cdfcc76c9fcb71220841d674678accfabc398b7de4a4cf"
+    },
+    {
+      "job_id": "06389eddaab328a2",
+      "label": "warmup/active/seed=104",
+      "result_sha256": "a72e635d7a881440b8899af080897d26a9f863e8c69537f3a2214b44d47b4dc1"
+    },
+    {
+      "job_id": "2481e1ebe5eddf59",
+      "label": "warmup/active/seed=105",
+      "result_sha256": "1e060185ddc6ecd5c8381e8cce6595de5892e0888f2ffe054b92385cf06ec72c"
+    },
+    {
+      "job_id": "edf6f39f00a5a726",
+      "label": "warmup/active/seed=106",
+      "result_sha256": "edd0b15cc0599ab78d1605ab916d7783d7f56e9011825f4707c81efb4ffa1027"
+    },
+    {
+      "job_id": "a82693e1748c90a7",
+      "label": "warmup/active/seed=107",
+      "result_sha256": "8feae28844e81179377e3dc566e133cacd35fbfa10b3a2349e69d775a468e84d"
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "result_sha256": "8f39e09f344dce9a60849a772097b88d83e1fa47f861d97a106b64901d3bda79"
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "result_sha256": "d9e51cb3e8b24ee01c6a7873dfb04a7c320018b90e2a3b68ec1d8fefa7813bf5"
+    },
+    {
+      "job_id": "559007a113394852",
+      "label": "warmup/fixed_random/seed=102",
+      "result_sha256": "3448eeb96512ec909b580e0c216b09be0061f6bb87ce854be358a464e819df32"
+    },
+    {
+      "job_id": "e244eac5b7f4d299",
+      "label": "warmup/fixed_random/seed=103",
+      "result_sha256": "9dd7391aae419710d7f9435c173414f694d1d51177e034aaefa1405fcb04807f"
+    },
+    {
+      "job_id": "2b4c826707e9a684",
+      "label": "warmup/fixed_random/seed=104",
+      "result_sha256": "e490e1e0ba5822b5ac2bd6e717ace302476546fc923da13d63673269661267f6"
+    },
+    {
+      "job_id": "4be5d8b798e00751",
+      "label": "warmup/fixed_random/seed=105",
+      "result_sha256": "ebd778832ecafbbe36363ac97452175c0b3091b15481a8268aa5153dda93da19"
+    },
+    {
+      "job_id": "5b5b10cc55c87619",
+      "label": "warmup/fixed_random/seed=106",
+      "result_sha256": "5a657b055e8873a4a3f37c2a10a25d87460e4d8e6563dbe9b292e4ecab114302"
+    },
+    {
+      "job_id": "f091ad4a28dfdcda",
+      "label": "warmup/fixed_random/seed=107",
+      "result_sha256": "0a0cd80b2ecb59276292755c918b2a24263f68c1954d491d1787de9ddd8b7930"
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "result_sha256": "e813805b52cf8320bfcefbcfa54e099f6ff2fb2eee23ae5abd5e989528e60282"
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "result_sha256": "685e1a9eef559bbc2000c9969a4032d5f83f4d355802fef0da1342a87229b1fa"
+    },
+    {
+      "job_id": "301150df8531e6e7",
+      "label": "warmup/random_each_round/seed=102",
+      "result_sha256": "dfb6be7274c67cba41de0d98732f7e91856fe79c815c647ae5b0b206fff5cfd6"
+    },
+    {
+      "job_id": "ec25942c5d628143",
+      "label": "warmup/random_each_round/seed=103",
+      "result_sha256": "da16c6eac66ebcdc1dae244b37ca32e8094212f14a36027b97315dbbe7a261c3"
+    },
+    {
+      "job_id": "072a546b3c6ed062",
+      "label": "warmup/random_each_round/seed=104",
+      "result_sha256": "784ac0b33772fcf267bf51595741a7718daea763ab9b00b0249074cf4383c0a7"
+    },
+    {
+      "job_id": "a56961c775932f9b",
+      "label": "warmup/random_each_round/seed=105",
+      "result_sha256": "1fdbddd4fd8f887bbc89db05d9152159b2be00690f56206fafe590cdb33618de"
+    },
+    {
+      "job_id": "1877e2f13bec1b75",
+      "label": "warmup/random_each_round/seed=106",
+      "result_sha256": "53b5ef55ee7a1ecc29922df88b7f24061a013c3c96b1127918408b753c4ecbb8"
+    },
+    {
+      "job_id": "485ae5a2b35294ce",
+      "label": "warmup/random_each_round/seed=107",
+      "result_sha256": "9986c5f0e73d42156766332e393a25529991758f296a646df73506e80e75f352"
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "result_sha256": "2a1152870cb2ce5f91b605f0e9e7662e757cea895dc552088a6da3e412391a0e"
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "result_sha256": "c557ac82a8fceb7a45a41e471601e46681cf4dbca44acd3f30e4809721d81317"
+    },
+    {
+      "job_id": "d0ea9fc4f47409d4",
+      "label": "no-warmup/active/seed=102",
+      "result_sha256": "6174e013f2324755a79eb71d82af09f3ea1f556d7fa4bb3a9f7c07eb5dd3c996"
+    },
+    {
+      "job_id": "a2898016583ec6c6",
+      "label": "no-warmup/active/seed=103",
+      "result_sha256": "57718c02d3252ddbaa5e20001977e88c977abb131c4abc6782424549ee62fc40"
+    },
+    {
+      "job_id": "29b907248a48c958",
+      "label": "no-warmup/active/seed=104",
+      "result_sha256": "ed6ec2252d8da4375351c518960f76c34df94189975d4edc3185738e62843675"
+    },
+    {
+      "job_id": "20cd7262b84f81eb",
+      "label": "no-warmup/active/seed=105",
+      "result_sha256": "95929a1542cfe97a9bc13998aa479b413f91cffca15c4156eeb5e238bb31ee9e"
+    },
+    {
+      "job_id": "a2d5a4a8bc6b7e8d",
+      "label": "no-warmup/active/seed=106",
+      "result_sha256": "2479366a02b13caa745077e49d896d13fafed5c38110c6e5da9f33c83d5512bd"
+    },
+    {
+      "job_id": "68a24679daa4f8e4",
+      "label": "no-warmup/active/seed=107",
+      "result_sha256": "aa24c85e87f90b9d032b73c0ba5587b3d8b51f7ed181484b1aee9622799cebf0"
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "result_sha256": "d7f64845698b2f77d7e9b6d636b1df4f59f6bb8bf98b033890323fc43df5ed79"
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "result_sha256": "649d2982bf502f0acb686ac30b43d3d5915bd160f7f1aafa741a7fc59dc11c9a"
+    },
+    {
+      "job_id": "1bf3fed37832c498",
+      "label": "no-warmup/fixed_random/seed=102",
+      "result_sha256": "3c9093e2ce2142420df8a899d2fb20a5311dde28f76af71fca0d652cbba361cf"
+    },
+    {
+      "job_id": "ccd1e98c7a531690",
+      "label": "no-warmup/fixed_random/seed=103",
+      "result_sha256": "5a290307c5619fdb43cf780873cffeffd9d35e6bf714a7b3cb198ffed32ad367"
+    },
+    {
+      "job_id": "d0388e590e4f295e",
+      "label": "no-warmup/fixed_random/seed=104",
+      "result_sha256": "c746935adb245252f8b56c1a9d7bc95a84a99ecba8d40f6d3270778ca4d980bf"
+    },
+    {
+      "job_id": "762d9081a53cf1e6",
+      "label": "no-warmup/fixed_random/seed=105",
+      "result_sha256": "c454f7d1b1fc9cec1465596d31151ada66d645b5add0abd87af3c9354732dee4"
+    },
+    {
+      "job_id": "026b8be20643f4fb",
+      "label": "no-warmup/fixed_random/seed=106",
+      "result_sha256": "5a34fcf7f64ee3831c9cb7b1764bdbcc5a1031f06903e84f768840b935b4ce84"
+    },
+    {
+      "job_id": "d586471de4be6f56",
+      "label": "no-warmup/fixed_random/seed=107",
+      "result_sha256": "66140b78c7eda6c2c946a160fe3063c6cc982610c87c773c70d3a1998b1771b3"
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "result_sha256": "16268533b35bd60c9b35617af26e73f69c36881befce0c36d548c1a894bf0a97"
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "result_sha256": "69c568789d12511e3b6b558535b5cc4b5cb623e70d77bef2c78e6a7015862127"
+    },
+    {
+      "job_id": "54b4c849154050a0",
+      "label": "no-warmup/random_each_round/seed=102",
+      "result_sha256": "d5e06ecfe6b9d15ddbb7b18038067d3a6ec2d67c0689505fff78ba474004ebfc"
+    },
+    {
+      "job_id": "0f53a51e9ab54cd5",
+      "label": "no-warmup/random_each_round/seed=103",
+      "result_sha256": "f609890439fa6d6b0b078d536e5d33a24683b4e4a66ab012537ddb04ac3eb0ab"
+    },
+    {
+      "job_id": "31750aef258e7ad7",
+      "label": "no-warmup/random_each_round/seed=104",
+      "result_sha256": "b511f4ae7420bba647df5a39d83c45d546358fcf5014cd67a8d8957106b5157f"
+    },
+    {
+      "job_id": "dfec4a43d7f13fbd",
+      "label": "no-warmup/random_each_round/seed=105",
+      "result_sha256": "20d410eabda68e8f4177c851b0b4e313ce918b6696cdd13f49256b930fb1549b"
+    },
+    {
+      "job_id": "511b73f19db2e01a",
+      "label": "no-warmup/random_each_round/seed=106",
+      "result_sha256": "7b6dbd18a2cd0fd3851f3132b1da743934f6d7101a154371ec4e8c8d92ca4fd3"
+    },
+    {
+      "job_id": "db909c8a9a8fddac",
+      "label": "no-warmup/random_each_round/seed=107",
+      "result_sha256": "63059a0dbc2022ef9be0fcf8d4384fc4e298cf2133579ec6257f54412068032e"
+    }
+  ],
+  "plot_id": "42a9bb5c0bc803b6",
+  "run_id": "1bbeb97e90a21732",
+  "schema_version": 1,
+  "semantic_plot_config": {
+    "plot": {
+      "_target_": "mairl_exp.plotting.FisherTransferPlot",
+      "allow_incomplete": false,
+      "band": "mean_ci",
+      "band_alpha": 0.08,
+      "confidence_level": 0.95,
+      "dpi": 180,
+      "lower_quantile": 0.1,
+      "metric": "stackelberg_suboptimality",
+      "name": "stackelberg-suboptimality",
+      "upper_quantile": 0.9
+    },
+    "schema_version": 1
+  },
+  "status": "complete"
+}

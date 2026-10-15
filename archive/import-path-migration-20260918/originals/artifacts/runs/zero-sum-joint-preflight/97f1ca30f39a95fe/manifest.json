@@ -1,0 +1,185 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/zero_sum_comparison/run_joint_selection.py",
+    "experiment.name=zero-sum-joint-preflight",
+    "experiment.seed_start=39000",
+    "experiment.seed_count=4",
+    "experiment.minimum_seed_count=2",
+    "experiment.candidate_pairs=[[0,1.0],[80,8.0],[160,16.0],[200,1.0]]",
+    "run.seed_batch_size=4"
+  ],
+  "created_at": "2026-08-06T15:01:26.656417+00:00",
+  "execution_batch_size": 4,
+  "expected_jobs": [
+    {
+      "job_id": "d815a05d4f8aa721",
+      "label": "warmup=0/lambda=1eta2/seed=39000",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39000,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "bf2d2895434aa70d",
+      "label": "warmup=0/lambda=1eta2/seed=39001",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39001,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "4bf78b1633fe6ade",
+      "label": "warmup=0/lambda=1eta2/seed=39002",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39002,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "b9e0a51da566894d",
+      "label": "warmup=0/lambda=1eta2/seed=39003",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39003,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "2eebf5af4429ab44",
+      "label": "warmup=80/lambda=8eta2/seed=39000",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 39000,
+        "warmup_budget": 80
+      }
+    },
+    {
+      "job_id": "bdbbcdb62dc4dd6b",
+      "label": "warmup=80/lambda=8eta2/seed=39001",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 39001,
+        "warmup_budget": 80
+      }
+    },
+    {
+      "job_id": "5f7815614efa549d",
+      "label": "warmup=80/lambda=8eta2/seed=39002",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 39002,
+        "warmup_budget": 80
+      }
+    },
+    {
+      "job_id": "75f9bbe15cfcf465",
+      "label": "warmup=80/lambda=8eta2/seed=39003",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 39003,
+        "warmup_budget": 80
+      }
+    },
+    {
+      "job_id": "7e00f32fdd60f7d1",
+      "label": "warmup=160/lambda=16eta2/seed=39000",
+      "spec": {
+        "lambda_information_multiplier": 16.0,
+        "seed": 39000,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a851ebfcb8768e9f",
+      "label": "warmup=160/lambda=16eta2/seed=39001",
+      "spec": {
+        "lambda_information_multiplier": 16.0,
+        "seed": 39001,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "3603503355fe94da",
+      "label": "warmup=160/lambda=16eta2/seed=39002",
+      "spec": {
+        "lambda_information_multiplier": 16.0,
+        "seed": 39002,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "c415a67153e3d3ae",
+      "label": "warmup=160/lambda=16eta2/seed=39003",
+      "spec": {
+        "lambda_information_multiplier": 16.0,
+        "seed": 39003,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "00277e10fefe6cd2",
+      "label": "warmup=200/lambda=1eta2/seed=39000",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39000,
+        "warmup_budget": 200
+      }
+    },
+    {
+      "job_id": "cee2386149df1ce7",
+      "label": "warmup=200/lambda=1eta2/seed=39001",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39001,
+        "warmup_budget": 200
+      }
+    },
+    {
+      "job_id": "a686096b795d650b",
+      "label": "warmup=200/lambda=1eta2/seed=39002",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39002,
+        "warmup_budget": 200
+      }
+    },
+    {
+      "job_id": "7dc40c1633b912a2",
+      "label": "warmup=200/lambda=1eta2/seed=39003",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 39003,
+        "warmup_budget": 200
+      }
+    }
+  ],
+  "git": {
+    "branch": "codex/lambda-exploration",
+    "commit": "7ab332cdaabb67f9025ee071cbe6dc7c15a256d1",
+    "dirty": false,
+    "fingerprint": "995597f2a0580130f574bd72f498ada3a1cbf4c116fe2728b26fd5e7a9766841",
+    "status": [],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 16,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 2.2140103749989066,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 16
+  },
+  "resume_granularity": "job",
+  "run_id": "97f1ca30f39a95fe",
+  "schema_version": 1,
+  "semantic_config_sha256": "454b70b60ddc29e34d3dad62836f1cc27ac3bdf073802acc8f4cad24dbfeee57",
+  "status": "complete",
+  "study_name": "zero-sum-joint-preflight",
+  "updated_at": "2026-08-06T15:01:28.846584+00:00"
+}

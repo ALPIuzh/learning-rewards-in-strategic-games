@@ -1,0 +1,94 @@
+{
+  "figures": [
+    {
+      "data": "reproducibility/data/lobeke/source_convergence_unit_reward_v2/provenance.json",
+      "data_sha256": "ee0b16089dc64144be60e47659e39c64bf9ab82b609be7338777682436c291b7",
+      "id": "m1_source_convergence",
+      "output": "reproducibility/tex/generated/main/m1_source_convergence.tex",
+      "output_sha256": "25cc3a60b7da9314120a8a29ab977f0e19dc122f1f6f3e9d2138df9c68dd74a8",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/downstream_figures.json",
+      "data_sha256": "6374b6dfc3a6e3f931e80d7c54a3c19bff2314210b58e50570ab70edcb3501e8",
+      "id": "m2_downstream_transfer",
+      "output": "reproducibility/tex/generated/main/m2_downstream_transfer.tex",
+      "output_sha256": "05989946586252d2bdeba60da6af9d3c347961e805ad17150efafc67eadf135f",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/downstream_figures.json",
+      "data_sha256": "6374b6dfc3a6e3f931e80d7c54a3c19bff2314210b58e50570ab70edcb3501e8",
+      "id": "m2_downstream_transfer_compact",
+      "output": "reproducibility/tex/generated/main/m2_downstream_transfer_compact.tex",
+      "output_sha256": "2f5909fb839737bdf88acb562f5d7d149aa11f43b79e85d5cedee6ab95b0126e",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/environment/provenance.json",
+      "data_sha256": "4a7a1bca55383135c94447e8f588d32cef75274b7373738d35c20a370875ca19",
+      "id": "i1_environment",
+      "output": "reproducibility/tex/generated/appendix/i1_environment.tex",
+      "output_sha256": "2edbb54fb7f986118816d6d100c433771790a139c9fbf282d88ba4a726f938e2",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/final_evaluation_unit_reward_v2/provenance.json",
+      "data_sha256": "952027a31af9147863cd0089463803d26c4b1551241b908923474536f409530d",
+      "id": "i1_source_diagnostics",
+      "output": "reproducibility/tex/generated/appendix/i1_source_diagnostics.tex",
+      "output_sha256": "d91cc839965090aa91b0e3251c4706a22c3992f301feac21cc8ba7dc7e56072a",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/downstream_figures.json",
+      "data_sha256": "6374b6dfc3a6e3f931e80d7c54a3c19bff2314210b58e50570ab70edcb3501e8",
+      "id": "i1_downstream",
+      "output": "reproducibility/tex/generated/appendix/i1_downstream.tex",
+      "output_sha256": "ea397b2bc1e23e740ecc82651b150134478a2cfe29fd918226e66b952d198cb2",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/behavioral_transfer_v1/provenance.json",
+      "data_sha256": "c4d772e3b3070c90e41dcd0e701c450f8e6b74c2cf93ca566a599805aca10ca1",
+      "id": "i1_behavioral_transfer_gap",
+      "output": "reproducibility/tex/generated/appendix/i1_behavioral_transfer_gap.tex",
+      "output_sha256": "4fd9a85183edab805e14cb82cf0cf6fd7084e9c72c9e829d27db098868b62a80",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lobeke/sensitivity_32seeds/provenance.json",
+      "data_sha256": "57e5ccaf6ecfeea42191cc2543ce32727f946a9a15cb8c538bde3d66476ebadb",
+      "id": "i1_hyperparameters",
+      "output": "reproducibility/tex/generated/appendix/i1_hyperparameters.tex",
+      "output_sha256": "9f45fa85effc9eac0f2623133a05285348f525a3e3eb30b737430ee3ba4132fd",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/sparse_information/final_sparse_information.json",
+      "data_sha256": "7c5f366e5839c0ab3557a37eb3590e45a1dad26f9cbf47e95b3b7fc3a0493c5d",
+      "id": "i2_sparse_information",
+      "output": "reproducibility/tex/generated/appendix/i2_sparse_information.tex",
+      "output_sha256": "204a4974fcbffc27dff9db25b3551521db88b0bae9c23d2f1a24a1e028106c9f",
+      "source": null,
+      "source_sha256": null
+    },
+    {
+      "data": "reproducibility/data/lower_bound/summary.json",
+      "data_sha256": "50241c70024b9bd3d37097884b2730f52cf4c06d8b646a679e0438e7b42eea9d",
+      "id": "i3_lower_bound",
+      "output": "reproducibility/tex/generated/appendix/i3_lower_bound.tex",
+      "output_sha256": "60cdf387174179c626e6b0b6272f2eddb915fd6d2dbda1b7ddc5be52cbfde2ab",
+      "source": null,
+      "source_sha256": null
+    }
+  ]
+}

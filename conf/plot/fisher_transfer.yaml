@@ -1,0 +1,11 @@
+_target_: mairl_exp.evaluation.plotting.FisherTransferPlot
+
+name: fisher-transfer
+metric: fisher_transfer_error
+band: mean_ci
+confidence_level: 0.95
+band_alpha: 0.08
+lower_quantile: 0.1
+upper_quantile: 0.9
+dpi: 180
+allow_incomplete: false

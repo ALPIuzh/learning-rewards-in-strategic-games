@@ -1,0 +1,151 @@
+{
+  "original_files_unchanged": 175,
+  "new_seed_runs": 96,
+  "task_evaluations": 9600,
+  "training_checks": [
+    {
+      "file": "training/first-two/active_no_warm_lambda0p001.npz",
+      "seeds": 2,
+      "max_simplex_error": 2.220446049250313e-16,
+      "max_omega_norm": 2.000000000000247
+    },
+    {
+      "file": "training/first-two/active_no_warm_lambda0p1.npz",
+      "seeds": 2,
+      "max_simplex_error": 4.440892098500626e-16,
+      "max_omega_norm": 2.000000000000247
+    },
+    {
+      "file": "training/first-two/active_warm100_lambda0p001.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 1.7823889286514574
+    },
+    {
+      "file": "training/first-two/active_warm100_lambda0p3.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 1.447861439518265
+    },
+    {
+      "file": "training/first-two/active_warm100_lambda1.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 1.9131704555424185
+    },
+    {
+      "file": "training/first-two/active_warm200_lambda0p001.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 2.000000000000019
+    },
+    {
+      "file": "training/first-two/active_warm200_lambda0p1.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 2.000000000000148
+    },
+    {
+      "file": "training/first-two/active_warm25_lambda0p001.npz",
+      "seeds": 2,
+      "max_simplex_error": 2.220446049250313e-16,
+      "max_omega_norm": 2.0000000000000573
+    },
+    {
+      "file": "training/first-two/active_warm25_lambda0p1.npz",
+      "seeds": 2,
+      "max_simplex_error": 3.3306690738754696e-16,
+      "max_omega_norm": 2.0000000000002203
+    },
+    {
+      "file": "training/first-two/active_warm25_lambda0p3.npz",
+      "seeds": 2,
+      "max_simplex_error": 2.220446049250313e-16,
+      "max_omega_norm": 2.00000000000023
+    },
+    {
+      "file": "training/first-two/active_warm25_lambda1.npz",
+      "seeds": 2,
+      "max_simplex_error": 2.220446049250313e-16,
+      "max_omega_norm": 2.0000000000000573
+    },
+    {
+      "file": "training/first-two/active_warm50_lambda0p1.npz",
+      "seeds": 2,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 1.8190476689962154
+    },
+    {
+      "file": "training/remaining-six/active_no_warm_lambda0p001.npz",
+      "seeds": 6,
+      "max_simplex_error": 4.440892098500626e-16,
+      "max_omega_norm": 2.0000000000002123
+    },
+    {
+      "file": "training/remaining-six/active_no_warm_lambda0p1.npz",
+      "seeds": 6,
+      "max_simplex_error": 4.440892098500626e-16,
+      "max_omega_norm": 2.0000000000002482
+    },
+    {
+      "file": "training/remaining-six/active_warm100_lambda0p001.npz",
+      "seeds": 6,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 2.000000000000229
+    },
+    {
+      "file": "training/remaining-six/active_warm100_lambda0p3.npz",
+      "seeds": 6,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 2.000000000000144
+    },
+    {
+      "file": "training/remaining-six/active_warm100_lambda1.npz",
+      "seeds": 6,
+      "max_simplex_error": 0.0,
+      "max_omega_norm": 2.000000000000144
+    },
+    {
+      "file": "training/remaining-six/active_warm200_lambda0p001.npz",
+      "seeds": 6,
+      "max_simplex_error": 2.220446049250313e-16,
+      "max_omega_norm": 2.0000000000002345
+    },
+    {
+      "file": "training/remaining-six/active_warm200_lambda0p1.npz",
+      "seeds": 6,
+      "max_simplex_error": 1.1102230246251565e-16,
+      "max_omega_norm": 2.0000000000002127
+    },
+    {
+      "file": "training/remaining-six/active_warm25_lambda0p001.npz",
+      "seeds": 6,
+      "max_simplex_error": 4.440892098500626e-16,
+      "max_omega_norm": 2.0000000000002323
+    },
+    {
+      "file": "training/remaining-six/active_warm25_lambda0p1.npz",
+      "seeds": 6,
+      "max_simplex_error": 6.661338147750939e-16,
+      "max_omega_norm": 2.0000000000002327
+    },
+    {
+      "file": "training/remaining-six/active_warm25_lambda0p3.npz",
+      "seeds": 6,
+      "max_simplex_error": 8.881784197001252e-16,
+      "max_omega_norm": 2.0000000000002407
+    },
+    {
+      "file": "training/remaining-six/active_warm25_lambda1.npz",
+      "seeds": 6,
+      "max_simplex_error": 3.3306690738754696e-16,
+      "max_omega_norm": 2.0000000000002407
+    },
+    {
+      "file": "training/remaining-six/active_warm50_lambda0p1.npz",
+      "seeds": 6,
+      "max_simplex_error": 3.3306690738754696e-16,
+      "max_omega_norm": 2.000000000000056
+    }
+  ]
+}

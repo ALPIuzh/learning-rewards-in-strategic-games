@@ -1,0 +1,107 @@
+{
+  "eigenvalues": [
+    7.886517416473748e-05,
+    0.0321459278511469,
+    0.18585397027346645
+  ],
+  "true_coefficients_in_fisher_basis": [
+    -0.4356714644028194,
+    -1.0043731174136048,
+    -0.4958522567927106
+  ],
+  "eigenvectors_as_columns": [
+    [
+      -0.7188644629727173,
+      0.5324580829257117,
+      -0.4469029803011193
+    ],
+    [
+      0.02740185460083246,
+      -0.6206824549389593,
+      -0.7835830705773201
+    ],
+    [
+      0.6946099785054787,
+      0.5755359937119681,
+      -0.43159622067691455
+    ]
+  ],
+  "scope": "descriptive first confirmation; truth used only for evaluation",
+  "methods": {
+    "active_no_warm_lambda0p003": {
+      "coefficient_rmse": 0.32259745883932545,
+      "weak_direction_mean": -0.400985673416744,
+      "weak_direction_std": 0.30393716112508884
+    },
+    "active_no_warm_lambda0p03": {
+      "coefficient_rmse": 0.29887686333687735,
+      "weak_direction_mean": -0.4278523500696226,
+      "weak_direction_std": 0.2654114377291202
+    },
+    "active_warm200_lambda0p003": {
+      "coefficient_rmse": 0.2860017111007906,
+      "weak_direction_mean": -0.39609099147154486,
+      "weak_direction_std": 0.2566931838098232
+    },
+    "active_warm200_lambda0p03": {
+      "coefficient_rmse": 0.3107297664397943,
+      "weak_direction_mean": -0.331276789654433,
+      "weak_direction_std": 0.26672881517244745
+    },
+    "fixed_expert_matched_ridge": {
+      "coefficient_rmse": 1.375917676969336,
+      "weak_direction_mean": -0.23441744580654666,
+      "weak_direction_std": 1.3648341783083207
+    },
+    "fixed_random_no_warm": {
+      "coefficient_rmse": 1.469822636787688,
+      "weak_direction_mean": -0.19214265074814052,
+      "weak_direction_std": 1.2110472668873857
+    },
+    "fixed_random_warm200": {
+      "coefficient_rmse": 0.9033028462338297,
+      "weak_direction_mean": -0.13008742277173965,
+      "weak_direction_std": 0.7829697274155608
+    },
+    "random_each_round_no_warm": {
+      "coefficient_rmse": 1.2634840116657138,
+      "weak_direction_mean": -0.23066018990640955,
+      "weak_direction_std": 1.1010655014045623
+    },
+    "random_each_round_warm200": {
+      "coefficient_rmse": 0.8684515765456076,
+      "weak_direction_mean": -0.09416420808470369,
+      "weak_direction_std": 0.7420979331333337
+    },
+    "follower_ols": {
+      "coefficient_rmse": 1.8240124719947408,
+      "weak_direction_mean": 0.013096753507527885,
+      "weak_direction_std": 0.3636454937168809
+    },
+    "zero_sum_ols": {
+      "coefficient_rmse": 1.3833689548825792,
+      "weak_direction_mean": -0.2301632848694527,
+      "weak_direction_std": 1.0262658615983038
+    },
+    "fixed_expert_ridge0.01": {
+      "coefficient_rmse": 1.3544366104341066,
+      "weak_direction_mean": -0.23795182925617894,
+      "weak_direction_std": 1.3432674522342034
+    },
+    "fixed_expert_ridge0.1": {
+      "coefficient_rmse": 1.1607174717494886,
+      "weak_direction_mean": -0.24821700134936722,
+      "weak_direction_std": 1.1450983512988895
+    },
+    "fixed_expert_ridge1": {
+      "coefficient_rmse": 0.5119697570003041,
+      "weak_direction_mean": -0.07453263184542333,
+      "weak_direction_std": 0.327324919561858
+    },
+    "fixed_expert_ridge10": {
+      "coefficient_rmse": 0.48125241742648633,
+      "weak_direction_mean": -0.008136169642060136,
+      "weak_direction_std": 0.036404352341034125
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "command": [
+    "/home/antber/mairl-iclr/experiments/run.py",
+    "--config-name",
+    "runs/lobeke/comparison",
+    "experiment.name=lobeke-final-20260921-fixed_expert_mle-false",
+    "experiment.seed_start=2026097000",
+    "experiment.seed_count=50",
+    "experiment.total_samples=1600",
+    "experiment.evaluation_interval=40",
+    "experiment.warmup_budget=50",
+    "experiment.no_warmup_lambda_information_multiplier=0.1",
+    "experiment.warmup_lambda_information_multiplier=0.03",
+    "experiment.methods=[fixed_expert_mle]",
+    "experiment.warmup_modes=[false]",
+    "numerics.mle.ridge=1e-6",
+    "experiment.fixed_expert_mle_ridge=1e-6",
+    "run.seed_batch_size=50"
+  ],
+  "created_at": "2026-09-21T12:58:21.196540+00:00",
+  "execution_batch_size": 50,
+  "expected_jobs": [
+    {
+      "job_id": "41c6b1fab7ef4ce2",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097000",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097000,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "fda77500de45aa4c",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097001",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097001,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "bf4e0e3330bf1c84",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097002",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097002,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6c0cdeb05a9cc5d8",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097003",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097003,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6b92e81060df2a80",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097004",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097004,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7b82348aee1f0e78",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097005",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097005,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "784b43593211bd7a",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097006",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097006,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "8268f43cbe1425f5",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097007",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097007,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "648e02a5b798c591",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097008",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097008,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0abaf430593979f1",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097009",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097009,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5ee5c9369a2e16cb",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097010",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097010,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "4fab7ddb63e867d8",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097011",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097011,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "802a6551a05dcefb",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097012",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097012,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c7c59f71160580bf",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097013",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097013,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "04d0eb341b5970df",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097014",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097014,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ea00f31903e62f4f",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097015",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097015,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d618f9c15ae99026",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097016",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097016,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "78ad6bcc906a133e",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097017",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097017,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "fea1f5c3de4bebc1",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097018",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097018,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "44e4d22e7aeaf968",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097019",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097019,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d405bd8ca517517c",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097020",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097020,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "4ddcc99b1db303bd",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097021",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097021,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f6d084264f4028ee",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097022",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097022,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0c5881f14c940958",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097023",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097023,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "9f6967a96c4b0b86",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097024",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097024,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7ed9df366b189555",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097025",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097025,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3b6ab6480cf21b6c",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097026",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097026,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c04757523131a829",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097027",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097027,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3b793f5d39a20644",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097028",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097028,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "74d81ea775af9d4a",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097029",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097029,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d41e561cc35220f3",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097030",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097030,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "8bd17ffe01c47fec",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097031",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097031,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a449c646983a3a28",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097032",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097032,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7337dc97470eeee6",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097033",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097033,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0186d8db1e53f206",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097034",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097034,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1c53fe5ee726fa37",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097035",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097035,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "aa4224948be16e55",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097036",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097036,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "aaffbb44405dc2e7",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097037",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097037,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3db16abb6e56c52c",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097038",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097038,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "13085d61076279f1",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097039",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097039,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2614517c848255eb",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097040",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097040,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0cf1f325196ad5f6",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097041",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097041,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1fabec234eec87a8",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097042",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097042,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "4c19eb40ba322430",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097043",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097043,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "68e6ef7248695911",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097044",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097044,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "93e9578ed5555fd4",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097045",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097045,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "56f1225bf23fc822",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097046",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097046,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d21b25fb61ed4abe",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097047",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097047,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "b50d4ede8c5e84ab",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097048",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097048,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "bc9008e20b681c3c",
+      "label": "no-warmup/fixed_expert_mle/seed=2026097049",
+      "spec": {
+        "method": "fixed_expert_mle",
+        "seed": 2026097049,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "master",
+    "commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+    "dirty": false,
+    "fingerprint": "7459a0e9a0d65fbb113cfe16560ab783e7ce415858d852ba98dda1894d92fc69",
+    "status": [],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 50,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 119.18551862798631,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 50
+  },
+  "resume_granularity": "job",
+  "run_id": "5ec6c593d578796b",
+  "schema_version": 1,
+  "semantic_config_sha256": "c0f83be932459acc4639e6c84019dd8c6ddd9f7818aaf2732adbb32d827338d5",
+  "status": "complete",
+  "study_name": "lobeke-final-20260921-fixed_expert_mle-false",
+  "updated_at": "2026-09-21T13:00:20.320728+00:00"
+}

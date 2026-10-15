@@ -1,0 +1,348 @@
+{
+  "action_counts": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "analytical_ratio_validated": true,
+  "derived_npz_sha256": "05647ced265361a39bfe97cb3acf0028f3f7651cace93d75ddaa348f69d37547",
+  "experiment": "sparse-information protected action-count sweep",
+  "methods": [
+    "active",
+    "fixed_random",
+    "random_each_round"
+  ],
+  "raw_result_checksum_aggregate_sha256": "4d5c5880ba64782222337d0a5a322b7d77dbb1b47098393f4bd7db04b810638e",
+  "run_id": "219b99056804830c",
+  "schema_version": 1,
+  "seed_policy": {
+    "count": 100,
+    "paired": true,
+    "seeds": [
+      72000,
+      72001,
+      72002,
+      72003,
+      72004,
+      72005,
+      72006,
+      72007,
+      72008,
+      72009,
+      72010,
+      72011,
+      72012,
+      72013,
+      72014,
+      72015,
+      72016,
+      72017,
+      72018,
+      72019,
+      72020,
+      72021,
+      72022,
+      72023,
+      72024,
+      72025,
+      72026,
+      72027,
+      72028,
+      72029,
+      72030,
+      72031,
+      72032,
+      72033,
+      72034,
+      72035,
+      72036,
+      72037,
+      72038,
+      72039,
+      72040,
+      72041,
+      72042,
+      72043,
+      72044,
+      72045,
+      72046,
+      72047,
+      72048,
+      72049,
+      72050,
+      72051,
+      72052,
+      72053,
+      72054,
+      72055,
+      72056,
+      72057,
+      72058,
+      72059,
+      72060,
+      72061,
+      72062,
+      72063,
+      72064,
+      72065,
+      72066,
+      72067,
+      72068,
+      72069,
+      72070,
+      72071,
+      72072,
+      72073,
+      72074,
+      72075,
+      72076,
+      72077,
+      72078,
+      72079,
+      72080,
+      72081,
+      72082,
+      72083,
+      72084,
+      72085,
+      72086,
+      72087,
+      72088,
+      72089,
+      72090,
+      72091,
+      72092,
+      72093,
+      72094,
+      72095,
+      72096,
+      72097,
+      72098,
+      72099
+    ]
+  },
+  "semantic_config_sha256": "526988fb30763a40642d08910eaa8ca2d88abe5afcb41c6cdbdce68eb1c5448c",
+  "source_commit": "33cbc4a1c260bc8d7c34711bcf884e3515a44532",
+  "source_git_fingerprint": "f34c1dc3e941164b27cc5c71d8747f3b00ae86290584fce60d7c097755c5568f",
+  "source_manifest_sha256": "af6a9fbc3ffb8202e93624aabef16587e7f5d7ac384cf067e38b6c61114384d2",
+  "summaries": {
+    "coefficient_l2_error": {
+      "16": {
+        "active": {
+          "mean": 0.09963080000595298,
+          "standard_error": 0.008263588717520781
+        },
+        "fixed_random": {
+          "mean": 1.0297472163495096,
+          "standard_error": 0.08783483929811788
+        },
+        "random_each_round": {
+          "mean": 0.6952128836932779,
+          "standard_error": 0.042942896878718335
+        }
+      },
+      "2": {
+        "active": {
+          "mean": 0.08928405788320422,
+          "standard_error": 0.00650453572673272
+        },
+        "fixed_random": {
+          "mean": 0.18449548843970187,
+          "standard_error": 0.022352269089110765
+        },
+        "random_each_round": {
+          "mean": 0.12131729272722548,
+          "standard_error": 0.008674533239183265
+        }
+      },
+      "32": {
+        "active": {
+          "mean": 0.09072334567002892,
+          "standard_error": 0.005899955409922674
+        },
+        "fixed_random": {
+          "mean": 1.4418886842570529,
+          "standard_error": 0.0936965168407378
+        },
+        "random_each_round": {
+          "mean": 0.9878998736027995,
+          "standard_error": 0.07208110071494309
+        }
+      },
+      "4": {
+        "active": {
+          "mean": 0.09436445965106391,
+          "standard_error": 0.00655985980040376
+        },
+        "fixed_random": {
+          "mean": 0.4072120101277851,
+          "standard_error": 0.055059321950298154
+        },
+        "random_each_round": {
+          "mean": 0.1985608725051851,
+          "standard_error": 0.015396230171348512
+        }
+      },
+      "8": {
+        "active": {
+          "mean": 0.09448150192480032,
+          "standard_error": 0.00600051378387202
+        },
+        "fixed_random": {
+          "mean": 0.7393304598573558,
+          "standard_error": 0.07799625582918714
+        },
+        "random_each_round": {
+          "mean": 0.35178301446196647,
+          "standard_error": 0.025649979261962923
+        }
+      }
+    },
+    "fisher_transfer_error": {
+      "16": {
+        "active": {
+          "mean": 0.0630456216376023,
+          "standard_error": 0.004886037605897404
+        },
+        "fixed_random": {
+          "mean": 0.46656886816704457,
+          "standard_error": 0.0379261851223836
+        },
+        "random_each_round": {
+          "mean": 0.4047012600531964,
+          "standard_error": 0.03584072799537243
+        }
+      },
+      "2": {
+        "active": {
+          "mean": 0.057472153903840244,
+          "standard_error": 0.004415452382859135
+        },
+        "fixed_random": {
+          "mean": 0.12750187891833561,
+          "standard_error": 0.01876310762176305
+        },
+        "random_each_round": {
+          "mean": 0.08012795079760482,
+          "standard_error": 0.006149282152774835
+        }
+      },
+      "32": {
+        "active": {
+          "mean": 0.058727095052581155,
+          "standard_error": 0.003799360432664909
+        },
+        "fixed_random": {
+          "mean": 0.6204376731226305,
+          "standard_error": 0.04054259370820103
+        },
+        "random_each_round": {
+          "mean": 0.44670619944344137,
+          "standard_error": 0.03889535911891242
+        }
+      },
+      "4": {
+        "active": {
+          "mean": 0.059991381784865884,
+          "standard_error": 0.004137502466500809
+        },
+        "fixed_random": {
+          "mean": 0.2276213940133795,
+          "standard_error": 0.027219302228524304
+        },
+        "random_each_round": {
+          "mean": 0.12312647557866882,
+          "standard_error": 0.009936310025153593
+        }
+      },
+      "8": {
+        "active": {
+          "mean": 0.0606539174583337,
+          "standard_error": 0.003851943723085966
+        },
+        "fixed_random": {
+          "mean": 0.36297890560931323,
+          "standard_error": 0.0345513709597615
+        },
+        "random_each_round": {
+          "mean": 0.2501816095695957,
+          "standard_error": 0.023721399714335387
+        }
+      }
+    },
+    "stackelberg_suboptimality": {
+      "16": {
+        "active": {
+          "mean": 1.1102230246251566e-18,
+          "standard_error": 1.1102230246251564e-18
+        },
+        "fixed_random": {
+          "mean": 0.04970288963159526,
+          "standard_error": 0.006380696498775655
+        },
+        "random_each_round": {
+          "mean": 0.03793115261358586,
+          "standard_error": 0.005964974863922079
+        }
+      },
+      "2": {
+        "active": {
+          "mean": 0.0,
+          "standard_error": 0.0
+        },
+        "fixed_random": {
+          "mean": 0.007847824678672939,
+          "standard_error": 0.003121907252237838
+        },
+        "random_each_round": {
+          "mean": 1.1102230246251566e-18,
+          "standard_error": 1.1102230246251564e-18
+        }
+      },
+      "32": {
+        "active": {
+          "mean": 2.220446049250313e-18,
+          "standard_error": 2.2204460492503127e-18
+        },
+        "fixed_random": {
+          "mean": 0.0693224513282776,
+          "standard_error": 0.006560958766658305
+        },
+        "random_each_round": {
+          "mean": 0.037931152613585845,
+          "standard_error": 0.005964974863922078
+        }
+      },
+      "4": {
+        "active": {
+          "mean": 0.0,
+          "standard_error": 0.0
+        },
+        "fixed_random": {
+          "mean": 0.019619561696682348,
+          "standard_error": 0.0046939184164869596
+        },
+        "random_each_round": {
+          "mean": 0.0026159415595576473,
+          "standard_error": 0.0018403841329045147
+        }
+      },
+      "8": {
+        "active": {
+          "mean": 3.3306690738754695e-18,
+          "standard_error": 1.9034397169300253e-18
+        },
+        "fixed_random": {
+          "mean": 0.03793115261358586,
+          "standard_error": 0.00596497486392208
+        },
+        "random_each_round": {
+          "mean": 0.027467386375355275,
+          "standard_error": 0.005354311548133323
+        }
+      }
+    }
+  }
+}

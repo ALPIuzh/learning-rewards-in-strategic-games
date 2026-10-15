@@ -1,0 +1,10 @@
+_target_: experiments.guard.paper.application.LobekeZeroSumApplication
+
+num_rows: 5
+num_columns: 5
+num_timesteps: 10
+eta: 1.25
+radius_multiplier: 1.5
+behavioral_fit_tolerance: 1.0e-6
+qre_tolerance: 1.0e-10
+qre_max_evaluations: 10000

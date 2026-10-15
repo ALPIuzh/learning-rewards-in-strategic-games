@@ -1,0 +1,73 @@
+\paragraph{Task and observations.}
+We use the Lob\'ek\'e instance generated from GUARD's anti-poaching data: a
+$5\times5$ grid with $23$ accessible targets and $23$ ten-step patrol actions.
+The ranger commits to a mixed patrol policy, and a simulated logit-response
+poacher chooses a target. One interaction supplies one observed poacher action.
+Zero-sum OLS additionally observes one sampled ranger action per interaction.
+The benchmark therefore compares protocols with different observation assumptions.
+
+The source reward is zero-sum before reporting normalization,
+$r^1_{\mathrm{src}}=-r^2_{\omega^\star}$. We report each leader reward in $[0,1]$:
+\begin{equation*}
+\bar r^1(a,b)=\frac{r^1(a,b)-\min_{a',b'}r^1(a',b')}{\max_{a',b'}r^1(a',b')-\min_{a',b'}r^1(a',b')}.
+\end{equation*}
+This preserves optimal policies and makes SubOpt comparable on a unit reward scale.
+During estimation, the source payoff is used by the evaluator and demonstration
+oracle, not supplied as an input to the reward estimator. The estimators fit
+observed actions; they do not recover the follower reward by negating that payoff. If the unnormalized source reward and
+its exact zero-sum relationship were both supplied to a learner, the follower
+reward would already be known without observations.
+
+\paragraph{Transfer tasks.}
+Transfer changes the ranger objective while holding the park, follower reward,
+and response model fixed. Let $c_{ab}\in[0,1]$ denote coverage of target $b$ by
+patrol $a$. For signed priorities $z\in[-1,1]^{23}$, the unnormalized reward is
+\begin{equation*}
+r^1_z(a,b)=(2c_{ab}-1)z_b.
+\end{equation*}
+The ten-task evaluation suite uses seed $9200$. We generate $500$ independent
+uniform priority vectors and greedily select ten diverse payoff matrices:
+start with the first candidate, then minimize the largest absolute cosine
+similarity with previously selected matrices. Normalize selected rewards to
+$[0,1]$ and weight them equally. Reported confidence intervals are over learning
+seeds, conditional on this fixed synthetic task suite.
+
+The retained hyperparameters came from an earlier ridge-$10^{-4}$ selection
+stage using eight learning seeds and $100$ tasks generated with seed $9400$.
+The later ridge-zero grid reuses that selection split for sensitivity analysis.
+The $50$ evaluation seeds had also appeared in earlier development runs;
+correcting their estimator and reward normalization does not make them a fresh
+holdout. The separate prospective confirmation is documented with its own frozen
+protocol and does not replace these retained results.
+
+The three downstream maps use the nearest, median, and farthest true optimal
+leader policies within the ten-task suite, measured by
+\begin{equation*}
+D_{\mathrm{TV}}(z,\mathrm{src})=\tfrac12\lVert\mu_z^\star-\mu_{\mathrm{src}}^\star\rVert_1.
+\end{equation*}
+Task selection does not inspect learned estimates or method scores. The appendix
+heatmap uses all $180$ priorities drawn with seed $9600$, without diversity
+selection, grouped into terciles of the source-policy value gap
+\begin{equation*}
+D_{\mathrm{gap}}(z,\mathrm{src})=V_z(\mu_z^\star)-V_z(\mu_{\mathrm{src}}^\star).
+\end{equation*}
+These groups describe displacement from the source objective, not universal
+levels of learning difficulty.
+
+\paragraph{Follower model.}
+Let $v_b$ be GUARD's value for an uncovered target. The raw features and utility are
+\begin{equation*}
+\phi_{\mathrm{raw}}(a,b)=(c_{ab},v_b,c_{ab}v_b),\qquad r^2_\omega(a,b)=\langle\phi_{\mathrm{raw}}(a,b),\omega\rangle.
+\end{equation*}
+The generated utility matrix yields $\omega^\star=(0,1,-2/3)$ to numerical
+precision. The simulated follower has known inverse temperature
+$\eta_{\mathrm{raw}}=1.25$. In code, features are divided by
+$L=\max_{a,b}\lVert\phi_{\mathrm{raw}}(a,b)\rVert_2$ and inverse temperature is
+multiplied by $L$, giving $\eta\approx2.165$. Thus $\phi=\phi_{\mathrm{raw}}/L$
+and $\eta=L\eta_{\mathrm{raw}}$ preserve every response probability:
+\begin{equation*}
+\nu_{\mu,\omega}(b)=\frac{\exp(\eta\sum_a\mu(a)\langle\phi(a,b),\omega\rangle)}{\sum_{b'}\exp(\eta\sum_a\mu(a)\langle\phi(a,b'),\omega\rangle)}.
+\end{equation*}
+Only $\omega$ is learned. These experiments test a correctly specified simulated
+response model; they do not establish robustness to unknown temperature or
+real poacher behavior.

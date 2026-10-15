@@ -1,0 +1,205 @@
+{
+  "band_alpha": 0.08,
+  "command": [
+    "experiments/toy/export_warmup_threshold_plots.py"
+  ],
+  "confidence_level": 0.95,
+  "final_summary": {
+    "0": {
+      "active": {
+        "lower": 0.03814960096719214,
+        "mean": 0.04266964133497472,
+        "upper": 0.04718968170275731
+      },
+      "fixed_random": {
+        "lower": 0.1474608998440337,
+        "mean": 0.18709163174014332,
+        "upper": 0.22672236363625292
+      },
+      "random_each_round": {
+        "lower": 0.05446950842351981,
+        "mean": 0.06031473979563799,
+        "upper": 0.06615997116775618
+      }
+    },
+    "1000": {
+      "active": {
+        "lower": 0.038855383128321194,
+        "mean": 0.04261830642210656,
+        "upper": 0.046381229715891925
+      },
+      "fixed_random": {
+        "lower": 0.038855383128321194,
+        "mean": 0.04261830642210656,
+        "upper": 0.046381229715891925
+      },
+      "random_each_round": {
+        "lower": 0.038855383128321194,
+        "mean": 0.04261830642210656,
+        "upper": 0.046381229715891925
+      }
+    },
+    "120": {
+      "active": {
+        "lower": 0.03574984375714202,
+        "mean": 0.039555213763040255,
+        "upper": 0.04336058376893849
+      },
+      "fixed_random": {
+        "lower": 0.06512796362718425,
+        "mean": 0.07409723011294993,
+        "upper": 0.08306649659871561
+      },
+      "random_each_round": {
+        "lower": 0.04893686232474978,
+        "mean": 0.054794553691116306,
+        "upper": 0.06065224505748283
+      }
+    },
+    "24": {
+      "active": {
+        "lower": 0.0379518685020384,
+        "mean": 0.043077111880823485,
+        "upper": 0.04820235525960857
+      },
+      "fixed_random": {
+        "lower": 0.0909385575465903,
+        "mean": 0.10530720668329392,
+        "upper": 0.11967585581999754
+      },
+      "random_each_round": {
+        "lower": 0.053475535401087695,
+        "mean": 0.059658773231484795,
+        "upper": 0.0658420110618819
+      }
+    },
+    "240": {
+      "active": {
+        "lower": 0.03371745950988299,
+        "mean": 0.03790505738991487,
+        "upper": 0.04209265526994675
+      },
+      "fixed_random": {
+        "lower": 0.05165974460408597,
+        "mean": 0.05820014442780972,
+        "upper": 0.06474054425153347
+      },
+      "random_each_round": {
+        "lower": 0.04634234137593706,
+        "mean": 0.05171358074788197,
+        "upper": 0.05708482011982687
+      }
+    },
+    "500": {
+      "active": {
+        "lower": 0.0378890902962496,
+        "mean": 0.043027998340996826,
+        "upper": 0.04816690638574405
+      },
+      "fixed_random": {
+        "lower": 0.04092278041042128,
+        "mean": 0.04587842422416616,
+        "upper": 0.05083406803791104
+      },
+      "random_each_round": {
+        "lower": 0.045558693261941285,
+        "mean": 0.05124616674389195,
+        "upper": 0.056933640225842616
+      }
+    },
+    "60": {
+      "active": {
+        "lower": 0.035876486802478444,
+        "mean": 0.040354684121111276,
+        "upper": 0.04483288143974411
+      },
+      "fixed_random": {
+        "lower": 0.067693297576592,
+        "mean": 0.07806876932312629,
+        "upper": 0.08844424106966058
+      },
+      "random_each_round": {
+        "lower": 0.05345383989885344,
+        "mean": 0.05935910054672555,
+        "upper": 0.06526436119459766
+      }
+    },
+    "800": {
+      "active": {
+        "lower": 0.03733104929777452,
+        "mean": 0.04168936961406935,
+        "upper": 0.04604768993036418
+      },
+      "fixed_random": {
+        "lower": 0.0386503859572096,
+        "mean": 0.04327719368136958,
+        "upper": 0.047904001405529556
+      },
+      "random_each_round": {
+        "lower": 0.03904183674202058,
+        "mean": 0.043554307020791966,
+        "upper": 0.04806677729956335
+      }
+    }
+  },
+  "input_result_count": 2400,
+  "input_results_sha256": "cbc700260446c7df440d1313b7b833e31047bc9e7bf668ffbcfeb9cc84131ab8",
+  "metric": "fisher_transfer_error",
+  "plots": [
+    {
+      "path": "experiments/toy/warmup_0000_fisher_transfer_error.png",
+      "sha256": "50d682cd6bdd48104a306063e126b70cf65dd4b355f1fd4b48fd73497475beff",
+      "warmup_budget": 0
+    },
+    {
+      "path": "experiments/toy/warmup_0024_fisher_transfer_error.png",
+      "sha256": "750b02a4d455d9dfcb2eacf559d12a234ddf55f92a937b479f551b6a71179e30",
+      "warmup_budget": 24
+    },
+    {
+      "path": "experiments/toy/warmup_0060_fisher_transfer_error.png",
+      "sha256": "6041167d287f337d6b72f1c1dced65d400ac4e23697665fd4963f071bbcbdd88",
+      "warmup_budget": 60
+    },
+    {
+      "path": "experiments/toy/warmup_0120_fisher_transfer_error.png",
+      "sha256": "511821220ede38150ac8bea15b66a3cd77c75ae01911230b0a555a3eea9fd248",
+      "warmup_budget": 120
+    },
+    {
+      "path": "experiments/toy/warmup_0240_fisher_transfer_error.png",
+      "sha256": "98c8c43968c8a75b29b83c4856efa0937f086a3be898ba59f35680e8e4289dd4",
+      "warmup_budget": 240
+    },
+    {
+      "path": "experiments/toy/warmup_0500_fisher_transfer_error.png",
+      "sha256": "363c6c66680aafb4dac3f3deab5e4c449184a6095909b6e4682bdb8ad170f22c",
+      "warmup_budget": 500
+    },
+    {
+      "path": "experiments/toy/warmup_0800_fisher_transfer_error.png",
+      "sha256": "11b0ae3efd3e019b0516fc334c50d762c47033a49cd14c0ee150d711a80a7ae5",
+      "warmup_budget": 800
+    },
+    {
+      "path": "experiments/toy/warmup_1000_fisher_transfer_error.png",
+      "sha256": "b786565714dbd482ccae248131abb539538efa7a9316f77c6f6cca49c9c357b0",
+      "warmup_budget": 1000
+    }
+  ],
+  "schema_version": 1,
+  "seed_count": 100,
+  "source_runs": [
+    {
+      "manifest_sha256": "cd419a3e7cc9c6a68d0a3afb2842c7f4f5e66499810d782f60f4883e114c795a",
+      "path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0",
+      "run_id": "51b15452ac8c18c0"
+    },
+    {
+      "manifest_sha256": "f660e0e67ee1a7373f451b86dafcb5f64c86c00c4e3e5750d1651ef36a81ea1f",
+      "path": "artifacts/runs/toy-warmup-sweep/4c73ceb27d8aa1be",
+      "run_id": "4c73ceb27d8aa1be"
+    }
+  ],
+  "total_samples": 1000
+}

@@ -1,0 +1,24 @@
+# @package experiment
+
+_target_: mairl_exp.studies.comparison.BaselineComparisonStudy
+
+name: sparse-information-comparison
+seed_start: 100
+seed_count: 100
+total_samples: 200
+warmup_budget: 40
+evaluation_interval: 10
+
+# eta^2 = 4, hence this reproduces lambda_information = 16 from the
+# structured EWRL experiment while keeping the eta scaling explicit.
+lambda_information_multiplier: 4.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+methods:
+  - active
+  - fixed_random
+  - random_each_round
+warmup_modes:
+  - true
+  - false

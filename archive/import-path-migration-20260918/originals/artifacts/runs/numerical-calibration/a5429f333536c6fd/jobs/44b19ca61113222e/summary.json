@@ -1,0 +1,61 @@
+{
+  "algorithm_seconds": 2.2445004590008466,
+  "final_metrics": {
+    "coefficient_l2_error": 0.23548585597817773,
+    "fisher_transfer_error": 0.1279678226895708
+  },
+  "guardrails": {
+    "limits": {
+      "mle_reference_gap": 1e-06,
+      "mle_residual": 1e-06,
+      "policy_reference_gap": 1e-06,
+      "policy_residual": 1e-06
+    },
+    "metrics": {
+      "mle_reference_gap": 2.9542179406687636e-09,
+      "mle_residual": 9.95698270826354e-07,
+      "policy_reference_gap": 9.992007221626409e-15,
+      "policy_residual": 1.6899927480854404e-07
+    },
+    "passed": true
+  },
+  "job": {
+    "candidate": "default_newton",
+    "seed": 1002,
+    "split": "calibration",
+    "warmup_enabled": false
+  },
+  "numerical_candidate": {
+    "active_policy": {
+      "grid_batch_size": 4096,
+      "grid_max_points": 250000,
+      "grid_resolution": 80,
+      "max_iterations": 1000,
+      "method": "multistart",
+      "projected_gradient_tolerance": 1e-06,
+      "random_starts": 8,
+      "refine_grid_solution": true,
+      "tolerance": 1e-09
+    },
+    "mle": {
+      "constraint_tolerance": 1e-09,
+      "max_iterations": 1000,
+      "objective_tolerance": 1e-13,
+      "projected_gradient_tolerance": 1e-06,
+      "ridge": 0.0001,
+      "solver": "newton",
+      "trust_region_gradient_tolerance": 1e-12,
+      "trust_region_step_tolerance": 1e-14
+    },
+    "name": "default_newton",
+    "warmup": {
+      "design_tolerance": 0.15,
+      "line_search_max_iterations": 500,
+      "line_search_tolerance": 1e-12,
+      "matrix_tolerance": 1e-09,
+      "max_iterations": 10000,
+      "support_tolerance": 1e-12
+    }
+  },
+  "samples": 360
+}

@@ -1,0 +1,69 @@
+\documentclass{article}
+\input{reproducibility/tex/tex_base}
+\geometry{reset,letterpaper,landscape,margin=0.42in}
+\pagestyle{empty}
+
+\newcommand{\comparisontitle}[2]{%
+  {\Large\bfseries #1\par}%
+  \vspace{0.08in}%
+  {\small\color{mairlMuted}#2\par}%
+  \vspace{0.18in}%
+}
+
+\newcommand{\paneltitle}[1]{%
+  {\large\bfseries #1\par}%
+  \vspace{0.10in}%
+}
+
+\newcommand{\singlecomparison}[4]{%
+  \comparisontitle{#1}{#2}
+  \begin{minipage}[t]{0.485\textwidth}
+    \centering
+    \paneltitle{Current}
+    \resizebox{\linewidth}{!}{\input{#3}}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.485\textwidth}
+    \centering
+    \paneltitle{Alternative}
+    \resizebox{\linewidth}{!}{\input{#4}}
+  \end{minipage}
+}
+
+\begin{document}
+
+\singlecomparison
+  {A. GUARD source-task diagnostics}
+  {Learning curves for both metrics versus one learning curve and the final estimation--deployment relation.}
+  {reproducibility/tex/generated/appendix/i1_source_diagnostics}
+  {reproducibility/alternatives/generated/lobeke_relation}
+
+\clearpage
+\singlecomparison
+  {B. Protected hyperparameter selection}
+  {The same protected selection and held-out confirmation data, with more area assigned to the joint search.}
+  {reproducibility/tex/generated/appendix/i1_hyperparameters}
+  {reproducibility/alternatives/generated/lobeke_tuning_spacious}
+
+\clearpage
+\comparisontitle
+  {C. Structured-game sensitivities}
+  {The selected publication layout versus the earlier exploratory combined summary.}
+\begin{minipage}[t]{0.485\textwidth}
+  \centering
+  \paneltitle{Current: publication figure}
+  \resizebox{\linewidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i2_structured_sensitivity}%
+  }
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.485\textwidth}
+  \centering
+  \paneltitle{Alternative: combined figure}
+  \vspace{1.27in}
+  \resizebox{\linewidth}{!}{%
+    \input{reproducibility/alternatives/generated/structured_whiskers}%
+  }
+\end{minipage}
+
+\end{document}

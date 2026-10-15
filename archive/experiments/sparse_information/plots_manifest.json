@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_run": {
+    "run_id": "39fda531e133aadd",
+    "path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd",
+    "manifest_sha256": "45b71052a80a213e1b09edb58e9bd62e551f81ee2d8f7440553c07fb03dcb33c",
+    "git_commit": "3ace6aa797d6e08c87f6d0798017720afb918c3e"
+  },
+  "plots": [
+    {
+      "metric": "fisher_transfer_error",
+      "source_plot_id": "aa389316e6671c75",
+      "source_manifest_sha256": "caee2fb1e01ee46c2b660b53e1a47e0ff0bd8a9f1f65976bb0b82e1edcd18f18",
+      "path": "experiments/sparse_information/fisher_transfer_error.png",
+      "sha256": "15b8dd200dbd1fd2d9a4ca8c137c80ea96207a4493945e07ad8b9b8e0ab2d362"
+    },
+    {
+      "metric": "stackelberg_suboptimality",
+      "source_plot_id": "ff758e5c8ebded1a",
+      "source_manifest_sha256": "86852dda3f0271a5fcc9d045cb890470d8737be1ff516a10e472136979406644",
+      "path": "experiments/sparse_information/stackelberg_suboptimality.png",
+      "sha256": "38be9c66fd5b7f3a9bf6cf736e666e105b6dc312d0c5f5000966271bbfb2ed46"
+    }
+  ]
+}

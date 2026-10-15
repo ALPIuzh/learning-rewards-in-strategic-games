@@ -1,0 +1,7 @@
+defaults:
+  - plot: fisher_transfer
+  - _self_
+
+schema_version: 1
+run_dir: ???
+require_clean_git: true

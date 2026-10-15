@@ -1,0 +1,103 @@
+{
+  "seconds": 4.527242625001236,
+  "fresh_environment": true,
+  "guard_required": false,
+  "checks": [
+    {
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 0,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092000,
+      "maximum_difference": 0.0
+    },
+    {
+      "task": 1,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092001,
+      "maximum_difference": 0.0
+    }
+  ]
+}

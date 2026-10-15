@@ -1,0 +1,242 @@
+{
+  "mle_ridge": 0.0,
+  "paired_transfer_comparisons": {
+    "active_no_warm_lambda0p003_minus_fixed_expert_matched_ridge": {
+      "ci95_lower": -0.01599431583461204,
+      "ci95_upper": 0.01310986084257565,
+      "mean": -0.0014422274960181948,
+      "standard_error": 0.0011452741901099627
+    },
+    "active_no_warm_lambda0p03_minus_fixed_expert_matched_ridge": {
+      "ci95_lower": -0.009432961806919,
+      "ci95_upper": 0.006049488154471001,
+      "mean": -0.0016917368262239997,
+      "standard_error": 0.000609247618894071
+    },
+    "active_warm200_lambda0p003_minus_active_no_warm_lambda0p003": {
+      "ci95_lower": -0.012992421779230484,
+      "ci95_upper": 0.01149714593877353,
+      "mean": -0.0007476379202284777,
+      "standard_error": 0.0009636853894019969
+    },
+    "active_warm200_lambda0p003_minus_fixed_expert_matched_ridge": {
+      "ci95_lower": -0.0044971698958385115,
+      "ci95_upper": 0.00011743906334516678,
+      "mean": -0.0021898654162466726,
+      "standard_error": 0.00018158880070796594
+    },
+    "active_warm200_lambda0p03_minus_active_no_warm_lambda0p03": {
+      "ci95_lower": -0.004559157814713318,
+      "ci95_upper": 0.0027920994130886632,
+      "mean": -0.0008835292008123274,
+      "standard_error": 0.0002892782455674147
+    },
+    "active_warm200_lambda0p03_minus_fixed_expert_matched_ridge": {
+      "ci95_lower": -0.0066408623938303355,
+      "ci95_upper": 0.0014903303397576814,
+      "mean": -0.0025752660270363273,
+      "standard_error": 0.0003199693733266563
+    }
+  },
+  "protocols": {
+    "active_no_warm_lambda0p003": {
+      "artifact": "active_no_warm_lambda0p003.npz",
+      "artifact_sha256": "83330a155038d39724a6f5e79220e7d11699d90795a3ecab66f064076230ea50",
+      "averaged_transfer_fisher_error": {
+        "ci95_lower": -0.3037111618209558,
+        "ci95_upper": 0.42911782276107757,
+        "mean": 0.06270333047006088,
+        "standard_error": 0.028837445948579038
+      },
+      "averaged_transfer_suboptimality": {
+        "ci95_lower": -0.006276839518945015,
+        "ci95_upper": 0.009064738657131737,
+        "mean": 0.0013939495690933612,
+        "standard_error": 0.0006037041939202791
+      },
+      "definition": {
+        "lambda_information_multiplier": 0.003,
+        "method": "active",
+        "mle_ridge": 0.0,
+        "warmup_budget": 0,
+        "warmup_enabled": false
+      },
+      "target_suboptimality": {
+        "ci95_lower": -0.0033851178519778207,
+        "ci95_upper": 0.00612846847942839,
+        "mean": 0.0013716753137252846,
+        "standard_error": 0.0003743677411525148
+      },
+      "taskwise_transfer_suboptimality_mean": [
+        0.0016411835624319249,
+        0.0014246680755858332,
+        0.0010116327269577285,
+        0.0019091291691083478,
+        0.0009831343113829716
+      ]
+    },
+    "active_no_warm_lambda0p03": {
+      "artifact": "active_no_warm_lambda0p03.npz",
+      "artifact_sha256": "432de4f8632f7efff87c4953adfeb8ab7306b3a30268d1d4ea4b38235aaad475",
+      "averaged_transfer_fisher_error": {
+        "ci95_lower": -0.010070200234144164,
+        "ci95_upper": 0.14157315837462586,
+        "mean": 0.06575147907024084,
+        "standard_error": 0.005967295575563954
+      },
+      "averaged_transfer_suboptimality": {
+        "ci95_lower": 0.00028451450874802595,
+        "ci95_upper": 0.0020043659690270866,
+        "mean": 0.0011444402388875563,
+        "standard_error": 6.767762270438733e-05
+      },
+      "definition": {
+        "lambda_information_multiplier": 0.03,
+        "method": "active",
+        "mle_ridge": 0.0,
+        "warmup_budget": 0,
+        "warmup_enabled": false
+      },
+      "target_suboptimality": {
+        "ci95_lower": -0.011223245101133362,
+        "ci95_upper": 0.015976965861588466,
+        "mean": 0.0023768603802275523,
+        "standard_error": 0.0010703515143779538
+      },
+      "taskwise_transfer_suboptimality_mean": [
+        0.0028281569934583972,
+        0.0004313456527151871,
+        0.00024101100692563993,
+        0.0016715294637426603,
+        0.000550158077595897
+      ]
+    },
+    "active_warm200_lambda0p003": {
+      "artifact": "active_warm200_lambda0p003.npz",
+      "artifact_sha256": "67b920435018a1039ba43094f200cec29b56746bc38d62636468fda86cc50b4d",
+      "averaged_transfer_fisher_error": {
+        "ci95_lower": 0.006938922887498256,
+        "ci95_upper": 0.08358878819480745,
+        "mean": 0.04526385554115285,
+        "standard_error": 0.0030162376137811728
+      },
+      "averaged_transfer_suboptimality": {
+        "ci95_lower": -0.003927683122098747,
+        "ci95_upper": 0.005220306419828515,
+        "mean": 0.0006463116488648835,
+        "standard_error": 0.00035998119548171783
+      },
+      "definition": {
+        "lambda_information_multiplier": 0.003,
+        "method": "active",
+        "mle_ridge": 0.0,
+        "warmup_budget": 200,
+        "warmup_enabled": true
+      },
+      "target_suboptimality": {
+        "ci95_lower": -0.007268896454582797,
+        "ci95_upper": 0.01034970245740825,
+        "mean": 0.0015404030014127268,
+        "standard_error": 0.000693306903116031
+      },
+      "taskwise_transfer_suboptimality_mean": [
+        0.0005620505244045004,
+        0.00012639228814248504,
+        0.0018462712688674943,
+        0.0006109481187287491,
+        8.589604418118846e-05
+      ]
+    },
+    "active_warm200_lambda0p03": {
+      "artifact": "active_warm200_lambda0p03.npz",
+      "artifact_sha256": "76f20a76df814cae58bb549b16e756e7fdc4b65e470970fa82e4c920a8fa191e",
+      "averaged_transfer_fisher_error": {
+        "ci95_lower": -0.09471012246599955,
+        "ci95_upper": 0.17070492304529575,
+        "mean": 0.0379974002896481,
+        "standard_error": 0.010444308549336371
+      },
+      "averaged_transfer_suboptimality": {
+        "ci95_lower": -0.002554791845686232,
+        "ci95_upper": 0.003076613921836689,
+        "mean": 0.00026091103807522885,
+        "standard_error": 0.00022160062286302737
+      },
+      "definition": {
+        "lambda_information_multiplier": 0.03,
+        "method": "active",
+        "mle_ridge": 0.0,
+        "warmup_budget": 200,
+        "warmup_enabled": true
+      },
+      "target_suboptimality": {
+        "ci95_lower": -0.0042383669813744,
+        "ci95_upper": 0.005240015984391091,
+        "mean": 0.0005008245015083457,
+        "standard_error": 0.0003729824586715669
+      },
+      "taskwise_transfer_suboptimality_mean": [
+        0.0004834969438738401,
+        7.070724822311192e-08,
+        9.836432182530608e-05,
+        0.0004891135564479843,
+        0.00023350966098079073
+      ]
+    },
+    "fixed_expert_matched_ridge": {
+      "artifact": "fixed_expert_matched_ridge.npz",
+      "artifact_sha256": "27b3232b3f775d7b7a09da12f69f7f4ed561e5c73d9d1a5110a7d6cc6e8b9b94",
+      "averaged_transfer_fisher_error": {
+        "ci95_lower": -0.432909927612741,
+        "ci95_upper": 0.6857429091023981,
+        "mean": 0.12641649074482858,
+        "standard_error": 0.04401994379684136
+      },
+      "averaged_transfer_suboptimality": {
+        "ci95_lower": -0.004045122185443914,
+        "ci95_upper": 0.009717476315667026,
+        "mean": 0.002836177065111556,
+        "standard_error": 0.0005415699961896837
+      },
+      "definition": {
+        "lambda_information_multiplier": 1.0,
+        "method": "fixed_expert_mle",
+        "mle_ridge": 0.0,
+        "warmup_budget": 0,
+        "warmup_enabled": false
+      },
+      "target_suboptimality": {
+        "ci95_lower": -0.006071393784659585,
+        "ci95_upper": 0.007125160030331468,
+        "mean": 0.0005268831228359416,
+        "standard_error": 0.0005192956547213634
+      },
+      "taskwise_transfer_suboptimality_mean": [
+        0.0025535982115948985,
+        0.005162399944439955,
+        0.0036961986213546183,
+        0.0020693594046785058,
+        0.0006993291434898019
+      ]
+    }
+  },
+  "purpose": "post-freeze estimator-matched sensitivity; not model selection",
+  "sample_count": 400,
+  "schema_version": 1,
+  "seeds": [
+    2026091900,
+    2026091901
+  ],
+  "source_config": "reproducibility/data/lobeke/ridge_zero_tuning/source_config.yaml",
+  "source_config_sha256": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "task_policy": {
+    "candidate_pool": 1000,
+    "count": 5,
+    "name": "active_expert_warmup_audit",
+    "normalized_reward_range": [
+      0.0,
+      1.0
+    ],
+    "seed": 202609190
+  }
+}

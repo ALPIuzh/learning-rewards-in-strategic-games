@@ -1,0 +1,45 @@
+{
+  "source_stackelberg": {
+    "fisher_eigenvalues": [
+      7.886517416474323e-05,
+      0.03214592785114691,
+      0.1858539702734665
+    ],
+    "condition_number": 2356.603814571334,
+    "positive_eigenvalues_at_1e12": 3
+  },
+  "joint_qre": {
+    "fisher_eigenvalues": [
+      4.1120041354742563e-10,
+      4.90234803450473e-07,
+      0.14944343504613786
+    ],
+    "condition_number": 363432112.71819854,
+    "positive_eigenvalues_at_1e12": 3
+  },
+  "uniform": {
+    "fisher_eigenvalues": [
+      2.2569491535787916e-34,
+      1.286747106702653e-19,
+      0.14952473804826835
+    ],
+    "condition_number": 6.62508226253881e+32,
+    "positive_eigenvalues_at_1e12": 1
+  },
+  "source_expert_numerical_check": {
+    "value_improvement": 3.787592461890199e-11,
+    "policy_tv": 2.6951431679784122e-05
+  },
+  "model": {
+    "eta": 2.1650635094610964,
+    "raw_eta": 1.25,
+    "radius": 2.0,
+    "true_omega": [
+      -3.6668925687460107e-16,
+      1.0000000000000002,
+      -0.6666666666666662
+    ],
+    "qre_max_residual": 9.020562075079397e-17,
+    "qre_min_residual": 1.6653345369377348e-16
+  }
+}

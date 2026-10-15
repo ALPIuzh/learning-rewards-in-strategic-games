@@ -1,0 +1,39 @@
+\documentclass{article}
+\input{reproducibility/tex/tex_base}
+
+\begin{document}
+
+\section{Figure alternatives}
+
+\subsection{GUARD source-task diagnostics}
+\begin{figure}[H]
+  \centering
+  \resizebox{\textwidth}{!}{\input{reproducibility/alternatives/generated/lobeke_relation}}
+  \caption{Alternative A: retain the deployment learning curves, but replace
+  the second set of curves by the final relationship between Fisher-weighted
+  reward error and Stackelberg deployment error. Whiskers are marginal 95\%
+  confidence intervals over the same 50 protected seeds.}
+\end{figure}
+
+\clearpage
+\subsection{Protected hyperparameter selection}
+\begin{figure}[H]
+  \centering
+  \resizebox{\textwidth}{!}{\input{reproducibility/alternatives/generated/lobeke_tuning_spacious}}
+  \caption{Alternative B: the difficult joint warm-up selection receives most
+  of the area and shows point estimates without overlapping selection-stage
+  intervals. Uncertainty remains explicit for the one-dimensional no-warm-up
+  selection and, critically, for held-out confirmation.}
+\end{figure}
+
+\clearpage
+\subsection{Structured-game sensitivity}
+\begin{figure}[H]
+  \centering
+  \resizebox{\textwidth}{!}{\input{reproducibility/alternatives/generated/structured_whiskers}}
+  \caption{Alternative C: combine the two controlled sensitivities and use
+  discrete 95\% confidence-interval whiskers rather than overlapping ribbons.
+  Dotted lines mark the canonical structured-game configuration.}
+\end{figure}
+
+\end{document}

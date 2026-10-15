@@ -1,0 +1,60 @@
+{
+  "algorithm_seconds": 2.4893243886902927,
+  "batch_algorithm_seconds": 124.46621943451464,
+  "batch_seed_count": 50,
+  "final_metrics": {
+    "coefficient_l2_error": 0.9256435469205466,
+    "fisher_transfer_error": 0.16954685660318056,
+    "self_concordance_distance": 0.7355540378560347,
+    "stackelberg_suboptimality": 0.0038454243052181702
+  },
+  "job": {
+    "method": "fixed_random",
+    "seed": 2026097005,
+    "warmup_enabled": false
+  },
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "normalized_r_max": 1.0,
+    "raw_maximum": -0.004032258064516129,
+    "raw_minimum": -1.0,
+    "raw_range": 0.9959677419354839
+  },
+  "samples": 1600,
+  "warmup": {
+    "allocation_counts": [],
+    "coverage_eigenvalues": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "design_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "enabled": false,
+    "samples": 0,
+    "support_size": 0
+  }
+}

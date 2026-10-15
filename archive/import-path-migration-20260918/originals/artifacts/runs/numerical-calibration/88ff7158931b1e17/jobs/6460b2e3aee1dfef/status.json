@@ -1,0 +1,15 @@
+{
+  "algorithm_seconds": 2.1978194170005736,
+  "completed_at": "2026-07-30T12:29:35.310381+00:00",
+  "job_id": "6460b2e3aee1dfef",
+  "label": "validation/no-warmup/candidate=default_newton/seed=2002",
+  "result_sha256": "1c55ccbdea0e1981cd60e513d6294d4534461dff7693bcec8320e1e0cbc3559f",
+  "spec": {
+    "candidate": "default_newton",
+    "seed": 2002,
+    "split": "validation",
+    "warmup_enabled": false
+  },
+  "status": "complete",
+  "updated_at": "2026-07-30T12:29:35.310387+00:00"
+}

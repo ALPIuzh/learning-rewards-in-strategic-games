@@ -1,0 +1,32 @@
+{
+  "data_sha256": "2e9dad5f153e2bfa8e3d6bba86d2c53e1afd036969daffe22eaed9621aba6bd1",
+  "model_sha256": "7930e144219e8c43c6ca93e0a33cc82225761e8714899e241fb3549390f01dbe",
+  "source_config_sha256": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "python": "3.14.3",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "axis_order": [
+    "warmup",
+    "multiplier",
+    "seed",
+    "task"
+  ],
+  "shape": [
+    5,
+    7,
+    32,
+    100
+  ],
+  "seeds": "32 fresh learning seeds; fixed before scores were read",
+  "all_cells_mle_ridge": 1e-06,
+  "data_file": "data.npz",
+  "mle_ridge": 1e-06,
+  "total_observations": 1600,
+  "task_count": 100,
+  "task_seed": 9400,
+  "task_candidate_pool": 2000,
+  "seed_start": 2026094000,
+  "seed_count": 32,
+  "purpose": "Select the minimum mean separately among zero- and positive-warm-up cells; confirm on fresh seeds and separate tasks."
+}

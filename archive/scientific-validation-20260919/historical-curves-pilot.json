@@ -1,0 +1,7 @@
+{
+  "deployments": 192,
+  "maximum_replay_difference": 4.440892098500626e-16,
+  "maximum_strict_change": 1.944076705506781e-06,
+  "seconds": 13.282617083001242,
+  "workers": 4
+}

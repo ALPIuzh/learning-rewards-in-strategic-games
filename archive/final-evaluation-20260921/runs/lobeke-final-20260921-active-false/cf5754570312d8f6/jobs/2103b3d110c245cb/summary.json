@@ -1,0 +1,60 @@
+{
+  "algorithm_seconds": 16.225421113967897,
+  "batch_algorithm_seconds": 811.2710556983948,
+  "batch_seed_count": 50,
+  "final_metrics": {
+    "coefficient_l2_error": 0.07529900328888321,
+    "fisher_transfer_error": 0.03221844350495384,
+    "self_concordance_distance": 0.07088859183806652,
+    "stackelberg_suboptimality": 0.00012662371243243875
+  },
+  "job": {
+    "method": "active",
+    "seed": 2026097041,
+    "warmup_enabled": false
+  },
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "normalized_r_max": 1.0,
+    "raw_maximum": -0.004032258064516129,
+    "raw_minimum": -1.0,
+    "raw_range": 0.9959677419354839
+  },
+  "samples": 1600,
+  "warmup": {
+    "allocation_counts": [],
+    "coverage_eigenvalues": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "design_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "enabled": false,
+    "samples": 0,
+    "support_size": 0
+  }
+}

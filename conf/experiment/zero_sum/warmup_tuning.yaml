@@ -1,0 +1,29 @@
+# @package experiment
+
+_target_: experiments.zero_sum_comparison.study.ActiveWarmupTuningStudy
+
+name: zero-sum-active-warmup-tuning
+selection_seed_start: 10000
+selection_seed_count: 64
+confirmation_seed_start: 20000
+confirmation_seed_count: 64
+total_samples: 200
+
+# Includes both physical extremes. The selection rule prefers the smallest warm-up
+# among candidates within one standard error of the raw selection-split winner.
+warmup_budgets:
+  - 0
+  - 24
+  - 40
+  - 80
+  - 120
+  - 160
+  - 200
+
+evaluation_interval: 20
+lambda_information_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+tuning_metric: fixed_leader_fisher_error
+confirmation_standard_errors: 2.0
+minimum_seeds_per_split: 30

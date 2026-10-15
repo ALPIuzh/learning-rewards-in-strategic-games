@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: sparse_information
+  - /experiment: sparse_information/comparison
+  - /numerics: default
+  - _self_
+
+# A 16-action regular grid is combinatorially infeasible. Multistart optimization
+# includes every simplex vertex, which is sufficient to expose both the informative
+# action and every safe action in this constructed environment.
+numerics:
+  evaluation_policy:
+    method: multistart
+    random_starts: 0

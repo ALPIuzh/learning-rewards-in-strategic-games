@@ -1,0 +1,39 @@
+% Self-contained paper preview baseline.
+% Keep geometry and typography here; figure snippets must not redefine them.
+\usepackage[
+  letterpaper,
+  textwidth=5.5in,
+  textheight=9in,
+  centering
+]{geometry}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{hypertexnames=false,hidelinks}
+\usepackage{url}
+\usepackage{float}
+\input{reproducibility/tex/figure_style}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5pc}
+\setlength{\columnsep}{0.25in}
+\widowpenalty=10000
+\clubpenalty=10000
+\sloppy
+
+% Compact paper headings. These belong to document typography, not figures.
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+  {-2.0ex plus -0.5ex minus -0.2ex}%
+  {1.5ex plus 0.3ex minus 0.2ex}%
+  {\large\scshape\raggedright}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+  {-1.8ex plus -0.5ex minus -0.2ex}%
+  {0.8ex plus 0.2ex}%
+  {\normalsize\scshape\raggedright}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {-1.5ex plus -0.5ex minus -0.2ex}%
+  {0.5ex plus 0.2ex}%
+  {\normalsize\scshape\raggedright}}
+\makeatother

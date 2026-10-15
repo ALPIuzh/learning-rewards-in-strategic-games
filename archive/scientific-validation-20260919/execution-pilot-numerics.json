@@ -1,0 +1,10 @@
+{
+  "command": "pilot-numerics",
+  "seconds": 5.689670541003579,
+  "python": "3.14.3",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "commit": "dc54c2123dd2d440c28654be8c71211c94d6b04f",
+  "source_sha256": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "protocol_sha256": "b9249fe79cc64703608d2e69f0537bce729344aff30a2ad220ddb89ac64d358f"
+}

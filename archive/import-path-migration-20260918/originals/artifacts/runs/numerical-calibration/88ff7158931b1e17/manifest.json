@@ -1,0 +1,436 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment=numerical_calibration"
+  ],
+  "created_at": "2026-07-30T12:28:50.976774+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "7fbc6b899a73a9cd",
+      "label": "calibration/warmup/candidate=default_newton/seed=1000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1000,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "223c779b49731feb",
+      "label": "calibration/warmup/candidate=default_newton/seed=1001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b61789768e690d4d",
+      "label": "calibration/warmup/candidate=default_newton/seed=1002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1002,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "89f0ae4fbbfc85ca",
+      "label": "calibration/warmup/candidate=default_newton/seed=1003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1003,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0f2ab9a54a0977f0",
+      "label": "calibration/warmup/candidate=default_newton/seed=1004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1004,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f7574801e2e6edc1",
+      "label": "calibration/no-warmup/candidate=default_newton/seed=1000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1000,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d7d0cc805bfc755b",
+      "label": "calibration/no-warmup/candidate=default_newton/seed=1001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "44b19ca61113222e",
+      "label": "calibration/no-warmup/candidate=default_newton/seed=1002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1002,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2765980f7f638015",
+      "label": "calibration/no-warmup/candidate=default_newton/seed=1003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1003,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "870a0f2652e77053",
+      "label": "calibration/no-warmup/candidate=default_newton/seed=1004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1004,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "81a4019ab8fb3b83",
+      "label": "validation/warmup/candidate=default_newton/seed=2000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2000,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e51ee2954bbcd46c",
+      "label": "validation/warmup/candidate=default_newton/seed=2001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "cd71dae87931d8d9",
+      "label": "validation/warmup/candidate=default_newton/seed=2002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2002,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1f73654f1333e001",
+      "label": "validation/warmup/candidate=default_newton/seed=2003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2003,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dfcff82975e5bb4e",
+      "label": "validation/warmup/candidate=default_newton/seed=2004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2004,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0fdd2c945201dd18",
+      "label": "validation/no-warmup/candidate=default_newton/seed=2000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2000,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7b761d09923a4207",
+      "label": "validation/no-warmup/candidate=default_newton/seed=2001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6460b2e3aee1dfef",
+      "label": "validation/no-warmup/candidate=default_newton/seed=2002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2002,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1a597df4d1a802da",
+      "label": "validation/no-warmup/candidate=default_newton/seed=2003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2003,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "473d66a02817191f",
+      "label": "validation/no-warmup/candidate=default_newton/seed=2004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2004,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "60fca0c97fd420d5",
+      "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1000,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a523e5957978abc8",
+      "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5ff9d27648a2b2c5",
+      "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1002,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fdb0c6ff5918e178",
+      "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1003,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4abfa1d20c91f7a0",
+      "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1004,
+        "split": "calibration",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c2c8d4e79999f795",
+      "label": "calibration/no-warmup/candidate=direct_slsqp_reference/seed=1000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1000,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "733074775544a24a",
+      "label": "calibration/no-warmup/candidate=direct_slsqp_reference/seed=1001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "17c89cc40611786b",
+      "label": "calibration/no-warmup/candidate=direct_slsqp_reference/seed=1002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1002,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d1ccf7b4d5373767",
+      "label": "calibration/no-warmup/candidate=direct_slsqp_reference/seed=1003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1003,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "68bfa78816c40a46",
+      "label": "calibration/no-warmup/candidate=direct_slsqp_reference/seed=1004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1004,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5faf7d3323e1b8ee",
+      "label": "validation/warmup/candidate=direct_slsqp_reference/seed=2000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2000,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "be38bfae18535c6a",
+      "label": "validation/warmup/candidate=direct_slsqp_reference/seed=2001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "077b1b2c3b6ac2e2",
+      "label": "validation/warmup/candidate=direct_slsqp_reference/seed=2002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2002,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a7f1a37f4d9da86e",
+      "label": "validation/warmup/candidate=direct_slsqp_reference/seed=2003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2003,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1aab67ad2c225076",
+      "label": "validation/warmup/candidate=direct_slsqp_reference/seed=2004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2004,
+        "split": "validation",
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "630d222a2d5a7d92",
+      "label": "validation/no-warmup/candidate=direct_slsqp_reference/seed=2000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2000,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "24208f5e9bb42430",
+      "label": "validation/no-warmup/candidate=direct_slsqp_reference/seed=2001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "671f0bec13ba789b",
+      "label": "validation/no-warmup/candidate=direct_slsqp_reference/seed=2002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2002,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5ea02aa8a45b1dc1",
+      "label": "validation/no-warmup/candidate=direct_slsqp_reference/seed=2003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2003,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "919cdcf2494eec51",
+      "label": "validation/no-warmup/candidate=direct_slsqp_reference/seed=2004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2004,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "fe0cde74ec34fde9533a5ba85e5b6da0ffcb2059",
+    "dirty": false,
+    "fingerprint": "c56af029de2be0774089471be37741dfd8a48b213007478efb6fa061b66eb963",
+    "status": [],
+    "untracked": []
+  },
+  "last_error": "MLE failed post-solve checks: attempt 1 (SLSQP): projected-gradient residual 1.289e-06 > 1.000e-06 | attempt 2 (SLSQP): projected-gradient residual 1.314e-06 > 1.000e-06 | attempt 3 (trust-constr): projected-gradient residual 1.688e-06 > 1.000e-06",
+  "progress": {
+    "complete": 20,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 50.67967587500243,
+    "estimated_remaining_seconds": 43.33703850099846,
+    "failed": 1,
+    "pending": 19,
+    "running": 0,
+    "total": 40
+  },
+  "resume_granularity": "job",
+  "run_id": "88ff7158931b1e17",
+  "schema_version": 1,
+  "semantic_config_sha256": "cc14f6d55f76f59409aabc33a463cda25aeb99339edf960446020f5947dbec9f",
+  "status": "failed",
+  "study_name": "numerical-calibration",
+  "updated_at": "2026-07-30T12:29:41.633779+00:00"
+}

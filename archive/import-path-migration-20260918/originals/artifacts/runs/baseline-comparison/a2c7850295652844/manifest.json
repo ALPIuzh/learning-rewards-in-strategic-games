@@ -1,0 +1,197 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/guard/run.py",
+    "--config-name=guard_config",
+    "experiment.seed_count=2",
+    "experiment.total_samples=50",
+    "experiment.warmup_budget=10",
+    "experiment.evaluation_interval=10"
+  ],
+  "created_at": "2026-08-03T15:24:13.778277+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "guard",
+    "commit": "a899713c3fb15e774c3ed03cffa5a6cf762ad140",
+    "dirty": true,
+    "fingerprint": "07f9854601e69027fd4aea4cea2fe079cc564e93192d4e2bd0d870223572b701",
+    "status": [
+      "?? conf/application/guard.yaml",
+      "?? conf/guard_config.yaml",
+      "?? conf/numerics/guard_numerics.yaml",
+      "?? experiments/guard/GUARD/",
+      "?? experiments/guard/__init__.py",
+      "?? experiments/guard/application.py",
+      "?? experiments/guard/paper.pdf",
+      "?? experiments/guard/run.py",
+      "?? experiments/ssg/ssg-experiment-spec.md",
+      "?? tests/test_guard_application.py"
+    ],
+    "untracked": [
+      {
+        "path": "conf/application/guard.yaml",
+        "sha256": "fd3733d026c011e838431b1e580fd82fad95394207df09a3ba9cff2df1dfb789"
+      },
+      {
+        "path": "conf/guard_config.yaml",
+        "sha256": "773f4f547fb0d76f3c4403c825db01839164b6f51b91d382a89cbaf117c1d45a"
+      },
+      {
+        "path": "conf/numerics/guard_numerics.yaml",
+        "sha256": "f86e3ec35381ad6e96e4fcd8dbfbbf9095c13a2fa0571250a5e31c96aa2d829b"
+      },
+      {
+        "path": "experiments/guard/__init__.py",
+        "sha256": "219bed754618c993809275bd49098dc9074f0e984dfbe1678a0d3b731d12308d"
+      },
+      {
+        "path": "experiments/guard/application.py",
+        "sha256": "877b708bab9e1d29f97a5ce827eb65c1d96f8b64a702d2898d19af25efb0c0a0"
+      },
+      {
+        "path": "experiments/guard/paper.pdf",
+        "sha256": "70a2324815e287fe6488193fb12120adf31ff52b59bcb3862dcb8dd6c2ba7c10"
+      },
+      {
+        "path": "experiments/guard/run.py",
+        "sha256": "218707fb3eac7df42acbd5e8008b6ce7a3a75e498bfea18985982d209cea149c"
+      },
+      {
+        "path": "experiments/ssg/ssg-experiment-spec.md",
+        "sha256": "f57a02843c4d481d253f8d01a3f1df5dc9b131921d865d5dd6ea3beee6ce7108"
+      },
+      {
+        "path": "tests/test_guard_application.py",
+        "sha256": "83fb3db9c3f5d91637688767c208645ead29c5e0149344c66629a978e8531c77"
+      }
+    ]
+  },
+  "last_error": "warm-up budget is too small for the paper's rounding condition: budget=10, required at least 100 for support=13 and tolerance=0.15",
+  "progress": {
+    "complete": 0,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.03737491599895293,
+    "estimated_remaining_seconds": null,
+    "failed": 2,
+    "pending": 10,
+    "running": 0,
+    "total": 12
+  },
+  "resume_granularity": "job",
+  "run_id": "a2c7850295652844",
+  "schema_version": 1,
+  "semantic_config_sha256": "5c3ac14a5e19f2d9c28c2873f6e6466f23d4e9f1f8e10735800882c03ddebc70",
+  "status": "failed",
+  "study_name": "baseline-comparison",
+  "updated_at": "2026-08-03T15:24:13.787691+00:00"
+}

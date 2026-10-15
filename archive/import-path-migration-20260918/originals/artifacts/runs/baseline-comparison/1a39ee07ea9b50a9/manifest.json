@@ -1,0 +1,2738 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment.seed_start=5000",
+    "experiment.seed_count=50",
+    "experiment.total_samples=360"
+  ],
+  "created_at": "2026-07-30T12:19:29.719276+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "c9081d9b1b655335",
+      "label": "warmup/active/seed=5000",
+      "spec": {
+        "method": "active",
+        "seed": 5000,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7cfcc8b150b57d38",
+      "label": "warmup/active/seed=5001",
+      "spec": {
+        "method": "active",
+        "seed": 5001,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4e4ae5dbfe371af3",
+      "label": "warmup/active/seed=5002",
+      "spec": {
+        "method": "active",
+        "seed": 5002,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "136e26a1c4e33277",
+      "label": "warmup/active/seed=5003",
+      "spec": {
+        "method": "active",
+        "seed": 5003,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8400e67868f1ec8b",
+      "label": "warmup/active/seed=5004",
+      "spec": {
+        "method": "active",
+        "seed": 5004,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "9ebf1c4112e48710",
+      "label": "warmup/active/seed=5005",
+      "spec": {
+        "method": "active",
+        "seed": 5005,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6b22620bc5ecf46a",
+      "label": "warmup/active/seed=5006",
+      "spec": {
+        "method": "active",
+        "seed": 5006,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0c1f1a3f973480e9",
+      "label": "warmup/active/seed=5007",
+      "spec": {
+        "method": "active",
+        "seed": 5007,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3f3ea3b4548da6ad",
+      "label": "warmup/active/seed=5008",
+      "spec": {
+        "method": "active",
+        "seed": 5008,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "949fc149c9c5e976",
+      "label": "warmup/active/seed=5009",
+      "spec": {
+        "method": "active",
+        "seed": 5009,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "373973b26f1146cc",
+      "label": "warmup/active/seed=5010",
+      "spec": {
+        "method": "active",
+        "seed": 5010,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7cd020583de4d26b",
+      "label": "warmup/active/seed=5011",
+      "spec": {
+        "method": "active",
+        "seed": 5011,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "330b002702fdc89e",
+      "label": "warmup/active/seed=5012",
+      "spec": {
+        "method": "active",
+        "seed": 5012,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "22b46d6e05492aac",
+      "label": "warmup/active/seed=5013",
+      "spec": {
+        "method": "active",
+        "seed": 5013,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "d5bbd4f40be52d8f",
+      "label": "warmup/active/seed=5014",
+      "spec": {
+        "method": "active",
+        "seed": 5014,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0fb99e9493ba14b",
+      "label": "warmup/active/seed=5015",
+      "spec": {
+        "method": "active",
+        "seed": 5015,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4a198271db7ad331",
+      "label": "warmup/active/seed=5016",
+      "spec": {
+        "method": "active",
+        "seed": 5016,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3b69066ed244b68a",
+      "label": "warmup/active/seed=5017",
+      "spec": {
+        "method": "active",
+        "seed": 5017,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a7a5af2380236a08",
+      "label": "warmup/active/seed=5018",
+      "spec": {
+        "method": "active",
+        "seed": 5018,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "91643ba3f332be6b",
+      "label": "warmup/active/seed=5019",
+      "spec": {
+        "method": "active",
+        "seed": 5019,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "222a7705dc856427",
+      "label": "warmup/active/seed=5020",
+      "spec": {
+        "method": "active",
+        "seed": 5020,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "720ba260608554d7",
+      "label": "warmup/active/seed=5021",
+      "spec": {
+        "method": "active",
+        "seed": 5021,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "ec6e714fe80cb4d5",
+      "label": "warmup/active/seed=5022",
+      "spec": {
+        "method": "active",
+        "seed": 5022,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f3b610dc2b750649",
+      "label": "warmup/active/seed=5023",
+      "spec": {
+        "method": "active",
+        "seed": 5023,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "9a81779c24758e25",
+      "label": "warmup/active/seed=5024",
+      "spec": {
+        "method": "active",
+        "seed": 5024,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8f8112122bd802eb",
+      "label": "warmup/active/seed=5025",
+      "spec": {
+        "method": "active",
+        "seed": 5025,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4bf81d20bd050966",
+      "label": "warmup/active/seed=5026",
+      "spec": {
+        "method": "active",
+        "seed": 5026,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3fbbc0af71def47e",
+      "label": "warmup/active/seed=5027",
+      "spec": {
+        "method": "active",
+        "seed": 5027,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "04aa32e0e953605c",
+      "label": "warmup/active/seed=5028",
+      "spec": {
+        "method": "active",
+        "seed": 5028,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4f7c3574c8c0a538",
+      "label": "warmup/active/seed=5029",
+      "spec": {
+        "method": "active",
+        "seed": 5029,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0020765502552207",
+      "label": "warmup/active/seed=5030",
+      "spec": {
+        "method": "active",
+        "seed": 5030,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e1bee3d50a6d2446",
+      "label": "warmup/active/seed=5031",
+      "spec": {
+        "method": "active",
+        "seed": 5031,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0fa8a5131f8f1c74",
+      "label": "warmup/active/seed=5032",
+      "spec": {
+        "method": "active",
+        "seed": 5032,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b246e2a75518f0fb",
+      "label": "warmup/active/seed=5033",
+      "spec": {
+        "method": "active",
+        "seed": 5033,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "51557cd981391465",
+      "label": "warmup/active/seed=5034",
+      "spec": {
+        "method": "active",
+        "seed": 5034,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fcf655edf32bc330",
+      "label": "warmup/active/seed=5035",
+      "spec": {
+        "method": "active",
+        "seed": 5035,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "78873c1fecb5e97e",
+      "label": "warmup/active/seed=5036",
+      "spec": {
+        "method": "active",
+        "seed": 5036,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2c091e750c7af464",
+      "label": "warmup/active/seed=5037",
+      "spec": {
+        "method": "active",
+        "seed": 5037,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "90c758785bd77aa6",
+      "label": "warmup/active/seed=5038",
+      "spec": {
+        "method": "active",
+        "seed": 5038,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e308dedd7e7f764b",
+      "label": "warmup/active/seed=5039",
+      "spec": {
+        "method": "active",
+        "seed": 5039,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "63813271f04aecaf",
+      "label": "warmup/active/seed=5040",
+      "spec": {
+        "method": "active",
+        "seed": 5040,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3c5d55db1994bfb0",
+      "label": "warmup/active/seed=5041",
+      "spec": {
+        "method": "active",
+        "seed": 5041,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "74e631cfc4dd7043",
+      "label": "warmup/active/seed=5042",
+      "spec": {
+        "method": "active",
+        "seed": 5042,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f4f76dbaf95bdf4d",
+      "label": "warmup/active/seed=5043",
+      "spec": {
+        "method": "active",
+        "seed": 5043,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6c188595dc36a6b7",
+      "label": "warmup/active/seed=5044",
+      "spec": {
+        "method": "active",
+        "seed": 5044,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c92c94c25e19d888",
+      "label": "warmup/active/seed=5045",
+      "spec": {
+        "method": "active",
+        "seed": 5045,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4d17c086115c3a60",
+      "label": "warmup/active/seed=5046",
+      "spec": {
+        "method": "active",
+        "seed": 5046,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c968514c177286ce",
+      "label": "warmup/active/seed=5047",
+      "spec": {
+        "method": "active",
+        "seed": 5047,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7883cc0e3390b487",
+      "label": "warmup/active/seed=5048",
+      "spec": {
+        "method": "active",
+        "seed": 5048,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "d6cb82a7fb2b6203",
+      "label": "warmup/active/seed=5049",
+      "spec": {
+        "method": "active",
+        "seed": 5049,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3af74799db2157f7",
+      "label": "warmup/fixed_random/seed=5000",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5000,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "493967d5e539602f",
+      "label": "warmup/fixed_random/seed=5001",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5001,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0ca58f48493d812f",
+      "label": "warmup/fixed_random/seed=5002",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5002,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "760ecd6933d1dd7d",
+      "label": "warmup/fixed_random/seed=5003",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5003,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "13ae9104f8587a6f",
+      "label": "warmup/fixed_random/seed=5004",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5004,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dfa0109582738668",
+      "label": "warmup/fixed_random/seed=5005",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5005,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6a3217d9f4b5a5e5",
+      "label": "warmup/fixed_random/seed=5006",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5006,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b8acb0085931a658",
+      "label": "warmup/fixed_random/seed=5007",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5007,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a2a46d46879cac04",
+      "label": "warmup/fixed_random/seed=5008",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5008,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c1861a658e87d7fa",
+      "label": "warmup/fixed_random/seed=5009",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5009,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "545081c030d7ebb4",
+      "label": "warmup/fixed_random/seed=5010",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5010,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3cc2a28fe7bb3cf0",
+      "label": "warmup/fixed_random/seed=5011",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5011,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1672fb9312f5d4d0",
+      "label": "warmup/fixed_random/seed=5012",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5012,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5234c47043fc2be5",
+      "label": "warmup/fixed_random/seed=5013",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5013,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7562b50fcaa758f6",
+      "label": "warmup/fixed_random/seed=5014",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5014,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6851fb2d60b9ef94",
+      "label": "warmup/fixed_random/seed=5015",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5015,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "238ceee1e15e861a",
+      "label": "warmup/fixed_random/seed=5016",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5016,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "21c243e38f267816",
+      "label": "warmup/fixed_random/seed=5017",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5017,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e0ecefacd954bdf6",
+      "label": "warmup/fixed_random/seed=5018",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5018,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "95d67ab9c0e83b39",
+      "label": "warmup/fixed_random/seed=5019",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5019,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "bb67c7e9e1d9b875",
+      "label": "warmup/fixed_random/seed=5020",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5020,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "232b053e3372587b",
+      "label": "warmup/fixed_random/seed=5021",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5021,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "32088af0616a37d0",
+      "label": "warmup/fixed_random/seed=5022",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5022,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "37565c114479f0f5",
+      "label": "warmup/fixed_random/seed=5023",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5023,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "affc1efffe221296",
+      "label": "warmup/fixed_random/seed=5024",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5024,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4532b98dae87b5a4",
+      "label": "warmup/fixed_random/seed=5025",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5025,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f1049a59e9edf17a",
+      "label": "warmup/fixed_random/seed=5026",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5026,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4a9b2700de337d48",
+      "label": "warmup/fixed_random/seed=5027",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5027,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c497af71257648c9",
+      "label": "warmup/fixed_random/seed=5028",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5028,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "26e6b0794836c5fd",
+      "label": "warmup/fixed_random/seed=5029",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5029,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "72c03dd6eaca7d99",
+      "label": "warmup/fixed_random/seed=5030",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5030,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fef74597f9a97dc6",
+      "label": "warmup/fixed_random/seed=5031",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5031,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "84789cb33ba7d825",
+      "label": "warmup/fixed_random/seed=5032",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5032,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dc9fa1e7b93c23ac",
+      "label": "warmup/fixed_random/seed=5033",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5033,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fdf3033aef61831f",
+      "label": "warmup/fixed_random/seed=5034",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5034,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b8a59173ca8860ae",
+      "label": "warmup/fixed_random/seed=5035",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5035,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f62bebe6179c3799",
+      "label": "warmup/fixed_random/seed=5036",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5036,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "52f96f0a525b3de9",
+      "label": "warmup/fixed_random/seed=5037",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5037,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1e959aff715bf16e",
+      "label": "warmup/fixed_random/seed=5038",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5038,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4204eb5ca82067a",
+      "label": "warmup/fixed_random/seed=5039",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5039,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7a103acbaee8a831",
+      "label": "warmup/fixed_random/seed=5040",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5040,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8221476a297f3cb4",
+      "label": "warmup/fixed_random/seed=5041",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5041,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "680dd5517ad3dac8",
+      "label": "warmup/fixed_random/seed=5042",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5042,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2d417670d66ad5d8",
+      "label": "warmup/fixed_random/seed=5043",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5043,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6a0d540e3391c1fa",
+      "label": "warmup/fixed_random/seed=5044",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5044,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "26577b3722b83d22",
+      "label": "warmup/fixed_random/seed=5045",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5045,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6cacaaf910aa2ff1",
+      "label": "warmup/fixed_random/seed=5046",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5046,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "478fcf673a042697",
+      "label": "warmup/fixed_random/seed=5047",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5047,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b97e07b10f4051b3",
+      "label": "warmup/fixed_random/seed=5048",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5048,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "d7b89bce872608d7",
+      "label": "warmup/fixed_random/seed=5049",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5049,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "28bb156bb67ac007",
+      "label": "warmup/random_each_round/seed=5000",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5000,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0c1a38b4468748ec",
+      "label": "warmup/random_each_round/seed=5001",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5001,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "610af10b1c36b440",
+      "label": "warmup/random_each_round/seed=5002",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5002,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f5cc6e2b68547391",
+      "label": "warmup/random_each_round/seed=5003",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5003,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f16a96c9976559c5",
+      "label": "warmup/random_each_round/seed=5004",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5004,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "df40a839b4d6aa99",
+      "label": "warmup/random_each_round/seed=5005",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5005,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "de0d6c0288ec4e6e",
+      "label": "warmup/random_each_round/seed=5006",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5006,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "93925d4b4338dabe",
+      "label": "warmup/random_each_round/seed=5007",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5007,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "9d7a0028e5c74878",
+      "label": "warmup/random_each_round/seed=5008",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5008,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3735fd47c9ef713d",
+      "label": "warmup/random_each_round/seed=5009",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5009,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "94b09e279d1aeda6",
+      "label": "warmup/random_each_round/seed=5010",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5010,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dab73b4a23ff58fe",
+      "label": "warmup/random_each_round/seed=5011",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5011,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "28e8b399af4d9c5a",
+      "label": "warmup/random_each_round/seed=5012",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5012,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8c38c9686b2a8616",
+      "label": "warmup/random_each_round/seed=5013",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5013,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8856c436bf5ab25a",
+      "label": "warmup/random_each_round/seed=5014",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5014,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2cbce70b328d3c3f",
+      "label": "warmup/random_each_round/seed=5015",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5015,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1b561f8c78610f34",
+      "label": "warmup/random_each_round/seed=5016",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5016,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "51eeb785ec009bd7",
+      "label": "warmup/random_each_round/seed=5017",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5017,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2c322057d6d26158",
+      "label": "warmup/random_each_round/seed=5018",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5018,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2945a57650ff7217",
+      "label": "warmup/random_each_round/seed=5019",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5019,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "ea25c6d14c55b572",
+      "label": "warmup/random_each_round/seed=5020",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5020,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4359428e054ebc28",
+      "label": "warmup/random_each_round/seed=5021",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5021,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "61b744021763e227",
+      "label": "warmup/random_each_round/seed=5022",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5022,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "cf6bc139006d75d5",
+      "label": "warmup/random_each_round/seed=5023",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5023,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f03e7eda8ed118a9",
+      "label": "warmup/random_each_round/seed=5024",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5024,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "896f7a360b871739",
+      "label": "warmup/random_each_round/seed=5025",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5025,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f4801bb1839cc380",
+      "label": "warmup/random_each_round/seed=5026",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5026,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7d98d0e05221bc78",
+      "label": "warmup/random_each_round/seed=5027",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5027,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8eb8cfcd9262f9b4",
+      "label": "warmup/random_each_round/seed=5028",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5028,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "d4117830b55087dd",
+      "label": "warmup/random_each_round/seed=5029",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5029,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f9bd0f2c52da31de",
+      "label": "warmup/random_each_round/seed=5030",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5030,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b37da75444a188d4",
+      "label": "warmup/random_each_round/seed=5031",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5031,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7acc178bebf6e13e",
+      "label": "warmup/random_each_round/seed=5032",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5032,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5a5493de272b88d9",
+      "label": "warmup/random_each_round/seed=5033",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5033,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5d1d94d722390aed",
+      "label": "warmup/random_each_round/seed=5034",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5034,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e86582a89c8c92e1",
+      "label": "warmup/random_each_round/seed=5035",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5035,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "818579d3e01c73ea",
+      "label": "warmup/random_each_round/seed=5036",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5036,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "430b7260d6217657",
+      "label": "warmup/random_each_round/seed=5037",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5037,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "46613f9c1dc1d62d",
+      "label": "warmup/random_each_round/seed=5038",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5038,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "33772d640644e260",
+      "label": "warmup/random_each_round/seed=5039",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5039,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "737999510cad8f36",
+      "label": "warmup/random_each_round/seed=5040",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5040,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3f06b5acd9318612",
+      "label": "warmup/random_each_round/seed=5041",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5041,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a15254db14b4832b",
+      "label": "warmup/random_each_round/seed=5042",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5042,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8afad75c8adfb262",
+      "label": "warmup/random_each_round/seed=5043",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5043,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6aae1bf8c07f4b13",
+      "label": "warmup/random_each_round/seed=5044",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5044,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a0e7d1908f72e134",
+      "label": "warmup/random_each_round/seed=5045",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5045,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "db9bc7c3a30aea32",
+      "label": "warmup/random_each_round/seed=5046",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5046,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6c9b13c98744043d",
+      "label": "warmup/random_each_round/seed=5047",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5047,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5e28d0f1c9dee8db",
+      "label": "warmup/random_each_round/seed=5048",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5048,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "128cd05e61cf91a8",
+      "label": "warmup/random_each_round/seed=5049",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5049,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a3d2a977c68798cd",
+      "label": "no-warmup/active/seed=5000",
+      "spec": {
+        "method": "active",
+        "seed": 5000,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "9521fb5688aeaff0",
+      "label": "no-warmup/active/seed=5001",
+      "spec": {
+        "method": "active",
+        "seed": 5001,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "bd47d37d06c40d25",
+      "label": "no-warmup/active/seed=5002",
+      "spec": {
+        "method": "active",
+        "seed": 5002,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3daa03d487241f6f",
+      "label": "no-warmup/active/seed=5003",
+      "spec": {
+        "method": "active",
+        "seed": 5003,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "927561e683cdf219",
+      "label": "no-warmup/active/seed=5004",
+      "spec": {
+        "method": "active",
+        "seed": 5004,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "789b61d5307d756e",
+      "label": "no-warmup/active/seed=5005",
+      "spec": {
+        "method": "active",
+        "seed": 5005,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5cb0e72d1141916c",
+      "label": "no-warmup/active/seed=5006",
+      "spec": {
+        "method": "active",
+        "seed": 5006,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "84c551b7b864ea90",
+      "label": "no-warmup/active/seed=5007",
+      "spec": {
+        "method": "active",
+        "seed": 5007,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a6e76428476919a6",
+      "label": "no-warmup/active/seed=5008",
+      "spec": {
+        "method": "active",
+        "seed": 5008,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "13111e958d902033",
+      "label": "no-warmup/active/seed=5009",
+      "spec": {
+        "method": "active",
+        "seed": 5009,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ec29bff0a8200ad5",
+      "label": "no-warmup/active/seed=5010",
+      "spec": {
+        "method": "active",
+        "seed": 5010,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ead157d749fb6871",
+      "label": "no-warmup/active/seed=5011",
+      "spec": {
+        "method": "active",
+        "seed": 5011,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "362803074ca1dfe2",
+      "label": "no-warmup/active/seed=5012",
+      "spec": {
+        "method": "active",
+        "seed": 5012,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f7eebd6a793827eb",
+      "label": "no-warmup/active/seed=5013",
+      "spec": {
+        "method": "active",
+        "seed": 5013,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d4d608620fcb3f50",
+      "label": "no-warmup/active/seed=5014",
+      "spec": {
+        "method": "active",
+        "seed": 5014,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "27ad0a117ad45273",
+      "label": "no-warmup/active/seed=5015",
+      "spec": {
+        "method": "active",
+        "seed": 5015,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "b480a818a9fd3512",
+      "label": "no-warmup/active/seed=5016",
+      "spec": {
+        "method": "active",
+        "seed": 5016,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "25bb47fedba2ee04",
+      "label": "no-warmup/active/seed=5017",
+      "spec": {
+        "method": "active",
+        "seed": 5017,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "cb3058042d8e3ec2",
+      "label": "no-warmup/active/seed=5018",
+      "spec": {
+        "method": "active",
+        "seed": 5018,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1a3a46adb6e15625",
+      "label": "no-warmup/active/seed=5019",
+      "spec": {
+        "method": "active",
+        "seed": 5019,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "22e00bd7df7c734f",
+      "label": "no-warmup/active/seed=5020",
+      "spec": {
+        "method": "active",
+        "seed": 5020,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0aa92ea78fdabaed",
+      "label": "no-warmup/active/seed=5021",
+      "spec": {
+        "method": "active",
+        "seed": 5021,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "332e83d070d5e7f7",
+      "label": "no-warmup/active/seed=5022",
+      "spec": {
+        "method": "active",
+        "seed": 5022,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "448b211a00e497da",
+      "label": "no-warmup/active/seed=5023",
+      "spec": {
+        "method": "active",
+        "seed": 5023,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "56e8cc26de0f1275",
+      "label": "no-warmup/active/seed=5024",
+      "spec": {
+        "method": "active",
+        "seed": 5024,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ea186faa11bc9497",
+      "label": "no-warmup/active/seed=5025",
+      "spec": {
+        "method": "active",
+        "seed": 5025,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "697422ad1db7f5f6",
+      "label": "no-warmup/active/seed=5026",
+      "spec": {
+        "method": "active",
+        "seed": 5026,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "90dd184943ed3a9f",
+      "label": "no-warmup/active/seed=5027",
+      "spec": {
+        "method": "active",
+        "seed": 5027,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "128c88549f04b7f0",
+      "label": "no-warmup/active/seed=5028",
+      "spec": {
+        "method": "active",
+        "seed": 5028,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c8c59b3fc9d2068b",
+      "label": "no-warmup/active/seed=5029",
+      "spec": {
+        "method": "active",
+        "seed": 5029,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5a28610aa0630182",
+      "label": "no-warmup/active/seed=5030",
+      "spec": {
+        "method": "active",
+        "seed": 5030,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "df39cbecfa556122",
+      "label": "no-warmup/active/seed=5031",
+      "spec": {
+        "method": "active",
+        "seed": 5031,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "70e4de71c312f3bf",
+      "label": "no-warmup/active/seed=5032",
+      "spec": {
+        "method": "active",
+        "seed": 5032,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6cd8e6bb2bdb28b8",
+      "label": "no-warmup/active/seed=5033",
+      "spec": {
+        "method": "active",
+        "seed": 5033,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "22216e0b764b2d6f",
+      "label": "no-warmup/active/seed=5034",
+      "spec": {
+        "method": "active",
+        "seed": 5034,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7d38519997f3019a",
+      "label": "no-warmup/active/seed=5035",
+      "spec": {
+        "method": "active",
+        "seed": 5035,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "049e960b256a0c65",
+      "label": "no-warmup/active/seed=5036",
+      "spec": {
+        "method": "active",
+        "seed": 5036,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "22ba6c98c85e15ca",
+      "label": "no-warmup/active/seed=5037",
+      "spec": {
+        "method": "active",
+        "seed": 5037,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5a29e640c451f55a",
+      "label": "no-warmup/active/seed=5038",
+      "spec": {
+        "method": "active",
+        "seed": 5038,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "072ed0c6877f9ca6",
+      "label": "no-warmup/active/seed=5039",
+      "spec": {
+        "method": "active",
+        "seed": 5039,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "79459780759a497b",
+      "label": "no-warmup/active/seed=5040",
+      "spec": {
+        "method": "active",
+        "seed": 5040,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e8856edd89dc046a",
+      "label": "no-warmup/active/seed=5041",
+      "spec": {
+        "method": "active",
+        "seed": 5041,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e6e21b8f9739c70e",
+      "label": "no-warmup/active/seed=5042",
+      "spec": {
+        "method": "active",
+        "seed": 5042,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7a3ed55b50ad5e8d",
+      "label": "no-warmup/active/seed=5043",
+      "spec": {
+        "method": "active",
+        "seed": 5043,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "668112bfa884c56f",
+      "label": "no-warmup/active/seed=5044",
+      "spec": {
+        "method": "active",
+        "seed": 5044,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c1ea061b4829479b",
+      "label": "no-warmup/active/seed=5045",
+      "spec": {
+        "method": "active",
+        "seed": 5045,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "54f727e25de6104c",
+      "label": "no-warmup/active/seed=5046",
+      "spec": {
+        "method": "active",
+        "seed": 5046,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "537d6da20746b8e7",
+      "label": "no-warmup/active/seed=5047",
+      "spec": {
+        "method": "active",
+        "seed": 5047,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6e7b31883d916716",
+      "label": "no-warmup/active/seed=5048",
+      "spec": {
+        "method": "active",
+        "seed": 5048,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3c73ef9bfec12651",
+      "label": "no-warmup/active/seed=5049",
+      "spec": {
+        "method": "active",
+        "seed": 5049,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0c5cffc362867fc1",
+      "label": "no-warmup/fixed_random/seed=5000",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5000,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e26fc0c477c8a634",
+      "label": "no-warmup/fixed_random/seed=5001",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5001,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "84e48226fae58f09",
+      "label": "no-warmup/fixed_random/seed=5002",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5002,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "285019a4bf2aa415",
+      "label": "no-warmup/fixed_random/seed=5003",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5003,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "35cdb51212211c59",
+      "label": "no-warmup/fixed_random/seed=5004",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5004,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "85a2bc5012cafe10",
+      "label": "no-warmup/fixed_random/seed=5005",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5005,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "490314e8b778154d",
+      "label": "no-warmup/fixed_random/seed=5006",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5006,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2499ef21a165a42a",
+      "label": "no-warmup/fixed_random/seed=5007",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5007,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e2007809bad4dd7b",
+      "label": "no-warmup/fixed_random/seed=5008",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5008,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5c7ca90c495e9243",
+      "label": "no-warmup/fixed_random/seed=5009",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5009,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "19a311b62a491f5b",
+      "label": "no-warmup/fixed_random/seed=5010",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5010,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "50a65e7771967097",
+      "label": "no-warmup/fixed_random/seed=5011",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5011,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f33765d4bd7dada3",
+      "label": "no-warmup/fixed_random/seed=5012",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5012,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "83ee939509f31b12",
+      "label": "no-warmup/fixed_random/seed=5013",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5013,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "47a4c20dbee72cfc",
+      "label": "no-warmup/fixed_random/seed=5014",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5014,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "38c19020c6715173",
+      "label": "no-warmup/fixed_random/seed=5015",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5015,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "8464f8d7393698bd",
+      "label": "no-warmup/fixed_random/seed=5016",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5016,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d8d518dbe7c0369b",
+      "label": "no-warmup/fixed_random/seed=5017",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5017,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ad913ed630f1570f",
+      "label": "no-warmup/fixed_random/seed=5018",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5018,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f7993a8cd0b28180",
+      "label": "no-warmup/fixed_random/seed=5019",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5019,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7a107aa70dad545d",
+      "label": "no-warmup/fixed_random/seed=5020",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5020,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "42ea1e2c4bd877a4",
+      "label": "no-warmup/fixed_random/seed=5021",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5021,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "69cae0ef82c489d0",
+      "label": "no-warmup/fixed_random/seed=5022",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5022,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "824c65dc63f05a78",
+      "label": "no-warmup/fixed_random/seed=5023",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5023,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e1241590cd555e3f",
+      "label": "no-warmup/fixed_random/seed=5024",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5024,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7b8b9793a73d143d",
+      "label": "no-warmup/fixed_random/seed=5025",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5025,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "9c32531eab9b26c8",
+      "label": "no-warmup/fixed_random/seed=5026",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5026,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "31d0edb4ca85bf5b",
+      "label": "no-warmup/fixed_random/seed=5027",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5027,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a707f356bd5b135a",
+      "label": "no-warmup/fixed_random/seed=5028",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5028,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1a02140cb2dd7eb0",
+      "label": "no-warmup/fixed_random/seed=5029",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5029,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "dcd50386ce8ec051",
+      "label": "no-warmup/fixed_random/seed=5030",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5030,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "cefc129524f0e09e",
+      "label": "no-warmup/fixed_random/seed=5031",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5031,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2d6686d9977197db",
+      "label": "no-warmup/fixed_random/seed=5032",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5032,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "51b35ce040386fe7",
+      "label": "no-warmup/fixed_random/seed=5033",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5033,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2691d56881ce1956",
+      "label": "no-warmup/fixed_random/seed=5034",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5034,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c6cfbb5ece8146aa",
+      "label": "no-warmup/fixed_random/seed=5035",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5035,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "67a072a88c906736",
+      "label": "no-warmup/fixed_random/seed=5036",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5036,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d3ef3b4e9c650a6c",
+      "label": "no-warmup/fixed_random/seed=5037",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5037,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "dfb89ab88613f7f7",
+      "label": "no-warmup/fixed_random/seed=5038",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5038,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "570321d06199568b",
+      "label": "no-warmup/fixed_random/seed=5039",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5039,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c1a2a29cd313c366",
+      "label": "no-warmup/fixed_random/seed=5040",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5040,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1a4b9487d3854347",
+      "label": "no-warmup/fixed_random/seed=5041",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5041,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6475ad1859d8757d",
+      "label": "no-warmup/fixed_random/seed=5042",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5042,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "897d5166ca2a9479",
+      "label": "no-warmup/fixed_random/seed=5043",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5043,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "18677103b29a6254",
+      "label": "no-warmup/fixed_random/seed=5044",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5044,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "fcd0b26908470565",
+      "label": "no-warmup/fixed_random/seed=5045",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5045,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f92c0e6ccebb599e",
+      "label": "no-warmup/fixed_random/seed=5046",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5046,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "73b86bf7c48b9709",
+      "label": "no-warmup/fixed_random/seed=5047",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5047,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "63d47151634d2c71",
+      "label": "no-warmup/fixed_random/seed=5048",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5048,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "80048a73ae4e726a",
+      "label": "no-warmup/fixed_random/seed=5049",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 5049,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "8783ac227a2d2275",
+      "label": "no-warmup/random_each_round/seed=5000",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5000,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "360800152b510906",
+      "label": "no-warmup/random_each_round/seed=5001",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5001,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "bfa978f002d55374",
+      "label": "no-warmup/random_each_round/seed=5002",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5002,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0aa74bfe87bb08e3",
+      "label": "no-warmup/random_each_round/seed=5003",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5003,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "cd04632751d7c735",
+      "label": "no-warmup/random_each_round/seed=5004",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5004,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "bbe5cab40b9695dc",
+      "label": "no-warmup/random_each_round/seed=5005",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5005,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "9a1bf42ee5afd877",
+      "label": "no-warmup/random_each_round/seed=5006",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5006,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "408937c7db85d9dc",
+      "label": "no-warmup/random_each_round/seed=5007",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5007,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3ff5f27340014598",
+      "label": "no-warmup/random_each_round/seed=5008",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5008,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "084319bc87b43520",
+      "label": "no-warmup/random_each_round/seed=5009",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5009,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d85ce0363c88e42b",
+      "label": "no-warmup/random_each_round/seed=5010",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5010,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0d534282378175c7",
+      "label": "no-warmup/random_each_round/seed=5011",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5011,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "9632eee0e6447012",
+      "label": "no-warmup/random_each_round/seed=5012",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5012,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6e5ee21e8b2027a5",
+      "label": "no-warmup/random_each_round/seed=5013",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5013,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "79edfe95176a391f",
+      "label": "no-warmup/random_each_round/seed=5014",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5014,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6bd04c4b443a1206",
+      "label": "no-warmup/random_each_round/seed=5015",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5015,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "de2771c9790ee51c",
+      "label": "no-warmup/random_each_round/seed=5016",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5016,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7eff07412f3e1b10",
+      "label": "no-warmup/random_each_round/seed=5017",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5017,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7ef155dbf716146f",
+      "label": "no-warmup/random_each_round/seed=5018",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5018,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2f142edb5fa0a544",
+      "label": "no-warmup/random_each_round/seed=5019",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5019,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "de56879757791fe1",
+      "label": "no-warmup/random_each_round/seed=5020",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5020,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "fd6f20b4d9045927",
+      "label": "no-warmup/random_each_round/seed=5021",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5021,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a87e21b08002742a",
+      "label": "no-warmup/random_each_round/seed=5022",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5022,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "84ab6074d756a068",
+      "label": "no-warmup/random_each_round/seed=5023",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5023,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "faf2b10a574d6918",
+      "label": "no-warmup/random_each_round/seed=5024",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5024,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "c3d6c1f27fe240e5",
+      "label": "no-warmup/random_each_round/seed=5025",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5025,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1ee81a9a1f8bd72b",
+      "label": "no-warmup/random_each_round/seed=5026",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5026,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a7c5b824ff637cba",
+      "label": "no-warmup/random_each_round/seed=5027",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5027,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5691a770f063206b",
+      "label": "no-warmup/random_each_round/seed=5028",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5028,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "412673368006fb36",
+      "label": "no-warmup/random_each_round/seed=5029",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5029,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "4d6117df2388fdf2",
+      "label": "no-warmup/random_each_round/seed=5030",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5030,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a86ceb3e22cd6bac",
+      "label": "no-warmup/random_each_round/seed=5031",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5031,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e4346bf10e90fc69",
+      "label": "no-warmup/random_each_round/seed=5032",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5032,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "891b41b8b9eb5bda",
+      "label": "no-warmup/random_each_round/seed=5033",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5033,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "cf68c0e760ad0985",
+      "label": "no-warmup/random_each_round/seed=5034",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5034,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e4b729568e37296a",
+      "label": "no-warmup/random_each_round/seed=5035",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5035,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "e8b987ae72fa5c08",
+      "label": "no-warmup/random_each_round/seed=5036",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5036,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "59d624e12eb32405",
+      "label": "no-warmup/random_each_round/seed=5037",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5037,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ec1addd573271f29",
+      "label": "no-warmup/random_each_round/seed=5038",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5038,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "2ade5af6dbfd720e",
+      "label": "no-warmup/random_each_round/seed=5039",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5039,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6919717e14eca69a",
+      "label": "no-warmup/random_each_round/seed=5040",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5040,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "5a7856a1092c19fd",
+      "label": "no-warmup/random_each_round/seed=5041",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5041,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "f2a7a8de01014f68",
+      "label": "no-warmup/random_each_round/seed=5042",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5042,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "90dc5993b710a92f",
+      "label": "no-warmup/random_each_round/seed=5043",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5043,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a5eb5f49300b650f",
+      "label": "no-warmup/random_each_round/seed=5044",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5044,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6b2884ceeeaa172c",
+      "label": "no-warmup/random_each_round/seed=5045",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5045,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "4c7ad2d4250ca114",
+      "label": "no-warmup/random_each_round/seed=5046",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5046,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "7f0fb58778f2ee5d",
+      "label": "no-warmup/random_each_round/seed=5047",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5047,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "40f01885fa5ff7a7",
+      "label": "no-warmup/random_each_round/seed=5048",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5048,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "385a73b9d36fce10",
+      "label": "no-warmup/random_each_round/seed=5049",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 5049,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "1cc42497744026ed1413836f5ed21225939de328",
+    "dirty": false,
+    "fingerprint": "8901486a6a362435d758093e829dbce4b5653a12bcdf6d2d85519939722b3157",
+    "status": [],
+    "untracked": []
+  },
+  "last_error": "MLE failed post-solve checks: attempt 1 (SLSQP): optimizer: Positive directional derivative for linesearch | attempt 2 (SLSQP): optimizer: Positive directional derivative for linesearch | attempt 3 (trust-constr): projected-gradient residual 1.245e-06 > 1.000e-06",
+  "progress": {
+    "complete": 157,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 157.4789114999985,
+    "estimated_remaining_seconds": 139.91311250386786,
+    "failed": 1,
+    "pending": 142,
+    "running": 0,
+    "total": 300
+  },
+  "resume_granularity": "job",
+  "run_id": "1a39ee07ea9b50a9",
+  "schema_version": 1,
+  "semantic_config_sha256": "708485c03b8680db49bb533ac31f3fc7616e9dd0c06eb305fb29071934efcbab",
+  "status": "failed",
+  "study_name": "baseline-comparison",
+  "updated_at": "2026-07-30T12:22:07.167144+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "scenario": {
+    "leader_actions": 8,
+    "follower_actions": 7,
+    "feature_dimension": 6,
+    "identifiable_dimension": 6,
+    "dataset_size": 400,
+    "batch_seeds": 8,
+    "repeats": 7
+  },
+  "median_seconds": {
+    "warmup_design": 0.0005236249999143183,
+    "mle_400_newton": 0.0015240409993566573,
+    "mle_400_slsqp": 0.0030850829934934154,
+    "growing_mle_61_newton": 0.05188204200385371,
+    "growing_mle_61_slsqp": 0.1304051669940236,
+    "policy_selection": 0.007135874999221414,
+    "seed_mle_scalar": 0.012023374998534564,
+    "seed_mle_vectorized": 0.007594250004331116,
+    "seed_policy_scalar": 0.05554808400484035,
+    "seed_policy_vectorized": 0.004164833000686485,
+    "grid_policy_5151_cold": 0.003969624995079357,
+    "grid_policy_5151_cached": 0.001724417001241818,
+    "end_to_end_160_plus_12": 0.04319375000341097,
+    "tuning_4_trials": 0.07656604200019501
+  },
+  "checks": {
+    "warmup_iterations": 3,
+    "warmup_gap": 0.7070522890035171,
+    "mle_residual": 7.699654003461712e-08,
+    "mle_solver_difference": 4.516000623382793e-09,
+    "mle_newton_iterations": 3,
+    "mle_slsqp_iterations": 10,
+    "growing_mle_fits": 61,
+    "growing_newton_median_iterations": 2.0,
+    "growing_slsqp_median_iterations": 9.0,
+    "growing_newton_max_residual": 2.8158956502327835e-07,
+    "growing_slsqp_max_residual": 9.007355607840329e-07,
+    "growing_newton_boundary_hits": 0,
+    "growing_slsqp_boundary_hits": 0,
+    "growing_newton_milliseconds_per_fit": 0.8505252787517003,
+    "growing_slsqp_milliseconds_per_fit": 2.137789622852846,
+    "growing_mle_speedup": 2.513493339069756,
+    "policy_residual": 0.0,
+    "seed_mle_speedup": 1.5832208567899992,
+    "seed_mle_max_difference": 2.810037859529239e-16,
+    "seed_policy_speedup": 13.33740968621897,
+    "seed_policy_max_objective_difference": 0.0,
+    "grid_points": 5151,
+    "final_samples": 172,
+    "tuning_warmup_designs": 1
+  }
+}

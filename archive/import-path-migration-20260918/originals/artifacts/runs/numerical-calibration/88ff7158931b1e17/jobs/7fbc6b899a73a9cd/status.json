@@ -1,0 +1,15 @@
+{
+  "algorithm_seconds": 5.084579916998337,
+  "completed_at": "2026-07-30T12:28:56.306913+00:00",
+  "job_id": "7fbc6b899a73a9cd",
+  "label": "calibration/warmup/candidate=default_newton/seed=1000",
+  "result_sha256": "e7e3aa23f07f2fcd61de4e7ddeaebc341ea3de6120b79d9d5ff29a2b8a3aeb01",
+  "spec": {
+    "candidate": "default_newton",
+    "seed": 1000,
+    "split": "calibration",
+    "warmup_enabled": true
+  },
+  "status": "complete",
+  "updated_at": "2026-07-30T12:28:56.306922+00:00"
+}

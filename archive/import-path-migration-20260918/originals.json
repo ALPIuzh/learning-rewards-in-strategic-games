@@ -1,0 +1,3290 @@
+[
+  {
+    "bytes": 1895,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/12505108863e268f/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/12505108863e268f/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "8f660fe5c59a542931a6dc774272388de0a67c10443157e45d70d20822e80652"
+  },
+  {
+    "bytes": 2435,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/12505108863e268f/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/12505108863e268f/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "6a9949c90eeda281e0b4fea42bab498f88c3e5f57167e176bfb88d52e45fcb44"
+  },
+  {
+    "bytes": 2014,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/12505108863e268f/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/12505108863e268f/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "99cd80f131429f264f670a541c4188d18da98ab0ad07811c9cea34058f3dec7f"
+  },
+  {
+    "bytes": 64172,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "88203713baadb42d0321937d0469674be6ccfeb6979686f3aff3772bcbf32891"
+  },
+  {
+    "bytes": 2444,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f5b73951520ff670d54d2d11b68b7ebe68cbb0be46732306e386c12f992a58ea"
+  },
+  {
+    "bytes": 2012,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1a39ee07ea9b50a9/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b0b80ee07a5f02d843f2a5d31d89cf72d8778c98f10ca74d9d06e17a4db16918"
+  },
+  {
+    "bytes": 125950,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1bfa795c346750f4/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1bfa795c346750f4/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e250d15d00f0d9a8e1a65c9c90c1f6815a8f1181845765f1f296e314dbe7eeff"
+  },
+  {
+    "bytes": 2523,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1bfa795c346750f4/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1bfa795c346750f4/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "fcbf517bbd47e083af839f8373214b8ea644aea8e8463de83e9f91e39202aec1"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/1bfa795c346750f4/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/1bfa795c346750f4/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "fdf7d919743207dcf2f43c34f79dce470ef0d679c59296dfbc75c274061e50ca"
+  },
+  {
+    "bytes": 4162,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/3fb7f1691365ed94/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/3fb7f1691365ed94/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "02bad0707aef005f2ef061ddcf914ffb6ad07099a612d8cb3e35fb7d09edeaf5"
+  },
+  {
+    "bytes": 2517,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/3fb7f1691365ed94/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/3fb7f1691365ed94/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "068f5785b1ce25ab43259f67e21f968a88c1c4d055b0a047206c14e203a820cb"
+  },
+  {
+    "bytes": 2080,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/3fb7f1691365ed94/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/3fb7f1691365ed94/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e00e70de0ed44739bdbc4fa735c201bbbd232ef76846936d058b07b00dec3c43"
+  },
+  {
+    "bytes": 63875,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/4acb35768b700260/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/4acb35768b700260/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "8e06fd314264bc8ccd4e4eede22a5a51226f2a6b7f57129b98df6ec98c7c67b2"
+  },
+  {
+    "bytes": 2521,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/4acb35768b700260/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/4acb35768b700260/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "06c59e68b24cf2780ebb70c9f30d055feb4782e4caa572d38446ebf95ea77e05"
+  },
+  {
+    "bytes": 2083,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/4acb35768b700260/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/4acb35768b700260/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "5607963e019b1b14bf4df6790abaf167ebf2031d70ef2653045b6745a6fa0f7e"
+  },
+  {
+    "bytes": 57386,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/4acb35768b700260/plots/f3c37e37f098449e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/4acb35768b700260/plots/f3c37e37f098449e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e53a4b6aff774f4c53e602c836ba5cd3b5c67ac2951cb15dc16e91bfdb3aac16"
+  },
+  {
+    "bytes": 296,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/4acb35768b700260/plots/f3c37e37f098449e/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/4acb35768b700260/plots/f3c37e37f098449e/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "46e5cbd4fa3f3a72009105e08f1cfd8095a38d0f4a9911f38b3c89f225dfc8f4"
+  },
+  {
+    "bytes": 125405,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/51b15452ac8c18c0/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "cd419a3e7cc9c6a68d0a3afb2842c7f4f5e66499810d782f60f4883e114c795a"
+  },
+  {
+    "bytes": 2594,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/51b15452ac8c18c0/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "40a953750f2765e5e8116eb1f9892041e114312718363822fc1f5e909c27c09e"
+  },
+  {
+    "bytes": 2168,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/51b15452ac8c18c0/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "33e74e291bffda838130742650a6eed8123a2e8bd5defa36c21bdca96aaed8ea"
+  },
+  {
+    "bytes": 113277,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0/plots/d658d1926e9dbf5e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/51b15452ac8c18c0/plots/d658d1926e9dbf5e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "6ef0bc242e757990c0455affb83c0fd0096b884a67031eb660ba8e8d6626293a"
+  },
+  {
+    "bytes": 356,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0/plots/d658d1926e9dbf5e/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/51b15452ac8c18c0/plots/d658d1926e9dbf5e/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2c74fac0b36080690d965c7e468cf189ab093c8d4e06923b12bea3f8079fef2e"
+  },
+  {
+    "bytes": 1579,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2357051bea586702b8412da38341b6466daedc2a497693568a760eab9f43586b"
+  },
+  {
+    "bytes": 2465,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "38d3cffb173e369965f204c25a41de6b8cbd2ff338f85877b8732821dabdd724"
+  },
+  {
+    "bytes": 2041,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "438ce13f9d860d680f08135a72226a91c1e255897c4562fbbc4f1c12af3b4cc9"
+  },
+  {
+    "bytes": 5458,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/760cf5be37487b0b/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/760cf5be37487b0b/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "cbd0c2a071b6b09658446aae370d20a358bafbfecbc7e6b8b85c971f9ddd19b2"
+  },
+  {
+    "bytes": 2258,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/760cf5be37487b0b/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/760cf5be37487b0b/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a311400cf48ee28929d46f0312e5b3476847dbbd5d36ebe0d67928fef83f2c41"
+  },
+  {
+    "bytes": 1961,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/760cf5be37487b0b/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/760cf5be37487b0b/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "ae05dd0375a9e1f7c60e98c22aa3dc3b6f53b197cd978de77410bf6050b5e20f"
+  },
+  {
+    "bytes": 5082,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/760cf5be37487b0b/plots/9d5757222b679149/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/760cf5be37487b0b/plots/9d5757222b679149/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "330a1cdb48519b846421fc80f5c08bcd6c3f966270087279530de757148e3722"
+  },
+  {
+    "bytes": 357,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/760cf5be37487b0b/plots/9d5757222b679149/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/760cf5be37487b0b/plots/9d5757222b679149/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f78bc95569be96c017be785aac1bb2a528243f37ded137f2186b7b584a57f52b"
+  },
+  {
+    "bytes": 5737,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a23de1de828ffada/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a23de1de828ffada/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "97a8a09432b8a71791253eb36e01b18807e8f4cd43c28a42062ab3511cb545e2"
+  },
+  {
+    "bytes": 2588,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a23de1de828ffada/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a23de1de828ffada/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "149b0a9191de9d0936fe77bc682bd107e89f624714620d1f3d139b4458a7d844"
+  },
+  {
+    "bytes": 2162,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a23de1de828ffada/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a23de1de828ffada/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "216c3f03d32644c88d87052633ef2597e0a13882b3c86b7bf23b49d0e7e44447"
+  },
+  {
+    "bytes": 5606,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a2c7850295652844/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a2c7850295652844/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "beb17e61f243b2cafbb2e0e60671dc3457af5526267b10911dd249820b24de60"
+  },
+  {
+    "bytes": 2256,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a2c7850295652844/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a2c7850295652844/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "55e189edf4719ad78fb8d16faf4153aa117ff3ab6beee48e03ece4652658e38e"
+  },
+  {
+    "bytes": 1959,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/a2c7850295652844/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/a2c7850295652844/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "77193fa055b746afcda758b582e2ff8b9837221da7c5e86faf91a47a437cde2d"
+  },
+  {
+    "bytes": 4014,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b64deaa82db1e80d2a7656164c39a04cc755e768c4e4511c6e9759630d4b9c61"
+  },
+  {
+    "bytes": 2517,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "738a35c6e6c70c21efaf40bf3cebf12458c2e5dabf0310ed03fa8879077a75fd"
+  },
+  {
+    "bytes": 2080,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a2aeff47173a7c03a095136549ab20eb3ae6779ab3ee382c75fff9ad69ba4145"
+  },
+  {
+    "bytes": 2319,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/6de5a0b9544e4ee9/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/6de5a0b9544e4ee9/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f64a905cb23e3d5727a2cd4b44ba090260408213c2e30e0fdb5eded73bd0cae5"
+  },
+  {
+    "bytes": 297,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/6de5a0b9544e4ee9/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/6de5a0b9544e4ee9/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e3c58835b196151f3c75e0b22410b4b0f9964ff94711980c6e6c82f3cfb7805b"
+  },
+  {
+    "bytes": 3712,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/9f62ed3fd9f54de6/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/9f62ed3fd9f54de6/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "83dd5131ff598f05d670e269fe0a4b4ed050cd1054c5bcc421f0fa2adf3a1f3f"
+  },
+  {
+    "bytes": 297,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/9f62ed3fd9f54de6/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b53e31642f38ba96/plots/9f62ed3fd9f54de6/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e3c58835b196151f3c75e0b22410b4b0f9964ff94711980c6e6c82f3cfb7805b"
+  },
+  {
+    "bytes": 63176,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "98f9817e9eb5689e8c9ad92938d117bc8580386afd86a5d4b789032802312585"
+  },
+  {
+    "bytes": 2521,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "eedbf4102a925fc23153f42fcc80d866b6982813d0d0fd181dbc97bdf160fbac"
+  },
+  {
+    "bytes": 2083,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "223ca991c8439bbb4df91bb9725173e32c9b9288a61b64b274f46351cad94398"
+  },
+  {
+    "bytes": 57435,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/plots/9ff1e40a368d77ae/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/plots/9ff1e40a368d77ae/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "d5c1527a34033854b135416a521a43dd07d6903d3baf918aa2092aa6606ce74a"
+  },
+  {
+    "bytes": 357,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/plots/9ff1e40a368d77ae/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/plots/9ff1e40a368d77ae/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "351d6687b0f04a081b3451690ab0707f7fdbdfd50cc7550b0786433d705c78b7"
+  },
+  {
+    "bytes": 57086,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/plots/420f73c4473db01a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/plots/420f73c4473db01a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c1fae836f696be5e1ef04c007fd4e723f5873131169618e30c9d6bbac1abff36"
+  },
+  {
+    "bytes": 296,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/b9b01e246527216e/plots/420f73c4473db01a/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/b9b01e246527216e/plots/420f73c4473db01a/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9e271e512bd61fa0590de20469e9b4e8d30dbfb3229bcb6f5cb29444c3658126"
+  },
+  {
+    "bytes": 64155,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/c6b0efbfd9144147/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/c6b0efbfd9144147/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "1e317ecf13acbec0cebb89964cba6120fb9815cac67d703c95bd5c8744af00c8"
+  },
+  {
+    "bytes": 2491,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/c6b0efbfd9144147/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/c6b0efbfd9144147/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9d13bdb4cd497954999757a3bdfd400982a3f68c1e03d5d7c3fe900aa20c095a"
+  },
+  {
+    "bytes": 2056,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/c6b0efbfd9144147/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/c6b0efbfd9144147/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "fa5be9458fa5ad9c15e4a43828e87452e0c3d24eb7fdad3cd381a6d639d013e7"
+  },
+  {
+    "bytes": 1563,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/d31ae98410b9a8be/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/d31ae98410b9a8be/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "70451668d69ab76dd215e6f48b98c358aaf91cae2c34b864036a04556349de48"
+  },
+  {
+    "bytes": 2429,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/d31ae98410b9a8be/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/d31ae98410b9a8be/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "0c03aa9bfa2d6dad64b8e6b2b80a83218b3063051ae3228024b8ed1ef0a19ef3"
+  },
+  {
+    "bytes": 2008,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/baseline-comparison/d31ae98410b9a8be/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/baseline-comparison/d31ae98410b9a8be/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c62886a98a76855a731a5140defa0086701b7b8209edb4801a099d92903b7a8a"
+  },
+  {
+    "bytes": 131072,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c858e15f4b1b10b3923447805267c34c44b926b5406edad37b7d26c6ca86ab31"
+  },
+  {
+    "bytes": 4038,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2133c29e83b61a0bdfc32bf75abd9226122e3e4f54d4857a9243cc146ea42000"
+  },
+  {
+    "bytes": 3015,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "4caab0c57304ec1c6897621b766bc753b34049b33c9f8262593f752821555190"
+  },
+  {
+    "bytes": 39934,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/39bfcffca9bb9a84/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/39bfcffca9bb9a84/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "4df6b8bdab54aa9aa68930fc6a45e376d00b854252173f1b85fcfd6fe4c2c7fe"
+  },
+  {
+    "bytes": 6559,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/39bfcffca9bb9a84/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/39bfcffca9bb9a84/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "76b413ed7d974859c2c85ca5e18fdcc7e772e8fdcc5a2481113f078b14d5eda5"
+  },
+  {
+    "bytes": 5395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/39bfcffca9bb9a84/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/39bfcffca9bb9a84/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9e8bc669379cc365076d48cca9ae57d38006e5a4162377e2d274f9aacba8fab9"
+  },
+  {
+    "bytes": 40360,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/66e17657d0ed7605/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/66e17657d0ed7605/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "401a1761ec1d516a569c1065d847cb1c302757b59259919351cb2520c85bb936"
+  },
+  {
+    "bytes": 6559,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/66e17657d0ed7605/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/66e17657d0ed7605/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "76b413ed7d974859c2c85ca5e18fdcc7e772e8fdcc5a2481113f078b14d5eda5"
+  },
+  {
+    "bytes": 5395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/66e17657d0ed7605/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/66e17657d0ed7605/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9e8bc669379cc365076d48cca9ae57d38006e5a4162377e2d274f9aacba8fab9"
+  },
+  {
+    "bytes": 2706,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/7152b85c55e0409a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/7152b85c55e0409a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a6e4c36bf15a8331e05ac5c538d414411e5ad36502b1b9cf9926487ded8d2abc"
+  },
+  {
+    "bytes": 6504,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/7152b85c55e0409a/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/7152b85c55e0409a/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "1f74e95ae8f3c7774fd5a15ef63a4b2eaec7c8bdf8f0608307df98600ed0e43d"
+  },
+  {
+    "bytes": 5354,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/7152b85c55e0409a/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/7152b85c55e0409a/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2aa0fd89102cba50611e719c3c16da3e21570b3f62926ed34d2f7f99130179cb"
+  },
+  {
+    "bytes": 12412,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "351a3dabcc40b13af10e0eb13dbc5fa0caa919f99e167c571e0fadcf6b4c8bea"
+  },
+  {
+    "bytes": 6341,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "bb4cc442cee24472f1dce5be5caab7d83a9e1739976424d293647b30bf817226"
+  },
+  {
+    "bytes": 5220,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b6e736714d651c4f72527ed165be533dcb82e66bcfa8a1267e7c5a7727e84db9"
+  },
+  {
+    "bytes": 12411,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "08a3592d035a4443ee6687ce2a55ef2290f7202f80745a1db13b672c630022b4"
+  },
+  {
+    "bytes": 6143,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "d30f3f3365510d8f5722bcb6577a000f008e72202966c273b18d59099a272be9"
+  },
+  {
+    "bytes": 5038,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f42f5d1baf8ea8024fafb0b5e3151a2007017b3ea71f6478c86b7b0b37bbef97"
+  },
+  {
+    "bytes": 12132,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "aeef01a6420bd1165153ff65bc1436264f1a142c13dbf925b09cd9c36e03323f"
+  },
+  {
+    "bytes": 6341,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "bb4cc442cee24472f1dce5be5caab7d83a9e1739976424d293647b30bf817226"
+  },
+  {
+    "bytes": 5220,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b6e736714d651c4f72527ed165be533dcb82e66bcfa8a1267e7c5a7727e84db9"
+  },
+  {
+    "bytes": 5752,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "58ae5a177077a15ffe5bf4127ed6b75498876735f3f2acb9a8ee5e6dc4dca97b"
+  },
+  {
+    "bytes": 6118,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "56bde858f3486d8229879aa1a7285de44ba19001c80e2f43e527c6526c536723"
+  },
+  {
+    "bytes": 5026,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "74d2487ed446c32510b5547da7dfdd8098f36b269f793acbb0e8cabf2e2a1c34"
+  },
+  {
+    "bytes": 13748,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2c42555ba2e588b11d4c5e977d2cdbddad6451c899710c434b71538e98db05fb"
+  },
+  {
+    "bytes": 2385,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "42b6e4c392e77c887d9c5ba4b7f22a783481aed5edd4c5f9c045c96d57806409"
+  },
+  {
+    "bytes": 2066,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "588e75b87831d84b7ed90118d4bb6797c0a4e564e322647cf724f51c4ad0e55e"
+  },
+  {
+    "bytes": 12563,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/33560174355a010a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/33560174355a010a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "688bcd498e143fd9a55c96afc98892e88eb4b687f486252b6a98326238cbd2fe"
+  },
+  {
+    "bytes": 367,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/33560174355a010a/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/33560174355a010a/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2da2fba95530f9ccab7897ca4e83e8d03bd87ec027335a549fc868b3ff505530"
+  },
+  {
+    "bytes": 12665,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/42a9bb5c0bc803b6/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/42a9bb5c0bc803b6/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "3c37c8009863db1b2252bf45767aa184bd3a450396b88e1da8ddb9e1bc9e8747"
+  },
+  {
+    "bytes": 381,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/42a9bb5c0bc803b6/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/1bbeb97e90a21732/plots/42a9bb5c0bc803b6/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "3fbca2592b9b73abfc6a892e104718aa6aa47a6187438cf9f2f8452647c445c9"
+  },
+  {
+    "bytes": 125431,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "45b71052a80a213e1b09edb58e9bd62e551f81ee2d8f7440553c07fb03dcb33c"
+  },
+  {
+    "bytes": 2387,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "62312303e865b2900446eacdded0a8072616ef1b6c8eb2b57b0598205fe38a4b"
+  },
+  {
+    "bytes": 2068,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e56e927ed88972d555d64a903ddefbaca1271a472532f1d9a4f0797bd5e44839"
+  },
+  {
+    "bytes": 113389,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/ff758e5c8ebded1a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/ff758e5c8ebded1a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "86852dda3f0271a5fcc9d045cb890470d8737be1ff516a10e472136979406644"
+  },
+  {
+    "bytes": 380,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/ff758e5c8ebded1a/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/ff758e5c8ebded1a/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a4004415ea561421880d53ddf94912d398a50c26ff6f16c92e43285361e549ee"
+  },
+  {
+    "bytes": 113287,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/8d914a2b9bdc5489/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/8d914a2b9bdc5489/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "caf9cfc9ee55cf5f97250c4d16ea33bd2ffd53e2ec409169717efa568acd846e"
+  },
+  {
+    "bytes": 366,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/8d914a2b9bdc5489/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/8d914a2b9bdc5489/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "afbc846e8e96d3e210c4b92b909951588a182432d5dc4facef32da19cf69e5d9"
+  },
+  {
+    "bytes": 113287,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/aa389316e6671c75/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/aa389316e6671c75/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "caee2fb1e01ee46c2b660b53e1a47e0ff0bd8a9f1f65976bb0b82e1edcd18f18"
+  },
+  {
+    "bytes": 366,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/aa389316e6671c75/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/aa389316e6671c75/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "afbc846e8e96d3e210c4b92b909951588a182432d5dc4facef32da19cf69e5d9"
+  },
+  {
+    "bytes": 113339,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/6e49e04a45f016e7/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/6e49e04a45f016e7/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "8fe6b3ce254cbedd64fdbe4044a6fb5462a625335ebc30b534012de9315983ff"
+  },
+  {
+    "bytes": 380,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/6e49e04a45f016e7/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/39fda531e133aadd/plots/6e49e04a45f016e7/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a4004415ea561421880d53ddf94912d398a50c26ff6f16c92e43285361e549ee"
+  },
+  {
+    "bytes": 125470,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "6cae6de748bdf522c98d96045dc35f65f66432d0dc532a41043c64aa88fa6b87"
+  },
+  {
+    "bytes": 2389,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "6f2fe7c409dac8253bd0299034d1f4f26fb565a50eaede7ddb972f5e875dabff"
+  },
+  {
+    "bytes": 2070,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/sparse-information-comparison/bfb492bf24e181eb/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "ac7073108ec9629255f803d207b04c4fd7117214cdc499bf05c9db426a34bbfe"
+  },
+  {
+    "bytes": 29614,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9a0a9ddb45cc14ffd9e95a9eebcb9770fbb675d98ff635f46e7b3bd4e542a281"
+  },
+  {
+    "bytes": 3088,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "ea553fcdb693d5cc2bef753f2afe04e5e8d5016262e74c37d1e7d32262fe9e21"
+  },
+  {
+    "bytes": 2632,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "0e3fd6f1503d1f3aaf4900f936c5fc9225ea8afdb300060f11a5e2d62f18eff7"
+  },
+  {
+    "bytes": 4884,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "908a3ca17ad0319afebe93bdb0ccc93fc54b84667cef0b6e57397dc540177d78"
+  },
+  {
+    "bytes": 3020,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "8449c2690a82ff72caa1787fdd67cd4384ea26e6461824e2e809dd2cdf4a9ce5"
+  },
+  {
+    "bytes": 2527,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "37d5dddf0e33da4c9ec28c51d85d1e9b44a5d49cc1035e889fb0f35307a4e905"
+  },
+  {
+    "bytes": 101220,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "3e098e294fcfffd4a0e5c964e87ef2aea35a9071f9de71bf150e826d0f2d12ab"
+  },
+  {
+    "bytes": 3096,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "1598f0ba5d32085013b2da5ce396ea739c7624488b9a534dd8daf84d4c413b68"
+  },
+  {
+    "bytes": 2553,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "6a490291f6878aca35927687853dfbdb7e1660e31bedb515e5623bbca3f3402a"
+  },
+  {
+    "bytes": 443048,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "7af77f3666192a11427b4d8830298e611b2c9563c7f0a817db1d296eee251538"
+  },
+  {
+    "bytes": 4139,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "aeb6cf91efd5baca8b6eb0fc27ede9dcea7aa97f9fa2d42215694e56aa2fd92b"
+  },
+  {
+    "bytes": 3053,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "63589bf91be5af08230b7cd84c6d17b7f369f05a29731c5c2aeb0b9f63b73b51"
+  },
+  {
+    "bytes": 3250,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "21d9d5b15c24d7a305487d24378f5a4ca023a02b21a93a170a3273f1cd2d0952"
+  },
+  {
+    "bytes": 2233,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e8e06d7897dcf092868c0345562d48dc633ee0f4a19ee80ff0223edfc88b950c"
+  },
+  {
+    "bytes": 1946,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9104ef898a90c92e6a7d5661fbe1d4f3535b5f86debcc03dfa6b7517e45c6374"
+  },
+  {
+    "bytes": 15557,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "bf3339f6eb92a052b908f5134b4f3e57251db97328564e34bdc32980ea5252c2"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 15184,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/plots/99e6fdfe2ddeab6b/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/plots/99e6fdfe2ddeab6b/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c54e87a784dd9c5d1ba49d6af96d1e4b3821f8c29256487ec01970b2f650d6e3"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/plots/99e6fdfe2ddeab6b/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7/plots/99e6fdfe2ddeab6b/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b0f9bab14f92935f38538918db142aca6f5b9770913f7887aca852d622d234ba"
+  },
+  {
+    "bytes": 191530,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c554046ca0a5e88a52e713d37a890088254210909231b210a3e5d514caef990b"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 191158,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/plots/b809aca7d6ecf8f0/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/plots/b809aca7d6ecf8f0/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "befec140cb51ec9bef40e310d58b899d4691246b1b40464928c428a2949b2a45"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/plots/b809aca7d6ecf8f0/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963/plots/b809aca7d6ecf8f0/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "858119e54084764364f61b2313d2698597472d1f1bb19e31f93df01e276399c0"
+  },
+  {
+    "bytes": 8324,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "51161f0967cff8ba6c26893c8a26ad835566a887386963b2e7e0221a9df774af"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 7951,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/plots/91d2830f0587f20a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/plots/91d2830f0587f20a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "3b76e0092a0d9ce5282bae9d43920f94e2dcd7cfeaf64ddce1c3f901788ddfc3"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/plots/91d2830f0587f20a/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93/plots/91d2830f0587f20a/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "874b827fe23b32d697d0b093a2b66fe21de7a6aceaed22ef0a0056c5fb1e5e7d"
+  },
+  {
+    "bytes": 8324,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "bda043e43a60a6a340929d8488e806f740563372eda126840fdf4f2eeed9f985"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 7951,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/plots/f5f21ef35fa49e53/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/plots/f5f21ef35fa49e53/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "25b056d224fe3c8e1ea12c8df9d7765a5cd778aa115fb1e109ad696819480e95"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/plots/f5f21ef35fa49e53/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034/plots/f5f21ef35fa49e53/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "5e044ffb7444ebc07d06f949f48af2359868894e0e39330c352e779fbf773289"
+  },
+  {
+    "bytes": 2801,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "2e3f913d24ba91f41a44150d1ba638a20e27e998051fea3d072c8d021c7400a5"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 2428,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/plots/52b9d70d0e9317ce/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/plots/52b9d70d0e9317ce/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "49a0c3402b46ad4e3c600723aef1bc5d8afbb2a6a34bcebb7b8d80c19d056623"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/plots/52b9d70d0e9317ce/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/a600e38274aa1675/plots/52b9d70d0e9317ce/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "175b514e6490d2857a21f7b6d2c0a960387c57f79501d2e95aa4a553753e0528"
+  },
+  {
+    "bytes": 3739,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "309651ad4e47fc29ea65818b7599845d3d9136b3d7a82eb29e212b1d5700f5f9"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 3366,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/plots/c8b38aa07836861c/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/plots/c8b38aa07836861c/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "cb655d3ae741b53cb557fc52d301674e43daf91437100389bc7b443264af7209"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/plots/c8b38aa07836861c/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154/plots/c8b38aa07836861c/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b81d24361cbdb9ddfd26c9652907c5eb1a486174468a02fc8c72014357cd6622"
+  },
+  {
+    "bytes": 3119,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f9ac0156fb11681914841c175b036a5c800e945415d16dc048dc7feac60b4d32"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 2746,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/plots/a936a0ea7b112525/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/plots/a936a0ea7b112525/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e89e103b6952433b28c6b85463426797e9db3fb575c100176da33d3852ea0130"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/plots/a936a0ea7b112525/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299/plots/a936a0ea7b112525/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "7f30fb7d57c95cce0268948416f13646353a853d0903efca484463ecf3ccd7a9"
+  },
+  {
+    "bytes": 6893,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a26825f1cce8c3100872111b9ae886290caa8b60dd2353f4bb0dc9d674b7127d"
+  },
+  {
+    "bytes": 2352,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "96dbb29dc3529774fa2695cb89ee5850c7fb509a84085e2a091ac966819e1692"
+  },
+  {
+    "bytes": 2085,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "82f7e4272631498d7f9bfb19e909407f27293844f0fe1bdd209c90da56e7e2c2"
+  },
+  {
+    "bytes": 6521,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/plots/78c6a0558df0384f/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/plots/78c6a0558df0384f/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "1bc5fcae5b037be3f3385cad818eeacb2e660cf82e9bebd57576f485bf6d3c47"
+  },
+  {
+    "bytes": 398,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/plots/78c6a0558df0384f/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf/plots/78c6a0558df0384f/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9cc22732aebcdd25df044705e395c879d281ac320806a75c19eb446a9b77d1f7"
+  },
+  {
+    "bytes": 4914,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "808f40fdacaf1fa2baaedf9dde21281aa95aedce37883cdef89a734fc8c1d5d6"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 4477,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/plots/e8bbdc8ebdb4690a/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/plots/e8bbdc8ebdb4690a/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "31b7c23a94f30d598d5129b8e78acad535975e507e14332908e07684f38e84af"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/plots/e8bbdc8ebdb4690a/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e/plots/e8bbdc8ebdb4690a/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "bcd1fa5f7ba525411a08e43bf1e0d52d251b5107c66f10f92bec7c454a1bb0a2"
+  },
+  {
+    "bytes": 3976,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "1751a2c3273482958a45d8a4a56ce739688aa2c52652d03593fe22ee4807630a"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 3539,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/plots/c0893253399bbeba/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/plots/c0893253399bbeba/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "5a37069de7fb090632fc991a0c5ec999fc17974a1f70cf3f3a89f1e568ff9cce"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/plots/c0893253399bbeba/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb/plots/c0893253399bbeba/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "514e92360e2b0cd785aad7331da592a78222682430a71d65864f6c71751a8298"
+  },
+  {
+    "bytes": 8672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "f6c59a8c0b14e1986e4b7c8fbe03bf1fa7519532afddb470321a5ea35d6204ce"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 8306,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/plots/898e9a893f2ed72c/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/plots/898e9a893f2ed72c/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "02b1f6e069c966ff8341ee68ec61e4d4cd9e3951d5e72162949d7c3724e6995c"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/plots/898e9a893f2ed72c/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/3bbe073779344dc6/plots/898e9a893f2ed72c/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "4e9b85ea8cf7c45790cbaae1b8c425920f9a4c46bae33bfc1d8cbe5784b80bae"
+  },
+  {
+    "bytes": 192706,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/65a85ce60b793404/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "52c1ab0c775f55600b4123da0293113b7c8b3b8e7a7756b7033af1ff9d48667c"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/65a85ce60b793404/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/65a85ce60b793404/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 192269,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404/plots/fa38d9f61f9b5627/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/65a85ce60b793404/plots/fa38d9f61f9b5627/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "ce0ac8a910c9dc67788bec6d6fcb1d744f0ace0a1834c59439cf29df5bee2701"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404/plots/fa38d9f61f9b5627/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/65a85ce60b793404/plots/fa38d9f61f9b5627/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b4b611de50974aff5161997a41e58a617081a05c01ada6bbc0d91759c745b61d"
+  },
+  {
+    "bytes": 16732,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/6c7925fbad422543/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "cf9ef9dc57e70b0468d3dc616d37504e5004bab71a3065cb4c3d3f3f66f0e465"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/6c7925fbad422543/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/6c7925fbad422543/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 16295,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543/plots/43528b30ec07f4c1/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/6c7925fbad422543/plots/43528b30ec07f4c1/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "480b2498199bfc64d1a602d70989f75b839ff6dca1edd1084a23c393894267b7"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543/plots/43528b30ec07f4c1/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/6c7925fbad422543/plots/43528b30ec07f4c1/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "4a2f2236ff13150d49132da857e7dacb64a4f4fa590a227aaee89858ecd8045c"
+  },
+  {
+    "bytes": 8069,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "a91a5844553761f5166c761f8a58868e64d864e449b5fbce1aa3292ba4418ce0"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 7632,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/plots/ccd288fc0ccf6642/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/plots/ccd288fc0ccf6642/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "12c8d0faa6ec257c0a48d2cc88b577b598630fcf904e6cefd1c4898ac8a4aafe"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/plots/ccd288fc0ccf6642/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4/plots/ccd288fc0ccf6642/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "72c04f436b1b6302bf32093e2fdf23a8e3024673d7c69ff0be3cd7848dc86e2a"
+  },
+  {
+    "bytes": 4294,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "ac76774517e52ee4ded9a8d74c3271cfe97c1acc853da17a704c4fe2d7c6d63f"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 3857,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/plots/bf5546ec23e4db3e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/plots/bf5546ec23e4db3e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "0e5b37063e38fc40b63e0d5387adb5f8d2dde19dd96cec870b62426eee224831"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/plots/bf5546ec23e4db3e/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75/plots/bf5546ec23e4db3e/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e466f878d316fe85dc1c13d9b922c79d896758cbef65e522961380ed971e3b4a"
+  },
+  {
+    "bytes": 9499,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "efe4b2c6fa3df570f3152f65c688b28cf0a9f98da6e4cec0f737356d4d58135e"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 9062,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/plots/e1d4df012bba6b93/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/plots/e1d4df012bba6b93/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "36a07491e032e863d7b46b2080ecec950681263e6f95b7598d80a08fd9e1afb8"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/plots/e1d4df012bba6b93/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/af9e72f29fba3935/plots/e1d4df012bba6b93/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b34c33fa3965ec082a2363f884f24f8c7af09f35e279fa5cbd9366654d946492"
+  },
+  {
+    "bytes": 9499,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "12b294eeec2b1eb0e46679028f964ac4a440228dfbc0a8525bef24505e4fe6d0"
+  },
+  {
+    "bytes": 2578,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/semantic_config.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/semantic_config.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "34aea606f66ef4f6c4bc48fff20e10cd731aaf0f83abf8eec98dbd4a7b41ce21"
+  },
+  {
+    "bytes": 2201,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/resolved_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/resolved_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "281f2bff7ebea1ef92313fa8277dde21745ccf5d7b36c7cb24b624b19ba432ff"
+  },
+  {
+    "bytes": 9062,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/plots/f197e1d851fb4b4e/manifest.json",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/plots/f197e1d851fb4b4e/manifest.json",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "00e31e84eed70f9cf9596d20f33b14451a5a8dc4b858880e6a151272d0fb84ec"
+  },
+  {
+    "bytes": 395,
+    "disposition": "snapshot",
+    "original_path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/plots/f197e1d851fb4b4e/resolved_plot_config.yaml",
+    "path": "import-path-migration-20260918/originals/artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef/plots/f197e1d851fb4b4e/resolved_plot_config.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "799e8bbfe01af4009db671bbfb6eeb2faa396dd3ece93877dbd168145bde5dfb"
+  },
+  {
+    "bytes": 335,
+    "disposition": "snapshot",
+    "original_path": "archive/conf/experiment/guard_lobeke2_baselines.yaml",
+    "path": "import-path-migration-20260918/originals/archive/conf/experiment/guard_lobeke2_baselines.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "0d77be282dd585ddcf7a80880ec769ee45d9903fe2720a94632ca468ef6853d2"
+  },
+  {
+    "bytes": 294,
+    "disposition": "snapshot",
+    "original_path": "archive/conf/experiment/guard_lobeke2_active.yaml",
+    "path": "import-path-migration-20260918/originals/archive/conf/experiment/guard_lobeke2_active.yaml",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "b0d5777c25a8ceae3c79b6e9ba43ec61db4bdafeccad9f9e92f95351da448a1a"
+  },
+  {
+    "bytes": 334,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/calibration.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/calibration.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "5c3f541a308faeb9baa1595b2249ae7f8d6412835c4bc0a99f05453d0d38b8e5"
+  },
+  {
+    "bytes": 148,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/plotting.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/plotting.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "16793a25a6ae1ed79679238cc86d7c398b81f6d2e672f79f17d39a777cd54c46"
+  },
+  {
+    "bytes": 196,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/protected_confirmation.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/protected_confirmation.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "e8bc3d4a7716237b54aa2af5bb83ba2e2b7b66ca27766dd7505999e9ba449f13"
+  },
+  {
+    "bytes": 172,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/protected_tuning.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/protected_tuning.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "c88affdaf813e7d7513aaebf39486ad76950da87197b3bcee022e1f8c2a02dbc"
+  },
+  {
+    "bytes": 843,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/__init__.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/__init__.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "588d896916e92955b9616ac196ac496056426bdab0bb13d68b01d87d5b2386ff"
+  },
+  {
+    "bytes": 164,
+    "disposition": "snapshot",
+    "original_path": "src/mairl_exp/studies/__init__.py",
+    "path": "import-path-migration-20260918/originals/src/mairl_exp/studies/__init__.py",
+    "reason": "Original metadata preserved before import-path migration.",
+    "sha256": "9c53e80af84b4f59d53a64bf90daf7abed72c0984dd67422af4ab772160a36b8"
+  },
+  {
+    "bytes": 1598,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/bba801680cba244c/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/bba801680cba244c/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "39a2c7be4be7bc0a138f76ece2332638b562966185d78d213248c770c79ce3a7"
+  },
+  {
+    "bytes": 453,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/bba801680cba244c/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/bba801680cba244c/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "253b4223048f4a14867051766634fb86c0ae29fb291b2c09b9f56453e1ec13d2"
+  },
+  {
+    "bytes": 1594,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6c55afda6f4259fc/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6c55afda6f4259fc/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "24bfb37eda01303b05c244bbf10f3faef697fc4fc8f665529a4d9a885696052b"
+  },
+  {
+    "bytes": 454,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6c55afda6f4259fc/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6c55afda6f4259fc/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "de1cdebe51ecad74a295477b15c4deec862996d0c78a6a51827fb94f12670607"
+  },
+  {
+    "bytes": 1598,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/5da552b79b253ff8/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/5da552b79b253ff8/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "6c3bbb5f14af3a5d2c769594f7fcd71ec7393d9a39f94b19cc720470286306be"
+  },
+  {
+    "bytes": 453,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/5da552b79b253ff8/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/5da552b79b253ff8/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "75bea0662c0be6032d5cf7614abdac33b3931067d75ffed510172bab96727ee8"
+  },
+  {
+    "bytes": 1598,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6582d0e64330e878/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6582d0e64330e878/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "7d9adfaf9780e5ae16fee7daa4d23e613e8a7380e123f0d3d92d5b65f27904bf"
+  },
+  {
+    "bytes": 454,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6582d0e64330e878/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/6582d0e64330e878/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "133779de1dd6e0428ec4615f3e7e7a592bca693578efbbdfff8eded607ed5181"
+  },
+  {
+    "bytes": 1599,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/3c92312e1a0756fd/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/3c92312e1a0756fd/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "9ab531ab4a94f93a3385511d18d3d359001541ce8b2390b304efd2ef2ade9a5f"
+  },
+  {
+    "bytes": 454,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/3c92312e1a0756fd/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/3c92312e1a0756fd/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "85e4086db8c674458c7959f401d872114174c78658bf5d77de690855552a9acf"
+  },
+  {
+    "bytes": 1594,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9d760b4cc96f3958/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9d760b4cc96f3958/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "be622210c55e6b4d8899a58586f36c4c9c5e6b8f6d3ef25a12e10dda92a8e7c2"
+  },
+  {
+    "bytes": 450,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9d760b4cc96f3958/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9d760b4cc96f3958/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "66ff86269a9e2b059e11488c5ed9ae83abb1c158a700c45065f1f8787092ab49"
+  },
+  {
+    "bytes": 1595,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/40fc1cf2cd511776/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/40fc1cf2cd511776/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "3a641bcada63e7f5186da286f73dc7d902b4c2f72d6dd15bbeb9180d7828b643"
+  },
+  {
+    "bytes": 451,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/40fc1cf2cd511776/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/40fc1cf2cd511776/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "9a457adce308edb8228acf9229c9774f57b33c4ec23de670fe453ab563490ec1"
+  },
+  {
+    "bytes": 1579,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/8266a8c32baf0713/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/8266a8c32baf0713/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "0ba09afc6393c6f466b6a9b933e214aa7d3ac7dc1cc59a608ca91a991d8fef1b"
+  },
+  {
+    "bytes": 451,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/8266a8c32baf0713/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/8266a8c32baf0713/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "719f86d83e0e1447e02a9525b8b050bec55bf08a28c71bb1010612841a5436c3"
+  },
+  {
+    "bytes": 1596,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/d08f48202ac3a19b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/d08f48202ac3a19b/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "26b47b7cf3e770a5e2a8a9bce4eb493207bf529d0edc68aa3298dea12e7c4527"
+  },
+  {
+    "bytes": 451,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/d08f48202ac3a19b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/d08f48202ac3a19b/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "b33bb857badede80f01dd1aee9a92b8e0f38521d8ed4ac155bc38a524989faba"
+  },
+  {
+    "bytes": 1596,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/c5a1add7f4b9d5d3/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/c5a1add7f4b9d5d3/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "0082bd2cde804b72f784e29f94020d888cead0d06fd7c7ad9239296d68b6c731"
+  },
+  {
+    "bytes": 451,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/c5a1add7f4b9d5d3/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/c5a1add7f4b9d5d3/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "ad62121317bad44f09acd8817d92c287fc774a3346fe27a52928cf8638145c2c"
+  },
+  {
+    "bytes": 1613,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/69373325c01ee6fb/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/69373325c01ee6fb/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "b32a2d8ff3c8d2643d929faa43831bc8a57f0c36854c2811ab7513d44ce5a1d9"
+  },
+  {
+    "bytes": 470,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/69373325c01ee6fb/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/69373325c01ee6fb/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "e8d07f8e2af70016c2ff7fc46e079f4489cf39e5af282205cb13278e6acb8093"
+  },
+  {
+    "bytes": 1611,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/372b70db898bd7d3/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/372b70db898bd7d3/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "90f6e5b700b09587abe01bb7ca9b092130fd3f36893be0466265b0f8b6e36908"
+  },
+  {
+    "bytes": 469,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/372b70db898bd7d3/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/372b70db898bd7d3/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "b48fd19cf204ff6395b4ce75727a2c158e8f8ce2aeefd1b79533b12ef21b6f08"
+  },
+  {
+    "bytes": 1610,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/a2158b5a77835d8e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/a2158b5a77835d8e/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "609e4c8a632a52256a73d44829f42f1f2bfead4fccf753834ec5bf9e58c6d2d5"
+  },
+  {
+    "bytes": 469,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/a2158b5a77835d8e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/a2158b5a77835d8e/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "5e7c4fe955344ce43b4542c9caf8bf8d9361cc323a1cd4b15f4a80e1eda11d93"
+  },
+  {
+    "bytes": 1611,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9603f9c41fb36bf5/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9603f9c41fb36bf5/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "cf4f64a0340fdcf079f2b76a2769c0d70cf57e6d3711090455d8012b8e140f16"
+  },
+  {
+    "bytes": 469,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9603f9c41fb36bf5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/9603f9c41fb36bf5/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "98541efdb7468773fe2f83c482ed7c76a8ec6cf35d354e789b2b39071bce6386"
+  },
+  {
+    "bytes": 1611,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/014bcd824f4f6acc/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/014bcd824f4f6acc/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "15902424beb43b039351b94bcecb3f0d65034f138ebc9713af51bc5cccbf7aed"
+  },
+  {
+    "bytes": 469,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/014bcd824f4f6acc/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/014bcd824f4f6acc/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "f4bb2a4c6b8b7e3336c82557b3f831216e04c3fb453c4241eadcb9c6093d88dd"
+  },
+  {
+    "bytes": 1614,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/ed9190b51ad645e5/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/ed9190b51ad645e5/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "90f8401e0555a45c5bd10a1c7b0a33e41749d0b1fd861eee1765ee256c6f9a42"
+  },
+  {
+    "bytes": 468,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/ed9190b51ad645e5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/ed9190b51ad645e5/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "7ff54ff99046d209b981a8787a19af5caa7769859fd67d3a2e3ca4968143431b"
+  },
+  {
+    "bytes": 1611,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/880fbb12c9f60b25/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/880fbb12c9f60b25/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "b0238940418886bef81d76b0cffa225867d14f5b82f2ab20a8239e01d94d361c"
+  },
+  {
+    "bytes": 468,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/880fbb12c9f60b25/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/880fbb12c9f60b25/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "6b909a1db0be53b9231e86b417e81a2240e631c04f3488d848a54fbe99ba0364"
+  },
+  {
+    "bytes": 1591,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/2f8e1b4beb733c98/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/2f8e1b4beb733c98/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "675810b0062bd1ffc5af8f846793cca0fa40550fb2e69417abfcc618ca1fe5fc"
+  },
+  {
+    "bytes": 465,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/2f8e1b4beb733c98/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/2f8e1b4beb733c98/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "4eff28dd39e9533d2990a25f7dbc2ec0e47275253f3901e627692bd658ad5c1b"
+  },
+  {
+    "bytes": 1609,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/fad25f1904a32429/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/fad25f1904a32429/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "47017d5775e15e9632e082a622e93b7c1fc88715f9fcba1a2f1cea091e544f64"
+  },
+  {
+    "bytes": 467,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/fad25f1904a32429/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/fad25f1904a32429/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "6a992253f8a5fcc69f6b49292eab475bd7e2c6cc14e1a5350a23a5c3dd9f59a7"
+  },
+  {
+    "bytes": 1612,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/86d7441815815168/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/86d7441815815168/summary.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "f9767680668c143be3ff6f4581ce90ec20136c56ba67258102e2b0325cd6d695"
+  },
+  {
+    "bytes": 468,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/ec905f964f816041/jobs/86d7441815815168/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/ec905f964f816041/jobs/86d7441815815168/status.json",
+    "reason": "Original metadata preserved before legacy calibration job-schema migration.",
+    "sha256": "2685b4206f841a592271576ac32056260f2e6425c069a041bef74b7354b37a07"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7fbc6b899a73a9cd/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7fbc6b899a73a9cd/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3b662b5280f9c823e3556e5bda6dccfea77de7fe106117f17924ab8c4781e94f"
+  },
+  {
+    "bytes": 487,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7fbc6b899a73a9cd/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7fbc6b899a73a9cd/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "eff1c0d5a09454da74ef343ab3643cb13c8a993c945b232a3396e60555433efe"
+  },
+  {
+    "bytes": 1669,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/223c779b49731feb/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/223c779b49731feb/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "5b84916a7f0caa4b32987e279178ed90ae40e51738fe2003ff6a1b1ae50251f1"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/223c779b49731feb/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/223c779b49731feb/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "654593603c4d839704cf8e80d7ee19ac8f94faf944d873cae09166c02ca72f08"
+  },
+  {
+    "bytes": 1670,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/b61789768e690d4d/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/b61789768e690d4d/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "b7eac0a883525730ce96d31f6edc433b005007c12e48ec875633610bb6a1ff01"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/b61789768e690d4d/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/b61789768e690d4d/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ad89d1c4503d9632f9c859042ce1a7bbfb80177172f955acaf321394e6d9c9e3"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/89f0ae4fbbfc85ca/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/89f0ae4fbbfc85ca/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8de23d0d8e23c79bda81bf71f1fe513c34ba1e592c60ba8fff6267400197a8b7"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/89f0ae4fbbfc85ca/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/89f0ae4fbbfc85ca/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8378969010f71f518b126795f54eb3ca1c319594dee183444caa7cbbab3d39d0"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0f2ab9a54a0977f0/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0f2ab9a54a0977f0/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "0c2dbfafb31c00ea55f6f1820ee731c35f557e44f78e375d3e421823b2a43b4e"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0f2ab9a54a0977f0/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0f2ab9a54a0977f0/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3f6d57808478f62c13f4ef39e88d2bb3482eda58207fcf2ade58867473b98f84"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/f7574801e2e6edc1/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/f7574801e2e6edc1/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "34ab0d9e43c1e1fa3b32b02f23130e3a853ea1c204abd04bef856e60c003de51"
+  },
+  {
+    "bytes": 491,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/f7574801e2e6edc1/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/f7574801e2e6edc1/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "389c23a574444e21606252fab2fb7ee5b14b0596f1c5eca4cf5a969832ad2682"
+  },
+  {
+    "bytes": 1689,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/d7d0cc805bfc755b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/d7d0cc805bfc755b/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "a896a09dcb12bea2f1710213b982fbec667e664d9c2313e0442446cf2d9d7c86"
+  },
+  {
+    "bytes": 491,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/d7d0cc805bfc755b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/d7d0cc805bfc755b/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "268b66b10caa46577ad9a18e3b29a4930729ae0caccaf68cdf558919a09829cf"
+  },
+  {
+    "bytes": 1689,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/44b19ca61113222e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/44b19ca61113222e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7f749111309736f04429175721ff037233262fb23d807b46296818e4a57166ca"
+  },
+  {
+    "bytes": 491,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/44b19ca61113222e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/44b19ca61113222e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "35c3d3c256b7d0f873f07d1903530d970a4222861105bf4b4e4e382e4c0f24f5"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/2765980f7f638015/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/2765980f7f638015/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "43438c56c4f56aaca240c92c374cd373864a043b7a582917244e4ed77c8b5d5f"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/2765980f7f638015/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/2765980f7f638015/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c66f6c152fc035a571b819a2db62feda2c21827e143958757409dfd36fca1c61"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/870a0f2652e77053/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/870a0f2652e77053/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "dc7d0b73d78d0191a24e5fcb8ab079670a810f7853ea8c987af60e964d8583e9"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/870a0f2652e77053/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/870a0f2652e77053/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "774d75ac858ee0e64f6cb3701c561a1c49b3bda315b8a0d7215868bb90c601e3"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/81a4019ab8fb3b83/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/81a4019ab8fb3b83/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "98c35d0408f9a24ac35d8b47801bc3788cab422695d4692ff7f8b506a22180f0"
+  },
+  {
+    "bytes": 485,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/81a4019ab8fb3b83/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/81a4019ab8fb3b83/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3c2aff2250e83b6f94058aff893e06cfdaa50c745d6b144a33c4d35986f70377"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/e51ee2954bbcd46c/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/e51ee2954bbcd46c/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "547d5fc1a13c3ea6a27394636e6e7a4bfb3ac40e8ea19d908f1b3d4e34343b2d"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/e51ee2954bbcd46c/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/e51ee2954bbcd46c/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "9116176070afb5d01253756909ec018c2d38c4cb69275ae056e7291c12ad5b0a"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/cd71dae87931d8d9/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/cd71dae87931d8d9/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4a080f0a96c0f34b34382025ce2fdc3c2d8178f26d9f2a0e7c37bf0f0489b3cd"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/cd71dae87931d8d9/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/cd71dae87931d8d9/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "13382ec24b2fcc8f4a19a5853a303c0252121d1dd5ba22bcd09d24a9a320cd87"
+  },
+  {
+    "bytes": 1669,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1f73654f1333e001/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1f73654f1333e001/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4676d327e90485ca0a593f22e792bb6cf539a458d53655c9da9710b513b63a0d"
+  },
+  {
+    "bytes": 483,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1f73654f1333e001/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1f73654f1333e001/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "122b3dd7f9452b07b16637b36eeeb3179ae91602012357d825ce931ef388bd54"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/dfcff82975e5bb4e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/dfcff82975e5bb4e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "5385e651713dd6ba5ac829b4125faaadb3e2e85588dd10562dd921d1e5b7f666"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/dfcff82975e5bb4e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/dfcff82975e5bb4e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "062d813177061788991a33f1ec6f388e9287f84fb28d5737f0be1841705b343a"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0fdd2c945201dd18/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0fdd2c945201dd18/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "6c56fdf1715075ba1baef540bd26b3374787a82109dca41883bf35457ecb9812"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0fdd2c945201dd18/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/0fdd2c945201dd18/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "9ec5730693ef9e7c5ff67de97ef2d9d52570d0446305e2d7c0ba09e3eafff3b0"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7b761d09923a4207/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7b761d09923a4207/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e39d9df3780580a6b11007df1dec0172487358ad324b59f8b34a94ec09a0b077"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7b761d09923a4207/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/7b761d09923a4207/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fb0f68803d3ebbfe632056961210ff7de4d2623bd99860235d2ac416151ced20"
+  },
+  {
+    "bytes": 1670,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/6460b2e3aee1dfef/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/6460b2e3aee1dfef/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ba3de1a562f092d30f7d3050555f3df8d31109d22e6d26fd3da4c5a5b2c6b0d4"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/6460b2e3aee1dfef/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/6460b2e3aee1dfef/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4fb76c29a759632dd24a952e34c8aa370ec5628539c57702d409e3c76321dc98"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1a597df4d1a802da/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1a597df4d1a802da/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4463c4f4665958853047d58e519d7a2f9e87160ee9eb0d99c8f349a683f7e3d3"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1a597df4d1a802da/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/1a597df4d1a802da/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fb09b3ff8353393533d028021b63c4bacc436e353fe1fcca490f27a8fe2bbf59"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/473d66a02817191f/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/473d66a02817191f/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c1db0d5e69142861dd384986d42dd29a8d259d5a1abce7e3b704ab0505909366"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/473d66a02817191f/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/473d66a02817191f/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "80cb4851cd1118a98bc318edb4149275096963428cd722113eec586c60dc5324"
+  },
+  {
+    "bytes": 2666,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/60fca0c97fd420d5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/88ff7158931b1e17/jobs/60fca0c97fd420d5/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fd50fc9549643e8b7ca839cdc933105c74a09b26eae2920c6067ce96608d01fe"
+  },
+  {
+    "bytes": 1625,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7fbc6b899a73a9cd/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7fbc6b899a73a9cd/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "a1037b7256f9ce1c17cf63db6025181d0b2d0332115e4475ed3838368f04084f"
+  },
+  {
+    "bytes": 487,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7fbc6b899a73a9cd/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7fbc6b899a73a9cd/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "6dfa63bf75c1bedbb5c187797fea76c098e8d4f1eeb6ab7752d24bbab2615e4c"
+  },
+  {
+    "bytes": 1622,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/223c779b49731feb/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/223c779b49731feb/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "49ae84ee05c301eabf5ad09cf212623013225dfd047671aaf4fa1ec6c1c64027"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/223c779b49731feb/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/223c779b49731feb/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "523f4129ea3a6523189c50b980be5833d94c55338e97b5c88cb6c8c7579d9150"
+  },
+  {
+    "bytes": 1623,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/b61789768e690d4d/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/b61789768e690d4d/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "a1a944d914d4fd5660c159f502d23bbfc2f3c2604bea71d31975fbc42fd4e96a"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/b61789768e690d4d/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/b61789768e690d4d/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "98d09bff41e6f54feb40731b4dad822cf9b93c43193abb0a3d8a8a376e6d883d"
+  },
+  {
+    "bytes": 1624,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/89f0ae4fbbfc85ca/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/89f0ae4fbbfc85ca/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "537a00ca2671deaea56f22a4e7cb5084273c86759e015581b373391e6b1aca72"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/89f0ae4fbbfc85ca/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/89f0ae4fbbfc85ca/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "0574e04c890b30fa98d15726625e34addceab6fef8c940c6991b82c038bf79e9"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0f2ab9a54a0977f0/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0f2ab9a54a0977f0/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "d7c05afcc1d48b36a26731e39f1c896395725a34c46a1342421f6e87430f222a"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0f2ab9a54a0977f0/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0f2ab9a54a0977f0/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fc441cd246d44f962bbc277ee906960f4caec0265ae6151ee3bb83f5de1ad57e"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/f7574801e2e6edc1/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/f7574801e2e6edc1/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "f53f2069da797370c5fcc7c022d81bd84c151fb75b246c01347e6d6d8be2872f"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/f7574801e2e6edc1/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/f7574801e2e6edc1/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e507e20e30b93018123d4d54d5ef2aa5c633e9acc147de8cba35a8b01a8483ae"
+  },
+  {
+    "bytes": 1643,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/d7d0cc805bfc755b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/d7d0cc805bfc755b/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ad64edeb1d7c3a89aa485a3db11322183976ef2b7f76c1651d4ef44d36cb68ed"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/d7d0cc805bfc755b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/d7d0cc805bfc755b/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8a8051a3e583e5fa92c6c94cbcfbad54045cb24125ca64a7eedefc247a390528"
+  },
+  {
+    "bytes": 1643,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/44b19ca61113222e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/44b19ca61113222e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7b3eebbe6fe9c1c01ddbd6b51fca59c3f3cb72de94b06b2fa9919ccbb5fada88"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/44b19ca61113222e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/44b19ca61113222e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ad1e1905450f9e0b8889f0eb5fbd1eae00351692db385de30fbe9979c2473ac0"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/2765980f7f638015/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/2765980f7f638015/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "d08d06f65f95af9bcc028cabe9c9f80e3c871275011b171c082c277db509b23d"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/2765980f7f638015/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/2765980f7f638015/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fca78b0023c4040687e34bdc3b22f0780b75464c771fe7b052a5e32217d2ebaf"
+  },
+  {
+    "bytes": 1625,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/870a0f2652e77053/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/870a0f2652e77053/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c393a0c06c463fec38d197ebc4d9e4c0fbeecaac8857af7bbfd9ec9ad5a0290b"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/870a0f2652e77053/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/870a0f2652e77053/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "9d35ab3b66e9190d9eb9a47b14c96c13de7a70f18d77a97c94fca42e704e2d0c"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/81a4019ab8fb3b83/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/81a4019ab8fb3b83/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "46f958d5583eeddeecab2662dace2d591eadda30209b3094ab0b4a966bc9d49d"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/81a4019ab8fb3b83/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/81a4019ab8fb3b83/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "305a8e779668f7f8c2b446f16bebece4fc051e627e8959bbf9c2b11bdde876d3"
+  },
+  {
+    "bytes": 1624,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/e51ee2954bbcd46c/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/e51ee2954bbcd46c/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c14646a1190b5a0af79ac13f05c3fd73f8c618f9d4d174a7a939c7f4c45ee0ef"
+  },
+  {
+    "bytes": 485,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/e51ee2954bbcd46c/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/e51ee2954bbcd46c/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "2dd1fd235ba216afcb9f13d49b13efbe34c270020ca17561f0a2a07044969018"
+  },
+  {
+    "bytes": 1625,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/cd71dae87931d8d9/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/cd71dae87931d8d9/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "22272e4aacf17bfb25bf651891f531a46f7341f48263b6f3ab3b4010d1670e33"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/cd71dae87931d8d9/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/cd71dae87931d8d9/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "b8a8d2a01874c0718796b312ed8b969799d7a5fe0ebdab68d588c6c960239209"
+  },
+  {
+    "bytes": 1625,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1f73654f1333e001/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1f73654f1333e001/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "cc5b2c7936926d5f97ed46d74741d2dfcf26c6c67cd0c2cfdb1fe2e5734beddf"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1f73654f1333e001/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1f73654f1333e001/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "73c5921a0bf71b38be7a1d2e311130188e882e8d5f42a3cba10d6b315add5f4d"
+  },
+  {
+    "bytes": 1624,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/dfcff82975e5bb4e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/dfcff82975e5bb4e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8ff9095a547d818cdfc74c42389efa7a10df49be8ce78c0edbb30a55de2b635e"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/dfcff82975e5bb4e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/dfcff82975e5bb4e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "aac5e967dd0ae447e92b38492385be89a50548797b0c9192ec74fb91ed11e2f5"
+  },
+  {
+    "bytes": 1624,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0fdd2c945201dd18/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0fdd2c945201dd18/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "2aff1483fea45a11f3035a89e2e78fff6b869fbd7eb98891d08f070ff8ce057c"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0fdd2c945201dd18/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/0fdd2c945201dd18/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "225bee6d8e14d810ed2b1f3e023e1e515a9b7772fd456227212f35ff7801766e"
+  },
+  {
+    "bytes": 1623,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7b761d09923a4207/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7b761d09923a4207/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c0f1bde556a9cf4e21ce910b45874a5dbe8b44aebc985112e0361b5201f67c3c"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7b761d09923a4207/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/7b761d09923a4207/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ff031bef7bfb23879a809ce69a923006b0cc186f4f99d0f1b6985a8ee1d2aa1c"
+  },
+  {
+    "bytes": 1622,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/6460b2e3aee1dfef/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/6460b2e3aee1dfef/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ca9988cb83839834980451130e3e84ddcbf57d4103c6d70ed3286d6398a0fb43"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/6460b2e3aee1dfef/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/6460b2e3aee1dfef/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "74f7e854b07b9b73f56dd395715c7290f08d968fd37e6eb9042f9b980fb5be9f"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1a597df4d1a802da/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1a597df4d1a802da/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "07ac58bc4032a13d8cf181684f596dc2ea661a101a0282c6527f91fb2d28424d"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1a597df4d1a802da/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/1a597df4d1a802da/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7a5354dcf64510be7339f27bbcd3fd7eb4b995f09e6bbeec5bedac58d3efad06"
+  },
+  {
+    "bytes": 1626,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/473d66a02817191f/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/473d66a02817191f/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "20a38b1be8d64b237df92c7f0d030f1e8455ed5a25e816fcd830179c496627ec"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/473d66a02817191f/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/473d66a02817191f/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7bc01f4bed454309ca0bb32938c7be2d012f2650a01731ab2689f41f40315687"
+  },
+  {
+    "bytes": 2666,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/60fca0c97fd420d5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/a5429f333536c6fd/jobs/60fca0c97fd420d5/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "55c3073676d01ab31a25dcc7a5662b529a5f6510a9e65ec4987ae23e1596e07a"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7fbc6b899a73a9cd/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7fbc6b899a73a9cd/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "a71078a6bd3bb74980951977f057bea89befe146c92b245c60dbe0986e562332"
+  },
+  {
+    "bytes": 487,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7fbc6b899a73a9cd/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7fbc6b899a73a9cd/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "d5dae089097ed72fba5825eff0a7c5221d6d6d30e6e56e8826f79e25d10fb5b6"
+  },
+  {
+    "bytes": 1668,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/223c779b49731feb/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/223c779b49731feb/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "48b47329f450bf752bd6abc24f591ce59dc4d113cb2e702abff2abab8352826e"
+  },
+  {
+    "bytes": 487,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/223c779b49731feb/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/223c779b49731feb/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "2545f83b90a4add8526a5aaa23603a76253c38b67f16d8b2b818ec55cd978be8"
+  },
+  {
+    "bytes": 1670,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/b61789768e690d4d/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/b61789768e690d4d/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "f60c89ada7b9dd2fdeca8fdd2d81cbcb6caa05e7309b68748433bad2693c59ce"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/b61789768e690d4d/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/b61789768e690d4d/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "39822db05512f57eecd268025425b0ec36eef42428f24368695309c073eaa076"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/89f0ae4fbbfc85ca/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/89f0ae4fbbfc85ca/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "b3304a7f0f2da7eafa76cff8114fa4bf98df706f6f82a1c01c1913cda0b85029"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/89f0ae4fbbfc85ca/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/89f0ae4fbbfc85ca/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "6b71e40198bbfb81c84c9e33f6139572cd6533c8c99a88c874849829a7c3a858"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0f2ab9a54a0977f0/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0f2ab9a54a0977f0/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c4285d56dac2f99f984a607a76fd4c19be7727bac21167aaf1bfb6c4941c586c"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0f2ab9a54a0977f0/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0f2ab9a54a0977f0/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "f4f9a7a37856fd1c4e22e94b23666e815bf38db9e877353ed501a25dae429bcd"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/f7574801e2e6edc1/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/f7574801e2e6edc1/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "09ef3ed6c309104ba7a19f245721d562b31d3ac71dc05e50dbd89ea3bb9ec812"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/f7574801e2e6edc1/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/f7574801e2e6edc1/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "08c43a955bd5e586129a2cc1a1014284d441a6f8ee58a4fa6e54953ba1f029eb"
+  },
+  {
+    "bytes": 1688,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d7d0cc805bfc755b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d7d0cc805bfc755b/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3daf25c40d317afd692240fa192c3953e0a31806dc20efa79fecd047c858c4fb"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d7d0cc805bfc755b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d7d0cc805bfc755b/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e4978d7063b3a8c61b44a0b73ad4b84d8d1976bb2529409bb0de126ba84b7129"
+  },
+  {
+    "bytes": 1690,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/44b19ca61113222e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/44b19ca61113222e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "5f8330cc55e7b0d85a8358f37aa624eb98139e5939c755cc75fe321d75632363"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/44b19ca61113222e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/44b19ca61113222e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "95944f77ff615287ca6837f8332d5167c9524204dcd9de5bd6c0dfb3841779e7"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/2765980f7f638015/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/2765980f7f638015/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "f5413d555db8f814463960d0f7fd8dd5deecccfc91965d41355d6615f23a39e3"
+  },
+  {
+    "bytes": 492,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/2765980f7f638015/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/2765980f7f638015/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "67b38aafa48be4c73bb8c114721ffb54fb2061b42b2007019ccac4dc8a9d36dc"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/870a0f2652e77053/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/870a0f2652e77053/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c518708f1ca0bfb77b0202daf71fbd3652ed5371ecbde3a5a095e852b3920982"
+  },
+  {
+    "bytes": 491,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/870a0f2652e77053/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/870a0f2652e77053/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8bb83260c7327ff71d2230fc7504286cabc8381dedacacce1e3a68079fb0c02c"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/81a4019ab8fb3b83/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/81a4019ab8fb3b83/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4e20c280f3267d610e57b24e4c55932f6fc56e7d3bfced091f19669ccb50d699"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/81a4019ab8fb3b83/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/81a4019ab8fb3b83/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "78f7e1754b358ef3a99130017ab6c47e556fa4811c31a10da56fef371fd01c25"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/e51ee2954bbcd46c/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/e51ee2954bbcd46c/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4b2b8d6a69c6c0ccc400491441d34ecace176cd39ac85f3a25ea31721804c903"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/e51ee2954bbcd46c/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/e51ee2954bbcd46c/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "58bf70fe5ae19e3dff474d55b6b71f8466e1072e1cfa7a73130bfd77a5641345"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/cd71dae87931d8d9/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/cd71dae87931d8d9/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "959e3f09abc9e1c4c6fbd76ca8be7d9c1dc19ad7f5803f001ad8ae0f8d792bb2"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/cd71dae87931d8d9/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/cd71dae87931d8d9/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "07fe23c93d20951acb402de60d5d9df9b3108edcd14db72dcce5767e726bdde1"
+  },
+  {
+    "bytes": 1672,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1f73654f1333e001/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1f73654f1333e001/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "bbb2c868fd01e68c95c58930e334c8b21f352c072d1480d4069947102c90ff39"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1f73654f1333e001/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1f73654f1333e001/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e690c7d33c20bdb1e5d8e60a0ab0432d01b3dd20f6cf1cf9cdc966f5f2e905be"
+  },
+  {
+    "bytes": 1671,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/dfcff82975e5bb4e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/dfcff82975e5bb4e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "1522a15f5c4359b6033fb8f0f07d430541a3f492bdb544c0bfc3d7953f75c195"
+  },
+  {
+    "bytes": 486,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/dfcff82975e5bb4e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/dfcff82975e5bb4e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "70b03d3016f1c45e0fec97559770ad1723765ccfdc052f7acf3cada90bc0cee0"
+  },
+  {
+    "bytes": 1670,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0fdd2c945201dd18/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0fdd2c945201dd18/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ee949fccd3981a661c1edf6f193d81c70eda9146318dcb04b9f33b132adb257b"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0fdd2c945201dd18/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/0fdd2c945201dd18/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "5a4b8c8207f3717f6a264a3c1ad38dc947253472d5475034cbbfcb7031cb4f92"
+  },
+  {
+    "bytes": 1670,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7b761d09923a4207/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7b761d09923a4207/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "f18639f49b8ffb7acb03c0e444f0d8b4cbd78b1fa7289bab1085e8c3b0075fbe"
+  },
+  {
+    "bytes": 489,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7b761d09923a4207/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/7b761d09923a4207/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "4e1f935306e9bc9675ccd919bcafa34876fa21dcf8296ab1bf6fa7b4ad778d5c"
+  },
+  {
+    "bytes": 1668,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/6460b2e3aee1dfef/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/6460b2e3aee1dfef/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "96da05114887148c9cf8ac943c88fad11de4fe2a5f7eed33db58714840ddc958"
+  },
+  {
+    "bytes": 488,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/6460b2e3aee1dfef/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/6460b2e3aee1dfef/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "2cf016a1b71c87a9e2d14194f9c6b4af3f4e43386266993578bbd96893a48d17"
+  },
+  {
+    "bytes": 1674,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1a597df4d1a802da/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1a597df4d1a802da/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "0e0d00e250660bff97af19818ea36f1fe8d77a95775f8689f0c1860a8879d493"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1a597df4d1a802da/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1a597df4d1a802da/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3584e02ad3977f0ec0aa2d56e63fc56ad65a3b4b2379a3f61011f0a008f6fb6c"
+  },
+  {
+    "bytes": 1673,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/473d66a02817191f/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/473d66a02817191f/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "25b7935fe3fbfa20d4751491d75fdfca441d8c1fb85d91d020fd3f33361e3a3f"
+  },
+  {
+    "bytes": 490,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/473d66a02817191f/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/473d66a02817191f/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7ef4cb0616ca43e644ca3016bf054d5feb25ac78bda9fdfe8a8dff961f229180"
+  },
+  {
+    "bytes": 1699,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/60fca0c97fd420d5/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/60fca0c97fd420d5/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "7488ff8660a49cd3bbd464d0425dab6bfa03ffd4faa6e025d745d4756c40e868"
+  },
+  {
+    "bytes": 504,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/60fca0c97fd420d5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/60fca0c97fd420d5/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "a4ae60f7a2d0f340aea0d5ba65a62e87ccff5dfd2620d1ac6fcccc941989fd02"
+  },
+  {
+    "bytes": 1685,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a523e5957978abc8/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a523e5957978abc8/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "58805441e39a9f10445b373f5058a6b7b464d00caedcc9ef15c9e21523010269"
+  },
+  {
+    "bytes": 504,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a523e5957978abc8/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a523e5957978abc8/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "ceb3162ba2260705f1fce61261f0a2d5a1450fa8a09556844e4d4b6789b7871b"
+  },
+  {
+    "bytes": 1686,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ff9d27648a2b2c5/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ff9d27648a2b2c5/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "37c60d46074116700222441d55010da3e5f97cee2dcbca29c125480608b4a6ca"
+  },
+  {
+    "bytes": 504,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ff9d27648a2b2c5/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ff9d27648a2b2c5/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "41ae70ed37ca0a05ef035ca85406e1526ab903985740a33aaf155a50bca5e570"
+  },
+  {
+    "bytes": 1699,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/fdb0c6ff5918e178/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/fdb0c6ff5918e178/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e2401fd537d12bf4cfac4758a8f64f3798f8d48a27823f03a6d695b798392c45"
+  },
+  {
+    "bytes": 504,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/fdb0c6ff5918e178/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/fdb0c6ff5918e178/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "dff1fcd053c620de9e5e050b8315d4c6ff19c02658c5354e581e632a43e3ff33"
+  },
+  {
+    "bytes": 1688,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/4abfa1d20c91f7a0/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/4abfa1d20c91f7a0/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "8fe59a517e902b7713004b4c1d637fb00c5ffa3a51f99bdb454cb4e9919becde"
+  },
+  {
+    "bytes": 503,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/4abfa1d20c91f7a0/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/4abfa1d20c91f7a0/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c85bfe77dd92ca623ee6a20e21ff11d1c37c1ee60e8d4aee8e52e28546077ad8"
+  },
+  {
+    "bytes": 1700,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/c2c8d4e79999f795/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/c2c8d4e79999f795/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3f2535997d10c24a76cd476cd7be76a91977048dec258656096df919e357e17f"
+  },
+  {
+    "bytes": 508,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/c2c8d4e79999f795/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/c2c8d4e79999f795/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "27430274cc32b3c39755abefe21f5cc8851f1a46124d538907b723651d3bf7e8"
+  },
+  {
+    "bytes": 1687,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/733074775544a24a/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/733074775544a24a/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "29f0af72ee5b516836e40b91912a2f746692c994c51a2ee221ca5e6a541f52cf"
+  },
+  {
+    "bytes": 507,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/733074775544a24a/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/733074775544a24a/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "00b13feca135401dd6ff09a92edb9974b02ff0efbb076abb3137f86501cf4412"
+  },
+  {
+    "bytes": 1700,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/17c89cc40611786b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/17c89cc40611786b/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "66040859fad5131f6b4e31e1aac15628079db12378d7236dc02b69b03778ea80"
+  },
+  {
+    "bytes": 508,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/17c89cc40611786b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/17c89cc40611786b/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fc9a088242cdfd602f0515df08661ee425b5573627a22e5c94fb6050e2b91a5e"
+  },
+  {
+    "bytes": 1683,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d1ccf7b4d5373767/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d1ccf7b4d5373767/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "227d4cdcab4b19888a09b295ddeec3752f622153c08715d055c3527c2c5ca025"
+  },
+  {
+    "bytes": 507,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d1ccf7b4d5373767/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/d1ccf7b4d5373767/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3c333713e4d87052e409c42cc23a6401372c8d3ef7ae0514a540c41b49acd2f8"
+  },
+  {
+    "bytes": 1700,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/68bfa78816c40a46/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/68bfa78816c40a46/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e6845444a2f3c74ddf810a3cd648800f62c2adb2d0f8027eb1e11af55209c892"
+  },
+  {
+    "bytes": 508,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/68bfa78816c40a46/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/68bfa78816c40a46/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "759afbe5df4115dc4f8e58d2d25ef800638a90516bdf43e13914eb020c3e278a"
+  },
+  {
+    "bytes": 1698,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5faf7d3323e1b8ee/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5faf7d3323e1b8ee/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "0c21b9a52d6515b0dda4c2b5b8f8cc5244239547f27c7ca20054ff19c9295e9e"
+  },
+  {
+    "bytes": 502,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5faf7d3323e1b8ee/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5faf7d3323e1b8ee/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e6aaa21f59d07f16feede559e7958d0fa013c07daea14cd0efd926552553b43f"
+  },
+  {
+    "bytes": 1687,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/be38bfae18535c6a/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/be38bfae18535c6a/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c853559516b0ac14d1d2362b5d3325cc89fea2a9d75e3dec8b2085ed370fd674"
+  },
+  {
+    "bytes": 502,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/be38bfae18535c6a/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/be38bfae18535c6a/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "314135eb883d39aff887084434987d0544186deb37f65299856635aa6e8b3546"
+  },
+  {
+    "bytes": 1683,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/077b1b2c3b6ac2e2/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/077b1b2c3b6ac2e2/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "3ac654c751ae57bb37570c2d19ea78d0e396a6b6bf52e355f5133442012cdc13"
+  },
+  {
+    "bytes": 500,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/077b1b2c3b6ac2e2/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/077b1b2c3b6ac2e2/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "5c3076dae78b44b2b008746912cbb7c00749e6997e35dfea47a89e33103dd164"
+  },
+  {
+    "bytes": 1698,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a7f1a37f4d9da86e/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a7f1a37f4d9da86e/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "02d54f5d2664e8f60a71f0b51c0fbd51a605965d18181451a04f2ed497d4ddad"
+  },
+  {
+    "bytes": 502,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a7f1a37f4d9da86e/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/a7f1a37f4d9da86e/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "e9c7360138f33e7ce106982b115be5dae98a925c889fcb3256ed98087f822bd5"
+  },
+  {
+    "bytes": 1698,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1aab67ad2c225076/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1aab67ad2c225076/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "59539d826a6d1d4190caebb4197cecd81913bc6dbe22d6318cd9d79794cbd8bf"
+  },
+  {
+    "bytes": 502,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1aab67ad2c225076/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/1aab67ad2c225076/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "0810a573d567b0b53beb9d7101f6ffaa8885105a7505644b66c268111fa5cd29"
+  },
+  {
+    "bytes": 1699,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/630d222a2d5a7d92/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/630d222a2d5a7d92/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "bf95a82785f91065731b5164ea99fd39e42119fb7e7e08dda23eadf63dec7ef2"
+  },
+  {
+    "bytes": 506,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/630d222a2d5a7d92/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/630d222a2d5a7d92/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "155498423e1bf10bc4eb733dc692456c61f79bea46dea0257ad55cec02c2e2a9"
+  },
+  {
+    "bytes": 1686,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/24208f5e9bb42430/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/24208f5e9bb42430/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "c40f152494eead38f8f3f6592c71202e73f0d9397b03aa3a125da86a5d9c68ff"
+  },
+  {
+    "bytes": 506,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/24208f5e9bb42430/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/24208f5e9bb42430/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "df1cda3dacaa0feb4659d9255f822f2fba6ba3352dc6746de91d532af3dfa3da"
+  },
+  {
+    "bytes": 1698,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/671f0bec13ba789b/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/671f0bec13ba789b/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "9ce8406a667037cd0691fd12d2126191e4607b8ea38c4fdd20002312c503c05a"
+  },
+  {
+    "bytes": 505,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/671f0bec13ba789b/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/671f0bec13ba789b/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "eb1914a37292f9dd1acecbc5afa4d685f245e32b05b8f10afcba712edae41ced"
+  },
+  {
+    "bytes": 1699,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ea02aa8a45b1dc1/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ea02aa8a45b1dc1/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "fcbe6aaf09ceca5e45a46d0385ce8e6f94a3ab63ddd7654584700c162cf55dce"
+  },
+  {
+    "bytes": 506,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ea02aa8a45b1dc1/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/5ea02aa8a45b1dc1/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "9bcb57746acfdcf25ad6b8268ce701288b86102074b19b9379ca0a4df65390c4"
+  },
+  {
+    "bytes": 1684,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/919cdcf2494eec51/summary.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/919cdcf2494eec51/summary.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "17d22c39f2eaf3d6b514f1896fc2fc3b9d907a2ddcc7bc336179386420c690a8"
+  },
+  {
+    "bytes": 505,
+    "disposition": "snapshot",
+    "original_path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/919cdcf2494eec51/status.json",
+    "path": "import-path-migration-20260918/originals/artifacts/runs/numerical-calibration/e86b008cbd23ee4e/jobs/919cdcf2494eec51/status.json",
+    "reason": "Original active-only calibration metadata before job-schema migration.",
+    "sha256": "69f38cac77d8aaf7c669031ba095da74993f66c06876580cac5de22bd166b2d6"
+  }
+]

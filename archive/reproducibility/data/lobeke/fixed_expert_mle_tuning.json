@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "criterion": "final source-task stackelberg_suboptimality",
+  "decision": {
+    "reference_ridge": 0.0001,
+    "selected_ridge": 0.1,
+    "selection_rule": "minimum mean; retain candidates within one selected-candidate standard error; choose the smallest ridge",
+    "selected_is_grid_boundary": false,
+    "downstream_tasks_used": false
+  },
+  "seed_policy": {
+    "selection": "10000..10063",
+    "confirmation": "20000..20063",
+    "final_evaluation": "30000..30049"
+  },
+  "selection": [
+    {"ridge": 0.0001, "run_id": "2981776c5883bfcf", "mean_subopt": 0.02595308049400949, "subopt_standard_error": 0.0025839895949183135},
+    {"ridge": 0.001, "run_id": "5590da741357c347", "mean_subopt": 0.02577418684607239, "subopt_standard_error": 0.002574441765761517},
+    {"ridge": 0.01, "run_id": "d4bf65b8838127f5", "mean_subopt": 0.020741186112515266, "subopt_standard_error": 0.0025367426616579505},
+    {"ridge": 0.03, "run_id": "4dedad358c9ffa78", "mean_subopt": 0.009251640845722785, "subopt_standard_error": 0.0018901124667742707},
+    {"ridge": 0.05, "run_id": "6d1f3aa9a34cfae1", "mean_subopt": 0.004255434762982491, "subopt_standard_error": 0.0010194438689845936},
+    {"ridge": 0.1, "run_id": "c0bc9d65a2605738", "mean_subopt": 0.003154026853322266, "subopt_standard_error": 0.00010226019238938719},
+    {"ridge": 0.2, "run_id": "34b6073e3b07863d", "mean_subopt": 0.003433311873773215, "subopt_standard_error": 0.0},
+    {"ridge": 0.3, "run_id": "79a961c1f9045bd8", "mean_subopt": 0.003433311873773215, "subopt_standard_error": 0.0},
+    {"ridge": 1.0, "run_id": "f3f8e909b4f14f64", "mean_subopt": 0.0034333118737732114, "subopt_standard_error": 1.6929167667512991e-18},
+    {"ridge": 10.0, "run_id": "fa854c709a1d87ac", "mean_subopt": 0.003433311873773214, "subopt_standard_error": 8.673617379884035e-19},
+    {"ridge": 100.0, "run_id": "50405b274fde190a", "mean_subopt": 0.003433311873773214, "subopt_standard_error": 8.673617379884035e-19}
+  ],
+  "confirmation": {
+    "selected": {
+      "ridge": 0.1,
+      "run_id": "e2a4b37e0f6cc56b",
+      "semantic_config_sha256": "1a20c5ed8d7cbd82c4d16842d842570ce556f244765e8f68cb7768d86fae91fa"
+    },
+    "reference": {
+      "ridge": 0.0001,
+      "run_id": "c2055ebd7ee6e485",
+      "semantic_config_sha256": "2c52a0b6f3c3b5488f5b7449195b434993eb0dde7e7453dd4f0bb972867fb4ba"
+    },
+    "seeds": 64,
+    "metrics": {
+      "stackelberg_suboptimality": {"selected_mean": 0.002952022337218913, "reference_mean": 0.026626791515160356, "paired_difference_mean": -0.02367476917794144, "paired_difference_standard_error": 0.0025821746573539014, "paired_difference_ci_95": [-0.028834833483601344, -0.01851470487228154], "selected_better_count": 61},
+      "fisher_transfer_error": {"selected_mean": 0.29825050038922735, "reference_mean": 0.8728581642852411, "paired_difference_mean": -0.5746076638960138, "paired_difference_standard_error": 0.06307059595998822, "paired_difference_ci_95": [-0.7006441928438032, -0.4485711349482245], "selected_better_count": 53},
+      "coefficient_l2_error": {"selected_mean": 0.7388456124075644, "reference_mean": 1.847407828466176, "paired_difference_mean": -1.1085622160586115, "paired_difference_standard_error": 0.051565806070202336, "paired_difference_ci_95": [-1.211608256936459, -1.005516175180764], "selected_better_count": 64}
+    }
+  },
+  "git_commit": "b8ad7f4a0028d745ef3343f79f14e13a965b2398"
+}

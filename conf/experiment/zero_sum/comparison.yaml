@@ -1,0 +1,37 @@
+# @package experiment
+
+_target_: experiments.zero_sum_comparison.study.ZeroSumEstimatorComparisonStudy
+
+name: zero-sum-estimator-comparison
+seed_start: 60000
+seed_count: 100
+total_samples: 200
+
+# Joint selection/refinement froze (K0=160, lambda/eta^2=8), but protected run
+# b64dbc092dba08fd rejected it on the source-policy guardrail. The predeclared
+# reference is therefore the validated final configuration.
+warmup_budget: 0
+
+evaluation_interval: 20
+lambda_information_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+methods:
+  - active
+  - follower_ols
+  - zero_sum_ols
+
+ols:
+  _target_: mairl.inference.fixed_leader_ols.FixedLeaderOLSConfig
+  pseudocount: 0.5
+  smoothing_warning_ratio: 0.1
+  identifiability: require_unique
+  constraint: ball
+  follower_reference_action: 0
+  leader_reference_action: 0
+  rank_relative_tolerance: 1.0e-10
+  rank_absolute_tolerance: 1.0e-12
+  ball_tolerance: 1.0e-10
+  ball_root_tolerance: 1.0e-12
+  ball_max_iterations: 200

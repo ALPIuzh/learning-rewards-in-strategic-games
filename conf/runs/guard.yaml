@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: guard
+  - /experiment: baseline_comparison
+  - /numerics: guard
+  - _self_

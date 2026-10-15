@@ -1,0 +1,413 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/toy/run.py",
+    "experiment.name=smoke-toy",
+    "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs",
+    "run.require_clean_git=false",
+    "experiment.total_samples=32",
+    "experiment.warmup_budget=24",
+    "experiment.seed_count=2",
+    "experiment.evaluation_interval=4"
+  ],
+  "created_at": "2026-09-18T16:08:20.276919+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "69ab54e97903c915580d9fcceeffa4b1d02e4f81",
+    "dirty": true,
+    "fingerprint": "8a091bcec7de5e4c81027ab6914061ed4db8a537174cfc083c528c5e0cdce301",
+    "status": [
+      " M README.md",
+      " M archive/README.md",
+      " M archive/manifest.json",
+      " D conf/experiment/toy_temperature_final.yaml",
+      " D conf/experiment/toy_warmup_final.yaml",
+      " D conf/experiment/toy_warmup_sweep.yaml",
+      " D conf/plot/toy_warmup_sweep.yaml",
+      " D conf/toy_temperature_final_config.yaml",
+      " D conf/toy_warmup_final_config.yaml",
+      " D conf/toy_warmup_sweep_config.yaml",
+      " M docs/experiments.md",
+      " M experiments/README.md",
+      " D experiments/guard/paper/figures/export_warmup_factorial.py",
+      " M experiments/toy/README.md",
+      " D experiments/toy/export_temperature_final.py",
+      " D experiments/toy/export_warmup_final.py",
+      " D experiments/toy/export_warmup_threshold_plots.py",
+      " D experiments/toy/final_export.py",
+      " D experiments/toy/run_temperature_final.py",
+      " D experiments/toy/run_warmup_final.py",
+      " D experiments/toy/run_warmup_sweep.py",
+      " D experiments/toy/temperature_sweep.py",
+      " M reproducibility/FIGURES.md",
+      " M reproducibility/README.md",
+      " D reproducibility/data/lobeke/warmup_factorial_native_v2/data.npz",
+      " D reproducibility/data/lobeke/warmup_factorial_native_v2/provenance.json",
+      " D reproducibility/data/lobeke/warmup_factorial_unit_reward/data.npz",
+      " D reproducibility/data/lobeke/warmup_factorial_unit_reward/provenance.json",
+      " D reproducibility/data/structured_toy/final_temperature.json",
+      " D reproducibility/data/structured_toy/final_temperature.npz",
+      " D reproducibility/data/structured_toy/final_warmup.json",
+      " D reproducibility/data/structured_toy/final_warmup.npz",
+      " D reproducibility/data/structured_toy/sensitivity.json",
+      " M reproducibility/figures.toml",
+      " M reproducibility/figures/manifest.py",
+      " D reproducibility/figures/recipes/lobeke_warmup_factorial.py",
+      " D reproducibility/figures/recipes/structured_sensitivity.py",
+      " D reproducibility/figures/recipes/structured_temperature.py",
+      " D reproducibility/figures/recipes/structured_warmup.py",
+      " M reproducibility/figures/render.py",
+      " D reproducibility/tex/generated/appendix/i1_warmup_factorial.tex",
+      " D reproducibility/tex/generated/appendix/i2_structured_sensitivity.tex",
+      " M reproducibility/tex/generated/build_manifest.json",
+      " M reproducibility/tex/sections/appendix.tex",
+      " M reproducibility/tex/sections/main.tex",
+      " M scripts/smoke_experiments.py",
+      " D src/mairl_exp/warmup_sweep.py",
+      " D src/mairl_exp/warmup_sweep_plot.py",
+      " M tests/README.md",
+      " M tests/experiments/test_batching.py",
+      " M tests/experiments/test_plotting.py",
+      " D tests/experiments/test_toy_temperature_sweep.py",
+      " M tests/reproducibility/test_lobeke_data.py",
+      " M tests/reproducibility/test_rendering.py",
+      " M tests/reproducibility/test_synthetic_data.py",
+      " D tests/reproducibility/test_toy_final_export.py",
+      "?? archive/conf/experiment/toy_temperature_final.yaml",
+      "?? archive/conf/experiment/toy_warmup_final.yaml",
+      "?? archive/conf/experiment/toy_warmup_sweep.yaml",
+      "?? archive/conf/plot/toy_warmup_sweep.yaml",
+      "?? archive/conf/toy_temperature_final_config.yaml",
+      "?? archive/conf/toy_warmup_final_config.yaml",
+      "?? archive/conf/toy_warmup_sweep_config.yaml",
+      "?? archive/experiments/guard/paper/figures/export_warmup_factorial.py",
+      "?? archive/experiments/toy/export_temperature_final.py",
+      "?? archive/experiments/toy/export_warmup_final.py",
+      "?? archive/experiments/toy/export_warmup_threshold_plots.py",
+      "?? archive/experiments/toy/final_export.py",
+      "?? archive/experiments/toy/run_temperature_final.py",
+      "?? archive/experiments/toy/run_warmup_final.py",
+      "?? archive/experiments/toy/run_warmup_sweep.py",
+      "?? archive/experiments/toy/temperature_sweep.py",
+      "?? archive/reproducibility/FIGURES.md",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_native_v2/data.npz",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_native_v2/provenance.json",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_unit_reward/data.npz",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_unit_reward/provenance.json",
+      "?? archive/reproducibility/data/structured_toy/final_temperature.json",
+      "?? archive/reproducibility/data/structured_toy/final_temperature.npz",
+      "?? archive/reproducibility/data/structured_toy/final_warmup.json",
+      "?? archive/reproducibility/data/structured_toy/final_warmup.npz",
+      "?? archive/reproducibility/data/structured_toy/sensitivity.json",
+      "?? archive/reproducibility/figures.toml",
+      "?? archive/reproducibility/figures/recipes/lobeke_warmup_factorial.py",
+      "?? archive/reproducibility/figures/recipes/structured_sensitivity.py",
+      "?? archive/reproducibility/figures/recipes/structured_temperature.py",
+      "?? archive/reproducibility/figures/recipes/structured_warmup.py",
+      "?? archive/reproducibility/tex/generated/appendix/i1_warmup_factorial.tex",
+      "?? archive/reproducibility/tex/generated/appendix/i2_structured_sensitivity.tex",
+      "?? archive/src/mairl_exp/warmup_sweep.py",
+      "?? archive/src/mairl_exp/warmup_sweep_plot.py",
+      "?? archive/tests/experiments/test_batching.py",
+      "?? archive/tests/experiments/test_plotting.py",
+      "?? archive/tests/experiments/test_toy_temperature_sweep.py",
+      "?? archive/tests/reproducibility/test_lobeke_data.py",
+      "?? archive/tests/reproducibility/test_synthetic_data.py",
+      "?? archive/tests/reproducibility/test_toy_final_export.py"
+    ],
+    "untracked": [
+      {
+        "path": "archive/conf/experiment/toy_temperature_final.yaml",
+        "sha256": "babaaa79181ce6e117aa54c5b5ffa141f41ee5280b11b161c6cd97c02d8cf29d"
+      },
+      {
+        "path": "archive/conf/experiment/toy_warmup_final.yaml",
+        "sha256": "59eb96c58bb983b199667360685db9d0c65426f0ad99b8a7e25f17cb351b8434"
+      },
+      {
+        "path": "archive/conf/experiment/toy_warmup_sweep.yaml",
+        "sha256": "d57e3a0a6df02f03e58f63ca03fcc8e676d32c30c11b328bbfbefa053b56e304"
+      },
+      {
+        "path": "archive/conf/plot/toy_warmup_sweep.yaml",
+        "sha256": "0fed5492e1a4a19783c548fc6d9e6f0f68b2f4ff322a91de569148f402f1e6df"
+      },
+      {
+        "path": "archive/conf/toy_temperature_final_config.yaml",
+        "sha256": "29a288a2a17f4cf95061514761d64daec512aa7d5527a9ecb57b8c437582bed1"
+      },
+      {
+        "path": "archive/conf/toy_warmup_final_config.yaml",
+        "sha256": "3cd6190e9503fb1882b1aa661b23dbcae4f80eb851cf6012f3686190cb206b3d"
+      },
+      {
+        "path": "archive/conf/toy_warmup_sweep_config.yaml",
+        "sha256": "f88d576a20f6b58cfa9e74e55d6bc94bdb76be9f13bc7689b39e12d11d92eaa5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/figures/export_warmup_factorial.py",
+        "sha256": "c381e570df0ef9abca371fa5bdab47a4cab4bac60ece4f52deedc60d1a338f2a"
+      },
+      {
+        "path": "archive/experiments/toy/export_temperature_final.py",
+        "sha256": "8ccd982b030ff16e0e5c72a6fe35bd10d8c8066e2039eb19290da0809cac52ce"
+      },
+      {
+        "path": "archive/experiments/toy/export_warmup_final.py",
+        "sha256": "f42e11ce2cb41dba0d0f35f459defd8efbe13735d78c2e46ed3d2ae507a4d660"
+      },
+      {
+        "path": "archive/experiments/toy/export_warmup_threshold_plots.py",
+        "sha256": "53226f8396eda1bbcd0763d1e88f0deee032ed02f02e98b32ced30290bc00b52"
+      },
+      {
+        "path": "archive/experiments/toy/final_export.py",
+        "sha256": "5db06e070054d1fc55901b25f8a83e5355437631d2ea16986ff8f4d6cae1995a"
+      },
+      {
+        "path": "archive/experiments/toy/run_temperature_final.py",
+        "sha256": "433546957ee101ec2c60a84573a2f2f1fff652a6d9955b9ad1f3e6af73005aed"
+      },
+      {
+        "path": "archive/experiments/toy/run_warmup_final.py",
+        "sha256": "ca8333e1e4acfb9bb566d280d31acf48ea4e942ede63db76cdbe8f99044bc40c"
+      },
+      {
+        "path": "archive/experiments/toy/run_warmup_sweep.py",
+        "sha256": "c5790db4802b83f827dc6016f5d6c8ffd86f6af780c9f70255e3a1d7411c438d"
+      },
+      {
+        "path": "archive/experiments/toy/temperature_sweep.py",
+        "sha256": "6a0dd84a575e1beb29fbdc64ad4bd72936c6d6887e674290950f29734d648c54"
+      },
+      {
+        "path": "archive/reproducibility/FIGURES.md",
+        "sha256": "130d347302c75c355d9ef52e8d063bcdf30acf4fc8c1c5faf05eb2bc0d509b7b"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_native_v2/data.npz",
+        "sha256": "00fbeb702dd568ecb89570aec73b9a0665b6394d12359929f17e71010a780266"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_native_v2/provenance.json",
+        "sha256": "402f2c81bbe17282bc8403a5a0676949f3ad6d11f5b828b6fd592e5aa8be2f8c"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_unit_reward/data.npz",
+        "sha256": "7fffa3b37be56f29f70910a184757376489853062960c9196a090e052876e87b"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_unit_reward/provenance.json",
+        "sha256": "ef3cae1c6729b1745bce429911ca86f08766765d26a2cf9938dcdee09b5693a4"
+      },
+      {
+        "path": "archive/reproducibility/data/structured_toy/final_temperature.json",
+        "sha256": "b1096f88ca6d858d38bf90b3ddbeb67e548135668ba858e3d7e2de2fca88b352"
+      },
+      {
+        "path": "archive/reproducibility/data/structured_toy/final_temperature.npz",
+        "sha256": "6a26b205cefb295187e116cc001467e43812778b7b84c6b97117cf92a62805dc"
+      },
+      {
+        "path": "archive/reproducibility/data/structured_toy/final_warmup.json",
+        "sha256": "a2d5e5432365847c337ae234258a64e2ceb0b894e49a9fce6b5bcc5392a76c6d"
+      },
+      {
+        "path": "archive/reproducibility/data/structured_toy/final_warmup.npz",
+        "sha256": "358afa1a031582674b6f51bd37ae09f37f0c4b9f744a2b6fe1ec2a5503e9fd96"
+      },
+      {
+        "path": "archive/reproducibility/data/structured_toy/sensitivity.json",
+        "sha256": "4992c311c236360746a7151757e168a209e95258cb90d49e484b5ec9aff54c88"
+      },
+      {
+        "path": "archive/reproducibility/figures.toml",
+        "sha256": "fceafcc9b3f96f52f1c77a0c3ca9945ba4f2448c6629031a26d4bff5fc33f639"
+      },
+      {
+        "path": "archive/reproducibility/figures/recipes/lobeke_warmup_factorial.py",
+        "sha256": "7208c139d78235591d1031273e6bceb97e88fa040b1239e5b71412fbb3720dbb"
+      },
+      {
+        "path": "archive/reproducibility/figures/recipes/structured_sensitivity.py",
+        "sha256": "50295e27cb9b54c8e9ff751487a3ca694842d1ac53e111bc2273efc4390983ea"
+      },
+      {
+        "path": "archive/reproducibility/figures/recipes/structured_temperature.py",
+        "sha256": "9433afa775791f9c10e2993455249a497a975c12b14ef441ba8123b3e82e102a"
+      },
+      {
+        "path": "archive/reproducibility/figures/recipes/structured_warmup.py",
+        "sha256": "70d2792a2ad65084578d6d88e0effcf433c326bc87793a3c9b2d009cfeabeb59"
+      },
+      {
+        "path": "archive/reproducibility/tex/generated/appendix/i1_warmup_factorial.tex",
+        "sha256": "c17dd292c71c06dcb9e778ae05656c3bb9a1caf01648c7d0d33d62787e0625b3"
+      },
+      {
+        "path": "archive/reproducibility/tex/generated/appendix/i2_structured_sensitivity.tex",
+        "sha256": "988726814cc640b98f0d5ebf81d5a4503f5631a83f7955fc7e81a58da41e08ed"
+      },
+      {
+        "path": "archive/src/mairl_exp/warmup_sweep.py",
+        "sha256": "287c7096030036fca446eea2bf13b328af29142319d76fb9ed96b14d37d17414"
+      },
+      {
+        "path": "archive/src/mairl_exp/warmup_sweep_plot.py",
+        "sha256": "de1d79504545ad13d40f8edc91a59a5e27ea1a1a8dca94d44f5dd98fb74e1d87"
+      },
+      {
+        "path": "archive/tests/experiments/test_batching.py",
+        "sha256": "b879de67e411808a317f7bf1ea51164ef2df0d978d12df867249f75e14b0afed"
+      },
+      {
+        "path": "archive/tests/experiments/test_plotting.py",
+        "sha256": "42899eef7600beeeec149bab891ceec9a9e0c4adddc00e5d2b2f1ff47f070fa6"
+      },
+      {
+        "path": "archive/tests/experiments/test_toy_temperature_sweep.py",
+        "sha256": "f0e417766585ac47f2cb6ae95952d3079ace375ad0fcebfbdcef34ea1d9733cd"
+      },
+      {
+        "path": "archive/tests/reproducibility/test_lobeke_data.py",
+        "sha256": "87396aaac13b6deb9e265329267ee6af77a302c45686af75e7993e03f3ae2500"
+      },
+      {
+        "path": "archive/tests/reproducibility/test_synthetic_data.py",
+        "sha256": "d846f83573b6b73b8e71c5a216f8f77608e4ba77e35dd777b7bc5130c82f1308"
+      },
+      {
+        "path": "archive/tests/reproducibility/test_toy_final_export.py",
+        "sha256": "05f66247fe1c4ba4eabdea43e9100efc9f987b83e17de18644e7fc73bc26dad0"
+      }
+    ]
+  },
+  "progress": {
+    "complete": 12,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.6044985420012381,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 12
+  },
+  "resume_granularity": "job",
+  "run_id": "6c7925fbad422543",
+  "schema_version": 1,
+  "semantic_config_sha256": "aec30f0ea302268ad9a25894c43c1281aac2532ef406e4a8f17239f8e6f8efbe",
+  "status": "complete",
+  "study_name": "smoke-toy",
+  "updated_at": "2026-09-18T16:08:20.849354+00:00"
+}

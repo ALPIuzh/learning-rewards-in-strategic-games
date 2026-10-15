@@ -1,0 +1,18 @@
+{
+  "current_zero_vs_historical_zero": {
+    "action_mismatches": 602,
+    "out_of": 3200,
+    "final_coefficient_l2_changes": [
+      0.09378632930719565,
+      0.5266864274377321
+    ]
+  },
+  "current_1e6_vs_current_zero": {
+    "action_mismatches": 564,
+    "out_of": 3200,
+    "final_coefficient_l2_changes": [
+      0.48979552897181994,
+      0.27858907707538344
+    ]
+  }
+}

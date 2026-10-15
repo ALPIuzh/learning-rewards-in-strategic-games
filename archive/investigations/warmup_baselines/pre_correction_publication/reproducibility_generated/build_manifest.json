@@ -1,0 +1,125 @@
+{
+  "figures": [
+    {
+      "data": null,
+      "data_sha256": null,
+      "id": "m1_source_convergence",
+      "output": "reproducibility/tex/generated/main/m1_source_convergence.tex",
+      "output_sha256": "af2e9aba41583cffa4cefec8a0317004056c429919410d5a5dede2c5dd770e1b",
+      "source": "experiments/guard/paper/tex/generated/figure1_convergence.tex",
+      "source_sha256": "e03a72f58959cab979de546864843b45fea8a2ec59b8f08b4bf74a98d1f04355",
+      "status": "ready"
+    },
+    {
+      "data": null,
+      "data_sha256": null,
+      "id": "m2_downstream_transfer",
+      "output": "reproducibility/tex/generated/main/m2_downstream_transfer.tex",
+      "output_sha256": "3e83c4ca49d3a5908433eeca7f3e0f721d33600e49536066754de1b37fc7d9ba",
+      "source": "experiments/guard/paper/tex/generated/figure2_transfer.tex",
+      "source_sha256": "730fb47e8e11e2c5dcc64c8f0f11a528011ae306e9d77ac760ba3a6218b224e9",
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/lobeke/environment/provenance.json",
+      "data_sha256": "4a7a1bca55383135c94447e8f588d32cef75274b7373738d35c20a370875ca19",
+      "id": "i1_environment",
+      "output": "reproducibility/tex/generated/appendix/i1_environment.tex",
+      "output_sha256": "a19396400391efc6a2dc767dcdd46444e98ae2927e0d6e7b8345f3df286275df",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/lobeke/final_evaluation/provenance.json",
+      "data_sha256": "cc9ff55d5f3e01c65747ccf4c0c5010f2da4241c6a98880ea1d7aee2632d5d22",
+      "id": "i1_source_diagnostics",
+      "output": "reproducibility/tex/generated/appendix/i1_source_diagnostics.tex",
+      "output_sha256": "151d1e7136052aa84e53000ff552054aef040865f6b0fcf61ba1808b1d38c644",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": null,
+      "data_sha256": null,
+      "id": "i1_downstream_general_assumptions",
+      "output": "reproducibility/tex/generated/appendix/i1_downstream_general_assumptions.tex",
+      "output_sha256": "7b77b4c797661d8320d908a7b166903c31f885fcc05734e7cea83d16e520b76a",
+      "source": "experiments/guard/paper/tex/generated/figure4_general_transfer.tex",
+      "source_sha256": "572307e18cc424cd7b0a5a47abe1928940068ac0ff350cde5effe6a7e756172b",
+      "status": "ready"
+    },
+    {
+      "data": null,
+      "data_sha256": null,
+      "id": "i1_downstream_fixed_expert_assumptions",
+      "output": "reproducibility/tex/generated/appendix/i1_downstream_fixed_expert_assumptions.tex",
+      "output_sha256": "f50f548aab89793c67a1d8690f69ae77b9085ca3cb887fc3a973ae9b5c811626",
+      "source": "experiments/guard/paper/tex/generated/figure4_fixed_expert_transfer.tex",
+      "source_sha256": "0aa693af30fdad0127b274e36d5edf916b963e65d3b0af88a20a985769504d89",
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/lobeke/tuning_grid.json",
+      "data_sha256": "c1b5f0633ff159f59770a27d82530ea0527972e3714f9a6c2c6f665092651cc0",
+      "id": "i1_hyperparameters",
+      "output": "reproducibility/tex/generated/appendix/i1_hyperparameters.tex",
+      "output_sha256": "3eaa5d5d91746c73d36d85950d8a64b56770d654f287418f8b3ced7b65a49ea3",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/structured_toy/sensitivity.json",
+      "data_sha256": "2322bee8a5d8b975a43dfecb541cffd624ab707ae675135c1b3abfb7067bbe0a",
+      "id": "i2_structured_sensitivity",
+      "output": "reproducibility/tex/generated/appendix/i2_structured_sensitivity.tex",
+      "output_sha256": "ddd8eb10d06f296178f16f08105b4648ab022ec46e0ec6e6aa190e38386a9ebf",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/sparse_information/final_sparse_information.json",
+      "data_sha256": "7c5f366e5839c0ab3557a37eb3590e45a1dad26f9cbf47e95b3b7fc3a0493c5d",
+      "id": "i2_sparse_information",
+      "output": "reproducibility/tex/generated/appendix/i2_sparse_information.tex",
+      "output_sha256": "fa9327a9215854b16f9842d5ea764b356604ebc1c03131e8475c335dced7ecc5",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/zero_sum/comparison.json",
+      "data_sha256": "85b9e9592918894f06020d962b4042d103d5b7d8da6eefa3c490c45c60eb6839",
+      "id": "i2_zero_sum",
+      "output": "reproducibility/tex/generated/appendix/i2_zero_sum.tex",
+      "output_sha256": "256e626cf2f2b1cbcb7f461476958b1961330650fc88198c8b54ecedcc4e2fa8",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/zero_sum/directional_transfer.json",
+      "data_sha256": "60f2ce53caee56e5acac6903eeff025ac1c368e55ba6f633f72aac5f9d48c8a8",
+      "id": "i2_zero_sum_directional",
+      "output": "reproducibility/tex/generated/appendix/i2_zero_sum_directional.tex",
+      "output_sha256": "942cce74a51c3e16f7b9f5ba98e860c0563f27f941072c015abb543320b69428",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    },
+    {
+      "data": "reproducibility/data/lower_bound/summary.json",
+      "data_sha256": "50241c70024b9bd3d37097884b2730f52cf4c06d8b646a679e0438e7b42eea9d",
+      "id": "i3_lower_bound",
+      "output": "reproducibility/tex/generated/appendix/i3_lower_bound.tex",
+      "output_sha256": "05498c1efdc45f26cbc4750cd8078ee53febedce7d0679528e24504320d9611f",
+      "source": null,
+      "source_sha256": null,
+      "status": "ready"
+    }
+  ],
+  "schema_version": 1
+}

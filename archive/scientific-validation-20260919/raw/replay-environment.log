@@ -1,0 +1,22 @@
+Resolved 36 packages in 4ms
+   Building mairl @ file:///Users/antoine/GitHub/Research/mairl-iclr
+      Built mairl @ file:///Users/antoine/GitHub/Research/mairl-iclr
+Prepared 3 packages in 764ms
+Installed 17 packages in 86ms
+ + antlr4-python3-runtime==4.9.3
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + fonttools==4.63.0
+ + hydra-core==1.3.4
+ + kiwisolver==1.5.0
+ + mairl==0.1.0 (from file:///Users/antoine/GitHub/Research/mairl-iclr)
+ + matplotlib==3.11.1
+ + numpy==2.4.6
+ + omegaconf==2.3.1
+ + packaging==26.2
+ + pillow==12.3.0
+ + pyparsing==3.3.2
+ + python-dateutil==2.9.0.post0
+ + pyyaml==6.0.3
+ + scipy==1.17.1
+ + six==1.17.0

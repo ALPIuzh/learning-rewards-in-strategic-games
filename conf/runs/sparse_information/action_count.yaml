@@ -1,0 +1,19 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: sparse_information
+  - /experiment: sparse_information/action_count
+  - /numerics: default
+  - _self_
+
+# A 32-action regular grid is combinatorially infeasible. Multistart optimization
+# includes every simplex vertex, which is sufficient to expose the informative
+# action and every safe action in this constructed environment.
+numerics:
+  evaluation_policy:
+    method: multistart
+    random_starts: 0
+
+run:
+  seed_batch_size: 100

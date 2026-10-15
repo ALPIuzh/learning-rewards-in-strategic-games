@@ -1,0 +1,145 @@
+{
+  "seconds": 6.495490583998617,
+  "tasks_checked": 15,
+  "random_starts": 256,
+  "max_abs_loss_change": 3.7093766391826932e-09,
+  "max_abs_fitted_objective_change": 3.3306690738754696e-16,
+  "max_abs_oracle_change": 1.1102230246251565e-16,
+  "rows": [
+    {
+      "protocol": "active_no_warm_lambda0p001",
+      "seed": 2026094045,
+      "task": 52,
+      "old_loss": 0.004546132928337165,
+      "new_loss": 0.004546133249784701,
+      "fitted_objective_change": 2.220446049250313e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026094049,
+      "task": 51,
+      "old_loss": 0.0038641883927451603,
+      "new_loss": 0.003864187970730293,
+      "fitted_objective_change": 1.6653345369377348e-16,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p01",
+      "seed": 2026094046,
+      "task": 51,
+      "old_loss": 0.007681554644578759,
+      "new_loss": 0.00768155464457887,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm100_lambda0p001",
+      "seed": 2026094045,
+      "task": 50,
+      "old_loss": 0.00510022839857549,
+      "new_loss": 0.005100228431288989,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_warm100_lambda0p003",
+      "seed": 2026094032,
+      "task": 41,
+      "old_loss": 0.006597137047180679,
+      "new_loss": 0.006597137040622925,
+      "fitted_objective_change": -2.220446049250313e-16,
+      "oracle_change": -1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm100_lambda0p01",
+      "seed": 2026094032,
+      "task": 50,
+      "old_loss": 0.005137641815697203,
+      "new_loss": 0.0051376418156966475,
+      "fitted_objective_change": 2.220446049250313e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p001",
+      "seed": 2026094049,
+      "task": 37,
+      "old_loss": 0.00252363181430848,
+      "new_loss": 0.002523631814308036,
+      "fitted_objective_change": 3.3306690738754696e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026094045,
+      "task": 22,
+      "old_loss": 0.0037326054741767534,
+      "new_loss": 0.003732605498399044,
+      "fitted_objective_change": 2.220446049250313e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p01",
+      "seed": 2026094039,
+      "task": 41,
+      "old_loss": 0.0068737762031825245,
+      "new_loss": 0.0068737762031824134,
+      "fitted_objective_change": 0.0,
+      "oracle_change": -1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm25_lambda0p001",
+      "seed": 2026094038,
+      "task": 47,
+      "old_loss": 0.003203707677487344,
+      "new_loss": 0.003203707677487233,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm25_lambda0p003",
+      "seed": 2026094047,
+      "task": 37,
+      "old_loss": 0.00252363181430848,
+      "new_loss": 0.002523631814308369,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "protocol": "active_warm25_lambda0p01",
+      "seed": 2026094038,
+      "task": 47,
+      "old_loss": 0.0031643959108438313,
+      "new_loss": 0.0031643958134294214,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm50_lambda0p001",
+      "seed": 2026094045,
+      "task": 40,
+      "old_loss": 0.011879824287250429,
+      "new_loss": 0.011879824287250651,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm50_lambda0p003",
+      "seed": 2026094039,
+      "task": 47,
+      "old_loss": 0.003203707677487344,
+      "new_loss": 0.003203707677487455,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "protocol": "active_warm50_lambda0p01",
+      "seed": 2026094049,
+      "task": 51,
+      "old_loss": 0.007319836093356458,
+      "new_loss": 0.007319839802733097,
+      "fitted_objective_change": -2.7755575615628914e-16,
+      "oracle_change": 1.1102230246251565e-16
+    }
+  ]
+}

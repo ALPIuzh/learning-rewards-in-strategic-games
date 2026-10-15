@@ -1,0 +1,7 @@
+_target_: experiments.sparse_information.application.SparseInformationApplication
+
+leader_actions: 16
+eta: 2.0
+radius: 2.0
+true_omega: 1.0
+safe_payoff: 0.75

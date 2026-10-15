@@ -1,0 +1,3 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+packed model, 550 final estimates, 200 ridge refits, and 200 exact task matrices

@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: minimax_lower_bound
+  - /experiment: minimax_lower_bound
+  - /numerics: minimax_lower_bound
+  - _self_
+
+run:
+  seed_batch_size: 1

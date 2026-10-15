@@ -1,0 +1,27 @@
+{
+  "lobeke_long": {
+    "command": [
+      "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/python",
+      "-m",
+      "cProfile",
+      "-o",
+      "/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-round2/long-after-lobeke_long.prof",
+      "-m",
+      "experiments.run",
+      "--config-name",
+      "runs/lobeke/comparison",
+      "experiment.name=efficiency-lobeke_long",
+      "experiment.seed_count=3",
+      "experiment.total_samples=128",
+      "experiment.warmup_budget=32",
+      "experiment.evaluation_interval=8",
+      "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-round2/long-after",
+      "run.require_clean_git=false",
+      "run.resume=false",
+      "experiment.seed_count=2",
+      "experiment.methods=[active,fixed_random,random_each_round]"
+    ],
+    "seconds": 14.286447915997996,
+    "returncode": 0
+  }
+}

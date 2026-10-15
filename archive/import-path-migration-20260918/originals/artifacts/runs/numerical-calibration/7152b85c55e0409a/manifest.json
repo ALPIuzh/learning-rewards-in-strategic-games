@@ -1,0 +1,89 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment=numerical_calibration",
+    "experiment.methods=[fixed_random]",
+    "experiment.warmup_modes=[false]",
+    "experiment.calibration_seed_start=1001",
+    "experiment.calibration_seed_count=1",
+    "experiment.validation_seed_start=2001",
+    "experiment.validation_seed_count=1",
+    "experiment.guardrails.minimum_seeds_per_split=1",
+    "run.require_clean_git=false"
+  ],
+  "created_at": "2026-07-30T12:45:36.101818+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "487a2fe59871199f",
+      "label": "calibration/no-warmup/fixed_random/candidate=default_newton/seed=1001",
+      "spec": {
+        "candidate": "default_newton",
+        "method": "fixed_random",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "40eeebd0015c470d",
+      "label": "validation/no-warmup/fixed_random/candidate=default_newton/seed=2001",
+      "spec": {
+        "candidate": "default_newton",
+        "method": "fixed_random",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "8d9533b84dc71f4c",
+      "label": "calibration/no-warmup/fixed_random/candidate=direct_slsqp_reference/seed=1001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "method": "fixed_random",
+        "seed": 1001,
+        "split": "calibration",
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "6f62551a777725ee",
+      "label": "validation/no-warmup/fixed_random/candidate=direct_slsqp_reference/seed=2001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "method": "fixed_random",
+        "seed": 2001,
+        "split": "validation",
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "90cfff6840ae06a2e704f941d38ecd3d94aa5e32",
+    "dirty": true,
+    "fingerprint": "d28b6832718276b8f39ed48c0fa36dd933ad944d3549995af254bd1869685096",
+    "status": [
+      " M src/mairl/inference/mle.py"
+    ],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 4,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 3.927279291998275,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 4
+  },
+  "resume_granularity": "job",
+  "run_id": "7152b85c55e0409a",
+  "schema_version": 1,
+  "semantic_config_sha256": "dbcf4b576cc9ed88855077635f0862b4f41f6bd85325a21491184e35024e9fce",
+  "status": "complete",
+  "study_name": "numerical-calibration",
+  "updated_at": "2026-07-30T12:45:40.010988+00:00"
+}

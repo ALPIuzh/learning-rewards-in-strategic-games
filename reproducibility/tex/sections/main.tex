@@ -1,0 +1,66 @@
+\section{Numerical validation}
+
+We compare reward-learning protocols in a GUARD-derived Lob\'ek\'e game with a
+simulated logit-response follower. Active methods choose the patrol policies
+used to collect observations; fixed-expert methods receive demonstrations from
+a source-task equilibrium oracle.
+
+Every evaluation leader reward is represented positive-affinely in $[0,1]$,
+so that $R_{\max}=1$. This leaves all leader-policy orderings unchanged, and
+the reported metric remains ordinary $\operatorname{SubOpt}$.
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/main/m1_source_convergence}%
+  }
+  \caption{Last-iterate $\operatorname{SubOpt}(\hat\mu)$ as a function of
+  the number of observed poacher actions. In (a), a random leader policy is
+  either fixed for the trajectory or, for Online random, redrawn uniformly from
+  the simplex after every observation. Warm and no-warm Active use information
+  multipliers $\lambda/\eta^2=0.03$ and $0.1$, selected on transfer tasks and
+  frozen before final evaluation, with 50 warm-up observations and MLE ridge $10^{-6}$ for all MLE methods. In (b), MLE observes
+  follower actions under the source Stackelberg-optimal leader, whereas the OLS
+  methods use a joint-QRE expert required by their equilibrium equations.
+  Zero-sum OLS additionally observes one expert leader action per poacher action,
+  so its total observed-action count is twice the horizontal-axis value. Shading
+  denotes pointwise 95\% confidence intervals over 50 seeds, clipped at the axis
+  limits where they extend below the plotted range.}
+  \label{fig:source-convergence}
+\end{figure}
+
+The retained experiments measure source-task performance and transfer to new
+leader objectives without further follower observations. Warm-up and no-warm-up
+Active IRL use different information multipliers, so their comparison alone
+does not isolate the effect of warm-up.
+
+\begin{figure}[t]
+  \centering
+  \input{reproducibility/tex/generated/main/m2_downstream_transfer_compact}%
+  \caption{\textbf{Patrol coverage and associated mean
+  $\operatorname{SubOpt}(\hat\mu)$ across downstream tasks.} Transfer after
+  1,600 observed poacher actions. The follower reward is unknown to Active IRL,
+  which is compared with an MLE fitted to observations under the source
+  Stackelberg-optimal leader. Both estimators use the same logit follower model, but only Active IRL
+  selects leader policies to learn a reward that transfers across objectives.
+  The three illustration tasks are selected from the predeclared ten-task suite
+  as the nearest, median, and farthest behavioral shifts, measured by total
+  variation between the source and downstream true optimal leader policies
+  (0.37, 0.86, and 1.00). This selection does not inspect any learned estimate
+  or method performance. Values are task-specific mean
+  $\operatorname{SubOpt}(\hat\mu)$. Darker
+  cells indicate greater coverage; the triangle marks the ranger base.}
+  \label{fig:downstream-transfer}
+\end{figure}
+
+These results concern one fixed game and a correctly specified response model.
+The selected downstream objectives illustrate transfer within that setting;
+they are not a sample of independent environments.
+
+\begin{figure}[p]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/main/m2_downstream_transfer}%
+  }
+  \caption{Alternate layout of the downstream patrol comparison.}
+\end{figure}

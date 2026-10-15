@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mairl"
+version = "0.1.0"
+description = "Application-agnostic active Stackelberg inverse reinforcement learning"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2,<3",
+  "scipy>=1.13,<2",
+]
+
+[project.optional-dependencies]
+experiments = [
+  "hydra-core>=1.3.4,<1.4",
+  "matplotlib>=3.9,<4",
+]
+dev = [
+  "pytest>=8.3,<9",
+  "pytest-cov>=6,<7",
+  "ruff>=0.9,<1",
+]
+guard = [
+    "networkx>=3.6.1",
+    "geopy>=2.5.0",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "h5py>=3.16.0",
+]
+
+[project.scripts]
+mairl-profile = "mairl_exp.cli.profile:main"
+mairl-status = "mairl_exp.cli.experiment_status:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["experiments/guard/GUARD", "archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false

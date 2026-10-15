@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "experiment": "structured-game sensitivity",
+  "warmup": "final_warmup.json",
+  "temperature": "final_temperature.json"
+}

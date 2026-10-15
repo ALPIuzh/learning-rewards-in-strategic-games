@@ -1,0 +1,18 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+validated active_no_warm_lambda0p003
+validated active_no_warm_lambda0p03
+validated active_warm200_lambda0p003
+validated active_warm200_lambda0p03
+validated fixed_expert_matched_ridge
+Traceback (most recent call last):
+  File "/Users/antoine/GitHub/Research/mairl-iclr/archive/scientific-validation-20260919/check_artifacts.py", line 59, in <module>
+    assert np.max(arrays.get("diagnostic__policy_residual", np.array([0.0]))) <= 1.01e-5
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/antoine/GitHub/Research/mairl-iclr/.venv/lib/python3.14/site-packages/numpy/_core/fromnumeric.py", line 3123, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+                          keepdims=keepdims, initial=initial, where=where)
+  File "/Users/antoine/GitHub/Research/mairl-iclr/.venv/lib/python3.14/site-packages/numpy/_core/fromnumeric.py", line 83, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity

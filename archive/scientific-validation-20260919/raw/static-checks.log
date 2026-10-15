@@ -1,0 +1,6 @@
+uv run ruff format --check src experiments tests reproducibility
+180 files already formatted
+uv run ruff check src experiments tests
+All checks passed!
+uv run python -m reproducibility.figures check
+checked 10 figure(s)

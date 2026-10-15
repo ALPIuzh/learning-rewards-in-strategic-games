@@ -1,0 +1,9 @@
+# Post-result numerical evaluation repair
+
+The initial confirmation outcomes have already been inspected. The expanded numerical audit found a local-planner miss for fixed-expert learning (primary task 8, seed 2026092002): transfer loss changed from 0.04723 to 0.001504. This amendment repairs measurement; it is not a newly prespecified hypothesis or an independent confirmation.
+
+Keep all trained estimates, task matrices, seeds, original endpoints, and the frozen paired statistical contrasts. Re-evaluate all 11 original protocols and the four exploratory ridge controls on all 100 primary tasks, and the two retained Active protocols plus matched-ridge fixed-expert on both secondary suites. Use the full scalar planner with 64 random starts, all pure-policy starts and the uniform start, tolerance 1e-12, and the existing deterministic seeds. This is 90,000 deployments, with no new training or outcome-dependent choice of methods.
+
+The parallel pilot reproduced all 550 serial audit values exactly in 29.74 seconds using four workers. Linear extrapolation is approximately 81 minutes; allow two hours for this evaluation. Save each completed task separately and resume without repeating it. If runtime exceeds that budget or a deployed policy exceeds its oracle by more than 1e-9, investigate before proceeding. Report corrected results separately from the preserved initial results, including how much the evaluation changed each comparison. Multistart optimization supplies a numerical robustness check, not a proof of global optimality.
+
+Also check the retained paper's final Lobeke checkpoint separately (nine protocols, 50 seeds, ten tasks), if its compact inputs can be recovered exactly. This approximately four-minute check diagnoses whether the same issue affects existing figures; do not overwrite those figures or their data.

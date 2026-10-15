@@ -1,0 +1,14 @@
+{
+  "algorithm_seconds": 3.145757575351745,
+  "completed_at": "2026-09-21T13:01:18.904406+00:00",
+  "job_id": "7bb1e35f65c8a796",
+  "label": "no-warmup/random_each_round/seed=2026097045",
+  "result_sha256": "181387d24bb426af2afea3fbb03b8a48993032fdc3c38d28fef80f8bf2e5e0ca",
+  "spec": {
+    "method": "random_each_round",
+    "seed": 2026097045,
+    "warmup_enabled": false
+  },
+  "status": "complete",
+  "updated_at": "2026-09-21T13:01:18.904420+00:00"
+}

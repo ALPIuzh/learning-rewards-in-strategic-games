@@ -1,0 +1,86 @@
+% Exploratory alternative; generated from protected structured-game data.
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 1, horizontal sep=1.50cm},
+  mairl axis,
+  width=0.455\textwidth,
+  height=5.05cm,
+  ytick style={draw=none},
+  minor y tick style={draw=none}
+]
+\nextgroupplot[
+  title={(a) Allocation to common warm-up},
+  xmin=-0.025, xmax=1.025,
+  xtick={0,0.25,0.5,0.75,1},
+  xlabel={Warm-up fraction},
+  ymode=log,
+  ymin=1e-5, ymax=3e-2,
+  ylabel={Final $\operatorname{SubOpt}(\hat\mu)$},
+  legend style={at={(0.98,0.98)}, anchor=north east, font=\tiny, row sep=-1pt}
+]
+\draw[mairlInk, dotted, line width=0.45pt]
+  (axis cs:0.12,1e-5) -- (axis cs:0.12,3e-2);
+\node[anchor=north west, font=\tiny, text=mairlMuted]
+  at (axis cs:0.125,2.3e-2) {canonical};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(-0.007,1e-05) (-0.007,0.00036093292)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.017,1e-05) (0.017,0.00062766097)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.053,1e-05) (0.053,1e-05)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.113,1e-05) (0.113,0.00050670749)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.233,1e-05) (0.233,1e-05)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.493,1e-05) (0.493,0.00050587151)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.793,1e-05) (0.793,0.00039358585)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.993,1e-05) (0.993,0.00062170164)};
+\addplot[only marks, draw=mairlActive, fill=mairlActive, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(-0.007,0.00014984515) (0.017,0.00031713053) (0.053,1e-05) (0.113,0.00024112912) (0.233,1e-05) (0.493,0.00023654468) (0.793,0.00016429058) (0.993,0.00029378011)};
+\addlegendentry{Active IRL}
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0,0.0031911522) (0,0.012602027)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.024,0.0011171232) (0.024,0.0031194634)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.06,0.00076367378) (0.06,0.0023420778)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.12,0.00027987764) (0.12,0.0014179574)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.24,0.00033721421) (0.24,0.0014363887)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.5,5.0552008e-05) (0.5,0.00078861159)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.8,1e-05) (0.8,0.00042764694)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(1,1e-05) (1,0.00062170164)};
+\addplot[only marks, draw=mairlFixed, fill=mairlFixed, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(0,0.0078965897) (0.024,0.0021182933) (0.06,0.0015528758) (0.12,0.0008489175) (0.24,0.00088680146) (0.5,0.0004195818) (0.8,0.00018259447) (1,0.00029378011)};
+\addlegendentry{Fixed random}
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.007,0.00035168327) (0.007,0.001523545)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.031,0.00034259158) (0.031,0.0014356104)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.067,0.0002067947) (0.067,0.0011694652)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.127,0.00010960363) (0.127,0.00095111096)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.247,2.3810128e-05) (0.247,0.00077781975)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.507,4.2852507e-05) (0.507,0.00083831235)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.807,1e-05) (0.807,0.00054647028)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(1.007,1e-05) (1.007,0.00062170164)};
+\addplot[only marks, draw=mairlOnline, fill=mairlOnline, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(0.007,0.00093761413) (0.031,0.00088910099) (0.067,0.00068812997) (0.127,0.00053035729) (0.247,0.00040081494) (0.507,0.00044058243) (0.807,0.0002579903) (1.007,0.00029378011)};
+\addlegendentry{Online random}
+\nextgroupplot[
+  title={(b) Follower response sharpness},
+  xmin=0.43, xmax=3.07,
+  xtick={0.5,0.75,1.25,2,3},
+  xlabel={Follower inverse temperature $\eta$},
+  ymin=0, ymax=0.0018,
+  ylabel={Final $\operatorname{SubOpt}(\hat\mu)$}
+]
+\draw[mairlInk, dotted, line width=0.45pt]
+  (axis cs:1.25,0) -- (axis cs:1.25,0.0018);
+\node[anchor=north east, font=\tiny, text=mairlMuted]
+  at (axis cs:1.23,0.00172) {canonical};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.475,0) (0.475,0.00029463784)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(0.725,0) (0.725,0.00049959299)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(1.225,1.2213915e-05) (1.225,0.00071251261)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(1.975,0.00040143562) (1.975,0.0010159859)};
+\addplot[draw=mairlActive, line width=0.4pt, forget plot] coordinates {(2.975,0.00037714172) (2.975,0.0005581598)};
+\addplot[only marks, draw=mairlActive, fill=mairlActive, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(0.475,0.00012205994) (0.725,0.0002253467) (1.225,0.00036236326) (1.975,0.00070871076) (2.975,0.00046765076)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.5,6.5045603e-05) (0.5,0.00092188171)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(0.75,0.00026527212) (0.75,0.0013223833)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(1.25,0.00026216509) (1.25,0.0013551556)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(2,0.00081601761) (2,0.0016056102)};
+\addplot[draw=mairlFixed, line width=0.4pt, forget plot] coordinates {(3,0.00063518087) (3,0.00099125433)};
+\addplot[only marks, draw=mairlFixed, fill=mairlFixed, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(0.5,0.00049346366) (0.75,0.00079382771) (1.25,0.00080866032) (2,0.0012108139) (3,0.0008132176)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.525,0) (0.525,0.0001415795)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(0.775,0) (0.775,0)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(1.275,6.1126518e-05) (1.275,0.00081341754)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(2.025,0.00050966447) (2.025,0.001155048)};
+\addplot[draw=mairlOnline, line width=0.4pt, forget plot] coordinates {(3.025,0.00055910951) (3.025,0.00081938777)};
+\addplot[only marks, draw=mairlOnline, fill=mairlOnline, mark=*, mark size=1.25pt, line width=0.55pt] coordinates {(0.525,4.7442762e-05) (0.775,0) (1.275,0.00043727203) (2.025,0.00083235623) (3.025,0.00068924864)};
+\end{groupplot}
+\end{tikzpicture}

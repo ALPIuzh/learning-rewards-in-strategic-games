@@ -1,0 +1,37 @@
+# @package experiment
+
+_target_: experiments.guard.paper.lambda_tuning.ActiveLambdaTuningStudy
+
+name: guard-lobeke-lambda-tuning
+
+# These seed ranges are disjoint from each other and from paper seeds 100..149.
+selection_seed_start: 10000
+selection_seed_count: 64
+confirmation_seed_start: 20000
+confirmation_seed_count: 64
+minimum_seeds_per_split: 30
+
+# These are the existing flagship paper seeds.  The study refuses to instantiate if
+# either tuning split overlaps them.
+final_evaluation_seed_start: 100
+final_evaluation_seed_count: 50
+
+total_samples: 1600
+warmup_budget: 100
+
+# Tune lambda = multiplier * eta^2.  lambda_warm remains fixed and only affects warm-up.
+# The upper expansion points prevent accepting an apparent optimum at multiplier 8 merely
+# because the exploratory pilot ended there.
+lambda_information_multipliers: [1.0, 1.5, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0]
+reference_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+warmup_modes: [true, false]
+
+# Tuning only needs the final checkpoint.  The selected paper run will retain dense curves.
+evaluation_interval: 1600
+tuning_metric: stackelberg_suboptimality
+guardrail_metric: fisher_transfer_error
+guardrail_standard_errors: 2.0
+confirmation_standard_errors: 2.0
+reject_upper_boundary: true

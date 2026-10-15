@@ -1,0 +1,98 @@
+[
+  {
+    "file": "training/pilot/active_no_warm_lambda0p03.npz",
+    "seeds": 2,
+    "max_simplex_error": 2.220446049250313e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.000000000000245,
+    "max_mle_residual": 8.192693773187195e-07
+  },
+  {
+    "file": "training/pilot/active_warm100_lambda0p01.npz",
+    "seeds": 2,
+    "max_simplex_error": 0.0,
+    "min_policy": 0.0,
+    "max_omega_norm": 1.9628365042469411,
+    "max_mle_residual": 6.462790694906929e-07
+  },
+  {
+    "file": "training/pilot/active_warm200_lambda0p003.npz",
+    "seeds": 2,
+    "max_simplex_error": 0.0,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000000053,
+    "max_mle_residual": 6.819557109907158e-07
+  },
+  {
+    "file": "training/pilot/active_warm200_lambda0p01.npz",
+    "seeds": 2,
+    "max_simplex_error": 0.0,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000000053,
+    "max_mle_residual": 6.212769561969312e-07
+  },
+  {
+    "file": "training/pilot/active_warm25_lambda0p01.npz",
+    "seeds": 2,
+    "max_simplex_error": 2.220446049250313e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000001705,
+    "max_mle_residual": 9.12634012228955e-07
+  },
+  {
+    "file": "training/pilot/active_warm50_lambda0p001.npz",
+    "seeds": 2,
+    "max_simplex_error": 0.0,
+    "min_policy": 0.0,
+    "max_omega_norm": 1.9666201018700094,
+    "max_mle_residual": 9.993041424153463e-07
+  },
+  {
+    "file": "training/pilot/active_warm50_lambda0p003.npz",
+    "seeds": 2,
+    "max_simplex_error": 0.0,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.000000000000021,
+    "max_mle_residual": 9.741712284924545e-07
+  },
+  {
+    "file": "training/remaining-six/active_no_warm_lambda0p03.npz",
+    "seeds": 6,
+    "max_simplex_error": 4.440892098500626e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.000000000000189,
+    "max_mle_residual": 9.95976773907234e-07
+  },
+  {
+    "file": "training/remaining-six/active_warm200_lambda0p003.npz",
+    "seeds": 6,
+    "max_simplex_error": 2.220446049250313e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000002074,
+    "max_mle_residual": 8.308774384954481e-07
+  },
+  {
+    "file": "training/remaining-six/active_warm200_lambda0p01.npz",
+    "seeds": 6,
+    "max_simplex_error": 1.1102230246251565e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.000000000000231,
+    "max_mle_residual": 9.370915495550399e-07
+  },
+  {
+    "file": "training/remaining-six/active_warm50_lambda0p003.npz",
+    "seeds": 6,
+    "max_simplex_error": 4.440892098500626e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000001923,
+    "max_mle_residual": 9.919735745323228e-07
+  },
+  {
+    "file": "training/ridge-zero-control/active_no_warm_lambda0p03.npz",
+    "seeds": 2,
+    "max_simplex_error": 4.440892098500626e-16,
+    "min_policy": 0.0,
+    "max_omega_norm": 2.0000000000002074,
+    "max_mle_residual": 9.518093260606364e-07
+  }
+]

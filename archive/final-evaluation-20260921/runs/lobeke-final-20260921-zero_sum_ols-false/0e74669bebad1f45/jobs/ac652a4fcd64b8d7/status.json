@@ -1,0 +1,14 @@
+{
+  "algorithm_seconds": 1.1902749286964536,
+  "completed_at": "2026-09-21T12:59:15.653697+00:00",
+  "job_id": "ac652a4fcd64b8d7",
+  "label": "no-warmup/zero_sum_ols/seed=2026097041",
+  "result_sha256": "e1642ce8fd6a9fa789fff5387e4b1534b9a992a60afcdf9b84dd20a4fab524fe",
+  "spec": {
+    "method": "zero_sum_ols",
+    "seed": 2026097041,
+    "warmup_enabled": false
+  },
+  "status": "complete",
+  "updated_at": "2026-09-21T12:59:15.653712+00:00"
+}

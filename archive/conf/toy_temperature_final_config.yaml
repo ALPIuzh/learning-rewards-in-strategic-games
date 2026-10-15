@@ -1,0 +1,13 @@
+defaults:
+  - application: toy
+  - experiment: toy_temperature_final
+  - numerics: default
+  - _self_
+
+schema_version: 1
+
+run:
+  root: artifacts/runs
+  resume: true
+  seed_batch_size: 64
+  require_clean_git: true

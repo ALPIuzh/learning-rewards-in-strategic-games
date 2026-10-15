@@ -1,0 +1,21 @@
+{
+  "reproducibility/data/lobeke/ridge_zero_tuning/data.npz": "7201df3e8ea2b1097f02c12653d6cbc3886baeee0c05c6e3a87b95b45e4faee5",
+  "reproducibility/data/lobeke/ridge_zero_tuning/provenance.json": "2e30f219fb43c6c4fa6100798873ece1c066bac1b24ed57ad2d8ac4a5bcff764",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm50_lambda0p3.npz": "577c179771e783ba57c8580a19b41012f4b0d6764d79d8b552b4835ac0e9b352",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/summary.json": "ede3f7c84f9dfb55affb54ee3705e999d8570198f663e7d8c21466418981e9fb",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm200_lambda0p003.npz": "c7b099b465758dcf74bf8b54c9eb5e8d2baa82d69f0330d7f496f2929f78896f",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_no_warm_lambda0p003.npz": "1ad835b5c386fffc8b801293b2f03dac3ef054081c334badcef5b9b46232c729",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm200_lambda0p3.npz": "199b79f761e112dbf47d526749f3d66f568595d1aa1e272c886bf3bb0a8aba6f",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm200_lambda0p01.npz": "401173093f5e11d6833b59ecc4f5c90ed2bbaf9f3d75c88fed275d7c4f970423",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_no_warm_lambda0p01.npz": "019d05e1ef39d4bd4204b5a3fda56a74d84fea1f5f9b5604b6b488274878a2ac",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_no_warm_lambda0p03.npz": "1d9040e91a573275a03c647aa738fd41f54c8b45fa57fb3d44e9bc5073bbabc4",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm200_lambda0p03.npz": "6a122d2477f5565ee531995fcf284836e6b65bf2972f2ad242c9f7c096de44b2",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm50_lambda1.npz": "8920d9cc0534bc1c7f45f1ff811715cfd58889c8ebeb4463f83f6973cf7ba61b",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_no_warm_lambda1.npz": "466c2381dde653de38061394ccafef3d4193955b94ba69a6e8c5d4cdb13b4fc7",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm50_lambda0p003.npz": "cf86b6341ab8ae82210c9bf9c0f2be4e1c09cbaf2141077842797db7df6c5711",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm50_lambda0p03.npz": "e575816159adc89f251319a68b4eac98d560e581a575c0fa965530cf91056f43",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm50_lambda0p01.npz": "49277d5e07adae4819ec7ee9633cfad534f20be89ce2c5b836a3661eb093afe9",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_warm200_lambda1.npz": "f64ecc485c322f51c306e13ffa06a512973e4a3316347722e531661058a5b3a8",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/fixed_expert_matched_ridge.npz": "db553dea8fb6a8561a5e90d5590f9bf11360d3a5f300e1767fd32eba72d7dd15",
+  "artifacts/derived/ridge-zero-sensitivity-publication-v1/active_no_warm_lambda0p3.npz": "97de640e366e59a8f27f49db5b7ae30e211bb34c5fa06d9d8ee9c97ed91d9891"
+}

@@ -1,0 +1,79 @@
+_target_: mairl_exp.studies.calibration.NumericalCalibrationStudy
+
+name: numerical-calibration
+calibration_seed_start: 1000
+calibration_seed_count: 5
+validation_seed_start: 2000
+validation_seed_count: 5
+total_samples: 360
+warmup_budget: 120
+methods:
+  - active
+  - fixed_random
+  - random_each_round
+warmup_modes:
+  - true
+  - false
+evaluation_interval: 10
+
+lambda_information_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+guardrails:
+  _target_: mairl_exp.studies.calibration.CalibrationGuardrails
+  max_mle_reference_gap: 1.0e-6
+  max_policy_reference_gap: 1.0e-6
+  max_mle_residual: 1.0e-6
+  max_policy_residual: 1.0e-6
+  minimum_seeds_per_split: 5
+  reject_numeric_boundary: true
+  reference_mle:
+    _target_: mairl.inference.mle.MLEConfig
+    ridge: 1.0e-4
+    solver: slsqp
+    objective_tolerance: 1.0e-13
+    projected_gradient_tolerance: 1.0e-6
+    constraint_tolerance: 1.0e-9
+    max_iterations: 1000
+    trust_region_gradient_tolerance: 1.0e-12
+    trust_region_step_tolerance: 1.0e-14
+    trust_region_barrier_tolerance: 1.0e-12
+    kkt_tolerance: 1.0e-9
+  reference_policy:
+    _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+    method: grid
+    tolerance: 1.0e-12
+    projected_gradient_tolerance: 1.0e-6
+    max_iterations: 1000
+    random_starts: 0
+    grid_resolution: 80
+    grid_max_points: 250000
+    grid_batch_size: 4096
+    refine_grid_solution: true
+
+# Candidates are complete and explicit after Hydra resolution. The study records all
+# measurements. Selection uses correctness and runtime only, never application metrics.
+candidates:
+  - _target_: mairl_exp.studies.calibration.NumericalCandidate
+    name: default_newton
+    mle: ${numerics.mle}
+    warmup: ${numerics.warmup}
+    active_policy: ${numerics.active_policy}
+
+  - _target_: mairl_exp.studies.calibration.NumericalCandidate
+    name: direct_slsqp_reference
+    mle:
+      _target_: mairl.inference.mle.MLEConfig
+      ridge: 1.0e-4
+      solver: slsqp
+      objective_tolerance: 1.0e-13
+      projected_gradient_tolerance: 1.0e-6
+      constraint_tolerance: 1.0e-9
+      max_iterations: 1000
+      trust_region_gradient_tolerance: 1.0e-12
+      trust_region_step_tolerance: 1.0e-14
+      trust_region_barrier_tolerance: 1.0e-12
+      kkt_tolerance: 1.0e-9
+    warmup: ${numerics.warmup}
+    active_policy: ${numerics.active_policy}

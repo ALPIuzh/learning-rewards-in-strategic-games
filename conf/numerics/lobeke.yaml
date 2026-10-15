@@ -1,0 +1,55 @@
+_target_: mairl_exp.config.ExperimentNumerics
+
+# Identical to guard.yaml except projected_gradient_tolerance: 1e-6 -> 1e-5 for
+# both active_policy and evaluation_policy. The Lobeke behavioral game's entropy-regularized
+# leader-policy landscape is comparatively flat (eta ~2.16, near-uniform optimal policies),
+# so multistart SLSQP refinement sometimes stalls just above the 1e-6 residual threshold
+# (observed residuals 1e-6..4e-6 across every start) and raises ConvergenceError even though
+# the optimum found is essentially exact. Verified directly: comparing optimize_leader_policy
+# at 1e-6 vs 1e-5 tolerance on 30 random omega perturbations, the achieved leader value differs
+# by at most 4.9e-10 wherever both converge -- 1e-5 buys robustness with no measurable loss of
+# solution quality.
+
+mle:
+  _target_: mairl.inference.mle.MLEConfig
+  ridge: 0.0
+  solver: newton
+  objective_tolerance: 1.0e-13
+  projected_gradient_tolerance: 1.0e-6
+  constraint_tolerance: 1.0e-9
+  max_iterations: 1000
+  trust_region_gradient_tolerance: 1.0e-12
+  trust_region_step_tolerance: 1.0e-14
+  trust_region_barrier_tolerance: 1.0e-12
+  kkt_tolerance: 1.0e-9
+
+warmup:
+  _target_: mairl_exp.config.WarmupNumerics
+  design_tolerance: 0.15
+  max_iterations: 10000
+  line_search_tolerance: 1.0e-12
+  line_search_max_iterations: 500
+  support_tolerance: 1.0e-12
+  matrix_tolerance: 1.0e-9
+
+active_policy:
+  _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+  method: multistart
+  tolerance: 1.0e-9
+  projected_gradient_tolerance: 1.0e-5
+  max_iterations: 1000
+  random_starts: 16
+  batch_prefilter_iterations: 4
+  batch_refine_starts: 2
+  refine_grid_solution: true
+
+evaluation_policy:
+  _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+  method: multistart
+  tolerance: 1.0e-9
+  projected_gradient_tolerance: 1.0e-5
+  max_iterations: 1000
+  random_starts: 16
+  batch_prefilter_iterations: 4
+  batch_refine_starts: 2
+  refine_grid_solution: true

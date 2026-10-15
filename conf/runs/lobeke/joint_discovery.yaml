@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: lobeke
+  - /experiment: lobeke/joint_discovery
+  - /numerics: lobeke
+  - _self_
+
+run:
+  seed_batch_size: 32

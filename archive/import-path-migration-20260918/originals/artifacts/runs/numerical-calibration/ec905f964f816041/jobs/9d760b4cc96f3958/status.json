@@ -1,0 +1,14 @@
+{
+  "algorithm_seconds": 0.360462083001039,
+  "completed_at": "2026-07-30T12:18:40.859105+00:00",
+  "job_id": "9d760b4cc96f3958",
+  "label": "validation/candidate=default_newton/seed=2000",
+  "result_sha256": "d2a810ba93c82cf8e4bfe8a781b2a51f0035f02323c27a05500318778f740446",
+  "spec": {
+    "candidate": "default_newton",
+    "seed": 2000,
+    "split": "validation"
+  },
+  "status": "complete",
+  "updated_at": "2026-07-30T12:18:40.859110+00:00"
+}

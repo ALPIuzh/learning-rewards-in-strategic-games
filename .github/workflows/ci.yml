@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    env:
+      UV_PYTHON: "3.11"
+    steps:
+      - name: Check out MAIRL and pinned dependencies
+        uses: actions/checkout@v7
+        with:
+          submodules: recursive
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          enable-cache: true
+          version: "0.12.1"
+
+      - name: Fetch the pinned GUARD dependency
+        run: make guard
+
+      - name: Install the locked environment
+        run: uv sync --locked --extra dev --extra experiments --extra guard
+
+      - name: Run static checks and tests
+        run: make check
+
+      - name: Smoke-test bounded data generation and plotting
+        timeout-minutes: 5
+        run: make smoke
+
+      - name: Smoke-test the lightweight wheel
+        run: |
+          wheel_dir="$(mktemp -d)"
+          wheel_venv="$(mktemp -d)"
+          uv build --wheel --out-dir "$wheel_dir"
+          uv venv "$wheel_venv"
+          uv pip install --python "$wheel_venv/bin/python" "$wheel_dir"/mairl-*.whl
+          "$wheel_venv/bin/python" -c "import mairl"
+          "$wheel_venv/bin/mairl-profile" --help
+          "$wheel_venv/bin/mairl-status" --help
+          test ! -e "$wheel_venv/bin/mairl-run"
+          test ! -e "$wheel_venv/bin/mairl-plot"

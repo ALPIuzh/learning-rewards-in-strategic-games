@@ -1,0 +1,44 @@
+{
+  "commit": "c5c968d5f44b477652d9ccb39c68c0b171b8a853",
+  "clone": "/private/tmp/mairl-scientific-reproduction-20260919",
+  "installed_extras": [
+    "experiments"
+  ],
+  "guard_installed": false,
+  "recomputed_artifacts": {
+    "strict-results.json": true,
+    "tuned-baseline-results.json": true,
+    "tuned-baseline-endpoints.npz": true,
+    "strict-endpoints-202609202.npz": true,
+    "strict-endpoints-202609200.npz": true,
+    "strict-endpoints-202609201.npz": true,
+    "independent-tuned-baseline.pdf": true,
+    "fresh-confirmation-methods.svg": true,
+    "independent-tuned-baseline.png": true,
+    "hard-family-with-no-learning-baseline.pdf": true,
+    "hard-family-with-no-learning-baseline.png": true,
+    "hard-family-with-no-learning-baseline.svg": true,
+    "independent-tuned-baseline.svg": true,
+    "fresh-confirmation-methods.png": true,
+    "fresh-confirmation-methods.pdf": true,
+    "historical-transfer-curves.png": true,
+    "historical-transfer-curves.pdf": true,
+    "fresh-confirmation-contrasts.pdf": true,
+    "fresh-confirmation-contrasts.png": true,
+    "fresh-confirmation-contrasts.svg": true,
+    "historical-transfer-curves.svg": true
+  },
+  "strict_deployments": 72,
+  "max_deployment_difference": 0.0,
+  "original_figure_checks": 10,
+  "commands": [
+    "uv sync --locked --extra experiments --offline",
+    "analyze_strict.py",
+    "tuned_baseline_analysis.py analyze",
+    "plot_results.py",
+    "replay_strict.py",
+    "make check-figures"
+  ],
+  "imported_library": "/private/tmp/mairl-scientific-reproduction-20260919/src/mairl/__init__.py",
+  "guard_checkout_present": false
+}

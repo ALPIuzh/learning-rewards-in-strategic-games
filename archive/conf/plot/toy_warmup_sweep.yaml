@@ -1,0 +1,13 @@
+_target_: mairl_exp.warmup_sweep_plot.WarmupSweepPlot
+
+name: toy-warmup-sweep
+metric: fisher_transfer_error
+confidence_level: 0.95
+band_alpha: 0.08
+x_scale: symlog
+dpi: 180
+allow_incomplete: false
+
+# This completed 100-seed run supplies exactly the 0- and 120-sample points.
+reference_run_dirs:
+  - artifacts/runs/baseline-comparison/51b15452ac8c18c0

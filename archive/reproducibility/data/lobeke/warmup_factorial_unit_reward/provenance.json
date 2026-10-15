@@ -1,0 +1,568 @@
+{
+  "arms": {
+    "no_warm_lambda12": {
+      "method": "active",
+      "source": "swapped",
+      "warmup_enabled": false
+    },
+    "no_warm_lambda3": {
+      "method": "active",
+      "source": "reference",
+      "warmup_enabled": false
+    },
+    "warm_lambda12": {
+      "method": "active",
+      "source": "reference",
+      "warmup_enabled": true
+    },
+    "warm_lambda3": {
+      "method": "active",
+      "source": "swapped",
+      "warmup_enabled": true
+    }
+  },
+  "arrays": {
+    "no_warm_lambda12__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "no_warm_lambda12__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda12__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "no_warm_lambda12__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "no_warm_lambda3__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "no_warm_lambda3__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "no_warm_lambda3__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "no_warm_lambda3__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "warm_lambda12__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda12__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "warm_lambda12__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "warm_lambda3__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "warm_lambda3__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50
+      ]
+    },
+    "warm_lambda3__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    },
+    "warm_lambda3__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50
+      ]
+    }
+  },
+  "data_sha256": "7fffa3b37be56f29f70910a184757376489853062960c9196a090e052876e87b",
+  "design": {
+    "evaluation_policy": {
+      "policy": {
+        "batch_prefilter_iterations": 4,
+        "batch_refine_starts": 2,
+        "grid_batch_size": 4096,
+        "grid_max_points": 250000,
+        "grid_resolution": 80,
+        "max_iterations": 1000,
+        "method": "multistart",
+        "projected_gradient_tolerance": 1e-05,
+        "random_starts": 16,
+        "refine_grid_solution": true,
+        "tolerance": 1e-09
+      }
+    },
+    "lambda_information_multipliers": [
+      3,
+      12
+    ],
+    "paired_seeds": [
+      30000,
+      30001,
+      30002,
+      30003,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011,
+      30012,
+      30013,
+      30014,
+      30015,
+      30016,
+      30017,
+      30018,
+      30019,
+      30020,
+      30021,
+      30022,
+      30023,
+      30024,
+      30025,
+      30026,
+      30027,
+      30028,
+      30029,
+      30030,
+      30031,
+      30032,
+      30033,
+      30034,
+      30035,
+      30036,
+      30037,
+      30038,
+      30039,
+      30040,
+      30041,
+      30042,
+      30043,
+      30044,
+      30045,
+      30046,
+      30047,
+      30048,
+      30049
+    ],
+    "rng": "purpose-separated streams keyed by seed and absolute sample index",
+    "seed_count": 50,
+    "total_samples": 1600,
+    "warmup_budgets": [
+      0,
+      200
+    ]
+  },
+  "effects": {
+    "factorial_interaction_lambda12_minus_lambda3": {
+      "averaged_transfer_fisher_error": {
+        "ci_lower": -0.007616297512348889,
+        "ci_upper": 0.008878726524555089,
+        "count": 50,
+        "mean": 0.0006312145061030994,
+        "standard_error": 0.004104107109835757
+      },
+      "averaged_transfer_suboptimality": {
+        "ci_lower": -0.0004014636445585641,
+        "ci_upper": 0.0003101397133947096,
+        "count": 50,
+        "mean": -4.5661965581927256e-05,
+        "standard_error": 0.00017705317641399391
+      },
+      "coefficient_l2_error": {
+        "ci_lower": -0.3002127192920614,
+        "ci_upper": 0.08732224597792249,
+        "count": 50,
+        "mean": -0.10644523665706945,
+        "standard_error": 0.09642210903822479
+      },
+      "self_concordance_distance": {
+        "ci_lower": -0.10743156993832215,
+        "ci_upper": 0.04630405443148755,
+        "count": 50,
+        "mean": -0.030563757753417294,
+        "standard_error": 0.038250775967320176
+      },
+      "target_fisher_error": {
+        "ci_lower": -0.005837028528804181,
+        "ci_upper": 0.009626379848028839,
+        "count": 50,
+        "mean": 0.0018946756596123287,
+        "standard_error": 0.003847432057065734
+      },
+      "target_suboptimality": {
+        "ci_lower": -6.9411507836180406e-06,
+        "ci_upper": 0.00024604541511684787,
+        "count": 50,
+        "mean": 0.0001195521321666149,
+        "standard_error": 6.294528346743255e-05
+      }
+    },
+    "warm_minus_no_warm_at_lambda12": {
+      "averaged_transfer_fisher_error": {
+        "ci_lower": -0.00986834539625511,
+        "ci_upper": 0.007301502408472382,
+        "count": 50,
+        "mean": -0.001283421493891363,
+        "standard_error": 0.004272009200624736
+      },
+      "averaged_transfer_suboptimality": {
+        "ci_lower": -0.00039572418427456075,
+        "ci_upper": 0.0002857749582005453,
+        "count": 50,
+        "mean": -5.4974613037007706e-05,
+        "standard_error": 0.00016956298273476328
+      },
+      "coefficient_l2_error": {
+        "ci_lower": -0.24691179736052596,
+        "ci_upper": 0.13165270272103677,
+        "count": 50,
+        "mean": -0.0576295473197446,
+        "standard_error": 0.09419017837380343
+      },
+      "self_concordance_distance": {
+        "ci_lower": -0.10624370509562236,
+        "ci_upper": 0.05086356373396526,
+        "count": 50,
+        "mean": -0.02769007068082855,
+        "standard_error": 0.03908967077391484
+      },
+      "target_fisher_error": {
+        "ci_lower": -0.006988496028831071,
+        "ci_upper": 0.00430603934033212,
+        "count": 50,
+        "mean": -0.0013412283442494754,
+        "standard_error": 0.0028101797734375695
+      },
+      "target_suboptimality": {
+        "ci_lower": -5.834538208107923e-05,
+        "ci_upper": 7.665216208066607e-05,
+        "count": 50,
+        "mean": 9.15338999979342e-06,
+        "standard_error": 3.358857674684398e-05
+      }
+    },
+    "warm_minus_no_warm_at_lambda3": {
+      "averaged_transfer_fisher_error": {
+        "ci_lower": -0.007908357961190226,
+        "ci_upper": 0.004079085961201302,
+        "count": 50,
+        "mean": -0.0019146359999944618,
+        "standard_error": 0.0029825815179520434
+      },
+      "averaged_transfer_suboptimality": {
+        "ci_lower": -0.00017197273872064813,
+        "ci_upper": 0.0001533474438104873,
+        "count": 50,
+        "mean": -9.312647455080418e-06,
+        "standard_error": 8.094252370363318e-05
+      },
+      "coefficient_l2_error": {
+        "ci_lower": -0.053007103934790654,
+        "ci_upper": 0.15063848260944032,
+        "count": 50,
+        "mean": 0.04881568933732484,
+        "standard_error": 0.05066881368302166
+      },
+      "self_concordance_distance": {
+        "ci_lower": -0.03964754319770767,
+        "ci_upper": 0.04539491734288518,
+        "count": 50,
+        "mean": 0.0028736870725887555,
+        "standard_error": 0.021159312418200252
+      },
+      "target_fisher_error": {
+        "ci_lower": -0.009357901702050293,
+        "ci_upper": 0.0028860936943266836,
+        "count": 50,
+        "mean": -0.003235904003861805,
+        "standard_error": 0.003046413781916428
+      },
+      "target_suboptimality": {
+        "ci_lower": -0.00021257697977437745,
+        "ci_upper": -8.220504559265461e-06,
+        "count": 50,
+        "mean": -0.00011039874216682146,
+        "standard_error": 5.084568903900399e-05
+      }
+    }
+  },
+  "experiment": "matched Active IRL warm-up/lambda factorial",
+  "generation_command": "python -m experiments.guard.paper.figures.export_warmup_factorial --reference-run artifacts/runs/guard-lobeke-paper/8c4ab05e9b2fe388 --swapped-run artifacts/runs/guard-lobeke-paper/8513aac9cbe3189a --swapped-extension-run artifacts/runs/guard-lobeke-paper/2d6a6b2f2d58eebd --output-dir reproducibility/data/lobeke/warmup_factorial_unit_reward",
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "policy_invariant": true,
+    "source": {
+      "definition": "(r - min(r)) / (max(r) - min(r))",
+      "normalized_r_max": 1.0,
+      "raw_maximum": -0.004032258064516129,
+      "raw_minimum": -1.0,
+      "raw_range": 0.9959677419354839
+    },
+    "transfer_r_max": 1.0
+  },
+  "schema_version": 2,
+  "sources": {
+    "reference": {
+      "git_commit": "004633439fdd892c5887345d1e96c3295cd005a0",
+      "manifest_sha256": "5f988ac074c3ee7b10d631f136e905dd7f19d682877b97b6120fd5416346526f",
+      "protocol": {
+        "evaluation_policy": {
+          "_target_": "mairl.exploration.simplex.PolicyOptimizationConfig",
+          "batch_prefilter_iterations": 4,
+          "batch_refine_starts": 2,
+          "max_iterations": 1000,
+          "method": "multistart",
+          "projected_gradient_tolerance": 1e-05,
+          "random_starts": 16,
+          "refine_grid_solution": true,
+          "tolerance": 1e-09
+        },
+        "no_warm_lambda_multiplier": 3.0,
+        "total_samples": 1600,
+        "warm_lambda_multiplier": 12.0,
+        "warmup_budget": 200
+      },
+      "result_set_sha256": "d416df1341afb3d30b4f23eeba142d8ff82bf362c7bcfd2f87ea45b98d52c84c",
+      "run_id": "8c4ab05e9b2fe388"
+    },
+    "swapped": {
+      "git_commit": "38c96f13e53d975dbb00982ec6f4cd04faac4d12",
+      "manifest_sha256": "6d61eb8694fd6fd330d4c7e2c8daf81d8d166c42b8018db6f0152d1adfab94bd",
+      "protocol": {
+        "evaluation_policy": {
+          "_target_": "mairl.exploration.simplex.PolicyOptimizationConfig",
+          "batch_prefilter_iterations": 4,
+          "batch_refine_starts": 2,
+          "max_iterations": 1000,
+          "method": "multistart",
+          "projected_gradient_tolerance": 1e-05,
+          "random_starts": 16,
+          "refine_grid_solution": true,
+          "tolerance": 1e-09
+        },
+        "no_warm_lambda_multiplier": 12.0,
+        "total_samples": 1600,
+        "warm_lambda_multiplier": 3.0,
+        "warmup_budget": 200
+      },
+      "result_set_sha256": "f9be553695e83a56ba9abafd038a1c781672f60b8a3a8bd572eca211f5348800",
+      "run_id": "8513aac9cbe3189a"
+    },
+    "swapped_extension": {
+      "git_commit": "7101bf1f821d6ab183ad73939df97985249b6151",
+      "manifest_sha256": "1e284cb02a516384198276980d9ace18a58949fd0536980ca05b1e8c051444ba",
+      "protocol": {
+        "evaluation_policy": {
+          "_target_": "mairl.exploration.simplex.PolicyOptimizationConfig",
+          "batch_prefilter_iterations": 4,
+          "batch_refine_starts": 2,
+          "max_iterations": 1000,
+          "method": "multistart",
+          "projected_gradient_tolerance": 1e-05,
+          "random_starts": 16,
+          "refine_grid_solution": true,
+          "tolerance": 1e-09
+        },
+        "no_warm_lambda_multiplier": 12.0,
+        "total_samples": 1600,
+        "warm_lambda_multiplier": 3.0,
+        "warmup_budget": 200
+      },
+      "result_set_sha256": "b98b2ecabda6261770a2d6a19703092ca3150425c3106cfb03ac13b83f592547",
+      "run_id": "2d6a6b2f2d58eebd"
+    }
+  },
+  "transfer_task_policy": {
+    "conditional_on_fixed_suite": true,
+    "count": 10,
+    "name": "fixed_transfer_diagnostic",
+    "normalization": "positive-affine to [0,1] per task; R_max=1",
+    "seed": 9200
+  }
+}

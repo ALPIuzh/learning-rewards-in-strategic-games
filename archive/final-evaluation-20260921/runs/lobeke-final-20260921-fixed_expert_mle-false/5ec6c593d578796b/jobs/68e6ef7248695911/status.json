@@ -1,0 +1,14 @@
+{
+  "algorithm_seconds": 2.0202057259716093,
+  "completed_at": "2026-09-21T13:00:20.060955+00:00",
+  "job_id": "68e6ef7248695911",
+  "label": "no-warmup/fixed_expert_mle/seed=2026097044",
+  "result_sha256": "5f4d4365e1c02c5127b64580bd233ac1318ab9767c1c693f222c37149a2c0caf",
+  "spec": {
+    "method": "fixed_expert_mle",
+    "seed": 2026097044,
+    "warmup_enabled": false
+  },
+  "status": "complete",
+  "updated_at": "2026-09-21T13:00:20.060970+00:00"
+}

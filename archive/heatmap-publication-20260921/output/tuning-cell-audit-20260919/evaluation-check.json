@@ -1,0 +1,206 @@
+{
+  "seconds": 8.617659666997497,
+  "random_starts": 256,
+  "rows": [
+    {
+      "seed": 94005,
+      "task": 75,
+      "old_loss": 0.002171725060056584,
+      "new_loss": 0.0021717246776974397,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94005,
+      "task": 44,
+      "old_loss": 0.0022128482355611157,
+      "new_loss": 0.00221284788003806,
+      "fitted_objective_change": 5.551115123125783e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94005,
+      "task": 97,
+      "old_loss": 0.0022273096500013967,
+      "new_loss": 0.0022273098651570677,
+      "fitted_objective_change": 5.551115123125783e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94005,
+      "task": 92,
+      "old_loss": 0.00223664578284144,
+      "new_loss": 0.002236645808648907,
+      "fitted_objective_change": 4.440892098500626e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94005,
+      "task": 51,
+      "old_loss": 0.002260253322069694,
+      "new_loss": 0.002260252716968003,
+      "fitted_objective_change": 2.9976021664879227e-15,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94005,
+      "task": 16,
+      "old_loss": 0.002329914161119273,
+      "new_loss": 0.002329914161119495,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 2.220446049250313e-16
+    },
+    {
+      "seed": 94005,
+      "task": 59,
+      "old_loss": 0.0023908378870671765,
+      "new_loss": 0.0023908378870672875,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94005,
+      "task": 30,
+      "old_loss": 0.002520799062733725,
+      "new_loss": 0.002520798161660509,
+      "fitted_objective_change": -3.3306690738754696e-16,
+      "oracle_change": 2.220446049250313e-16
+    },
+    {
+      "seed": 94005,
+      "task": 40,
+      "old_loss": 0.0025638890879919884,
+      "new_loss": 0.002563889307221845,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94005,
+      "task": 43,
+      "old_loss": 0.004819467223779239,
+      "new_loss": 0.00481946722377935,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94000,
+      "task": 37,
+      "old_loss": 0.00252363181430848,
+      "new_loss": 0.002523631814308369,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94000,
+      "task": 6,
+      "old_loss": 0.0025468195815556705,
+      "new_loss": 0.0025468195815555594,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94000,
+      "task": 81,
+      "old_loss": 0.002669656183433511,
+      "new_loss": 0.002669656183433622,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94000,
+      "task": 47,
+      "old_loss": 0.003203707677487344,
+      "new_loss": 0.003203707677487344,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 1.1102230246251565e-16
+    },
+    {
+      "seed": 94000,
+      "task": 50,
+      "old_loss": 0.0034210778726617708,
+      "new_loss": 0.0034210786272201865,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94001,
+      "task": 13,
+      "old_loss": 0.0012285064676947899,
+      "new_loss": 0.001228506414664099,
+      "fitted_objective_change": 3.3306690738754696e-16,
+      "oracle_change": -1.1102230246251565e-16
+    },
+    {
+      "seed": 94001,
+      "task": 98,
+      "old_loss": 0.0013397429752568524,
+      "new_loss": 0.001339742930622334,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94001,
+      "task": 25,
+      "old_loss": 0.0013417114296244703,
+      "new_loss": 0.0013417115260234702,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94001,
+      "task": 70,
+      "old_loss": 0.0015300687377833855,
+      "new_loss": 0.0015300686651592565,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94001,
+      "task": 92,
+      "old_loss": 0.0016512224672732279,
+      "new_loss": 0.001651222479574388,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94002,
+      "task": 63,
+      "old_loss": 0.0013699760294118568,
+      "new_loss": 0.0013699763421364808,
+      "fitted_objective_change": 5.551115123125783e-17,
+      "oracle_change": 5.551115123125783e-17
+    },
+    {
+      "seed": 94002,
+      "task": 41,
+      "old_loss": 0.001525571901512146,
+      "new_loss": 0.0015255718139322028,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": -1.1102230246251565e-16
+    },
+    {
+      "seed": 94002,
+      "task": 98,
+      "old_loss": 0.0022446691902077154,
+      "new_loss": 0.002244669182618675,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94002,
+      "task": 25,
+      "old_loss": 0.0023501279299327216,
+      "new_loss": 0.002350127976648353,
+      "fitted_objective_change": 0.0,
+      "oracle_change": 0.0
+    },
+    {
+      "seed": 94002,
+      "task": 70,
+      "old_loss": 0.0024392560070404246,
+      "new_loss": 0.0024392558805522713,
+      "fitted_objective_change": 1.1102230246251565e-16,
+      "oracle_change": 0.0
+    }
+  ]
+}

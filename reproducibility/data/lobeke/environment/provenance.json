@@ -1,0 +1,72 @@
+{
+  "arrays": {
+    "patrol_coverage": {
+      "dtype": "float64",
+      "maximum": 0.7264742813148453,
+      "minimum": 0.0,
+      "shape": [
+        5,
+        5
+      ],
+      "sum": 1.0000000000000004
+    },
+    "poacher_attack": {
+      "dtype": "float64",
+      "maximum": 0.07007662804482007,
+      "minimum": 0.0,
+      "shape": [
+        5,
+        5
+      ],
+      "sum": 1.0
+    },
+    "target_value": {
+      "dtype": "float64",
+      "maximum": 0.623507228158391,
+      "minimum": 0.0,
+      "shape": [
+        5,
+        5
+      ],
+      "sum": 4.0
+    }
+  },
+  "data_sha256": "5e983db1b431f6616a9675a413281452e80dbec8cff391d0eb350cef98b5888b",
+  "deployment": {
+    "batch_refine_starts": 2,
+    "description": "Stackelberg-optimal patrol for the source ranger reward",
+    "leader_value": -0.3110350748063353,
+    "optimization_method": "multistart",
+    "optimization_seed": 0,
+    "random_starts": 16
+  },
+  "environment": "Lobeke National Park",
+  "model": {
+    "eta": 2.1650635094610964,
+    "feature_names": [
+      "coverage",
+      "target value",
+      "coverage x target value"
+    ],
+    "ranger_base_position": [
+      0.4956896551724102,
+      0.5023634453781511
+    ],
+    "source_game_is_zero_sum": true,
+    "true_omega": [
+      -3.6668925687460107e-16,
+      1.0000000000000002,
+      -0.6666666666666662
+    ]
+  },
+  "schema_version": 1,
+  "source": {
+    "dependency": "GUARD",
+    "grid_shape": [
+      5,
+      5
+    ],
+    "guard_revision": "58964e76f37bdfc32560308a14942677b27148f3",
+    "target_count": 23
+  }
+}

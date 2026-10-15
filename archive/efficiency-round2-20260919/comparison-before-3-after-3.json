@@ -1,0 +1,23 @@
+{
+  "lobeke": {
+    "jobs": 18,
+    "arrays": 261,
+    "mismatches": [],
+    "max_absolute_difference": 0.0,
+    "summary_mismatches": []
+  },
+  "toy": {
+    "jobs": 18,
+    "arrays": 276,
+    "mismatches": [],
+    "max_absolute_difference": 0.0,
+    "summary_mismatches": []
+  },
+  "sparse": {
+    "jobs": 18,
+    "arrays": 276,
+    "mismatches": [],
+    "max_absolute_difference": 0.0,
+    "summary_mismatches": []
+  }
+}

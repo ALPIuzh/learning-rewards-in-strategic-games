@@ -1,0 +1,5 @@
+_target_: experiments.guard.application.GuardApplication
+game_name: lobeke_sfg_gsg_2
+feature_mode: behavioral
+eta: 1.25
+radius_multiplier: 1.5

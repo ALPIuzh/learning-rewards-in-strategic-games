@@ -1,0 +1,50 @@
+# @package experiment
+
+_target_: experiments.guard.paper.study.LobekeComparisonStudy
+
+name: guard-lobeke-paper
+seed_start: 2026097000
+seed_count: 50
+total_samples: 1600
+warmup_budget: 50
+evaluation_interval: 40
+warmup_lambda_information_multiplier: 0.03
+no_warmup_lambda_information_multiplier: 0.1
+lambda_warm: 0.01
+# Matched MLE ridge across collection designs. Information multipliers control sampling.
+fixed_expert_mle_ridge: ${numerics.mle.ridge}
+confidence_delta: 0.05
+
+methods:
+  - active
+  - fixed_expert_mle
+  - zero_sum_ols
+  - follower_ols
+  - fixed_random
+  - random_each_round
+
+warmup_modes: [true, false]
+
+# Reference action 22 minimizes the follower contrast-system condition number among
+# the 23 available actions. With this reference, Liao's paired zero-sum equations have
+# condition number ~174, while the follower-only equations are much closer to singular
+# (~13686, smallest singular value ~5.5e-5 vs ~7.5e-1 largest). The latter is a real,
+# expected consequence of using only one player's equation block. The default
+# ball_tolerance (1e-10) is too tight for that
+# conditioning regime and spuriously raises ConvergenceError on the postcondition check;
+# The norm tolerance and iteration cap below are loosened, while the default 1e-12 root
+# tolerance is retained. A K=50..4000 sweep verified that this eliminates spurious failures
+# without changing converged solutions.
+ols:
+  _target_: mairl.inference.fixed_leader_ols.FixedLeaderOLSConfig
+  pseudocount: 0.5
+  smoothing_warning_ratio: 0.1
+  identifiability: require_unique
+  constraint: ball
+  follower_reference_action: 22
+  leader_reference_action: 22
+  rank_relative_tolerance: 1.0e-10
+  rank_absolute_tolerance: 1.0e-12
+  ball_tolerance: 1.0e-6
+  ball_root_tolerance: 1.0e-12
+  ball_max_iterations: 400

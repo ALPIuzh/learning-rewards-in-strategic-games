@@ -1,0 +1,13 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+validated active_no_warm_lambda0p003
+validated active_no_warm_lambda0p03
+validated active_warm200_lambda0p003
+validated active_warm200_lambda0p03
+validated fixed_expert_matched_ridge
+validated fixed_random_no_warm
+validated fixed_random_warm200
+validated random_each_round_no_warm
+validated random_each_round_warm200
+validated follower_ols
+validated zero_sum_ols

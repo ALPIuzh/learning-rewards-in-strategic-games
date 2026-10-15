@@ -1,0 +1,15 @@
+{
+  "algorithm_seconds": 1.879416209001647,
+  "completed_at": "2026-07-30T12:32:31.177192+00:00",
+  "job_id": "4abfa1d20c91f7a0",
+  "label": "calibration/warmup/candidate=direct_slsqp_reference/seed=1004",
+  "result_sha256": "bcb354c73384260ff2a884c3f45496422cc9d7bdb2beea403f0f95d36265ce46",
+  "spec": {
+    "candidate": "direct_slsqp_reference",
+    "seed": 1004,
+    "split": "calibration",
+    "warmup_enabled": true
+  },
+  "status": "complete",
+  "updated_at": "2026-07-30T12:32:31.177197+00:00"
+}

@@ -1,0 +1,57 @@
+diff --git a/src/mairl/inference/_mle_likelihood.py b/src/mairl/inference/_mle_likelihood.py
+index ff899bc..5b57713 100644
+--- a/src/mairl/inference/_mle_likelihood.py
++++ b/src/mairl/inference/_mle_likelihood.py
+@@ -54,16 +54,19 @@ def prepare_likelihood_batch(problem: CompiledProblem, policies: FloatArray,
+ 
+ 
+ def evaluate_prepared(problem: CompiledProblem, prepared: PreparedLikelihood, coefficients: FloatArray,
+-        ridge: float, *, with_hessian: bool) -> tuple[float, float, FloatArray, FloatArray | None]:  # fmt: skip
++        ridge: float, *, with_hessian: bool,
++        with_gradient: bool = True) -> tuple[float, float, FloatArray | None, FloatArray | None]:  # fmt: skip
+     """Evaluate the scalar objective, gradient, and optionally exact Hessian."""
+ 
+     logits = problem.eta * np.einsum("nbd,d->nb", prepared.follower_features, coefficients, optimize=True)
+     log_normalizers = logsumexp(logits, axis=1)
+     log_likelihood = float(np.sum(problem.eta * (prepared.selected_features @ coefficients) - log_normalizers))
++    penalized = log_likelihood - 0.5 * ridge * float(coefficients @ coefficients)
++    if not with_gradient and not with_hessian:
++        return log_likelihood, penalized, None, None
+     probabilities = np.exp(logits - log_normalizers[:, None])
+-    expected = np.einsum("nb,nbd->nd", probabilities, prepared.follower_features, optimize=True)
++    expected = np.einsum("nb,nbd->nd", probabilities, prepared.follower_features)
+     gradient = problem.eta * np.sum(prepared.selected_features - expected, axis=0) - ridge * coefficients
+-    penalized = log_likelihood - 0.5 * ridge * float(coefficients @ coefficients)
+     if not with_hessian:
+         return log_likelihood, penalized, gradient, None
+ 
+diff --git a/src/mairl/inference/_mle_solver.py b/src/mairl/inference/_mle_solver.py
+index c6c644b..4803c15 100644
+--- a/src/mairl/inference/_mle_solver.py
++++ b/src/mairl/inference/_mle_solver.py
+@@ -193,9 +193,13 @@ def solve_constrained(problem: CompiledProblem, prepared: PreparedLikelihood, co
+         initial: FloatArray, *, prior_iterations: int = 0, prior_evaluations: int = 0) -> MLEResult:  # fmt: skip
+     """Run the general constrained solver and enforce strict postconditions."""
+ 
+-    def objective(coefficients: FloatArray) -> tuple[float, FloatArray]:
+-        _, value, gradient = likelihood_and_gradient_prepared(problem, prepared, coefficients, config.ridge)
+-        return -value, -gradient
++    def objective(coefficients: FloatArray) -> float:
++        return -evaluate_prepared(
++            problem, prepared, coefficients, config.ridge, with_hessian=False, with_gradient=False
++        )[1]
++
++    def objective_gradient(coefficients: FloatArray) -> FloatArray:
++        return -likelihood_and_gradient_prepared(problem, prepared, coefficients, config.ridge)[2]
+ 
+     def objective_hessian(coefficients: FloatArray) -> FloatArray:
+         _, _, _, hessian = evaluate_prepared(problem, prepared, coefficients, config.ridge, with_hessian=True)
+@@ -238,7 +242,7 @@ def solve_constrained(problem: CompiledProblem, prepared: PreparedLikelihood, co
+                 "verbose": 0,
+             }
+             solver_arguments = {"hess": objective_hessian, "constraints": (trust_constraint,)}
+-        result = minimize(objective, start, method=method, jac=True, options=options, **solver_arguments)
++        result = minimize(objective, start, method=method, jac=objective_gradient, options=options, **solver_arguments)
+         total_iterations += int(result.nit)
+         total_evaluations += int(result.nfev)
+         omega = np.asarray(result.x, dtype=np.float64)

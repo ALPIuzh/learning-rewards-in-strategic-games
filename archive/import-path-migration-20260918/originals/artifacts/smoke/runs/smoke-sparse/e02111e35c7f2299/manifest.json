@@ -1,0 +1,107 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/sparse_information/run.py",
+    "experiment.name=smoke-sparse",
+    "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs",
+    "run.require_clean_git=false",
+    "experiment.total_samples=8",
+    "experiment.warmup_budget=0",
+    "experiment.warmup_modes=[false]",
+    "experiment.seed_count=2",
+    "experiment.evaluation_interval=4"
+  ],
+  "created_at": "2026-09-18T15:42:58.451970+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "simplify/cleanup-pass",
+    "commit": "eab54738bdb7af0a182787faa9b19f7a50a45aea",
+    "dirty": true,
+    "fingerprint": "633172f77f66469cc86f591067c06d619515cea0ce3730087ecc85cc6af46631",
+    "status": [
+      " M experiments/guard/geographic/map_lobeke.py",
+      " M experiments/guard/paper/figures/appendix_comparison.py",
+      " M experiments/guard/paper/figures/illustrations.py",
+      " M experiments/guard/paper/figures/joint_discovery.py",
+      " M experiments/guard/paper/figures/story.py",
+      " M experiments/guard/paper/figures/style.py",
+      " M experiments/guard/paper/figures/temporal.py",
+      " M experiments/guard/paper/figures/transfer_assets.py",
+      " M src/mairl_exp/mpl.py"
+    ],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 6,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.18521712500296417,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 6
+  },
+  "resume_granularity": "job",
+  "run_id": "e02111e35c7f2299",
+  "schema_version": 1,
+  "semantic_config_sha256": "81a64d21ccbe7f0941f7ca31084978d623fdd40ef758c40a512a022d312bb5fc",
+  "status": "complete",
+  "study_name": "smoke-sparse",
+  "updated_at": "2026-09-18T15:42:58.618520+00:00"
+}

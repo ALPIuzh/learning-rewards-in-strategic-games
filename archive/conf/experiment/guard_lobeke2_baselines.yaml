@@ -1,0 +1,19 @@
+_target_: mairl_exp.studies.BaselineComparisonStudy
+
+name: guard-lobeke2-baselines
+seed_start: 100
+seed_count: 6
+total_samples: 120
+warmup_budget: 100
+evaluation_interval: 120
+
+lambda_information_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+methods:
+  - fixed_random
+  - random_each_round
+warmup_modes:
+  - true
+  - false

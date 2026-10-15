@@ -1,0 +1,71 @@
+application:
+  _target_: experiments.guard.application.GuardApplication
+  eta: 1.25
+  feature_mode: behavioral
+  game_name: etosha_sfg_gsg_1
+  radius_multiplier: 1.5
+experiment:
+  _target_: mairl_exp.studies.BaselineComparisonStudy
+  confidence_delta: 0.05
+  evaluation_interval: 50
+  lambda_information_multiplier: 1.0
+  lambda_warm: 0.01
+  methods:
+  - fixed_random
+  - random_each_round
+  name: guard-lobeke2-baselines
+  seed_count: 2
+  seed_start: 100
+  total_samples: 50
+  warmup_budget: 45
+  warmup_modes:
+  - true
+  - false
+numerics:
+  _target_: mairl_exp.config.ExperimentNumerics
+  active_policy:
+    _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+    batch_prefilter_iterations: 4
+    batch_refine_starts: 1
+    max_iterations: 1000
+    method: multistart
+    projected_gradient_tolerance: 1.0e-06
+    random_starts: 16
+    refine_grid_solution: true
+    tolerance: 1.0e-09
+  evaluation_policy:
+    _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+    batch_prefilter_iterations: 4
+    batch_refine_starts: 1
+    max_iterations: 1000
+    method: multistart
+    projected_gradient_tolerance: 1.0e-06
+    random_starts: 16
+    refine_grid_solution: true
+    tolerance: 1.0e-09
+  mle:
+    _target_: mairl.inference.mle.MLEConfig
+    constraint_tolerance: 1.0e-09
+    kkt_tolerance: 1.0e-09
+    max_iterations: 1000
+    objective_tolerance: 1.0e-13
+    projected_gradient_tolerance: 1.0e-06
+    ridge: 0.0001
+    solver: newton
+    trust_region_barrier_tolerance: 1.0e-12
+    trust_region_gradient_tolerance: 1.0e-12
+    trust_region_step_tolerance: 1.0e-14
+  warmup:
+    _target_: mairl_exp.config.WarmupNumerics
+    design_tolerance: 0.15
+    line_search_max_iterations: 500
+    line_search_tolerance: 1.0e-12
+    matrix_tolerance: 1.0e-09
+    max_iterations: 10000
+    support_tolerance: 1.0e-12
+run:
+  require_clean_git: false
+  resume: true
+  root: artifacts/runs_diag
+  seed_batch_size: 64
+schema_version: 1

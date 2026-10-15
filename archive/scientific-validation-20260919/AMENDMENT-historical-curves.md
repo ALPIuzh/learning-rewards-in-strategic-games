@@ -1,0 +1,7 @@
+# Numerical audit of retained transfer curves
+
+The final retained Lobeke endpoints were stable under full 64-start optimization: the largest individual change was 5.49e-6 and the largest method-mean change was 9.30e-8. That does not check earlier, noisier estimates. Audit all 48,000 plotted task × method × seed × checkpoint deployments, reusing the 4,500 final-checkpoint evaluations already completed. No observation collection, re-tuning, or replacement of published data is involved.
+
+A 192-deployment pilot spanning all methods and checkpoints on the first task and first two seeds replayed the old fast evaluations within 4.45e-16; full multistart changed losses by at most 1.95e-6 there. Its 13.28-second runtime with four workers projects approximately 50 minutes for the remaining 43,500 deployments. Allow 75 minutes while other numerical work continues, checkpointing each task, and investigate oracle violations rather than clipping material negative losses. Save compact corrected curves separately; compare both individual losses and every plotted method mean to the retained data.
+
+This raises the aggregate compute allowance beyond the initial three-hour projection, to four hours for the bounded package including the separate selected-ridge confirmation. The reason is the demonstrated nonconvex evaluation miss in fresh data; completion of a final-checkpoint check alone cannot resolve its relevance to the full retained curves. This amendment does not change training or statistical hypotheses.

@@ -1,0 +1,11 @@
+plot:
+  _target_: mairl_exp.plotting.FisherTransferPlot
+  allow_incomplete: false
+  dpi: 180
+  lower_quantile: 0.1
+  metric: fisher_transfer_error
+  name: fisher-transfer
+  upper_quantile: 0.9
+require_clean_git: true
+run_dir: artifacts/runs/baseline-comparison/4acb35768b700260
+schema_version: 1

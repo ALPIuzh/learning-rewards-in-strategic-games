@@ -1,0 +1,215 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment=numerical_calibration"
+  ],
+  "created_at": "2026-07-30T12:18:38.283078+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "bba801680cba244c",
+      "label": "calibration/candidate=default_newton/seed=1000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1000,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "6c55afda6f4259fc",
+      "label": "calibration/candidate=default_newton/seed=1001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1001,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "5da552b79b253ff8",
+      "label": "calibration/candidate=default_newton/seed=1002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1002,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "6582d0e64330e878",
+      "label": "calibration/candidate=default_newton/seed=1003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1003,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "3c92312e1a0756fd",
+      "label": "calibration/candidate=default_newton/seed=1004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 1004,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "9d760b4cc96f3958",
+      "label": "validation/candidate=default_newton/seed=2000",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2000,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "40fc1cf2cd511776",
+      "label": "validation/candidate=default_newton/seed=2001",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2001,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "8266a8c32baf0713",
+      "label": "validation/candidate=default_newton/seed=2002",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2002,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "d08f48202ac3a19b",
+      "label": "validation/candidate=default_newton/seed=2003",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2003,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "c5a1add7f4b9d5d3",
+      "label": "validation/candidate=default_newton/seed=2004",
+      "spec": {
+        "candidate": "default_newton",
+        "seed": 2004,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "69373325c01ee6fb",
+      "label": "calibration/candidate=direct_slsqp_reference/seed=1000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1000,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "372b70db898bd7d3",
+      "label": "calibration/candidate=direct_slsqp_reference/seed=1001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1001,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "a2158b5a77835d8e",
+      "label": "calibration/candidate=direct_slsqp_reference/seed=1002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1002,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "9603f9c41fb36bf5",
+      "label": "calibration/candidate=direct_slsqp_reference/seed=1003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1003,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "014bcd824f4f6acc",
+      "label": "calibration/candidate=direct_slsqp_reference/seed=1004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 1004,
+        "split": "calibration"
+      }
+    },
+    {
+      "job_id": "ed9190b51ad645e5",
+      "label": "validation/candidate=direct_slsqp_reference/seed=2000",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2000,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "880fbb12c9f60b25",
+      "label": "validation/candidate=direct_slsqp_reference/seed=2001",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2001,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "2f8e1b4beb733c98",
+      "label": "validation/candidate=direct_slsqp_reference/seed=2002",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2002,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "fad25f1904a32429",
+      "label": "validation/candidate=direct_slsqp_reference/seed=2003",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2003,
+        "split": "validation"
+      }
+    },
+    {
+      "job_id": "86d7441815815168",
+      "label": "validation/candidate=direct_slsqp_reference/seed=2004",
+      "spec": {
+        "candidate": "direct_slsqp_reference",
+        "seed": 2004,
+        "split": "validation"
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "1cc42497744026ed1413836f5ed21225939de328",
+    "dirty": false,
+    "fingerprint": "8901486a6a362435d758093e829dbce4b5653a12bcdf6d2d85519939722b3157",
+    "status": [],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 20,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 9.345528375000868,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 20
+  },
+  "resume_granularity": "job",
+  "run_id": "ec905f964f816041",
+  "schema_version": 1,
+  "semantic_config_sha256": "71f70375f74ab6aa6f8503fb53f1575744bd86a527a162d7b3b5616a181a6347",
+  "status": "complete",
+  "study_name": "numerical-calibration",
+  "updated_at": "2026-07-30T12:18:47.603030+00:00"
+}

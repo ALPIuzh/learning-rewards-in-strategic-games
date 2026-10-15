@@ -1,0 +1,4069 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/zero_sum_comparison/run_joint_selection.py",
+    "--config-name",
+    "zero_sum_joint_refinement_config"
+  ],
+  "created_at": "2026-08-06T15:10:06.380624+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "e01929092c8c77e1",
+      "label": "warmup=0/lambda=1eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40000,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "e65d5e7bce0eb9f1",
+      "label": "warmup=0/lambda=1eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40001,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "6bf86ebf0652ba56",
+      "label": "warmup=0/lambda=1eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40002,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "7c9ff3b832966063",
+      "label": "warmup=0/lambda=1eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40003,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "b256a6c09dce8be4",
+      "label": "warmup=0/lambda=1eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40004,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "504bd704ac00cd6e",
+      "label": "warmup=0/lambda=1eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40005,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "f74e0996847ac6a1",
+      "label": "warmup=0/lambda=1eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40006,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "26d1e56e72535f5d",
+      "label": "warmup=0/lambda=1eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40007,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "5c82e52210f3831b",
+      "label": "warmup=0/lambda=1eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40008,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "eee5e2459407f1e7",
+      "label": "warmup=0/lambda=1eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40009,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "48935c16861cb84c",
+      "label": "warmup=0/lambda=1eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40010,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "2d042810b10c3262",
+      "label": "warmup=0/lambda=1eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40011,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "2617b7a8e4fa17ad",
+      "label": "warmup=0/lambda=1eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40012,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "c53fb05a6c461d42",
+      "label": "warmup=0/lambda=1eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40013,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "7147a039eba68a45",
+      "label": "warmup=0/lambda=1eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40014,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "376fcbd7a6c1a9d6",
+      "label": "warmup=0/lambda=1eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40015,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "f17347ee1592e180",
+      "label": "warmup=0/lambda=1eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40016,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "44718212c34712f6",
+      "label": "warmup=0/lambda=1eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40017,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "085121f49f9d6601",
+      "label": "warmup=0/lambda=1eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40018,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "e12bf5fd4c3e10b9",
+      "label": "warmup=0/lambda=1eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40019,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "b9063c5a8897dc1e",
+      "label": "warmup=0/lambda=1eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40020,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "12b8eb87741c8b09",
+      "label": "warmup=0/lambda=1eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40021,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "36ff12c0e41e7e78",
+      "label": "warmup=0/lambda=1eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40022,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "dcd309d1c2b5f859",
+      "label": "warmup=0/lambda=1eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40023,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "459eda5cca918a29",
+      "label": "warmup=0/lambda=1eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40024,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "73bf8847f02a9f08",
+      "label": "warmup=0/lambda=1eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40025,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "aa5dd60a34fee4c8",
+      "label": "warmup=0/lambda=1eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40026,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "e9862083da27b235",
+      "label": "warmup=0/lambda=1eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40027,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "d1afce6ed4b9ebe9",
+      "label": "warmup=0/lambda=1eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40028,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "3f22f0d5ef3a22aa",
+      "label": "warmup=0/lambda=1eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40029,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "3ba5ba22e3dd622c",
+      "label": "warmup=0/lambda=1eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40030,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "bdabe390afaf769f",
+      "label": "warmup=0/lambda=1eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40031,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "cd9ad46821933f42",
+      "label": "warmup=0/lambda=1eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40032,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "1afdb4a74e506175",
+      "label": "warmup=0/lambda=1eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40033,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "3f7137c8f74bbd73",
+      "label": "warmup=0/lambda=1eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40034,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "37914d5d21ea5a63",
+      "label": "warmup=0/lambda=1eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40035,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "aa86ce937187c4c9",
+      "label": "warmup=0/lambda=1eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40036,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "cfb4cf6c5e04f388",
+      "label": "warmup=0/lambda=1eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40037,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "e6b1a79624ca06f0",
+      "label": "warmup=0/lambda=1eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40038,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "ef3f46a165ab6cee",
+      "label": "warmup=0/lambda=1eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40039,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "395881173713b575",
+      "label": "warmup=0/lambda=1eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40040,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "50ca3fd16b92697b",
+      "label": "warmup=0/lambda=1eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40041,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "24055315c344bfb6",
+      "label": "warmup=0/lambda=1eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40042,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "572813d7f63bb642",
+      "label": "warmup=0/lambda=1eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40043,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "669aeb8629f9dec2",
+      "label": "warmup=0/lambda=1eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40044,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "28539c0f74b78145",
+      "label": "warmup=0/lambda=1eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40045,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "0ed9523abca69a68",
+      "label": "warmup=0/lambda=1eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40046,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "73f31bfe90096367",
+      "label": "warmup=0/lambda=1eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40047,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "09599379d151376c",
+      "label": "warmup=0/lambda=1eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40048,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "8424b0cad729c39f",
+      "label": "warmup=0/lambda=1eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40049,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "2c0aaff67ddffc23",
+      "label": "warmup=0/lambda=1eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40050,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "c363f6f9886d109f",
+      "label": "warmup=0/lambda=1eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40051,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "15ac9683ded6f06f",
+      "label": "warmup=0/lambda=1eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40052,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "10713c0b652faf5b",
+      "label": "warmup=0/lambda=1eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40053,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "ee828addf93039c7",
+      "label": "warmup=0/lambda=1eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40054,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "c478b3a47696cb3c",
+      "label": "warmup=0/lambda=1eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40055,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "86924851ef98ac1d",
+      "label": "warmup=0/lambda=1eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40056,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "2e14abe1b9130f88",
+      "label": "warmup=0/lambda=1eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40057,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "274551facd713da5",
+      "label": "warmup=0/lambda=1eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40058,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "85337a95d4056469",
+      "label": "warmup=0/lambda=1eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40059,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "6b43ea0852332aec",
+      "label": "warmup=0/lambda=1eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40060,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "27fd256027d29fae",
+      "label": "warmup=0/lambda=1eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40061,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "0ae64d77eda3c1b0",
+      "label": "warmup=0/lambda=1eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40062,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "27843035b802f542",
+      "label": "warmup=0/lambda=1eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 1.0,
+        "seed": 40063,
+        "warmup_budget": 0
+      }
+    },
+    {
+      "job_id": "b28271192ac62486",
+      "label": "warmup=140/lambda=4eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40000,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c0531b4d9a859388",
+      "label": "warmup=140/lambda=4eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40001,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "e3ba34d8e3573521",
+      "label": "warmup=140/lambda=4eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40002,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "27289cd15ccd4d4a",
+      "label": "warmup=140/lambda=4eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40003,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "faded0ebe40f5f9e",
+      "label": "warmup=140/lambda=4eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40004,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "2b2c87f4bfa31e68",
+      "label": "warmup=140/lambda=4eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40005,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c94eb6c61ec1c279",
+      "label": "warmup=140/lambda=4eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40006,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "336c6703772acc8c",
+      "label": "warmup=140/lambda=4eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40007,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "69ac0be3dcedaea8",
+      "label": "warmup=140/lambda=4eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40008,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "b8d087cb5605c4fa",
+      "label": "warmup=140/lambda=4eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40009,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "97979405488b0dc9",
+      "label": "warmup=140/lambda=4eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40010,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d8c5aeefb5192379",
+      "label": "warmup=140/lambda=4eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40011,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "61608d3654259ac6",
+      "label": "warmup=140/lambda=4eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40012,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "7c5fea6e1c67716b",
+      "label": "warmup=140/lambda=4eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40013,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c59069784e0a6c63",
+      "label": "warmup=140/lambda=4eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40014,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "ffd60356ec4e14e7",
+      "label": "warmup=140/lambda=4eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40015,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "9158c887a84f0a15",
+      "label": "warmup=140/lambda=4eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40016,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "b0e66ea67394a7b1",
+      "label": "warmup=140/lambda=4eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40017,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a69a2f9a48387dd5",
+      "label": "warmup=140/lambda=4eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40018,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5c74d2399bef928b",
+      "label": "warmup=140/lambda=4eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40019,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "0d75b3287468e030",
+      "label": "warmup=140/lambda=4eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40020,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "1601d883c8ed4a7e",
+      "label": "warmup=140/lambda=4eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40021,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "7626ba090ba74d22",
+      "label": "warmup=140/lambda=4eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40022,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "fcef98ebc46b417e",
+      "label": "warmup=140/lambda=4eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40023,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "02939f939d581713",
+      "label": "warmup=140/lambda=4eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40024,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "32d2688b435ccb07",
+      "label": "warmup=140/lambda=4eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40025,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5d990dd553b368a0",
+      "label": "warmup=140/lambda=4eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40026,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "bbeb7fa0abefe0f2",
+      "label": "warmup=140/lambda=4eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40027,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3eb9929f81eb3ecf",
+      "label": "warmup=140/lambda=4eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40028,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "62db84bd80150c0f",
+      "label": "warmup=140/lambda=4eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40029,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "14cfdb10fbe7a2d2",
+      "label": "warmup=140/lambda=4eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40030,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3cb0453c90e13b12",
+      "label": "warmup=140/lambda=4eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40031,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a61516e94e614ae0",
+      "label": "warmup=140/lambda=4eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40032,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "45a2e259ef6b84a6",
+      "label": "warmup=140/lambda=4eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40033,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "738984fddf2e794b",
+      "label": "warmup=140/lambda=4eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40034,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3cdee1ff24ed4eb5",
+      "label": "warmup=140/lambda=4eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40035,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "1108c41663934185",
+      "label": "warmup=140/lambda=4eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40036,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "91070630ad6ac20b",
+      "label": "warmup=140/lambda=4eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40037,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "90fd090b1c198e84",
+      "label": "warmup=140/lambda=4eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40038,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "852f92dcffae78c4",
+      "label": "warmup=140/lambda=4eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40039,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "f16ffe26b4762022",
+      "label": "warmup=140/lambda=4eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40040,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "4a78c076123f62f7",
+      "label": "warmup=140/lambda=4eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40041,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "eadf70ee020c3f60",
+      "label": "warmup=140/lambda=4eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40042,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c1235ad3d95c36d2",
+      "label": "warmup=140/lambda=4eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40043,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "89145247431af50d",
+      "label": "warmup=140/lambda=4eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40044,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "f275be44897a5cf6",
+      "label": "warmup=140/lambda=4eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40045,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "110ac4f4e8f8ca2f",
+      "label": "warmup=140/lambda=4eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40046,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "da7e066adf30fd09",
+      "label": "warmup=140/lambda=4eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40047,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "9642ef0a07a85b6a",
+      "label": "warmup=140/lambda=4eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40048,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5957ec29fa85104d",
+      "label": "warmup=140/lambda=4eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40049,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5840055d9700d796",
+      "label": "warmup=140/lambda=4eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40050,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a1a3847fd4a55e05",
+      "label": "warmup=140/lambda=4eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40051,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3b7ee699b5b02e90",
+      "label": "warmup=140/lambda=4eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40052,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "b5c2059e4159ebd6",
+      "label": "warmup=140/lambda=4eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40053,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "549d1a957027f5b2",
+      "label": "warmup=140/lambda=4eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40054,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "06f6218872cbfb8a",
+      "label": "warmup=140/lambda=4eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40055,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d7dbfd68dfaa37a1",
+      "label": "warmup=140/lambda=4eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40056,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "b576d089dde1b5d3",
+      "label": "warmup=140/lambda=4eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40057,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a6092b5c50ac2483",
+      "label": "warmup=140/lambda=4eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40058,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "0d11142ca3a63385",
+      "label": "warmup=140/lambda=4eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40059,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "69b74dc5b1ed4bce",
+      "label": "warmup=140/lambda=4eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40060,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "7430f1f49646e5cf",
+      "label": "warmup=140/lambda=4eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40061,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "449f3d916fb2c493",
+      "label": "warmup=140/lambda=4eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40062,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "09b0790d1384f6ec",
+      "label": "warmup=140/lambda=4eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40063,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "18ff60e1c5ac4aed",
+      "label": "warmup=140/lambda=8eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40000,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "517ca9be008ef1c7",
+      "label": "warmup=140/lambda=8eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40001,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "738f06721fa06b9a",
+      "label": "warmup=140/lambda=8eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40002,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "ce2a055e0e37cc4f",
+      "label": "warmup=140/lambda=8eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40003,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a68ae74a5246bd15",
+      "label": "warmup=140/lambda=8eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40004,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "547e4733acf6f66e",
+      "label": "warmup=140/lambda=8eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40005,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5469e52c9b7a7fdb",
+      "label": "warmup=140/lambda=8eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40006,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "634918d7b7858eac",
+      "label": "warmup=140/lambda=8eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40007,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "9755753644d87bad",
+      "label": "warmup=140/lambda=8eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40008,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "20422f75f2303b87",
+      "label": "warmup=140/lambda=8eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40009,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "f5f6cc40890c4307",
+      "label": "warmup=140/lambda=8eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40010,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "958d6c39a9ce1e58",
+      "label": "warmup=140/lambda=8eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40011,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "de9dff556f4fcd38",
+      "label": "warmup=140/lambda=8eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40012,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "f3dfb7ac51d44eb3",
+      "label": "warmup=140/lambda=8eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40013,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3275f0844a6412fa",
+      "label": "warmup=140/lambda=8eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40014,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "4305b790c1c748fc",
+      "label": "warmup=140/lambda=8eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40015,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3e30245f71ca7e82",
+      "label": "warmup=140/lambda=8eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40016,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "57a4c5daee9c0ff4",
+      "label": "warmup=140/lambda=8eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40017,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "1c1a979c7630cc67",
+      "label": "warmup=140/lambda=8eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40018,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "011cc27c3e7b4c32",
+      "label": "warmup=140/lambda=8eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40019,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "8f842c77468c82ca",
+      "label": "warmup=140/lambda=8eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40020,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "399e7d05db939a69",
+      "label": "warmup=140/lambda=8eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40021,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "8698ec37477ae728",
+      "label": "warmup=140/lambda=8eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40022,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "72278591e0300e57",
+      "label": "warmup=140/lambda=8eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40023,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "e3c6faf13bce3822",
+      "label": "warmup=140/lambda=8eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40024,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "aa9f3e9a7de69b59",
+      "label": "warmup=140/lambda=8eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40025,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c26601367bdf03e9",
+      "label": "warmup=140/lambda=8eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40026,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "cf77d43c50c667e7",
+      "label": "warmup=140/lambda=8eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40027,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3cffd5ab40fb9381",
+      "label": "warmup=140/lambda=8eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40028,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5f7d4ff9012206a4",
+      "label": "warmup=140/lambda=8eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40029,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d862b49a0b587526",
+      "label": "warmup=140/lambda=8eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40030,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "a7ddbe7218883655",
+      "label": "warmup=140/lambda=8eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40031,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "056771e21a9e321a",
+      "label": "warmup=140/lambda=8eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40032,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "78aaca8d95c9ff3a",
+      "label": "warmup=140/lambda=8eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40033,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "e558581196e5df55",
+      "label": "warmup=140/lambda=8eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40034,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "96aa005a66908568",
+      "label": "warmup=140/lambda=8eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40035,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "aef72ccd58ac35d9",
+      "label": "warmup=140/lambda=8eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40036,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "bd9b1d233c3549fe",
+      "label": "warmup=140/lambda=8eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40037,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "f189b929d8b3075f",
+      "label": "warmup=140/lambda=8eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40038,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "c83e760bd969c802",
+      "label": "warmup=140/lambda=8eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40039,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "300ce52302aa6221",
+      "label": "warmup=140/lambda=8eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40040,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "dad25ca27a92a363",
+      "label": "warmup=140/lambda=8eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40041,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d7d24f31a5abd85d",
+      "label": "warmup=140/lambda=8eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40042,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "fb27bed5a6348cd2",
+      "label": "warmup=140/lambda=8eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40043,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "1183aa112bc74890",
+      "label": "warmup=140/lambda=8eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40044,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "8165e8fcbaa8771e",
+      "label": "warmup=140/lambda=8eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40045,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "eebb55f8b83bc13d",
+      "label": "warmup=140/lambda=8eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40046,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5d05bef61631a7ba",
+      "label": "warmup=140/lambda=8eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40047,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "83f60d7e44909f64",
+      "label": "warmup=140/lambda=8eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40048,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "63c56c3dea77ce4b",
+      "label": "warmup=140/lambda=8eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40049,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "441020b829c8b6ea",
+      "label": "warmup=140/lambda=8eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40050,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3a016cb54b97740e",
+      "label": "warmup=140/lambda=8eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40051,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "e424b4961b378dca",
+      "label": "warmup=140/lambda=8eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40052,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "4976b86d591a66ee",
+      "label": "warmup=140/lambda=8eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40053,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "95926b1bb13cbb9c",
+      "label": "warmup=140/lambda=8eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40054,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "8fd6536af2be47a9",
+      "label": "warmup=140/lambda=8eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40055,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "4dacbf26715bd23f",
+      "label": "warmup=140/lambda=8eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40056,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "389bb6c57a19f45d",
+      "label": "warmup=140/lambda=8eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40057,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d0a3208c138b5cda",
+      "label": "warmup=140/lambda=8eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40058,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "3a7d3e656c84bccd",
+      "label": "warmup=140/lambda=8eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40059,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "d364432dbc90dbc8",
+      "label": "warmup=140/lambda=8eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40060,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "5384a11c5ca3bf31",
+      "label": "warmup=140/lambda=8eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40061,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "7939bc0a5ef7da6a",
+      "label": "warmup=140/lambda=8eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40062,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "98512868621f7aa7",
+      "label": "warmup=140/lambda=8eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40063,
+        "warmup_budget": 140
+      }
+    },
+    {
+      "job_id": "91bfb9bcc88ebf6e",
+      "label": "warmup=160/lambda=4eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40000,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "32b04820db0e2e7c",
+      "label": "warmup=160/lambda=4eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40001,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "8bf8f8930af338ce",
+      "label": "warmup=160/lambda=4eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40002,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "e0e40d4690f353bb",
+      "label": "warmup=160/lambda=4eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40003,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "572294cc9de41f85",
+      "label": "warmup=160/lambda=4eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40004,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "978f17996ed00497",
+      "label": "warmup=160/lambda=4eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40005,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "be122462ef0d6aa8",
+      "label": "warmup=160/lambda=4eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40006,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a02abbf5bae16c82",
+      "label": "warmup=160/lambda=4eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40007,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "e448fdd34f1ac9de",
+      "label": "warmup=160/lambda=4eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40008,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "cabe3f8c9c17a2bf",
+      "label": "warmup=160/lambda=4eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40009,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "367b953f77e1c5da",
+      "label": "warmup=160/lambda=4eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40010,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a80e6c40523db749",
+      "label": "warmup=160/lambda=4eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40011,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2989b7d422accd37",
+      "label": "warmup=160/lambda=4eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40012,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "5514595d3e4c9a71",
+      "label": "warmup=160/lambda=4eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40013,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "07d2496f234a02f6",
+      "label": "warmup=160/lambda=4eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40014,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "bcc0758456613405",
+      "label": "warmup=160/lambda=4eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40015,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7d2a7dc9a8728610",
+      "label": "warmup=160/lambda=4eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40016,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f026131f03678d12",
+      "label": "warmup=160/lambda=4eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40017,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2ee5457051149275",
+      "label": "warmup=160/lambda=4eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40018,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f22d93775c8bbab1",
+      "label": "warmup=160/lambda=4eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40019,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "3d544be324c906ed",
+      "label": "warmup=160/lambda=4eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40020,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "78400ecd0bf8ef04",
+      "label": "warmup=160/lambda=4eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40021,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "d5db55b0b31e5573",
+      "label": "warmup=160/lambda=4eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40022,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "d56f2c1f76f7f84b",
+      "label": "warmup=160/lambda=4eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40023,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "d93eeeeb3a5bda62",
+      "label": "warmup=160/lambda=4eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40024,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "13e8bee57ad693c4",
+      "label": "warmup=160/lambda=4eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40025,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "8473a0138385b978",
+      "label": "warmup=160/lambda=4eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40026,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "b772b0ed9c5aa898",
+      "label": "warmup=160/lambda=4eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40027,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7b401a207129970a",
+      "label": "warmup=160/lambda=4eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40028,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2d6eb3f5cc1a836f",
+      "label": "warmup=160/lambda=4eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40029,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "da1a04f16b53b859",
+      "label": "warmup=160/lambda=4eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40030,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "357d5a95653ec368",
+      "label": "warmup=160/lambda=4eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40031,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "57d2501c6836079a",
+      "label": "warmup=160/lambda=4eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40032,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "88c246e7ac0ea204",
+      "label": "warmup=160/lambda=4eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40033,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a0199420e9b0433a",
+      "label": "warmup=160/lambda=4eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40034,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "597ecb1477174fdc",
+      "label": "warmup=160/lambda=4eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40035,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "981d2e9de58856f2",
+      "label": "warmup=160/lambda=4eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40036,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "0fe2a0c8f981201b",
+      "label": "warmup=160/lambda=4eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40037,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "d744941cc359699c",
+      "label": "warmup=160/lambda=4eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40038,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f41d79cbb4d8b076",
+      "label": "warmup=160/lambda=4eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40039,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "0b8a1fb097842775",
+      "label": "warmup=160/lambda=4eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40040,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "245f58489adbd348",
+      "label": "warmup=160/lambda=4eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40041,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "add0281ef5fd6512",
+      "label": "warmup=160/lambda=4eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40042,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2b71c6607768caa3",
+      "label": "warmup=160/lambda=4eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40043,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "48ffb432ccf9c9da",
+      "label": "warmup=160/lambda=4eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40044,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "fe51166130b197b8",
+      "label": "warmup=160/lambda=4eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40045,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "fe170b99c32e6d3b",
+      "label": "warmup=160/lambda=4eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40046,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "24cfa9b32f35d95a",
+      "label": "warmup=160/lambda=4eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40047,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "b77f12a4198f41a0",
+      "label": "warmup=160/lambda=4eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40048,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "6863388034a8b090",
+      "label": "warmup=160/lambda=4eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40049,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2df6ba9a6c8e57ca",
+      "label": "warmup=160/lambda=4eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40050,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "862136f430923de4",
+      "label": "warmup=160/lambda=4eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40051,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "ca45e5059ff9d28e",
+      "label": "warmup=160/lambda=4eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40052,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "02303e7d9461f501",
+      "label": "warmup=160/lambda=4eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40053,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "0571c20702985de7",
+      "label": "warmup=160/lambda=4eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40054,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "9cec33f60f5929dc",
+      "label": "warmup=160/lambda=4eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40055,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "4f2194c047aa4a5a",
+      "label": "warmup=160/lambda=4eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40056,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2d66647cc47544bd",
+      "label": "warmup=160/lambda=4eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40057,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "dbc982a275d6396c",
+      "label": "warmup=160/lambda=4eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40058,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "b11ad7fe5c57a188",
+      "label": "warmup=160/lambda=4eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40059,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7bec1f712973fc5a",
+      "label": "warmup=160/lambda=4eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40060,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "aba25b7fd5c0ebed",
+      "label": "warmup=160/lambda=4eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40061,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "0258ac566dd07168",
+      "label": "warmup=160/lambda=4eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40062,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "fcc3f3e45c2eaf26",
+      "label": "warmup=160/lambda=4eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40063,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "ebe6fa1ced282bcc",
+      "label": "warmup=160/lambda=8eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40000,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "ee99ffe425d1f932",
+      "label": "warmup=160/lambda=8eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40001,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "43ddb8498d96301c",
+      "label": "warmup=160/lambda=8eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40002,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "33b5187541f8d77f",
+      "label": "warmup=160/lambda=8eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40003,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "c88aeeb747ee3d2e",
+      "label": "warmup=160/lambda=8eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40004,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "8f86a90210c3a415",
+      "label": "warmup=160/lambda=8eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40005,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2c78734cf9f6ce6c",
+      "label": "warmup=160/lambda=8eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40006,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "52c971071b99b367",
+      "label": "warmup=160/lambda=8eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40007,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "45384074051bd5e1",
+      "label": "warmup=160/lambda=8eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40008,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "eefb982704be6ee6",
+      "label": "warmup=160/lambda=8eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40009,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "ddf2351dff97b5f9",
+      "label": "warmup=160/lambda=8eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40010,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "1a5c833349540e8c",
+      "label": "warmup=160/lambda=8eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40011,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "03c32fcc54adce93",
+      "label": "warmup=160/lambda=8eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40012,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7f463beec7da18ad",
+      "label": "warmup=160/lambda=8eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40013,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "364ae22bade01620",
+      "label": "warmup=160/lambda=8eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40014,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2642e87dd7384673",
+      "label": "warmup=160/lambda=8eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40015,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "1be12f370202aca0",
+      "label": "warmup=160/lambda=8eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40016,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "9334bea44a50576b",
+      "label": "warmup=160/lambda=8eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40017,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a49525cd07b13655",
+      "label": "warmup=160/lambda=8eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40018,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "bd3d465c46a44d74",
+      "label": "warmup=160/lambda=8eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40019,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "24594b3593eb59a5",
+      "label": "warmup=160/lambda=8eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40020,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "866c0e022b5069b0",
+      "label": "warmup=160/lambda=8eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40021,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "aec1f764726a32d6",
+      "label": "warmup=160/lambda=8eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40022,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "c5c1f24d94b437ae",
+      "label": "warmup=160/lambda=8eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40023,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "2812319d3dc81440",
+      "label": "warmup=160/lambda=8eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40024,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "b8dac883270b239c",
+      "label": "warmup=160/lambda=8eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40025,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "0f71998bb012819d",
+      "label": "warmup=160/lambda=8eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40026,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "c130ad421fce7c64",
+      "label": "warmup=160/lambda=8eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40027,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "8013af103cd937fc",
+      "label": "warmup=160/lambda=8eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40028,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "9566e9ff386a0470",
+      "label": "warmup=160/lambda=8eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40029,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "1d7f1220cba1bd9a",
+      "label": "warmup=160/lambda=8eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40030,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "da37d257c8cc1f0a",
+      "label": "warmup=160/lambda=8eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40031,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "3ae80b3d81e7a068",
+      "label": "warmup=160/lambda=8eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40032,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "694b660a2daaecfe",
+      "label": "warmup=160/lambda=8eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40033,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "3bb79b9dd4e77ef2",
+      "label": "warmup=160/lambda=8eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40034,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "06476ff2b7a491ed",
+      "label": "warmup=160/lambda=8eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40035,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "53f049132ad71b65",
+      "label": "warmup=160/lambda=8eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40036,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f821acfccec56ab1",
+      "label": "warmup=160/lambda=8eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40037,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7e60b64d616eb7b6",
+      "label": "warmup=160/lambda=8eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40038,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "89d20375c4a8b684",
+      "label": "warmup=160/lambda=8eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40039,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "c927e4424f18869a",
+      "label": "warmup=160/lambda=8eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40040,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "430f7dd40b3d6b60",
+      "label": "warmup=160/lambda=8eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40041,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "1dbcecab2dbbb29b",
+      "label": "warmup=160/lambda=8eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40042,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "3a50f2b02a40b259",
+      "label": "warmup=160/lambda=8eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40043,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "8ee7d1b407b81bb2",
+      "label": "warmup=160/lambda=8eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40044,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f18239a5d43a6cfd",
+      "label": "warmup=160/lambda=8eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40045,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7326c79a121b7221",
+      "label": "warmup=160/lambda=8eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40046,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "bf8c9e2d2c57cc2f",
+      "label": "warmup=160/lambda=8eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40047,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "eac6ebdc092a2b66",
+      "label": "warmup=160/lambda=8eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40048,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "a9d005803ee41156",
+      "label": "warmup=160/lambda=8eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40049,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "39450899dd64616a",
+      "label": "warmup=160/lambda=8eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40050,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7f4679ba2ea86c3e",
+      "label": "warmup=160/lambda=8eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40051,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "b59d3ce6ccf1db4a",
+      "label": "warmup=160/lambda=8eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40052,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "28b3df1e0264f510",
+      "label": "warmup=160/lambda=8eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40053,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "ab200874b6d15a87",
+      "label": "warmup=160/lambda=8eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40054,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "da0fd3b6071f91f1",
+      "label": "warmup=160/lambda=8eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40055,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "147e6c62692b8567",
+      "label": "warmup=160/lambda=8eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40056,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "7a4d033fad49eb0a",
+      "label": "warmup=160/lambda=8eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40057,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "5246e69bc9284f01",
+      "label": "warmup=160/lambda=8eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40058,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "34b4f5e75515f718",
+      "label": "warmup=160/lambda=8eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40059,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "76fe2ebba9f0860c",
+      "label": "warmup=160/lambda=8eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40060,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "89a799fca00356b8",
+      "label": "warmup=160/lambda=8eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40061,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "6985158d87eb37f7",
+      "label": "warmup=160/lambda=8eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40062,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "5ac18c5ae0320d37",
+      "label": "warmup=160/lambda=8eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40063,
+        "warmup_budget": 160
+      }
+    },
+    {
+      "job_id": "f57dbee87f7b37ed",
+      "label": "warmup=180/lambda=4eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40000,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "38e3c1655b4a8f39",
+      "label": "warmup=180/lambda=4eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40001,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "2ce15fdcff6c54b7",
+      "label": "warmup=180/lambda=4eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40002,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "65b309b1a47a2374",
+      "label": "warmup=180/lambda=4eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40003,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "f36c7d76333367bb",
+      "label": "warmup=180/lambda=4eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40004,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "19b9da5cddd8744c",
+      "label": "warmup=180/lambda=4eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40005,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "62308c29533517f3",
+      "label": "warmup=180/lambda=4eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40006,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "02f050e6622ccaf4",
+      "label": "warmup=180/lambda=4eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40007,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "c776654ab7a27225",
+      "label": "warmup=180/lambda=4eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40008,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "7eb298762846ef27",
+      "label": "warmup=180/lambda=4eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40009,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "99ff2290175fd9f7",
+      "label": "warmup=180/lambda=4eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40010,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "cfcb79229d8267f6",
+      "label": "warmup=180/lambda=4eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40011,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "76d34097c0598672",
+      "label": "warmup=180/lambda=4eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40012,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "817d9e04bc3b714a",
+      "label": "warmup=180/lambda=4eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40013,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "47574f7bce02a2b7",
+      "label": "warmup=180/lambda=4eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40014,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b4cb70c666c5992b",
+      "label": "warmup=180/lambda=4eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40015,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "89573d2eff1f60fd",
+      "label": "warmup=180/lambda=4eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40016,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b433ac458be38aa2",
+      "label": "warmup=180/lambda=4eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40017,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "8b22fe04dca8d5fc",
+      "label": "warmup=180/lambda=4eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40018,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "515a61feb09e3c2e",
+      "label": "warmup=180/lambda=4eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40019,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "a848376c0e6c08f8",
+      "label": "warmup=180/lambda=4eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40020,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "5e950531712a1494",
+      "label": "warmup=180/lambda=4eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40021,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "55b6eeabe412f531",
+      "label": "warmup=180/lambda=4eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40022,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "4a5af8fe6c3dd2ac",
+      "label": "warmup=180/lambda=4eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40023,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "6b6d3b1e696390ef",
+      "label": "warmup=180/lambda=4eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40024,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ed175cb60cd7aff4",
+      "label": "warmup=180/lambda=4eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40025,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b177099635cdf1f9",
+      "label": "warmup=180/lambda=4eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40026,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "d35f2ef006c68395",
+      "label": "warmup=180/lambda=4eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40027,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ae51a5c048b5a9f3",
+      "label": "warmup=180/lambda=4eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40028,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ca4f261140a19a36",
+      "label": "warmup=180/lambda=4eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40029,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "271a6210b4865424",
+      "label": "warmup=180/lambda=4eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40030,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "742b5f54bfac43f1",
+      "label": "warmup=180/lambda=4eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40031,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "709c32cfa1e816e7",
+      "label": "warmup=180/lambda=4eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40032,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "16fef7e305ee39d8",
+      "label": "warmup=180/lambda=4eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40033,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ef89d97da0396b8d",
+      "label": "warmup=180/lambda=4eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40034,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "39f1a290620eec57",
+      "label": "warmup=180/lambda=4eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40035,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b2a8a9d2b6cedace",
+      "label": "warmup=180/lambda=4eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40036,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "7a780121e3d01684",
+      "label": "warmup=180/lambda=4eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40037,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "26546c6f2529f9c2",
+      "label": "warmup=180/lambda=4eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40038,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "9abd495d9bdc83f4",
+      "label": "warmup=180/lambda=4eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40039,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "689950aece053dab",
+      "label": "warmup=180/lambda=4eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40040,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "2ad8ba6bbcdf854b",
+      "label": "warmup=180/lambda=4eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40041,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3b486c728423065f",
+      "label": "warmup=180/lambda=4eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40042,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "bb65145b5c18808c",
+      "label": "warmup=180/lambda=4eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40043,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "39685838c5e40257",
+      "label": "warmup=180/lambda=4eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40044,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b50565ed8b95ff26",
+      "label": "warmup=180/lambda=4eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40045,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ff058a63e8c2deaa",
+      "label": "warmup=180/lambda=4eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40046,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "0d6384f309e0940b",
+      "label": "warmup=180/lambda=4eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40047,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "5d2ce0c39e00fec6",
+      "label": "warmup=180/lambda=4eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40048,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "308410aaa125c465",
+      "label": "warmup=180/lambda=4eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40049,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "5a098d3d53e4488b",
+      "label": "warmup=180/lambda=4eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40050,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "455c12a55a2304a3",
+      "label": "warmup=180/lambda=4eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40051,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "9dc33208b99816d4",
+      "label": "warmup=180/lambda=4eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40052,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3926ef4c8ac89847",
+      "label": "warmup=180/lambda=4eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40053,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "8ef27f47433928f9",
+      "label": "warmup=180/lambda=4eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40054,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "90cc357df97662d5",
+      "label": "warmup=180/lambda=4eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40055,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "aa76029c53b1153f",
+      "label": "warmup=180/lambda=4eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40056,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "dcb1097632bf5a6d",
+      "label": "warmup=180/lambda=4eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40057,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "7e0af553de4a9cea",
+      "label": "warmup=180/lambda=4eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40058,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "05d63efea6995ed2",
+      "label": "warmup=180/lambda=4eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40059,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "a4abf5328a506de2",
+      "label": "warmup=180/lambda=4eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40060,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "73cd72d54150b9f9",
+      "label": "warmup=180/lambda=4eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40061,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "cdcd86487ebff532",
+      "label": "warmup=180/lambda=4eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40062,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "266109e3b2fc11f9",
+      "label": "warmup=180/lambda=4eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 4.0,
+        "seed": 40063,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "cf54e436b532e9bf",
+      "label": "warmup=180/lambda=8eta2/seed=40000",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40000,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "0e65bf3146700176",
+      "label": "warmup=180/lambda=8eta2/seed=40001",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40001,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "d70349390b99f477",
+      "label": "warmup=180/lambda=8eta2/seed=40002",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40002,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "cfa9efdc7fa0e5ab",
+      "label": "warmup=180/lambda=8eta2/seed=40003",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40003,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3f44e0246d727a46",
+      "label": "warmup=180/lambda=8eta2/seed=40004",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40004,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "0fc77ae8a4b5361b",
+      "label": "warmup=180/lambda=8eta2/seed=40005",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40005,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "fcf4f1a223048805",
+      "label": "warmup=180/lambda=8eta2/seed=40006",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40006,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "7f816e039588792c",
+      "label": "warmup=180/lambda=8eta2/seed=40007",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40007,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ae67d7081eaa6a7f",
+      "label": "warmup=180/lambda=8eta2/seed=40008",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40008,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "945031a05d79ac20",
+      "label": "warmup=180/lambda=8eta2/seed=40009",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40009,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "38dc621c93a991cb",
+      "label": "warmup=180/lambda=8eta2/seed=40010",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40010,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "fff54d76290c7b74",
+      "label": "warmup=180/lambda=8eta2/seed=40011",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40011,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b052b2ba2d4c54b3",
+      "label": "warmup=180/lambda=8eta2/seed=40012",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40012,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "7cca1115d91833aa",
+      "label": "warmup=180/lambda=8eta2/seed=40013",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40013,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "a77b8b56f321f591",
+      "label": "warmup=180/lambda=8eta2/seed=40014",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40014,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "dca4386297bb0463",
+      "label": "warmup=180/lambda=8eta2/seed=40015",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40015,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "f647cb744b07d5ad",
+      "label": "warmup=180/lambda=8eta2/seed=40016",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40016,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "fbfa1389c1814cc5",
+      "label": "warmup=180/lambda=8eta2/seed=40017",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40017,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "eae98b3f3a4e3b35",
+      "label": "warmup=180/lambda=8eta2/seed=40018",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40018,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "1fb1835a8b0ed59e",
+      "label": "warmup=180/lambda=8eta2/seed=40019",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40019,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "628c955fde334f23",
+      "label": "warmup=180/lambda=8eta2/seed=40020",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40020,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "16b1ec85527def56",
+      "label": "warmup=180/lambda=8eta2/seed=40021",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40021,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "623d13cc7ff0437b",
+      "label": "warmup=180/lambda=8eta2/seed=40022",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40022,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "5c7fbc9a10d80158",
+      "label": "warmup=180/lambda=8eta2/seed=40023",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40023,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "db5f85892733ea31",
+      "label": "warmup=180/lambda=8eta2/seed=40024",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40024,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "aed1668b32df794f",
+      "label": "warmup=180/lambda=8eta2/seed=40025",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40025,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "0f0cc2b641aeaf2c",
+      "label": "warmup=180/lambda=8eta2/seed=40026",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40026,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "46e46208663235ba",
+      "label": "warmup=180/lambda=8eta2/seed=40027",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40027,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "fb3ee414402e65e0",
+      "label": "warmup=180/lambda=8eta2/seed=40028",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40028,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "8b052f415b903b22",
+      "label": "warmup=180/lambda=8eta2/seed=40029",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40029,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "77e9943edab2fd85",
+      "label": "warmup=180/lambda=8eta2/seed=40030",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40030,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "818438a7cb1c36f4",
+      "label": "warmup=180/lambda=8eta2/seed=40031",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40031,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "f385291c4fb3d69d",
+      "label": "warmup=180/lambda=8eta2/seed=40032",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40032,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b3cf4fe20b1ce062",
+      "label": "warmup=180/lambda=8eta2/seed=40033",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40033,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3343265c11d60a0a",
+      "label": "warmup=180/lambda=8eta2/seed=40034",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40034,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "d556ea40b203a129",
+      "label": "warmup=180/lambda=8eta2/seed=40035",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40035,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "d09f26675d20f3bc",
+      "label": "warmup=180/lambda=8eta2/seed=40036",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40036,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "c071de2119ea4dbf",
+      "label": "warmup=180/lambda=8eta2/seed=40037",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40037,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "f842086792744156",
+      "label": "warmup=180/lambda=8eta2/seed=40038",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40038,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "135bac4930952153",
+      "label": "warmup=180/lambda=8eta2/seed=40039",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40039,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3fc6628d3298ecbe",
+      "label": "warmup=180/lambda=8eta2/seed=40040",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40040,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "6b24e1d392ba4bf2",
+      "label": "warmup=180/lambda=8eta2/seed=40041",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40041,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ab487dd6550daa93",
+      "label": "warmup=180/lambda=8eta2/seed=40042",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40042,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "697eed57d51be91f",
+      "label": "warmup=180/lambda=8eta2/seed=40043",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40043,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b9abe003cd2620d0",
+      "label": "warmup=180/lambda=8eta2/seed=40044",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40044,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "939f93f6bf7530f4",
+      "label": "warmup=180/lambda=8eta2/seed=40045",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40045,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "6429138f3f600075",
+      "label": "warmup=180/lambda=8eta2/seed=40046",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40046,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "44b2711cd9b90aa5",
+      "label": "warmup=180/lambda=8eta2/seed=40047",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40047,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "e0f1f6649b792add",
+      "label": "warmup=180/lambda=8eta2/seed=40048",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40048,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "f70a5c20bf7f6995",
+      "label": "warmup=180/lambda=8eta2/seed=40049",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40049,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "0d108cbd5e7b3134",
+      "label": "warmup=180/lambda=8eta2/seed=40050",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40050,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "eae4e7f5634aaf09",
+      "label": "warmup=180/lambda=8eta2/seed=40051",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40051,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "b07dac5a6d406b1e",
+      "label": "warmup=180/lambda=8eta2/seed=40052",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40052,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "ca4a1cd2958abdb9",
+      "label": "warmup=180/lambda=8eta2/seed=40053",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40053,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "2a2573c7f9a1c9b8",
+      "label": "warmup=180/lambda=8eta2/seed=40054",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40054,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "28a429da6a3d1df4",
+      "label": "warmup=180/lambda=8eta2/seed=40055",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40055,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "3a85650a318abfd4",
+      "label": "warmup=180/lambda=8eta2/seed=40056",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40056,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "25289322c8fad922",
+      "label": "warmup=180/lambda=8eta2/seed=40057",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40057,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "4007e7a321a8e705",
+      "label": "warmup=180/lambda=8eta2/seed=40058",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40058,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "5384b61352329492",
+      "label": "warmup=180/lambda=8eta2/seed=40059",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40059,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "66ff76d388cb47e4",
+      "label": "warmup=180/lambda=8eta2/seed=40060",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40060,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "d7d01b1d46134fe8",
+      "label": "warmup=180/lambda=8eta2/seed=40061",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40061,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "972bb5dd8071c99e",
+      "label": "warmup=180/lambda=8eta2/seed=40062",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40062,
+        "warmup_budget": 180
+      }
+    },
+    {
+      "job_id": "c22c068cc714c555",
+      "label": "warmup=180/lambda=8eta2/seed=40063",
+      "spec": {
+        "lambda_information_multiplier": 8.0,
+        "seed": 40063,
+        "warmup_budget": 180
+      }
+    }
+  ],
+  "git": {
+    "branch": "codex/lambda-exploration",
+    "commit": "1952c5ac0be768ad18595750fef6d8e68752b8a3",
+    "dirty": false,
+    "fingerprint": "f14966109ba881de20ec442909b57062c4319b6743c34df127c272256dad76d9",
+    "status": [],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 448,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 34.68834291700114,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 448
+  },
+  "resume_granularity": "job",
+  "run_id": "0912bb3d4fef6239",
+  "schema_version": 1,
+  "semantic_config_sha256": "c75cb253cc1b5e4d28b901137ffd488dd4b53fac79c7b22b9843189c27b1ef53",
+  "status": "complete",
+  "study_name": "zero-sum-joint-refinement",
+  "updated_at": "2026-08-06T15:10:41.043950+00:00"
+}

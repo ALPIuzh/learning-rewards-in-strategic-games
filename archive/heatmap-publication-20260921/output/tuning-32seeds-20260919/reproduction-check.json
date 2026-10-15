@@ -1,0 +1,12 @@
+{
+  "isolated_folder": true,
+  "only_inputs": [
+    "summarize.py",
+    "figure-data.npz"
+  ],
+  "byte_identical": {
+    "heatmap.png": true,
+    "uncertainty.png": true,
+    "results.json": true
+  }
+}

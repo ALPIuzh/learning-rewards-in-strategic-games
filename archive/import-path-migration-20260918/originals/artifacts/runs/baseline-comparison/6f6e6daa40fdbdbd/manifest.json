@@ -1,0 +1,54 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment.seed_start=6003",
+    "experiment.seed_count=1",
+    "experiment.total_samples=360",
+    "experiment.methods=[fixed_random]",
+    "experiment.warmup_modes=[false]",
+    "run.require_clean_git=false"
+  ],
+  "created_at": "2026-07-30T12:42:12.602175+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "bec328db14c30c37",
+      "label": "no-warmup/fixed_random/seed=6003",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 6003,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "21660b29a782a4e1153a07fe21ed1e974fd1dfe3",
+    "dirty": true,
+    "fingerprint": "253debb735130dbe40471170d0427fcb00e031b25a0b3d3810b686877f8e629a",
+    "status": [
+      " M conf/experiment/numerical_calibration.yaml",
+      " M conf/numerics/default.yaml",
+      " M src/mairl/inference/mle.py",
+      " M tests/test_gradients_and_solvers.py"
+    ],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 1,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 2.56809308299853,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 1
+  },
+  "resume_granularity": "job",
+  "run_id": "6f6e6daa40fdbdbd",
+  "schema_version": 1,
+  "semantic_config_sha256": "33b5be08090db520248c6bca9a3d5c28d7bf5f7787f76b4c0bae09b095008832",
+  "status": "complete",
+  "study_name": "baseline-comparison",
+  "updated_at": "2026-07-30T12:42:15.150759+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "batch": 1,
+  "commit": "01155a2459a27011919f7b06a9732d689ea0264e",
+  "evaluation_hashes": {
+    "2026094040": "a9257de1a0a743b11ac1fbc8eadc1401e6da6968d47d4d99e0ab33e4e10a4ffd",
+    "2026094041": "cfe1b4aab745cbaf72e837f1e99baf58acead645fc62c5eca359a9a78fd545f4",
+    "2026094042": "d04401a9aad6bc7152c634d7d5b2de10649ee23b22aac3de28fc9e9c9eff1587",
+    "2026094043": "61cc70dce47f98b9adbc3fc0e2292aad989f6016da9d5df3c87e5ba73822ebf0",
+    "2026094044": "b9efda55ec345f6d9a75cd1d31e23cd2c2a61e0636e1beba8bace7db4919503e",
+    "2026094045": "1179a8cfd2a1af54a69eb090be13029f76cf51ae9b5c171b1fb34e11321850f7",
+    "2026094046": "8ba33a7c44d91bcabf1f42c1c4d7e261295c74a2028be7ee7aff36b11eaaf838",
+    "2026094047": "78cd6acf3e57ce7f99cbe6caaa189f5f39d7353b71df555cdc15a11eeef60bff"
+  },
+  "evaluation_script_hash": "5f01cc17bea5ce421b7c658ef8a950d2b4e6ef80b52e26419c64120ac4d06cb9",
+  "evaluation_seconds": 189.02933850001136,
+  "max_mle_residual": 8.923326463714083e-07,
+  "max_omega_norm": 2.000000000000234,
+  "max_simplex_error": 0.0,
+  "model_hash": "7930e144219e8c43c6ca93e0a33cc82225761e8714899e241fb3549390f01dbe",
+  "multiplier": 0.01,
+  "ridge": 1e-06,
+  "script_hash": "a75cc69c1e67aeb5bbe910040f50ba9f5eb3aededbeb9f8f86f24ccad55684a3",
+  "seconds": 289.4810805419984,
+  "seeds": [
+    2026094040,
+    2026094041,
+    2026094042,
+    2026094043,
+    2026094044,
+    2026094045,
+    2026094046,
+    2026094047
+  ],
+  "source_hash": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "training_hash": "50d62606e8fd4f1c0140e259b2fbbbab5bd7086319029394c056a57a1ab62ad9",
+  "training_seconds": 100.44616354099708,
+  "warmup": 100
+}

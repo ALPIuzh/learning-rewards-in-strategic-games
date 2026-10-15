@@ -1,0 +1,155 @@
+{
+  "band_alpha": 0.08,
+  "comparison_inputs_sha256": "f21f0be86f1f26bb3cab594e0e05859b2db27d7bf77246e81ff3195414e67ce5",
+  "comparison_manifest_sha256": "76c4f0025700710097fb8860d51d48386c12f4ff80fde3011f6e8131be6c35f3",
+  "comparison_run": "artifacts/runs/zero-sum-estimator-comparison/fd83dcf69c711fc9",
+  "comparison_run_id": "fd83dcf69c711fc9",
+  "confidence_level": 0.95,
+  "final_summary": {
+    "coefficient_l2_error": {
+      "active": {
+        "lower": 0.20709941573387247,
+        "mean": 0.2270654840965277,
+        "seeds": 100,
+        "upper": 0.2470315524591829
+      },
+      "follower_ols": {
+        "lower": 0.8154746385804577,
+        "mean": 0.9242627760088271,
+        "seeds": 100,
+        "upper": 1.0330509134371966
+      },
+      "zero_sum_ols": {
+        "lower": 0.269476767312253,
+        "mean": 0.3012535197104587,
+        "seeds": 100,
+        "upper": 0.3330302721086644
+      }
+    },
+    "fixed_leader_fisher_error": {
+      "active": {
+        "lower": 0.06624766656693278,
+        "mean": 0.07320280128046815,
+        "seeds": 100,
+        "upper": 0.08015793599400352
+      },
+      "follower_ols": {
+        "lower": 0.09769033186478124,
+        "mean": 0.10662875188486652,
+        "seeds": 100,
+        "upper": 0.1155671719049518
+      },
+      "zero_sum_ols": {
+        "lower": 0.0887939476708869,
+        "mean": 0.09919693953947777,
+        "seeds": 100,
+        "upper": 0.10959993140806863
+      }
+    },
+    "regularized_qre_leader_l1_error": {
+      "active": {
+        "lower": 0.03496691665050902,
+        "mean": 0.03969909457738556,
+        "seeds": 100,
+        "upper": 0.0444312725042621
+      },
+      "follower_ols": {
+        "lower": 0.17220059763236298,
+        "mean": 0.20000916388795775,
+        "seeds": 100,
+        "upper": 0.22781773014355253
+      },
+      "zero_sum_ols": {
+        "lower": 0.024321632592634104,
+        "mean": 0.02870957604026032,
+        "seeds": 100,
+        "upper": 0.033097519487886536
+      }
+    }
+  },
+  "paired_summary": {
+    "coefficient_l2_error": {
+      "active_minus_follower_ols": {
+        "first_method_win_rate": 0.93,
+        "lower": -0.8081535180331583,
+        "mean_difference": -0.6971972919122997,
+        "ratio_of_means": 0.24567199933881037,
+        "upper": -0.5862410657914412
+      },
+      "active_minus_zero_sum_ols": {
+        "first_method_win_rate": 0.65,
+        "lower": -0.11072014262391643,
+        "mean_difference": -0.07418803561393103,
+        "ratio_of_means": 0.7537355391391453,
+        "upper": -0.037655928603945635
+      },
+      "zero_sum_ols_minus_follower_ols": {
+        "first_method_win_rate": 0.93,
+        "lower": -0.7237731063982322,
+        "mean_difference": -0.6230092562983687,
+        "ratio_of_means": 0.3259392539980226,
+        "upper": -0.5222454061985051
+      }
+    },
+    "fixed_leader_fisher_error": {
+      "active_minus_follower_ols": {
+        "first_method_win_rate": 0.73,
+        "lower": -0.04413395853885598,
+        "mean_difference": -0.03342595060439838,
+        "ratio_of_means": 0.6865202863811969,
+        "upper": -0.02271794266994078
+      },
+      "active_minus_zero_sum_ols": {
+        "first_method_win_rate": 0.64,
+        "lower": -0.0373619157267462,
+        "mean_difference": -0.025994138259009637,
+        "ratio_of_means": 0.7379542314542412,
+        "upper": -0.014626360791273076
+      },
+      "zero_sum_ols_minus_follower_ols": {
+        "first_method_win_rate": 0.59,
+        "lower": -0.011973097346214327,
+        "mean_difference": -0.007431812345388736,
+        "ratio_of_means": 0.930301985027328,
+        "upper": -0.0028905273445631466
+      }
+    },
+    "regularized_qre_leader_l1_error": {
+      "active_minus_follower_ols": {
+        "first_method_win_rate": 0.94,
+        "lower": -0.18825677264691676,
+        "mean_difference": -0.1603100693105722,
+        "ratio_of_means": 0.19848637835226607,
+        "upper": -0.13236336597422765
+      },
+      "active_minus_zero_sum_ols": {
+        "first_method_win_rate": 0.33,
+        "lower": 0.004869459466072141,
+        "mean_difference": 0.010989518537125258,
+        "ratio_of_means": 1.3827823344278691,
+        "upper": 0.017109577608178373
+      },
+      "zero_sum_ols_minus_follower_ols": {
+        "first_method_win_rate": 0.98,
+        "lower": -0.19738893729513163,
+        "mean_difference": -0.17129958784769744,
+        "ratio_of_means": 0.1435413032192015,
+        "upper": -0.14521023840026326
+      }
+    }
+  },
+  "plots": {
+    "estimator_comparison": {
+      "path": "experiments/zero_sum_comparison/estimator_comparison.png",
+      "sha256": "fc8dd11da28225d147dd59690ba159b283ad9fe7c772735d395849ff6196564d"
+    },
+    "warmup_tuning": {
+      "path": "experiments/zero_sum_comparison/warmup_tuning.png",
+      "sha256": "e7bb455955a8efe31c448d74b28b70c8a8accb2d5dc213492740a64850bb2d63"
+    }
+  },
+  "schema_version": 1,
+  "selected_warmup_budget": 160,
+  "tuning_manifest_sha256": "101557f38fc42c9a0e59d3b6fa2640ebb1c999295d8de450b83b4f6fde35ff97",
+  "tuning_run": "artifacts/runs/zero-sum-active-warmup-tuning/de1038d32a1121e8"
+}

@@ -1,0 +1,185 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/sparse_information/run.py",
+    "experiment.name=smoke-sparse",
+    "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs",
+    "run.require_clean_git=false",
+    "experiment.total_samples=8",
+    "experiment.warmup_budget=0",
+    "experiment.warmup_modes=[false]",
+    "experiment.seed_count=2",
+    "experiment.evaluation_interval=4"
+  ],
+  "created_at": "2026-09-18T08:17:17.003734+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "4cedde7e704b90dd4ad28d29d5d4f59172cce70f",
+    "dirty": true,
+    "fingerprint": "b03400d13139bbec54590c7cee7caea7f8e23cee6c1e51a4eed7a6663fb2446b",
+    "status": [
+      " M .github/workflows/ci.yml",
+      " M .gitignore",
+      " M Makefile",
+      " M README.md",
+      " M docs/release.md",
+      " M experiments/guard/paper/figures/ridge_zero_tuning_data.py",
+      " M experiments/toy/export_warmup_threshold_plots.py",
+      " M experiments/toy/warmup_threshold_plots_manifest.json",
+      " M investigations/active_expert_warmup/results/fixed_expert_ridge_refit_v1.json",
+      " M investigations/active_expert_warmup/results/lambda_confirmation_1600_v1/summary.json",
+      " M investigations/active_expert_warmup/results/lambda_grid_800_v1/summary.json",
+      " M investigations/active_expert_warmup/results/lambda_heldout_1600_v1/summary.json",
+      " M investigations/active_expert_warmup/results/lambda_refinement_1600_v1/summary.json",
+      " M investigations/active_expert_warmup/results/protocol_pilot_v1/summary.json",
+      " M investigations/active_expert_warmup/results/ridge_zero_heldout_1600_v1/summary.json",
+      " M investigations/warmup_baselines/FINDINGS.md",
+      " M investigations/warmup_baselines/geometry_diagnostics.py",
+      " M investigations/warmup_baselines/recompute_ols_curves.py",
+      " M investigations/warmup_baselines/recompute_ols_protocols.py",
+      " M investigations/warmup_baselines/render_mechanism_figure.py",
+      " D output/pdf/alternatives_comparison.pdf",
+      " D output/pdf/alternatives_preview.pdf",
+      " D output/pdf/diagnostic_visibility/diagnostic_visibility_preview.pdf",
+      " D output/pdf/downstream_behavioral/downstream_behavioral_preview.pdf",
+      " D output/pdf/figure2_alternatives.pdf",
+      " D output/pdf/iclr_preview.pdf",
+      " D output/pdf/layout_mockups.pdf",
+      " D output/pdf/unit_reward/unit_reward_preview.pdf",
+      " M pyproject.toml",
+      " M reproducibility/data/lobeke/warmup_factorial_native/provenance.json",
+      " M reproducibility/data/lobeke/warmup_factorial_native_v2/provenance.json",
+      " M reproducibility/data/lobeke/warmup_factorial_unit_reward/provenance.json",
+      " M reproducibility/tex/generated/appendix/i1_warmup_factorial.tex",
+      " M reproducibility/tex/generated/build_manifest.json",
+      " M tests/test_reproducibility_figures.py",
+      " M tests/test_ridge_zero_tuning_data.py",
+      "?? CITATION.cff",
+      "?? LICENSE",
+      "?? THIRD_PARTY.md",
+      "?? experiments/guard/paper/figures/export_source_convergence.py",
+      "?? investigations/README.md",
+      "?? reproducibility/data/lobeke/source_convergence_unit_reward_v2/data.npz",
+      "?? reproducibility/data/lobeke/source_convergence_unit_reward_v2/provenance.json",
+      "?? scripts/prepare_release.py",
+      "?? scripts/setup_guard.sh",
+      "?? scripts/smoke_experiments.py"
+    ],
+    "untracked": [
+      {
+        "path": "CITATION.cff",
+        "sha256": "860c4ac14ed80472078bcbf74ee2e78b596112688df276bada8c0ea9fb0899eb"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "4c22fa0ae7a9ddf666fbc676dd5c5c707af7781eb27d28963df166a5be4e199f"
+      },
+      {
+        "path": "THIRD_PARTY.md",
+        "sha256": "0c2bbee720f07d348705d6e55a34af62e301b29fb5559e8362722320e87c4078"
+      },
+      {
+        "path": "experiments/guard/paper/figures/export_source_convergence.py",
+        "sha256": "5ba9e4c9b3e02936d0e89ecd34b0952438bcf0de69ee63229bfe5cbbf89f0764"
+      },
+      {
+        "path": "investigations/README.md",
+        "sha256": "cdf72d29cb915a747ea83a15f72e4854185874fa296c9f12ed50aa72104e8580"
+      },
+      {
+        "path": "reproducibility/data/lobeke/source_convergence_unit_reward_v2/data.npz",
+        "sha256": "166087b1e241d6fc5c6da5833166e5f026f21e0388904fc5b60d56a7a9767469"
+      },
+      {
+        "path": "reproducibility/data/lobeke/source_convergence_unit_reward_v2/provenance.json",
+        "sha256": "fa430c77b139011e3a49734e252284dfd1c0f30c01111edca3a5dc302574f8d4"
+      },
+      {
+        "path": "scripts/prepare_release.py",
+        "sha256": "95fde46d8baea87b12e642d62bcf9decf8629f8b3949a2e3881ec0faf3f174ac"
+      },
+      {
+        "path": "scripts/setup_guard.sh",
+        "sha256": "5877aa9ed5fd2661a139714281a6fded2e059c1f47d8c49cae836d03bed8e48f"
+      },
+      {
+        "path": "scripts/smoke_experiments.py",
+        "sha256": "c888eb019729bf66065d51e75a2721880a10c07cc5dcbc551ac95e0f4ade1b84"
+      }
+    ]
+  },
+  "progress": {
+    "complete": 6,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.1899892909996197,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 6
+  },
+  "resume_granularity": "job",
+  "run_id": "e4c907c3d17aaacf",
+  "schema_version": 1,
+  "semantic_config_sha256": "81a64d21ccbe7f0941f7ca31084978d623fdd40ef758c40a512a022d312bb5fc",
+  "status": "complete",
+  "study_name": "smoke-sparse",
+  "updated_at": "2026-09-18T08:17:17.171664+00:00"
+}

@@ -1,0 +1,536 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/sparse_information/run.py",
+    "experiment.seed_count=8",
+    "experiment.total_samples=200",
+    "experiment.warmup_budget=40",
+    "experiment.evaluation_interval=10",
+    "run.seed_batch_size=8",
+    "run.require_clean_git=false"
+  ],
+  "created_at": "2026-07-30T14:41:00.745602+00:00",
+  "execution_batch_size": 8,
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "aff96d3589ddc19a",
+      "label": "warmup/active/seed=102",
+      "spec": {
+        "method": "active",
+        "seed": 102,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e392309d9c1f4a78",
+      "label": "warmup/active/seed=103",
+      "spec": {
+        "method": "active",
+        "seed": 103,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "06389eddaab328a2",
+      "label": "warmup/active/seed=104",
+      "spec": {
+        "method": "active",
+        "seed": 104,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2481e1ebe5eddf59",
+      "label": "warmup/active/seed=105",
+      "spec": {
+        "method": "active",
+        "seed": 105,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "edf6f39f00a5a726",
+      "label": "warmup/active/seed=106",
+      "spec": {
+        "method": "active",
+        "seed": 106,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a82693e1748c90a7",
+      "label": "warmup/active/seed=107",
+      "spec": {
+        "method": "active",
+        "seed": 107,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "559007a113394852",
+      "label": "warmup/fixed_random/seed=102",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 102,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e244eac5b7f4d299",
+      "label": "warmup/fixed_random/seed=103",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 103,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2b4c826707e9a684",
+      "label": "warmup/fixed_random/seed=104",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 104,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "4be5d8b798e00751",
+      "label": "warmup/fixed_random/seed=105",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 105,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5b5b10cc55c87619",
+      "label": "warmup/fixed_random/seed=106",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 106,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "f091ad4a28dfdcda",
+      "label": "warmup/fixed_random/seed=107",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 107,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "301150df8531e6e7",
+      "label": "warmup/random_each_round/seed=102",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 102,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "ec25942c5d628143",
+      "label": "warmup/random_each_round/seed=103",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 103,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "072a546b3c6ed062",
+      "label": "warmup/random_each_round/seed=104",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 104,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a56961c775932f9b",
+      "label": "warmup/random_each_round/seed=105",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 105,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "1877e2f13bec1b75",
+      "label": "warmup/random_each_round/seed=106",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 106,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "485ae5a2b35294ce",
+      "label": "warmup/random_each_round/seed=107",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 107,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d0ea9fc4f47409d4",
+      "label": "no-warmup/active/seed=102",
+      "spec": {
+        "method": "active",
+        "seed": 102,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a2898016583ec6c6",
+      "label": "no-warmup/active/seed=103",
+      "spec": {
+        "method": "active",
+        "seed": 103,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "29b907248a48c958",
+      "label": "no-warmup/active/seed=104",
+      "spec": {
+        "method": "active",
+        "seed": 104,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "20cd7262b84f81eb",
+      "label": "no-warmup/active/seed=105",
+      "spec": {
+        "method": "active",
+        "seed": 105,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "a2d5a4a8bc6b7e8d",
+      "label": "no-warmup/active/seed=106",
+      "spec": {
+        "method": "active",
+        "seed": 106,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "68a24679daa4f8e4",
+      "label": "no-warmup/active/seed=107",
+      "spec": {
+        "method": "active",
+        "seed": 107,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "1bf3fed37832c498",
+      "label": "no-warmup/fixed_random/seed=102",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 102,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "ccd1e98c7a531690",
+      "label": "no-warmup/fixed_random/seed=103",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 103,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d0388e590e4f295e",
+      "label": "no-warmup/fixed_random/seed=104",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 104,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "762d9081a53cf1e6",
+      "label": "no-warmup/fixed_random/seed=105",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 105,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "026b8be20643f4fb",
+      "label": "no-warmup/fixed_random/seed=106",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 106,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "d586471de4be6f56",
+      "label": "no-warmup/fixed_random/seed=107",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 107,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "54b4c849154050a0",
+      "label": "no-warmup/random_each_round/seed=102",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 102,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "0f53a51e9ab54cd5",
+      "label": "no-warmup/random_each_round/seed=103",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 103,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "31750aef258e7ad7",
+      "label": "no-warmup/random_each_round/seed=104",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 104,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "dfec4a43d7f13fbd",
+      "label": "no-warmup/random_each_round/seed=105",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 105,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "511b73f19db2e01a",
+      "label": "no-warmup/random_each_round/seed=106",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 106,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "db909c8a9a8fddac",
+      "label": "no-warmup/random_each_round/seed=107",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 107,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "ba86ad637dea251fafe7c1ceb6e0c0bcf6960e38",
+    "dirty": true,
+    "fingerprint": "d74ac5dffeda6eb1a9be2d4a24b88840d3a9ae7f6fc02bcce90cfe28459b5562",
+    "status": [
+      " M src/mairl_exp/cli/run_experiment.py",
+      "?? conf/application/sparse_information.yaml",
+      "?? conf/experiment/sparse_information_comparison.yaml",
+      "?? conf/sparse_information_config.yaml",
+      "?? experiments/sparse_information/README.md",
+      "?? experiments/sparse_information/__init__.py",
+      "?? experiments/sparse_information/application.py",
+      "?? experiments/sparse_information/run.py",
+      "?? tests/test_sparse_information_application.py",
+      "?? tmp/pdfs/ewrl-page-30.png",
+      "?? tmp/pdfs/ewrl-page-31.png",
+      "?? tmp/pdfs/ewrl-page-32.png",
+      "?? tmp/pdfs/mairl_ewrl_final_draft.txt"
+    ],
+    "untracked": [
+      {
+        "path": "conf/application/sparse_information.yaml",
+        "sha256": "95d80dcbc8bdc2aaed66f4ce4f263965fbe7d4bf780fd124f2b504cece950323"
+      },
+      {
+        "path": "conf/experiment/sparse_information_comparison.yaml",
+        "sha256": "4c8e1af4f96b1036030eec4beeaf8bfc06f016d4963b085b6b9c36e6b5fc1f7c"
+      },
+      {
+        "path": "conf/sparse_information_config.yaml",
+        "sha256": "59b46d4636b89b616d4b4862d4b79e127d31624beff7211c749cc50c5753cac9"
+      },
+      {
+        "path": "experiments/sparse_information/README.md",
+        "sha256": "7cc186b08439e91b2701f9d11d421776ae45e833a633071abaf288181c3d89b2"
+      },
+      {
+        "path": "experiments/sparse_information/__init__.py",
+        "sha256": "00375fceb09677fe214755c05345fabc58712627b2802c41f99c28c9acceb7f7"
+      },
+      {
+        "path": "experiments/sparse_information/application.py",
+        "sha256": "31f9e8ba596f077068df9777677a2257a3f193b6714c98ea897837a956700737"
+      },
+      {
+        "path": "experiments/sparse_information/run.py",
+        "sha256": "3393af53b76481440862f70632e2b113b6105796e3eab2fa4b3a5da5fe01637b"
+      },
+      {
+        "path": "tests/test_sparse_information_application.py",
+        "sha256": "bb88758c2693a5d578f483e8a2c8e533abf07b50caf3255b7eb28c95f6f0b6a8"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-30.png",
+        "sha256": "93565fa604dbe7ea9fd7069354d90dde978b222ab2b3f93d7da697fa861686e5"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-31.png",
+        "sha256": "86542858a7716fc3891484e2627e3cd11861eab4a2b7721bd77b5e31ee2ef585"
+      },
+      {
+        "path": "tmp/pdfs/ewrl-page-32.png",
+        "sha256": "a7d6a45a055edf533ce3074b7771c27861161e2af14e072ce04f5cd8b61477dc"
+      },
+      {
+        "path": "tmp/pdfs/mairl_ewrl_final_draft.txt",
+        "sha256": "f51959f15cc4e6903bd5821ce4757a01c3e1cef884e2fb4c7fb234de6d792201"
+      }
+    ]
+  },
+  "progress": {
+    "complete": 48,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 11.121514165999542,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 48
+  },
+  "resume_granularity": "job",
+  "run_id": "1bbeb97e90a21732",
+  "schema_version": 1,
+  "semantic_config_sha256": "8272ed1fd7753d5cad1cba7e0076e33ec5c4f8b259ef82b52f89c3e03e8d0a22",
+  "status": "complete",
+  "study_name": "sparse-information-comparison",
+  "updated_at": "2026-07-30T14:41:11.847695+00:00"
+}

@@ -1,0 +1,225 @@
+\documentclass[10pt]{article}
+
+\usepackage[letterpaper,left=0.625in,right=0.625in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{amsmath}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\definecolor{ink}{HTML}{17212B}
+\definecolor{muted}{HTML}{667085}
+\definecolor{rulegray}{HTML}{D9DEE7}
+\definecolor{textgray}{HTML}{E7EAF0}
+\input{results/figure2_assets/values.tex}
+
+\newcommand{\layoutlabel}[1]{%
+  {\sffamily\fontsize{8}{9}\selectfont\color{muted}#1}\par\vspace{7pt}%
+}
+\newcommand{\sectionlabel}[1]{%
+  {\sffamily\fontsize{7.4}{8.5}\selectfont\bfseries\color{ink}#1}\par\vspace{3pt}%
+}
+\newcommand{\minorlabel}[1]{%
+  {\sffamily\fontsize{6.2}{7}\selectfont\color{muted}#1}\par%
+}
+\newcommand{\score}[1]{%
+  \par\vspace{1pt}{\fontsize{5.2}{6.0}\selectfont$#1$}\par%
+}
+\newcommand{\policy}[2]{%
+  \includegraphics[width=#1]{results/figure2_assets/#2.pdf}%
+}
+\newcommand{\methodcell}[4]{%
+  \begin{minipage}[t]{#1}\centering
+    \minorlabel{#2}\vspace{2pt}
+    \policy{#3}{#4}
+  \end{minipage}%
+}
+\newcommand{\scoredcell}[5]{%
+  \begin{minipage}[t]{#1}\centering
+    \minorlabel{#2}\vspace{2pt}
+    \policy{#3}{#4}\vspace{1pt}
+    \score{#5}
+  \end{minipage}%
+}
+\newcommand{\textlines}[1]{%
+  \begingroup\color{textgray}%
+  \count0=0\loop\ifnum\count0<#1
+    \rule{\linewidth}{1.8pt}\par\vspace{4.2pt}%
+    \advance\count0 by 1
+  \repeat\endgroup%
+}
+\newcommand{\hairline}{\vspace{6pt}\color{rulegray}\hrule\color{black}\vspace{7pt}}
+
+\begin{document}
+
+% A: each downstream task is a self-contained visual comparison.
+\layoutlabel{ALTERNATIVE A \quad Task-centric columns}
+\begin{minipage}[t]{0.14\textwidth}
+  \vspace{0pt}\centering
+  \sectionlabel{Source task}
+  \policy{0.82\linewidth}{source}
+  \minorlabel{fixed zero-sum reward}
+  \vspace{2pt}\minorlabel{fixed expert for OLS}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.81\textwidth}
+  \vspace{0pt}
+  \sectionlabel{Deployment under new leader rewards}
+  \minorlabel{Maps show mean patrol probabilities over 50 seeds; numbers are $\operatorname{SubOpt}(\hat\mu)$ at 1,600 observed actions (mean $\mathbin{\pm}$ 95\% CI).}
+  \vspace{5pt}
+  \begin{minipage}[t]{0.315\linewidth}\centering
+    \sectionlabel{Task 1}
+    \methodcell{0.43\linewidth}{Oracle}{\linewidth}{task1-oracle}\hfill
+    \begin{minipage}[t]{0.53\linewidth}\centering
+      \minorlabel{Active IRL}\policy{0.92\linewidth}{task1-active}
+      \score{\SuboptActiveOne}
+    \end{minipage}
+    \vspace{5pt}
+
+    \scoredcell{0.46\linewidth}{Zero-sum OLS}{0.62\linewidth}{task1-liao}{\SuboptLiaoOne}\hfill
+    \scoredcell{0.46\linewidth}{Follower OLS}{0.62\linewidth}{task1-follower}{\SuboptFollowerOne}
+    \vspace{3pt}
+    \scoredcell{0.46\linewidth}{Fixed random}{0.62\linewidth}{task1-fixed}{\SuboptFixedOne}\hfill
+    \scoredcell{0.46\linewidth}{Random each round}{0.62\linewidth}{task1-random}{\SuboptRandomOne}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.315\linewidth}\centering
+    \sectionlabel{Task 2}
+    \methodcell{0.43\linewidth}{Oracle}{\linewidth}{task2-oracle}\hfill
+    \begin{minipage}[t]{0.53\linewidth}\centering
+      \minorlabel{Active IRL}\policy{0.92\linewidth}{task2-active}
+      \score{\SuboptActiveTwo}
+    \end{minipage}
+    \vspace{5pt}
+
+    \scoredcell{0.46\linewidth}{Zero-sum OLS}{0.62\linewidth}{task2-liao}{\SuboptLiaoTwo}\hfill
+    \scoredcell{0.46\linewidth}{Follower OLS}{0.62\linewidth}{task2-follower}{\SuboptFollowerTwo}
+    \vspace{3pt}
+    \scoredcell{0.46\linewidth}{Fixed random}{0.62\linewidth}{task2-fixed}{\SuboptFixedTwo}\hfill
+    \scoredcell{0.46\linewidth}{Random each round}{0.62\linewidth}{task2-random}{\SuboptRandomTwo}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.315\linewidth}\centering
+    \sectionlabel{Task 3}
+    \methodcell{0.43\linewidth}{Oracle}{\linewidth}{task3-oracle}\hfill
+    \begin{minipage}[t]{0.53\linewidth}\centering
+      \minorlabel{Active IRL}\policy{0.92\linewidth}{task3-active}
+      \score{\SuboptActiveThree}
+    \end{minipage}
+    \vspace{5pt}
+
+    \scoredcell{0.46\linewidth}{Zero-sum OLS}{0.62\linewidth}{task3-liao}{\SuboptLiaoThree}\hfill
+    \scoredcell{0.46\linewidth}{Follower OLS}{0.62\linewidth}{task3-follower}{\SuboptFollowerThree}
+    \vspace{3pt}
+    \scoredcell{0.46\linewidth}{Fixed random}{0.62\linewidth}{task3-fixed}{\SuboptFixedThree}\hfill
+    \scoredcell{0.46\linewidth}{Random each round}{0.62\linewidth}{task3-random}{\SuboptRandomThree}
+  \end{minipage}
+\end{minipage}
+
+\hairline
+{\fontsize{7.2}{8.6}\selectfont\textbf{Figure.} Each downstream task is read vertically. Active IRL is larger than the baseline policies, but every task carries all task-specific numerical results.}\par
+\vfill
+\begin{minipage}[t]{0.485\textwidth}\textlines{8}\end{minipage}\hfill
+\begin{minipage}[t]{0.485\textwidth}\textlines{8}\end{minipage}
+
+\newpage
+
+% B: Active adaptation is the hero; baseline families are compact evidence cards.
+\layoutlabel{ALTERNATIVE B \quad Active adaptation as the visual focus}
+\begin{minipage}[t]{0.14\textwidth}
+  \vspace{0pt}\centering
+  \sectionlabel{Source task}
+  \policy{0.82\linewidth}{source}
+  \minorlabel{fixed zero-sum reward}
+  \vspace{2pt}\minorlabel{fixed expert for OLS}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.81\textwidth}
+  \vspace{0pt}\centering
+  \sectionlabel{Active IRL under new leader rewards}
+  \minorlabel{Maps show mean patrol probabilities over 50 seeds; numbers are $\operatorname{SubOpt}(\hat\mu)$ at 1,600 observed actions (mean $\mathbin{\pm}$ 95\% CI).}
+  \vspace{5pt}
+  \begin{minipage}[t]{0.31\linewidth}\centering
+    \minorlabel{Task 1}\policy{0.82\linewidth}{task1-active}\score{\SuboptActiveOne}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.31\linewidth}\centering
+    \minorlabel{Task 2}\policy{0.82\linewidth}{task2-active}\score{\SuboptActiveTwo}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.31\linewidth}\centering
+    \minorlabel{Task 3}\policy{0.82\linewidth}{task3-active}\score{\SuboptActiveThree}
+  \end{minipage}
+\end{minipage}
+
+\hairline
+\begin{minipage}[t]{0.485\textwidth}
+  \sectionlabel{Zero-sum OLS}
+  \centering
+  \scoredcell{0.31\linewidth}{Task 1}{0.72\linewidth}{task1-liao}{\SuboptLiaoOne}\hfill
+  \scoredcell{0.31\linewidth}{Task 2}{0.72\linewidth}{task2-liao}{\SuboptLiaoTwo}\hfill
+  \scoredcell{0.31\linewidth}{Task 3}{0.72\linewidth}{task3-liao}{\SuboptLiaoThree}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.485\textwidth}
+  \sectionlabel{Follower-only OLS}
+  \centering
+  \scoredcell{0.31\linewidth}{Task 1}{0.72\linewidth}{task1-follower}{\SuboptFollowerOne}\hfill
+  \scoredcell{0.31\linewidth}{Task 2}{0.72\linewidth}{task2-follower}{\SuboptFollowerTwo}\hfill
+  \scoredcell{0.31\linewidth}{Task 3}{0.72\linewidth}{task3-follower}{\SuboptFollowerThree}
+\end{minipage}
+
+\vspace{8pt}
+\begin{minipage}[t]{0.485\textwidth}
+  \sectionlabel{Fixed random (warm-up)}
+  \centering
+  \scoredcell{0.31\linewidth}{Task 1}{0.72\linewidth}{task1-fixed}{\SuboptFixedOne}\hfill
+  \scoredcell{0.31\linewidth}{Task 2}{0.72\linewidth}{task2-fixed}{\SuboptFixedTwo}\hfill
+  \scoredcell{0.31\linewidth}{Task 3}{0.72\linewidth}{task3-fixed}{\SuboptFixedThree}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.485\textwidth}
+  \sectionlabel{Random each round (warm-up)}
+  \centering
+  \scoredcell{0.31\linewidth}{Task 1}{0.72\linewidth}{task1-random}{\SuboptRandomOne}\hfill
+  \scoredcell{0.31\linewidth}{Task 2}{0.72\linewidth}{task2-random}{\SuboptRandomTwo}\hfill
+  \scoredcell{0.31\linewidth}{Task 3}{0.72\linewidth}{task3-random}{\SuboptRandomThree}
+\end{minipage}
+
+\hairline
+{\fontsize{7.2}{8.6}\selectfont\textbf{Figure.} The large triptych makes adaptation immediately visible; each baseline family remains inspectable without receiving equal visual weight.}\par
+
+\newpage
+
+% C: strict alignment supports direct row and column comparisons.
+\layoutlabel{ALTERNATIVE C \quad Visual comparison matrix}
+\begin{minipage}[t]{0.14\textwidth}
+  \vspace{0pt}\centering
+  \sectionlabel{Source task}
+  \policy{0.82\linewidth}{source}
+  \minorlabel{fixed zero-sum reward}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.81\textwidth}
+  \vspace{0pt}\centering
+  \sectionlabel{New leader rewards}
+  \minorlabel{Maps show mean patrol probabilities over 50 seeds; cells report task-specific $\operatorname{SubOpt}(\hat\mu)$ at 1,600 observed actions.}
+  \vspace{4pt}
+  \begin{minipage}{0.31\linewidth}\centering\minorlabel{Task 1}\end{minipage}\hfill
+  \begin{minipage}{0.31\linewidth}\centering\minorlabel{Task 2}\end{minipage}\hfill
+  \begin{minipage}{0.31\linewidth}\centering\minorlabel{Task 3}\end{minipage}
+\end{minipage}
+
+\vspace{5pt}
+\newcommand{\matrixrow}[8]{%
+  \begin{minipage}[c]{0.14\textwidth}\sectionlabel{#1}\end{minipage}\hfill
+  \begin{minipage}[c]{0.81\textwidth}\centering
+    \begin{minipage}{0.31\linewidth}\centering\policy{#2}{task1-#3}#4\end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}\centering\policy{#2}{task2-#3}#5\end{minipage}\hfill
+    \begin{minipage}{0.31\linewidth}\centering\policy{#2}{task3-#3}#6\end{minipage}
+  \end{minipage}\par\vspace{#7}%
+}
+\matrixrow{Oracle}{0.38\linewidth}{oracle}{}{}{}{3pt}{}
+\matrixrow{Active IRL}{0.58\linewidth}{active}{\score{\SuboptActiveOne}}{\score{\SuboptActiveTwo}}{\score{\SuboptActiveThree}}{5pt}{}
+\color{rulegray}\hrule\color{black}\vspace{5pt}
+\matrixrow{Zero-sum OLS}{0.34\linewidth}{liao}{\score{\SuboptLiaoOne}}{\score{\SuboptLiaoTwo}}{\score{\SuboptLiaoThree}}{2pt}{}
+\matrixrow{Follower OLS}{0.34\linewidth}{follower}{\score{\SuboptFollowerOne}}{\score{\SuboptFollowerTwo}}{\score{\SuboptFollowerThree}}{2pt}{}
+\matrixrow{Fixed random}{0.34\linewidth}{fixed}{\score{\SuboptFixedOne}}{\score{\SuboptFixedTwo}}{\score{\SuboptFixedThree}}{2pt}{}
+\matrixrow{Random each round}{0.34\linewidth}{random}{\score{\SuboptRandomOne}}{\score{\SuboptRandomTwo}}{\score{\SuboptRandomThree}}{2pt}{}
+
+\hairline
+{\fontsize{7.2}{8.6}\selectfont\textbf{Figure.} A common matrix makes policy differences and task-specific regrets directly comparable, with a deliberately larger Active IRL row.}\par
+
+\end{document}

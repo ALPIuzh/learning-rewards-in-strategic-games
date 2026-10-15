@@ -1,0 +1,92 @@
+% Exploratory alternative; generated from protected Lobeke data.
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 1, group name=lobekerel, horizontal sep=1.55cm},
+  mairl axis,
+  width=0.458\textwidth,
+  height=5.40cm,
+  ytick style={draw=none},
+  minor y tick style={draw=none}
+]
+\nextgroupplot[
+  title={(a) Target SubOpt},
+  xmin=0, xmax=1600,
+  xtick={0,400,800,1200,1600},
+  xlabel={Number of observed poacher actions},
+  ylabel={${\operatorname{SubOpt}(\hat\mu)}$},
+  ymode=log,
+  ymin=3e-5, ymax=0.15
+]
+\path[fill=mairlActive!5] (axis cs:0,3e-5) rectangle (axis cs:200,0.15);
+\draw[mairlGrid, densely dotted, line width=0.45pt]
+  (axis cs:200,3e-5) -- (axis cs:200,0.15);
+\node[rotate=90, font=\tiny, text=mairlActive, anchor=center]
+  at (axis cs:100,1.1e-4) {Warm-up};
+\addplot[draw=none, name path=active_warm_target_suboptimalityUpper, forget plot] coordinates {(200,0.001482787) (360,0.00077694166) (520,0.0005816169) (680,0.00062159886) (840,0.00060182006) (1000,0.00049818361) (1160,0.00047593069) (1320,0.00042178615) (1480,0.00031840683) (1600,0.00028433588)};
+\addplot[draw=none, name path=active_warm_target_suboptimalityLower, forget plot] coordinates {(200,0.00082039024) (360,0.00034230126) (520,0.00025083547) (680,0.00022736496) (840,0.00016907787) (1000,0.0001657221) (1160,0.00012693686) (1320,0.00014045599) (1480,0.00010416735) (1600,0.00012196817)};
+\addplot[mairlActive, mairl ci, forget plot] fill between[of=active_warm_target_suboptimalityUpper and active_warm_target_suboptimalityLower];
+\addplot[draw=mairlActive, mairl warm, line width=0.55pt, forget plot] coordinates {(200,0.0011515886) (360,0.00055962146) (520,0.00041622619) (680,0.00042448191) (840,0.00038544896) (1000,0.00033195285) (1160,0.00030143377) (1320,0.00028112107) (1480,0.00021128709) (1600,0.00020315202)};
+\addplot[draw=none, name path=active_no_warm_target_suboptimalityUpper, forget plot] coordinates {(0,0.0034333119) (160,0.0016666822) (320,0.001051298) (480,0.00079144906) (640,0.00059520947) (800,0.00032350743) (960,0.00035981489) (1120,0.00027096006) (1280,0.00024677892) (1440,0.00023232015) (1600,0.00020579621)};
+\addplot[draw=none, name path=active_no_warm_target_suboptimalityLower, forget plot] coordinates {(0,0.0034333119) (160,0.00093217464) (320,0.00046722479) (480,0.00030807984) (640,0.00023115412) (800,0.00013052417) (960,0.00011681939) (1120,9.9311678e-05) (1280,0.00010809379) (1440,9.795979e-05) (1600,9.3154369e-05)};
+\addplot[mairlActive, mairl ci, forget plot] fill between[of=active_no_warm_target_suboptimalityUpper and active_no_warm_target_suboptimalityLower];
+\addplot[draw=mairlActive, mairl no warm, line width=0.55pt, forget plot] coordinates {(0,0.0034333119) (160,0.0012994284) (320,0.00075926139) (480,0.00054976445) (640,0.00041318179) (800,0.0002270158) (960,0.00023831714) (1120,0.00018513587) (1280,0.00017743635) (1440,0.00016513997) (1600,0.00014947529)};
+\addplot[draw=none, name path=fixed_random_warm_target_suboptimalityUpper, forget plot] coordinates {(200,0.001482787) (360,0.0015776228) (520,0.0016970846) (680,0.0016061523) (840,0.0017170613) (1000,0.0016942988) (1160,0.0017262238) (1320,0.0017545244) (1480,0.0017091853) (1600,0.0017177518)};
+\addplot[draw=none, name path=fixed_random_warm_target_suboptimalityLower, forget plot] coordinates {(200,0.00082039024) (360,0.00084307411) (520,0.00093411003) (680,0.00090956603) (840,0.00095223278) (1000,0.00095446848) (1160,0.00099123017) (1320,0.00099529587) (1480,0.00096786673) (1600,0.00097801974)};
+\addplot[mairlFixed, mairl ci, forget plot] fill between[of=fixed_random_warm_target_suboptimalityUpper and fixed_random_warm_target_suboptimalityLower];
+\addplot[draw=mairlFixed, mairl warm, line width=0.55pt, forget plot] coordinates {(200,0.0011515886) (360,0.0012103485) (520,0.0013155973) (680,0.0012578592) (840,0.001334647) (1000,0.0013243837) (1160,0.001358727) (1320,0.0013749102) (1480,0.001338526) (1600,0.0013478857)};
+\addplot[draw=none, name path=fixed_random_no_warm_target_suboptimalityUpper, forget plot] coordinates {(0,0.0034333119) (160,0.0187081) (320,0.016168416) (480,0.0088307069) (640,0.0098075915) (800,0.010668949) (960,0.0098068496) (1120,0.0087115505) (1280,0.0065664962) (1440,0.0060418403) (1600,0.0027757384)};
+\addplot[draw=none, name path=fixed_random_no_warm_target_suboptimalityLower, forget plot] coordinates {(0,0.0034333119) (160,0.0067472908) (320,0.0061852797) (480,0.002919163) (640,0.0033158788) (800,0.0035911798) (960,0.0028996975) (1120,0.0023804861) (1280,0.0017228315) (1440,0.0016808802) (1600,0.001986353)};
+\addplot[mairlFixed, mairl ci, forget plot] fill between[of=fixed_random_no_warm_target_suboptimalityUpper and fixed_random_no_warm_target_suboptimalityLower];
+\addplot[draw=mairlFixed, mairl no warm, line width=0.55pt, forget plot] coordinates {(0,0.0034333119) (160,0.012727696) (320,0.011176848) (480,0.005874935) (640,0.0065617351) (800,0.0071300643) (960,0.0063532735) (1120,0.0055460183) (1280,0.0041446638) (1440,0.0038613603) (1600,0.0023810457)};
+\addplot[draw=none, name path=online_random_warm_target_suboptimalityUpper, forget plot] coordinates {(200,0.001482787) (360,0.0013141027) (520,0.0012879012) (680,0.0013872866) (840,0.0013825318) (1000,0.0014930618) (1160,0.0014017095) (1320,0.0014747205) (1480,0.0015000792) (1600,0.0014500478)};
+\addplot[draw=none, name path=online_random_warm_target_suboptimalityLower, forget plot] coordinates {(200,0.00082039024) (360,0.00073811017) (520,0.00071190934) (680,0.00075533307) (840,0.00073266044) (1000,0.00076441484) (1160,0.00069822254) (1320,0.00071327709) (1480,0.00073461437) (1600,0.0007147731)};
+\addplot[mairlOnline, mairl ci, forget plot] fill between[of=online_random_warm_target_suboptimalityUpper and online_random_warm_target_suboptimalityLower];
+\addplot[draw=mairlOnline, mairl warm, line width=0.55pt, forget plot] coordinates {(200,0.0011515886) (360,0.0010261065) (520,0.00099990528) (680,0.0010713098) (840,0.0010575961) (1000,0.0011287383) (1160,0.001049966) (1320,0.0010939988) (1480,0.0011173468) (1600,0.0010824104)};
+\addplot[draw=none, name path=online_random_no_warm_target_suboptimalityUpper, forget plot] coordinates {(0,0.0034333119) (160,0.018657526) (320,0.012096498) (480,0.012280366) (640,0.011279543) (800,0.0090723575) (960,0.0060448324) (1120,0.0047758952) (1280,0.0046258291) (1440,0.0045063109) (1600,0.0045142709)};
+\addplot[draw=none, name path=online_random_no_warm_target_suboptimalityLower, forget plot] coordinates {(0,0.0034333119) (160,0.0065498579) (320,0.0036965655) (480,0.0038713875) (640,0.0034169014) (800,0.0027941708) (960,0.0016997316) (1120,0.0016298387) (1280,0.0014650727) (1440,0.0013379688) (1600,0.0013561735)};
+\addplot[mairlOnline, mairl ci, forget plot] fill between[of=online_random_no_warm_target_suboptimalityUpper and online_random_no_warm_target_suboptimalityLower];
+\addplot[draw=mairlOnline, mairl no warm, line width=0.55pt, forget plot] coordinates {(0,0.0034333119) (160,0.012603692) (320,0.0078965317) (480,0.0080758768) (640,0.0073482223) (800,0.0059332642) (960,0.003872282) (1120,0.0032028669) (1280,0.0030454509) (1440,0.0029221399) (1600,0.0029352222)};
+\addplot[draw=none, name path=fixed_expert_mle_target_suboptimalityUpper, forget plot] coordinates {(40,0.0034986971) (200,0.0034333119) (360,0.0034514086) (520,0.0034588196) (680,0.0034116518) (840,0.0033906012) (1000,0.0033280925) (1160,0.0034368049) (1320,0.0033988715) (1480,0.0034027132) (1600,0.0034038)};
+\addplot[draw=none, name path=fixed_expert_mle_target_suboptimalityLower, forget plot] coordinates {(40,0.0032383965) (200,0.0034333119) (360,0.003379365) (520,0.0031118178) (680,0.002953466) (840,0.0029515275) (1000,0.0027431027) (1160,0.0030478801) (1320,0.0030390433) (1480,0.0029889993) (1600,0.0029046199)};
+\addplot[mairlExpert, mairl ci, forget plot] fill between[of=fixed_expert_mle_target_suboptimalityUpper and fixed_expert_mle_target_suboptimalityLower];
+\addplot[draw=mairlExpert, mairl warm, line width=0.55pt, forget plot] coordinates {(40,0.0033685468) (200,0.0034333119) (360,0.0034153868) (520,0.0032853187) (680,0.0031825589) (840,0.0031710644) (1000,0.0030355976) (1160,0.0032423425) (1320,0.0032189574) (1480,0.0031958563) (1600,0.00315421)};
+\addplot[draw=none, name path=zero_sum_ols_target_suboptimalityUpper, forget plot] coordinates {(40,0.0023552433) (200,0.00059874784) (360,0.00042894414) (520,0.00023042374) (680,0.00021440279) (840,0.00019001978) (1000,0.00018082517) (1160,0.00014722508) (1320,0.0001164075) (1480,0.00010363149) (1600,9.4492643e-05)};
+\addplot[draw=none, name path=zero_sum_ols_target_suboptimalityLower, forget plot] coordinates {(40,0.0014703125) (200,0.00017446394) (360,0.00010536418) (520,0.00010561788) (680,9.9848797e-05) (840,9.069107e-05) (1000,7.7739037e-05) (1160,6.7882383e-05) (1320,5.684559e-05) (1480,5.0880771e-05) (1600,4.6197591e-05)};
+\addplot[mairlZeroSum, mairl ci, forget plot] fill between[of=zero_sum_ols_target_suboptimalityUpper and zero_sum_ols_target_suboptimalityLower];
+\addplot[draw=mairlZeroSum, mairl warm, line width=0.55pt, forget plot] coordinates {(40,0.0019127779) (200,0.00038660589) (360,0.00026715416) (520,0.00016802081) (680,0.0001571258) (840,0.00014035543) (1000,0.0001292821) (1160,0.00010755373) (1320,8.6626545e-05) (1480,7.7256132e-05) (1600,7.0345117e-05)};
+\addplot[draw=none, name path=follower_ols_target_suboptimalityUpper, forget plot] coordinates {(40,0.037718946) (200,0.034578443) (360,0.040012167) (520,0.036137709) (680,0.038070364) (840,0.038840796) (1000,0.039399319) (1160,0.041007243) (1320,0.040442059) (1480,0.037426838) (1600,0.037252278)};
+\addplot[draw=none, name path=follower_ols_target_suboptimalityLower, forget plot] coordinates {(40,0.021812277) (200,0.019879739) (360,0.02497112) (520,0.021194221) (680,0.023507443) (840,0.024789704) (1000,0.02563841) (1160,0.027614043) (1320,0.027220457) (1480,0.024208337) (1600,0.02365973)};
+\addplot[mairlFollower, mairl ci, forget plot] fill between[of=follower_ols_target_suboptimalityUpper and follower_ols_target_suboptimalityLower];
+\addplot[draw=mairlFollower, mairl warm, line width=0.55pt, forget plot] coordinates {(40,0.029765612) (200,0.027229091) (360,0.032491644) (520,0.028665965) (680,0.030788904) (840,0.03181525) (1000,0.032518864) (1160,0.034310643) (1320,0.033831258) (1480,0.030817587) (1600,0.030456004)};
+\nextgroupplot[
+  title={(b) Target Fisher--SubOpt relation},
+  xlabel={Final Target Fisher error},
+  ylabel={Final ${\operatorname{SubOpt}(\hat\mu)}$},
+  xmode=log,
+  ymode=log,
+  xmin=2e-2, xmax=1.25,
+  ymin=4e-5, ymax=5e-2
+]
+\addplot[only marks, mark=*, mark size=1.8pt, draw=mairlActive, fill=mairlActive, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.036606764,0.00020315202) +- (0.0055141078,8.1183859e-05)};
+\addplot[only marks, mark=o, mark size=1.8pt, draw=mairlActive, fill=white, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.029930122,0.00014947529) +- (0.0042716781,5.6320923e-05)};
+\addplot[only marks, mark=*, mark size=1.8pt, draw=mairlFixed, fill=mairlFixed, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.080268776,0.0013478857) +- (0.014472786,0.00036986601)};
+\addplot[only marks, mark=o, mark size=1.8pt, draw=mairlFixed, fill=white, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.31802052,0.0023810457) +- (0.10087959,0.0003946927)};
+\addplot[only marks, mark=*, mark size=1.8pt, draw=mairlOnline, fill=mairlOnline, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.069627676,0.0010824104) +- (0.014200772,0.00036763734)};
+\addplot[only marks, mark=o, mark size=1.8pt, draw=mairlOnline, fill=white, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.22797254,0.0029352222) +- (0.071290129,0.0015790487)};
+\addplot[only marks, mark=square*, mark size=1.8pt, draw=mairlExpert, fill=mairlExpert, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.32162224,0.00315421) +- (0.065229524,0.00024959)};
+\addplot[only marks, mark=square*, mark size=1.8pt, draw=mairlZeroSum, fill=mairlZeroSum, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.063193256,7.0345117e-05) +- (0.013805214,2.4147526e-05)};
+\addplot[only marks, mark=square*, mark size=1.8pt, draw=mairlFollower, fill=mairlFollower, line width=0.55pt, forget plot, error bars/.cd, x dir=both, x explicit, y dir=both, y explicit] coordinates {(0.87245339,0.030456004) +- (0.17875533,0.006796274)};
+\end{groupplot}
+\node[anchor=north, font=\scriptsize, text=mairlInk, align=left]
+  at ($(lobekerel c1r1.south)!0.5!(lobekerel c2r1.south)+(0,-1.38cm)$) {
+  \begin{tabular}{@{}lll@{\hspace{8pt}}lll@{}}
+  \textcolor{mairlActive}{\rule[0.4ex]{0.24cm}{0.55pt}}\ Active IRL &
+  \textcolor{mairlFixed}{\rule[0.4ex]{0.24cm}{0.55pt}}\ Fixed random &
+  \textcolor{mairlOnline}{\rule[0.4ex]{0.24cm}{0.55pt}}\ Online random &
+  $\bullet$\ w/ warm-up & $\circ$\ w/o warm-up & \\
+  \textcolor{mairlExpert}{$\blacksquare$}\ Fixed-expert MLE &
+  \textcolor{mairlZeroSum}{$\blacksquare$}\ Zero-sum OLS &
+  \textcolor{mairlFollower}{$\blacksquare$}\ Follower-only OLS & & &
+  \end{tabular}
+  };
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+{
+  "batch": 2,
+  "commit": "01155a2459a27011919f7b06a9732d689ea0264e",
+  "evaluation_hashes": {
+    "2026094048": "9feb7299209d8df108bc3cba8b87de87c8f10dbab098ca1e00ef01d68f2f9d93",
+    "2026094049": "8a6c7b0ac07e57699b4cfbae4eaf8da4b94d0117983b1cb7037afd6d24d20948"
+  },
+  "evaluation_script_hash": "5f01cc17bea5ce421b7c658ef8a950d2b4e6ef80b52e26419c64120ac4d06cb9",
+  "evaluation_seconds": 34.915825332995155,
+  "max_mle_residual": 4.749220067388894e-07,
+  "max_omega_norm": 1.7198007744812303,
+  "max_simplex_error": 0.0,
+  "model_hash": "7930e144219e8c43c6ca93e0a33cc82225761e8714899e241fb3549390f01dbe",
+  "multiplier": 0.01,
+  "ridge": 1e-06,
+  "script_hash": "a75cc69c1e67aeb5bbe910040f50ba9f5eb3aededbeb9f8f86f24ccad55684a3",
+  "seconds": 57.4724838330003,
+  "seeds": [
+    2026094048,
+    2026094049
+  ],
+  "source_hash": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "training_hash": "b9d904e258c2fbe031d8c185ce813c4b51560c7864e5647f5eb8dba6a5deaa55",
+  "training_seconds": 22.55438304200652,
+  "warmup": 200
+}

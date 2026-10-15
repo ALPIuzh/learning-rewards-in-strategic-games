@@ -1,0 +1,50 @@
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.venv/
+.cache/
+.coverage
+.matplotlib-cache/
+mpl-cache/
+.mypy_cache/
+__pycache__/
+*.egg-info/
+*.py[cod]
+build/
+dist/
+
+# Generated experiment state. Resolved configs and provenance are stored inside each
+# run, but the canonical Hydra recipes under conf/ and uv.lock remain versioned.
+artifacts/
+outputs/
+multirun/
+profiles/
+
+# Generated previews and private design drafts; canonical assets live with experiments.
+/tmp/
+/output/
+/reproducibility/frontpage/
+/reproducibility/design_explorations/
+.uv-cache/
+
+# LaTeX preview auxiliaries written beside the source by editor integrations.
+/experiments/guard/paper/tex/*.aux
+/experiments/guard/paper/tex/*.fdb_latexmk
+/experiments/guard/paper/tex/*.fls
+/experiments/guard/paper/tex/*.log
+/reproducibility/tex/*.aux
+/reproducibility/tex/*.fdb_latexmk
+/reproducibility/tex/*.fls
+/reproducibility/tex/*.log
+
+# Local reference copy of the paper. GUARD itself is a pinned public submodule.
+experiments/guard/paper.pdf
+
+# In source archives GUARD may be fetched as a standalone pinned checkout.
+/experiments/guard/GUARD/
+
+# Experiment previews belong under artifacts/, not alongside source files.
+/experiments/**/*.png
+/experiments/**/*.pdf
+/experiments/guard/paper/results/
+/experiments/guard/paper/tex/generated/

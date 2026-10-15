@@ -1,0 +1,113 @@
+schema_version = 1
+
+[[figures]]
+id = "m1_source_convergence"
+section = "main"
+title = "Source-task convergence"
+recipe = "lobeke_source_convergence"
+status = "ready"
+data = "reproducibility/data/lobeke/source_convergence_unit_reward_v2/provenance.json"
+output = "main/m1_source_convergence.tex"
+
+[[figures]]
+id = "m2_downstream_transfer"
+section = "main"
+title = "Concrete downstream transfer"
+recipe = "lobeke_transfer"
+status = "ready"
+data = "reproducibility/data/lobeke/downstream_figures.json"
+output = "main/m2_downstream_transfer.tex"
+
+[[figures]]
+id = "m2_downstream_transfer_compact"
+section = "main"
+title = "Concrete downstream transfer compact"
+recipe = "lobeke_transfer_compact"
+status = "ready"
+data = "reproducibility/data/lobeke/downstream_figures.json"
+output = "main/m2_downstream_transfer_compact.tex"
+
+[[figures]]
+id = "i1_environment"
+section = "appendix"
+title = "Lobeke rewards, patrols, and poachers"
+recipe = "lobeke_environment"
+status = "ready"
+data = "reproducibility/data/lobeke/environment/provenance.json"
+output = "appendix/i1_environment.tex"
+
+[[figures]]
+id = "i1_source_diagnostics"
+section = "appendix"
+title = "Lobeke source-task diagnostics"
+recipe = "lobeke_diagnostics"
+status = "ready"
+data = "reproducibility/data/lobeke/final_evaluation_unit_reward_v2/provenance.json"
+output = "appendix/i1_source_diagnostics.tex"
+x_label = "Number of observed poacher actions"
+
+[[figures]]
+id = "i1_warmup_factorial"
+section = "appendix"
+title = "Matched Lobeke warm-up and lambda factorial"
+recipe = "lobeke_warmup_factorial"
+status = "ready"
+data = "reproducibility/data/lobeke/warmup_factorial_unit_reward/provenance.json"
+output = "appendix/i1_warmup_factorial.tex"
+
+[[figures]]
+id = "i1_downstream"
+section = "appendix"
+title = "Lobeke downstream policies under both data-access assumptions"
+recipe = "lobeke_downstream"
+status = "ready"
+data = "reproducibility/data/lobeke/downstream_figures.json"
+output = "appendix/i1_downstream.tex"
+
+[[figures]]
+id = "i1_behavioral_transfer_gap"
+section = "appendix"
+title = "Lobeke transfer by source-policy value gap"
+recipe = "lobeke_behavioral_transfer"
+status = "ready"
+data = "reproducibility/data/lobeke/behavioral_transfer_v1/provenance.json"
+output = "appendix/i1_behavioral_transfer_gap.tex"
+variant = "gap"
+
+[[figures]]
+id = "i1_hyperparameters"
+section = "appendix"
+title = "Lobeke ridge-zero hyperparameter sensitivity"
+recipe = "lobeke_tuning"
+status = "ready"
+data = "reproducibility/data/lobeke/ridge_zero_tuning/provenance.json"
+output = "appendix/i1_hyperparameters.tex"
+
+[[figures]]
+id = "i2_structured_sensitivity"
+section = "appendix"
+title = "Structured-game sensitivity"
+recipe = "structured_sensitivity"
+status = "ready"
+data = "reproducibility/data/structured_toy/sensitivity.json"
+output = "appendix/i2_structured_sensitivity.tex"
+
+[[figures]]
+id = "i2_sparse_information"
+section = "appendix"
+title = "Sparse-information game"
+recipe = "sparse_information"
+status = "ready"
+data = "reproducibility/data/sparse_information/final_sparse_information.json"
+output = "appendix/i2_sparse_information.tex"
+x_label = "Number of observed follower actions"
+
+[[figures]]
+id = "i3_lower_bound"
+section = "appendix"
+title = "Active IRL on the minimax lower-bound instance"
+recipe = "lower_bound"
+status = "ready"
+data = "reproducibility/data/lower_bound/summary.json"
+output = "appendix/i3_lower_bound.tex"
+x_label = "$K/d$"

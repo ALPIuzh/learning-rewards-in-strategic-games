@@ -1,0 +1,1852 @@
+{
+  "additional_active_only_calibration_migrations": [
+    {
+      "jobs": 40,
+      "source_commit": "fe0cde74ec34fde9533a5ba85e5b6da0ffcb2059",
+      "source_run": "artifacts/runs/numerical-calibration/88ff7158931b1e17"
+    },
+    {
+      "jobs": 40,
+      "source_commit": "e3a58432fcdd29ed7c2cb7d73de2b680d1dc31dd",
+      "source_run": "artifacts/runs/numerical-calibration/a5429f333536c6fd"
+    },
+    {
+      "jobs": 40,
+      "source_commit": "21660b29a782a4e1153a07fe21ed1e974fd1dfe3",
+      "source_run": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e"
+    }
+  ],
+  "legacy_calibration_migration": {
+    "changes": "warmup_enabled -> warmup_modes=[value], methods=[active]; historical executor at 1cc4249 always selected active; job IDs and metadata updated, arrays untouched",
+    "jobs": 20,
+    "source_commit": "1cc42497744026ed1413836f5ed21225939de328",
+    "source_run": "artifacts/runs/numerical-calibration/ec905f964f816041"
+  },
+  "legacy_toy_migration": {
+    "move_commit": "e69a4e111ff1fc5d8fe46aaf1cf1abfa78ffb88f",
+    "runs": 13,
+    "verification": "All affected configurations generate identical features, true coefficients, and leader rewards using the historical and current toy helpers. This does not claim the entire current numerical/evaluation pipeline is identical to the historical code."
+  },
+  "mapping": {
+    "mairl_exp.applications.toy.ToyApplication": "experiments.toy.application.ToyApplication",
+    "mairl_exp.calibration.CalibrationGuardrails": "mairl_exp.studies.calibration.CalibrationGuardrails",
+    "mairl_exp.calibration.NumericalCalibrationStudy": "mairl_exp.studies.calibration.NumericalCalibrationStudy",
+    "mairl_exp.calibration.NumericalCandidate": "mairl_exp.studies.calibration.NumericalCandidate",
+    "mairl_exp.plotting.FisherTransferPlot": "mairl_exp.evaluation.plotting.FisherTransferPlot",
+    "mairl_exp.protected_confirmation.FrozenJointCandidateConfirmationStudy": "mairl_exp.studies.confirmation.FrozenJointCandidateConfirmationStudy",
+    "mairl_exp.protected_tuning.JointWarmupLambdaDiscoveryStudy": "mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy",
+    "mairl_exp.studies.BaselineComparisonStudy": "mairl_exp.studies.comparison.BaselineComparisonStudy"
+  },
+  "migrated_runs": [
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 0,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/4565b87d02f32cfe",
+      "errors": [],
+      "new_run_id": "4565b87d02f32cfe",
+      "path": "artifacts/runs/baseline-comparison/12505108863e268f",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "12505108863e268f",
+      "semantic_config_sha256": "5cf7984e6e6657cee8106e31166f9c51c074f7b1665106c646689a70509cb264"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 157,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/eeb27c56796a2399",
+      "errors": [],
+      "new_run_id": "eeb27c56796a2399",
+      "path": "artifacts/runs/baseline-comparison/1a39ee07ea9b50a9",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "1a39ee07ea9b50a9",
+      "semantic_config_sha256": "40feddc60921e251d1f5d2acae81bd4561e382636f14d76ac8293bdf4a6efdca"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 13,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/aa0a0274abdc2b81",
+      "errors": [],
+      "new_run_id": "aa0a0274abdc2b81",
+      "path": "artifacts/runs/baseline-comparison/1bfa795c346750f4",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "1bfa795c346750f4",
+      "semantic_config_sha256": "c97fce80c217f8fda1dc0983378e59b28beca62b19a07b646c7292523b98fd9e"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 0,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/8663e6efa704caf5",
+      "errors": [],
+      "new_run_id": "8663e6efa704caf5",
+      "path": "artifacts/runs/baseline-comparison/3fb7f1691365ed94",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "3fb7f1691365ed94",
+      "semantic_config_sha256": "0a5b733d10d7cadf9fa1b7c01f4542310dffeece4c24fb50b423d3eacd8b9853"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/f3c37e37f098449e/manifest.json",
+        "plots/f3c37e37f098449e/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 300,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/e37ab96e720efdf2",
+      "errors": [],
+      "new_run_id": "e37ab96e720efdf2",
+      "path": "artifacts/runs/baseline-comparison/4acb35768b700260",
+      "plot_ids": [
+        {
+          "new": "533f8399b2643b14",
+          "old": "f3c37e37f098449e"
+        }
+      ],
+      "plots": 1,
+      "run_id": "4acb35768b700260",
+      "semantic_config_sha256": "c567841d443f16135185a7c7f1597325a8d360cb7366c4adcd8c7f253de00893"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/d658d1926e9dbf5e/manifest.json",
+        "plots/d658d1926e9dbf5e/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 600,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/695e866292a1d5ac",
+      "errors": [],
+      "new_run_id": "695e866292a1d5ac",
+      "path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0",
+      "plot_ids": [
+        {
+          "new": "e27a11e770193ee5",
+          "old": "d658d1926e9dbf5e"
+        }
+      ],
+      "plots": 1,
+      "run_id": "51b15452ac8c18c0",
+      "semantic_config_sha256": "2397313177ad1375c1c9cd1a92be7eca2b93d9b1b6ee3fa6b7ceee1f56decc9f"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 1,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/5da2e93c04d503f5",
+      "errors": [],
+      "new_run_id": "5da2e93c04d503f5",
+      "path": "artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "6f6e6daa40fdbdbd",
+      "semantic_config_sha256": "ae72d26cb348017787543dfd11c8f4127af50e84055f773958a85859fde10942"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/9d5757222b679149/manifest.json",
+        "plots/9d5757222b679149/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/f9eaa61838cf650d",
+      "errors": [],
+      "new_run_id": "f9eaa61838cf650d",
+      "path": "artifacts/runs/baseline-comparison/760cf5be37487b0b",
+      "plot_ids": [
+        {
+          "new": "02262674f25aefa2",
+          "old": "9d5757222b679149"
+        }
+      ],
+      "plots": 1,
+      "run_id": "760cf5be37487b0b",
+      "semantic_config_sha256": "2a0c257dc140f85adc810fa42aef8f7161ad0467ebcdb31f586043808adf63b5"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 18,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/86b72c0dcf776a8e",
+      "errors": [],
+      "new_run_id": "86b72c0dcf776a8e",
+      "path": "artifacts/runs/baseline-comparison/a23de1de828ffada",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "a23de1de828ffada",
+      "semantic_config_sha256": "53dc118f391dd1eba713e982489accd5454549029a56dbd6a3067f371fff53c0"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 0,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/b2bd9543a2efe0c0",
+      "errors": [],
+      "new_run_id": "b2bd9543a2efe0c0",
+      "path": "artifacts/runs/baseline-comparison/a2c7850295652844",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "a2c7850295652844",
+      "semantic_config_sha256": "58270b16da387e2123f5d6f78ddac40327ebf763a7df97ebea0c3c9dbf6d5e8c"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/6de5a0b9544e4ee9/manifest.json",
+        "plots/6de5a0b9544e4ee9/resolved_plot_config.yaml",
+        "plots/9f62ed3fd9f54de6/manifest.json",
+        "plots/9f62ed3fd9f54de6/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/79efba4cec7f2bf5",
+      "errors": [],
+      "new_run_id": "79efba4cec7f2bf5",
+      "path": "artifacts/runs/baseline-comparison/b53e31642f38ba96",
+      "plot_ids": [
+        {
+          "new": "84afe38633474428",
+          "old": "6de5a0b9544e4ee9"
+        },
+        {
+          "new": "26531c6e4939ea5d",
+          "old": "9f62ed3fd9f54de6"
+        }
+      ],
+      "plots": 2,
+      "run_id": "b53e31642f38ba96",
+      "semantic_config_sha256": "4383019c73d5ed590ba3fd462009c01d07f42d0f7657b5bbfd3afd686eec6287"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/9ff1e40a368d77ae/manifest.json",
+        "plots/9ff1e40a368d77ae/resolved_plot_config.yaml",
+        "plots/420f73c4473db01a/manifest.json",
+        "plots/420f73c4473db01a/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 300,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/0404bdef0aa53649",
+      "errors": [],
+      "new_run_id": "0404bdef0aa53649",
+      "path": "artifacts/runs/baseline-comparison/b9b01e246527216e",
+      "plot_ids": [
+        {
+          "new": "a9861ba5bb9284a9",
+          "old": "420f73c4473db01a"
+        },
+        {
+          "new": "c69776e864da3f91",
+          "old": "9ff1e40a368d77ae"
+        }
+      ],
+      "plots": 2,
+      "run_id": "b9b01e246527216e",
+      "semantic_config_sha256": "61736205b6c1f6b038d0f7645732045965b571afec6b79e297a193bb5c03586b"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 203,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/b5671a133a3d1f36",
+      "errors": [],
+      "new_run_id": "b5671a133a3d1f36",
+      "path": "artifacts/runs/baseline-comparison/c6b0efbfd9144147",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "c6b0efbfd9144147",
+      "semantic_config_sha256": "3ce700ddac1169b0138f5d48670c6af9cc0b5429c5fb92719cd5a19cfb81e591"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 1,
+      "destination": "artifacts/migrated-imports/runs/baseline-comparison/701600d9be3de9ad",
+      "errors": [],
+      "new_run_id": "701600d9be3de9ad",
+      "path": "artifacts/runs/baseline-comparison/d31ae98410b9a8be",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "d31ae98410b9a8be",
+      "semantic_config_sha256": "efad2a28a6735876c7e4a9b620cc2b2376dbbee76cafb6e9e5b281bddb8e1b70"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 580,
+      "destination": "artifacts/migrated-imports/runs/guard-lobeke-full-grid-1000-completion/2e295b0b4720e337",
+      "errors": [],
+      "new_run_id": "2e295b0b4720e337",
+      "path": "artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "544713bd317e400d",
+      "semantic_config_sha256": "4e54d24962776929346f0517b4e817c1fa56fe8a2b32aeb7f731236b3d7fb0f4"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 120,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/49ed3f8a4876bcf1",
+      "errors": [],
+      "new_run_id": "49ed3f8a4876bcf1",
+      "path": "artifacts/runs/numerical-calibration/39bfcffca9bb9a84",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "39bfcffca9bb9a84",
+      "semantic_config_sha256": "0b3c78d5921f5377acdd69e96142e6aeb347ba803bb1fb4394c3934c5465643b"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 16,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/3a998a301b3fed37",
+      "errors": [],
+      "new_run_id": "3a998a301b3fed37",
+      "path": "artifacts/runs/numerical-calibration/66e17657d0ed7605",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "66e17657d0ed7605",
+      "semantic_config_sha256": "0b3c78d5921f5377acdd69e96142e6aeb347ba803bb1fb4394c3934c5465643b"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 4,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/dfb77cdf1f9b2e88",
+      "errors": [],
+      "new_run_id": "dfb77cdf1f9b2e88",
+      "path": "artifacts/runs/numerical-calibration/7152b85c55e0409a",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "7152b85c55e0409a",
+      "semantic_config_sha256": "5d586224153a3cfcd51da2a53f16e7605053da86565aa195a1b461bde9f751ab"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 20,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/9f7acacfa2b098a3",
+      "errors": [],
+      "job_ids": [
+        {
+          "new": "86e96ddf263aa74b",
+          "old": "7fbc6b899a73a9cd"
+        },
+        {
+          "new": "d6905c8117965e14",
+          "old": "223c779b49731feb"
+        },
+        {
+          "new": "53ce859112eefe0a",
+          "old": "b61789768e690d4d"
+        },
+        {
+          "new": "fda601f9061432b8",
+          "old": "89f0ae4fbbfc85ca"
+        },
+        {
+          "new": "3bbb2dd47865b4be",
+          "old": "0f2ab9a54a0977f0"
+        },
+        {
+          "new": "6e8e3b6aa6d7e455",
+          "old": "f7574801e2e6edc1"
+        },
+        {
+          "new": "c11127725911f281",
+          "old": "d7d0cc805bfc755b"
+        },
+        {
+          "new": "6001462be18ef021",
+          "old": "44b19ca61113222e"
+        },
+        {
+          "new": "495b96d65d2a46cd",
+          "old": "2765980f7f638015"
+        },
+        {
+          "new": "0d714bbdc93d904a",
+          "old": "870a0f2652e77053"
+        },
+        {
+          "new": "1168ef6acb3e7a80",
+          "old": "81a4019ab8fb3b83"
+        },
+        {
+          "new": "009c2df45513a562",
+          "old": "e51ee2954bbcd46c"
+        },
+        {
+          "new": "874b2f3978d91763",
+          "old": "cd71dae87931d8d9"
+        },
+        {
+          "new": "eedd7a3f3e756805",
+          "old": "1f73654f1333e001"
+        },
+        {
+          "new": "5a77e8bae2bfd48c",
+          "old": "dfcff82975e5bb4e"
+        },
+        {
+          "new": "ed403d0c329b8064",
+          "old": "0fdd2c945201dd18"
+        },
+        {
+          "new": "bf2a5cc5e24ba702",
+          "old": "7b761d09923a4207"
+        },
+        {
+          "new": "51dd7bd1a8012315",
+          "old": "6460b2e3aee1dfef"
+        },
+        {
+          "new": "989fd1f43b7a325d",
+          "old": "1a597df4d1a802da"
+        },
+        {
+          "new": "f107d4474af1a760",
+          "old": "473d66a02817191f"
+        },
+        {
+          "new": "c03853a59fb189ef",
+          "old": "60fca0c97fd420d5"
+        },
+        {
+          "new": "efa3f1e9063ca112",
+          "old": "a523e5957978abc8"
+        },
+        {
+          "new": "57b1530e09ae2ae8",
+          "old": "5ff9d27648a2b2c5"
+        },
+        {
+          "new": "349a814605634b70",
+          "old": "fdb0c6ff5918e178"
+        },
+        {
+          "new": "7789021691dc8df1",
+          "old": "4abfa1d20c91f7a0"
+        },
+        {
+          "new": "e62048579dfa443c",
+          "old": "c2c8d4e79999f795"
+        },
+        {
+          "new": "862259c6741f1aaf",
+          "old": "733074775544a24a"
+        },
+        {
+          "new": "3dcebf5005ac570d",
+          "old": "17c89cc40611786b"
+        },
+        {
+          "new": "a1bd7287c08fe112",
+          "old": "d1ccf7b4d5373767"
+        },
+        {
+          "new": "77edb52aff7775ec",
+          "old": "68bfa78816c40a46"
+        },
+        {
+          "new": "caf3f528db38699d",
+          "old": "5faf7d3323e1b8ee"
+        },
+        {
+          "new": "80c132303713a71a",
+          "old": "be38bfae18535c6a"
+        },
+        {
+          "new": "fe1452e1205fdae0",
+          "old": "077b1b2c3b6ac2e2"
+        },
+        {
+          "new": "c5c4540a971e6cc1",
+          "old": "a7f1a37f4d9da86e"
+        },
+        {
+          "new": "86602f024a3398c5",
+          "old": "1aab67ad2c225076"
+        },
+        {
+          "new": "baf212d452d7ba5f",
+          "old": "630d222a2d5a7d92"
+        },
+        {
+          "new": "a2af06e9bcd6c77d",
+          "old": "24208f5e9bb42430"
+        },
+        {
+          "new": "f87e440d93f03275",
+          "old": "671f0bec13ba789b"
+        },
+        {
+          "new": "4b4518eeb3f0564a",
+          "old": "5ea02aa8a45b1dc1"
+        },
+        {
+          "new": "21bcbd0af867f7b3",
+          "old": "919cdcf2494eec51"
+        }
+      ],
+      "new_run_id": "9f7acacfa2b098a3",
+      "path": "artifacts/runs/numerical-calibration/88ff7158931b1e17",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "88ff7158931b1e17",
+      "semantic_config_sha256": "dda3e2f747cb914ebd618b81edd2fe77ff77fbeb54c6a8ba96a3e8526f64c3ff"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 20,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/101bd7c47e313617",
+      "errors": [],
+      "job_ids": [
+        {
+          "new": "86e96ddf263aa74b",
+          "old": "7fbc6b899a73a9cd"
+        },
+        {
+          "new": "d6905c8117965e14",
+          "old": "223c779b49731feb"
+        },
+        {
+          "new": "53ce859112eefe0a",
+          "old": "b61789768e690d4d"
+        },
+        {
+          "new": "fda601f9061432b8",
+          "old": "89f0ae4fbbfc85ca"
+        },
+        {
+          "new": "3bbb2dd47865b4be",
+          "old": "0f2ab9a54a0977f0"
+        },
+        {
+          "new": "6e8e3b6aa6d7e455",
+          "old": "f7574801e2e6edc1"
+        },
+        {
+          "new": "c11127725911f281",
+          "old": "d7d0cc805bfc755b"
+        },
+        {
+          "new": "6001462be18ef021",
+          "old": "44b19ca61113222e"
+        },
+        {
+          "new": "495b96d65d2a46cd",
+          "old": "2765980f7f638015"
+        },
+        {
+          "new": "0d714bbdc93d904a",
+          "old": "870a0f2652e77053"
+        },
+        {
+          "new": "1168ef6acb3e7a80",
+          "old": "81a4019ab8fb3b83"
+        },
+        {
+          "new": "009c2df45513a562",
+          "old": "e51ee2954bbcd46c"
+        },
+        {
+          "new": "874b2f3978d91763",
+          "old": "cd71dae87931d8d9"
+        },
+        {
+          "new": "eedd7a3f3e756805",
+          "old": "1f73654f1333e001"
+        },
+        {
+          "new": "5a77e8bae2bfd48c",
+          "old": "dfcff82975e5bb4e"
+        },
+        {
+          "new": "ed403d0c329b8064",
+          "old": "0fdd2c945201dd18"
+        },
+        {
+          "new": "bf2a5cc5e24ba702",
+          "old": "7b761d09923a4207"
+        },
+        {
+          "new": "51dd7bd1a8012315",
+          "old": "6460b2e3aee1dfef"
+        },
+        {
+          "new": "989fd1f43b7a325d",
+          "old": "1a597df4d1a802da"
+        },
+        {
+          "new": "f107d4474af1a760",
+          "old": "473d66a02817191f"
+        },
+        {
+          "new": "c03853a59fb189ef",
+          "old": "60fca0c97fd420d5"
+        },
+        {
+          "new": "efa3f1e9063ca112",
+          "old": "a523e5957978abc8"
+        },
+        {
+          "new": "57b1530e09ae2ae8",
+          "old": "5ff9d27648a2b2c5"
+        },
+        {
+          "new": "349a814605634b70",
+          "old": "fdb0c6ff5918e178"
+        },
+        {
+          "new": "7789021691dc8df1",
+          "old": "4abfa1d20c91f7a0"
+        },
+        {
+          "new": "e62048579dfa443c",
+          "old": "c2c8d4e79999f795"
+        },
+        {
+          "new": "862259c6741f1aaf",
+          "old": "733074775544a24a"
+        },
+        {
+          "new": "3dcebf5005ac570d",
+          "old": "17c89cc40611786b"
+        },
+        {
+          "new": "a1bd7287c08fe112",
+          "old": "d1ccf7b4d5373767"
+        },
+        {
+          "new": "77edb52aff7775ec",
+          "old": "68bfa78816c40a46"
+        },
+        {
+          "new": "caf3f528db38699d",
+          "old": "5faf7d3323e1b8ee"
+        },
+        {
+          "new": "80c132303713a71a",
+          "old": "be38bfae18535c6a"
+        },
+        {
+          "new": "fe1452e1205fdae0",
+          "old": "077b1b2c3b6ac2e2"
+        },
+        {
+          "new": "c5c4540a971e6cc1",
+          "old": "a7f1a37f4d9da86e"
+        },
+        {
+          "new": "86602f024a3398c5",
+          "old": "1aab67ad2c225076"
+        },
+        {
+          "new": "baf212d452d7ba5f",
+          "old": "630d222a2d5a7d92"
+        },
+        {
+          "new": "a2af06e9bcd6c77d",
+          "old": "24208f5e9bb42430"
+        },
+        {
+          "new": "f87e440d93f03275",
+          "old": "671f0bec13ba789b"
+        },
+        {
+          "new": "4b4518eeb3f0564a",
+          "old": "5ea02aa8a45b1dc1"
+        },
+        {
+          "new": "21bcbd0af867f7b3",
+          "old": "919cdcf2494eec51"
+        }
+      ],
+      "new_run_id": "101bd7c47e313617",
+      "path": "artifacts/runs/numerical-calibration/a5429f333536c6fd",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "a5429f333536c6fd",
+      "semantic_config_sha256": "748a61525d459fa7a565d78bc0c3a211a9806dbf4b8b896344b544da4553588a"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 40,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/ceec33a1ff48c8f5",
+      "errors": [],
+      "job_ids": [
+        {
+          "new": "86e96ddf263aa74b",
+          "old": "7fbc6b899a73a9cd"
+        },
+        {
+          "new": "d6905c8117965e14",
+          "old": "223c779b49731feb"
+        },
+        {
+          "new": "53ce859112eefe0a",
+          "old": "b61789768e690d4d"
+        },
+        {
+          "new": "fda601f9061432b8",
+          "old": "89f0ae4fbbfc85ca"
+        },
+        {
+          "new": "3bbb2dd47865b4be",
+          "old": "0f2ab9a54a0977f0"
+        },
+        {
+          "new": "6e8e3b6aa6d7e455",
+          "old": "f7574801e2e6edc1"
+        },
+        {
+          "new": "c11127725911f281",
+          "old": "d7d0cc805bfc755b"
+        },
+        {
+          "new": "6001462be18ef021",
+          "old": "44b19ca61113222e"
+        },
+        {
+          "new": "495b96d65d2a46cd",
+          "old": "2765980f7f638015"
+        },
+        {
+          "new": "0d714bbdc93d904a",
+          "old": "870a0f2652e77053"
+        },
+        {
+          "new": "1168ef6acb3e7a80",
+          "old": "81a4019ab8fb3b83"
+        },
+        {
+          "new": "009c2df45513a562",
+          "old": "e51ee2954bbcd46c"
+        },
+        {
+          "new": "874b2f3978d91763",
+          "old": "cd71dae87931d8d9"
+        },
+        {
+          "new": "eedd7a3f3e756805",
+          "old": "1f73654f1333e001"
+        },
+        {
+          "new": "5a77e8bae2bfd48c",
+          "old": "dfcff82975e5bb4e"
+        },
+        {
+          "new": "ed403d0c329b8064",
+          "old": "0fdd2c945201dd18"
+        },
+        {
+          "new": "bf2a5cc5e24ba702",
+          "old": "7b761d09923a4207"
+        },
+        {
+          "new": "51dd7bd1a8012315",
+          "old": "6460b2e3aee1dfef"
+        },
+        {
+          "new": "989fd1f43b7a325d",
+          "old": "1a597df4d1a802da"
+        },
+        {
+          "new": "f107d4474af1a760",
+          "old": "473d66a02817191f"
+        },
+        {
+          "new": "c03853a59fb189ef",
+          "old": "60fca0c97fd420d5"
+        },
+        {
+          "new": "efa3f1e9063ca112",
+          "old": "a523e5957978abc8"
+        },
+        {
+          "new": "57b1530e09ae2ae8",
+          "old": "5ff9d27648a2b2c5"
+        },
+        {
+          "new": "349a814605634b70",
+          "old": "fdb0c6ff5918e178"
+        },
+        {
+          "new": "7789021691dc8df1",
+          "old": "4abfa1d20c91f7a0"
+        },
+        {
+          "new": "e62048579dfa443c",
+          "old": "c2c8d4e79999f795"
+        },
+        {
+          "new": "862259c6741f1aaf",
+          "old": "733074775544a24a"
+        },
+        {
+          "new": "3dcebf5005ac570d",
+          "old": "17c89cc40611786b"
+        },
+        {
+          "new": "a1bd7287c08fe112",
+          "old": "d1ccf7b4d5373767"
+        },
+        {
+          "new": "77edb52aff7775ec",
+          "old": "68bfa78816c40a46"
+        },
+        {
+          "new": "caf3f528db38699d",
+          "old": "5faf7d3323e1b8ee"
+        },
+        {
+          "new": "80c132303713a71a",
+          "old": "be38bfae18535c6a"
+        },
+        {
+          "new": "fe1452e1205fdae0",
+          "old": "077b1b2c3b6ac2e2"
+        },
+        {
+          "new": "c5c4540a971e6cc1",
+          "old": "a7f1a37f4d9da86e"
+        },
+        {
+          "new": "86602f024a3398c5",
+          "old": "1aab67ad2c225076"
+        },
+        {
+          "new": "baf212d452d7ba5f",
+          "old": "630d222a2d5a7d92"
+        },
+        {
+          "new": "a2af06e9bcd6c77d",
+          "old": "24208f5e9bb42430"
+        },
+        {
+          "new": "f87e440d93f03275",
+          "old": "671f0bec13ba789b"
+        },
+        {
+          "new": "4b4518eeb3f0564a",
+          "old": "5ea02aa8a45b1dc1"
+        },
+        {
+          "new": "21bcbd0af867f7b3",
+          "old": "919cdcf2494eec51"
+        }
+      ],
+      "new_run_id": "ceec33a1ff48c8f5",
+      "path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "e86b008cbd23ee4e",
+      "semantic_config_sha256": "dda3e2f747cb914ebd618b81edd2fe77ff77fbeb54c6a8ba96a3e8526f64c3ff"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 20,
+      "destination": "artifacts/migrated-imports/runs/numerical-calibration/c1e9d9e0f2024337",
+      "errors": [],
+      "job_ids": [
+        {
+          "new": "86e96ddf263aa74b",
+          "old": "bba801680cba244c"
+        },
+        {
+          "new": "d6905c8117965e14",
+          "old": "6c55afda6f4259fc"
+        },
+        {
+          "new": "53ce859112eefe0a",
+          "old": "5da552b79b253ff8"
+        },
+        {
+          "new": "fda601f9061432b8",
+          "old": "6582d0e64330e878"
+        },
+        {
+          "new": "3bbb2dd47865b4be",
+          "old": "3c92312e1a0756fd"
+        },
+        {
+          "new": "1168ef6acb3e7a80",
+          "old": "9d760b4cc96f3958"
+        },
+        {
+          "new": "009c2df45513a562",
+          "old": "40fc1cf2cd511776"
+        },
+        {
+          "new": "874b2f3978d91763",
+          "old": "8266a8c32baf0713"
+        },
+        {
+          "new": "eedd7a3f3e756805",
+          "old": "d08f48202ac3a19b"
+        },
+        {
+          "new": "5a77e8bae2bfd48c",
+          "old": "c5a1add7f4b9d5d3"
+        },
+        {
+          "new": "c03853a59fb189ef",
+          "old": "69373325c01ee6fb"
+        },
+        {
+          "new": "efa3f1e9063ca112",
+          "old": "372b70db898bd7d3"
+        },
+        {
+          "new": "57b1530e09ae2ae8",
+          "old": "a2158b5a77835d8e"
+        },
+        {
+          "new": "349a814605634b70",
+          "old": "9603f9c41fb36bf5"
+        },
+        {
+          "new": "7789021691dc8df1",
+          "old": "014bcd824f4f6acc"
+        },
+        {
+          "new": "caf3f528db38699d",
+          "old": "ed9190b51ad645e5"
+        },
+        {
+          "new": "80c132303713a71a",
+          "old": "880fbb12c9f60b25"
+        },
+        {
+          "new": "fe1452e1205fdae0",
+          "old": "2f8e1b4beb733c98"
+        },
+        {
+          "new": "c5c4540a971e6cc1",
+          "old": "fad25f1904a32429"
+        },
+        {
+          "new": "86602f024a3398c5",
+          "old": "86d7441815815168"
+        }
+      ],
+      "new_run_id": "c1e9d9e0f2024337",
+      "path": "artifacts/runs/numerical-calibration/ec905f964f816041",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "ec905f964f816041",
+      "semantic_config_sha256": "d0304d24739a65672f2e955c12b62753ac85934f049d53291194451e8c9669f4"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/33560174355a010a/manifest.json",
+        "plots/33560174355a010a/resolved_plot_config.yaml",
+        "plots/42a9bb5c0bc803b6/manifest.json",
+        "plots/42a9bb5c0bc803b6/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 48,
+      "destination": "artifacts/migrated-imports/runs/sparse-information-comparison/9ad321c4ecdcfd56",
+      "errors": [],
+      "new_run_id": "9ad321c4ecdcfd56",
+      "path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732",
+      "plot_ids": [
+        {
+          "new": "09ea4ecdf475bf37",
+          "old": "33560174355a010a"
+        },
+        {
+          "new": "13175fe35ddd3179",
+          "old": "42a9bb5c0bc803b6"
+        }
+      ],
+      "plots": 2,
+      "run_id": "1bbeb97e90a21732",
+      "semantic_config_sha256": "cbdc5faceffae9398b8e685400ca2a95fa6656f6e1890b07bc75407281ef14f9"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/ff758e5c8ebded1a/manifest.json",
+        "plots/ff758e5c8ebded1a/resolved_plot_config.yaml",
+        "plots/8d914a2b9bdc5489/manifest.json",
+        "plots/8d914a2b9bdc5489/resolved_plot_config.yaml",
+        "plots/aa389316e6671c75/manifest.json",
+        "plots/aa389316e6671c75/resolved_plot_config.yaml",
+        "plots/6e49e04a45f016e7/manifest.json",
+        "plots/6e49e04a45f016e7/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 600,
+      "destination": "artifacts/migrated-imports/runs/sparse-information-comparison/eebaa16678b48826",
+      "errors": [],
+      "new_run_id": "eebaa16678b48826",
+      "path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd",
+      "plot_ids": [
+        {
+          "new": "68606baf31091f69",
+          "old": "6e49e04a45f016e7"
+        },
+        {
+          "new": "18789ec03a1a412e",
+          "old": "8d914a2b9bdc5489"
+        },
+        {
+          "new": "8b0f66d8a70f73d7",
+          "old": "aa389316e6671c75"
+        },
+        {
+          "new": "0949b0fad68612b4",
+          "old": "ff758e5c8ebded1a"
+        }
+      ],
+      "plots": 4,
+      "run_id": "39fda531e133aadd",
+      "semantic_config_sha256": "01c2311fb92cb1a1153e697835f077f9d28a8c9c9e8dab53711160f710fa8784"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 200,
+      "destination": "artifacts/migrated-imports/runs/sparse-information-comparison/09a328d3541a3d93",
+      "errors": [],
+      "new_run_id": "09a328d3541a3d93",
+      "path": "artifacts/runs/sparse-information-comparison/bfb492bf24e181eb",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "bfb492bf24e181eb",
+      "semantic_config_sha256": "db445fd774780aa622744c4f22fb37f047852ffdd8751c3a68f3eb5eed96bc98"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 128,
+      "destination": "artifacts/migrated-imports/runs/zero-sum-joint-confirmation/54b24d69e562f5ea",
+      "errors": [],
+      "new_run_id": "54b24d69e562f5ea",
+      "path": "artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "b64dbc092dba08fd",
+      "semantic_config_sha256": "12c379126db3773f25c5ebb88c10e485869d7c0c5c1e34b76ea77a362edd461c"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 16,
+      "destination": "artifacts/migrated-imports/runs/zero-sum-joint-preflight/c59e1f6f079d4cbc",
+      "errors": [],
+      "new_run_id": "c59e1f6f079d4cbc",
+      "path": "artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "97f1ca30f39a95fe",
+      "semantic_config_sha256": "84709c5cf74a394307f0c2e0de2b884a2b727ee3e8bf7b5164643363e7ce92ff"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 448,
+      "destination": "artifacts/migrated-imports/runs/zero-sum-joint-refinement/b72eaf1fd9ac33e3",
+      "errors": [],
+      "new_run_id": "b72eaf1fd9ac33e3",
+      "path": "artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "0912bb3d4fef6239",
+      "semantic_config_sha256": "58f4262b406aa7e7fdd63018f8c541234b78f2aff10c8c6db2c407b68cdd660c"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 1984,
+      "destination": "artifacts/migrated-imports/runs/zero-sum-joint-selection/af26ccb128e11f75",
+      "errors": [],
+      "new_run_id": "af26ccb128e11f75",
+      "path": "artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "58d16f3d3f95c681",
+      "semantic_config_sha256": "3c5e9ceadb3836f7f1911d11762601eab1b97173b435ba15ed7fd9f2e92c44b3"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml"
+      ],
+      "complete_jobs": 8,
+      "destination": "artifacts/migrated-imports/runs_diag/guard-lobeke2-baselines/65c806ebcb1d46bf",
+      "errors": [],
+      "new_run_id": "65c806ebcb1d46bf",
+      "path": "artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159",
+      "plot_ids": [],
+      "plots": 0,
+      "run_id": "0d56ebff86efe159",
+      "semantic_config_sha256": "789c63920b7ba95ff34dba0aa758f0d96bf1a6db6ff0d36103938d9284b7fd4c"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/99e6fdfe2ddeab6b/manifest.json",
+        "plots/99e6fdfe2ddeab6b/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/ec0a75fb6c6695bb",
+      "errors": [],
+      "new_run_id": "ec0a75fb6c6695bb",
+      "path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7",
+      "plot_ids": [
+        {
+          "new": "b9d9b6edb645d6b4",
+          "old": "99e6fdfe2ddeab6b"
+        }
+      ],
+      "plots": 1,
+      "run_id": "0e9b65ab9b8e3cf7",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/b809aca7d6ecf8f0/manifest.json",
+        "plots/b809aca7d6ecf8f0/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/8e58cf5021079d00",
+      "errors": [],
+      "new_run_id": "8e58cf5021079d00",
+      "path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963",
+      "plot_ids": [
+        {
+          "new": "c74e27f2e9b9d111",
+          "old": "b809aca7d6ecf8f0"
+        }
+      ],
+      "plots": 1,
+      "run_id": "1bf4e2c2708bc963",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/91d2830f0587f20a/manifest.json",
+        "plots/91d2830f0587f20a/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/72ca3d9f7718f977",
+      "errors": [],
+      "new_run_id": "72ca3d9f7718f977",
+      "path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93",
+      "plot_ids": [
+        {
+          "new": "a8ba4d4d993d6617",
+          "old": "91d2830f0587f20a"
+        }
+      ],
+      "plots": 1,
+      "run_id": "2bc8070910d26f93",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/f5f21ef35fa49e53/manifest.json",
+        "plots/f5f21ef35fa49e53/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/25c2c0618b5f7272",
+      "errors": [],
+      "new_run_id": "25c2c0618b5f7272",
+      "path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034",
+      "plot_ids": [
+        {
+          "new": "c558840bb3b8802b",
+          "old": "f5f21ef35fa49e53"
+        }
+      ],
+      "plots": 1,
+      "run_id": "5545353f5d9e6034",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/52b9d70d0e9317ce/manifest.json",
+        "plots/52b9d70d0e9317ce/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/6c78ce79f32f8583",
+      "errors": [],
+      "new_run_id": "6c78ce79f32f8583",
+      "path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675",
+      "plot_ids": [
+        {
+          "new": "051b44bc1131b329",
+          "old": "52b9d70d0e9317ce"
+        }
+      ],
+      "plots": 1,
+      "run_id": "a600e38274aa1675",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/c8b38aa07836861c/manifest.json",
+        "plots/c8b38aa07836861c/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/63fadc4168584f7d",
+      "errors": [],
+      "new_run_id": "63fadc4168584f7d",
+      "path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154",
+      "plot_ids": [
+        {
+          "new": "6d97e9dfeddcc788",
+          "old": "c8b38aa07836861c"
+        }
+      ],
+      "plots": 1,
+      "run_id": "cf588f36b99c2154",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/a936a0ea7b112525/manifest.json",
+        "plots/a936a0ea7b112525/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/40a468334b69f375",
+      "errors": [],
+      "new_run_id": "40a468334b69f375",
+      "path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299",
+      "plot_ids": [
+        {
+          "new": "a71642fe5d7a7192",
+          "old": "a936a0ea7b112525"
+        }
+      ],
+      "plots": 1,
+      "run_id": "e02111e35c7f2299",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/78c6a0558df0384f/manifest.json",
+        "plots/78c6a0558df0384f/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 6,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-sparse/020251af8852b30b",
+      "errors": [],
+      "new_run_id": "020251af8852b30b",
+      "path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf",
+      "plot_ids": [
+        {
+          "new": "ecf0591be0cc6991",
+          "old": "78c6a0558df0384f"
+        }
+      ],
+      "plots": 1,
+      "run_id": "e4c907c3d17aaacf",
+      "semantic_config_sha256": "47ad1e895633e13271fe55fa73eda6725ef8636a3527f11857d705698499f792"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/e8bbdc8ebdb4690a/manifest.json",
+        "plots/e8bbdc8ebdb4690a/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/7124ee1ad97d6f0b",
+      "errors": [],
+      "new_run_id": "7124ee1ad97d6f0b",
+      "path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e",
+      "plot_ids": [
+        {
+          "new": "ba5038883126abd4",
+          "old": "e8bbdc8ebdb4690a"
+        }
+      ],
+      "plots": 1,
+      "run_id": "1ce1667b436aea7e",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/c0893253399bbeba/manifest.json",
+        "plots/c0893253399bbeba/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/5b56d879335a3745",
+      "errors": [],
+      "new_run_id": "5b56d879335a3745",
+      "path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb",
+      "plot_ids": [
+        {
+          "new": "a39dedd370041d4a",
+          "old": "c0893253399bbeba"
+        }
+      ],
+      "plots": 1,
+      "run_id": "23ab7ed71a6e6dfb",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/898e9a893f2ed72c/manifest.json",
+        "plots/898e9a893f2ed72c/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/a51755c50a868676",
+      "errors": [],
+      "new_run_id": "a51755c50a868676",
+      "path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6",
+      "plot_ids": [
+        {
+          "new": "872e056fd3495ce8",
+          "old": "898e9a893f2ed72c"
+        }
+      ],
+      "plots": 1,
+      "run_id": "3bbe073779344dc6",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/fa38d9f61f9b5627/manifest.json",
+        "plots/fa38d9f61f9b5627/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/c524f2ddf219d060",
+      "errors": [],
+      "new_run_id": "c524f2ddf219d060",
+      "path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404",
+      "plot_ids": [
+        {
+          "new": "296c662013dfd255",
+          "old": "fa38d9f61f9b5627"
+        }
+      ],
+      "plots": 1,
+      "run_id": "65a85ce60b793404",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/43528b30ec07f4c1/manifest.json",
+        "plots/43528b30ec07f4c1/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/b617c65089598088",
+      "errors": [],
+      "new_run_id": "b617c65089598088",
+      "path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543",
+      "plot_ids": [
+        {
+          "new": "e491c759a9fa7787",
+          "old": "43528b30ec07f4c1"
+        }
+      ],
+      "plots": 1,
+      "run_id": "6c7925fbad422543",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/ccd288fc0ccf6642/manifest.json",
+        "plots/ccd288fc0ccf6642/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/61ef4d2aec4326b8",
+      "errors": [],
+      "new_run_id": "61ef4d2aec4326b8",
+      "path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4",
+      "plot_ids": [
+        {
+          "new": "12236569007bfbbd",
+          "old": "ccd288fc0ccf6642"
+        }
+      ],
+      "plots": 1,
+      "run_id": "7cf3dc9bc1d5aac4",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/bf5546ec23e4db3e/manifest.json",
+        "plots/bf5546ec23e4db3e/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/6d0effcafb92c5b2",
+      "errors": [],
+      "new_run_id": "6d0effcafb92c5b2",
+      "path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75",
+      "plot_ids": [
+        {
+          "new": "a471dbd3c4ce52fc",
+          "old": "bf5546ec23e4db3e"
+        }
+      ],
+      "plots": 1,
+      "run_id": "a7c0c29cfec6ea75",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/e1d4df012bba6b93/manifest.json",
+        "plots/e1d4df012bba6b93/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/bac4dd501fb57853",
+      "errors": [],
+      "new_run_id": "bac4dd501fb57853",
+      "path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935",
+      "plot_ids": [
+        {
+          "new": "2ce0e51c0fda6348",
+          "old": "e1d4df012bba6b93"
+        }
+      ],
+      "plots": 1,
+      "run_id": "af9e72f29fba3935",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    },
+    {
+      "changed_configs": [
+        "semantic_config.json",
+        "resolved_config.yaml",
+        "plots/f197e1d851fb4b4e/manifest.json",
+        "plots/f197e1d851fb4b4e/resolved_plot_config.yaml"
+      ],
+      "complete_jobs": 12,
+      "destination": "artifacts/migrated-imports/smoke/runs/smoke-toy/7ab084a931fb1879",
+      "errors": [],
+      "new_run_id": "7ab084a931fb1879",
+      "path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef",
+      "plot_ids": [
+        {
+          "new": "ce34d6a7e262270e",
+          "old": "f197e1d851fb4b4e"
+        }
+      ],
+      "plots": 1,
+      "run_id": "c4c3e335b3f8eaef",
+      "semantic_config_sha256": "7b44d657ba6d8931065a5e42c9c8c27b38d75e901f01db60d1b10a3b8d6db5cf"
+    }
+  ],
+  "scope": "Original runs, outputs, Git fingerprints, commands and timestamps are preserved. Migrated copies change import paths and dependent identities; they are not new experiments. Original selection-run references still identify original scientific selections. One legacy calibration run additionally receives the equivalent active-only warmup_modes configuration and updated job identities, verified against its historical executor.",
+  "source_commit": "24503a294b93fb17e40cc5187e6bd0d3a1685c38",
+  "verified_originals": [
+    {
+      "complete_jobs": 0,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/12505108863e268f",
+      "plots": 0,
+      "run_id": "12505108863e268f"
+    },
+    {
+      "complete_jobs": 157,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/1a39ee07ea9b50a9",
+      "plots": 0,
+      "run_id": "1a39ee07ea9b50a9"
+    },
+    {
+      "complete_jobs": 13,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/1bfa795c346750f4",
+      "plots": 0,
+      "run_id": "1bfa795c346750f4"
+    },
+    {
+      "complete_jobs": 0,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/3fb7f1691365ed94",
+      "plots": 0,
+      "run_id": "3fb7f1691365ed94"
+    },
+    {
+      "complete_jobs": 300,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/4acb35768b700260",
+      "plots": 1,
+      "run_id": "4acb35768b700260"
+    },
+    {
+      "complete_jobs": 600,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/51b15452ac8c18c0",
+      "plots": 1,
+      "run_id": "51b15452ac8c18c0"
+    },
+    {
+      "complete_jobs": 1,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/6f6e6daa40fdbdbd",
+      "plots": 0,
+      "run_id": "6f6e6daa40fdbdbd"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/760cf5be37487b0b",
+      "plots": 1,
+      "run_id": "760cf5be37487b0b"
+    },
+    {
+      "complete_jobs": 18,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/a23de1de828ffada",
+      "plots": 0,
+      "run_id": "a23de1de828ffada"
+    },
+    {
+      "complete_jobs": 0,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/a2c7850295652844",
+      "plots": 0,
+      "run_id": "a2c7850295652844"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/b53e31642f38ba96",
+      "plots": 2,
+      "run_id": "b53e31642f38ba96"
+    },
+    {
+      "complete_jobs": 300,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/b9b01e246527216e",
+      "plots": 2,
+      "run_id": "b9b01e246527216e"
+    },
+    {
+      "complete_jobs": 203,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/c6b0efbfd9144147",
+      "plots": 0,
+      "run_id": "c6b0efbfd9144147"
+    },
+    {
+      "complete_jobs": 1,
+      "errors": [],
+      "path": "artifacts/runs/baseline-comparison/d31ae98410b9a8be",
+      "plots": 0,
+      "run_id": "d31ae98410b9a8be"
+    },
+    {
+      "complete_jobs": 580,
+      "errors": [],
+      "path": "artifacts/runs/guard-lobeke-full-grid-1000-completion/544713bd317e400d",
+      "plots": 0,
+      "run_id": "544713bd317e400d"
+    },
+    {
+      "complete_jobs": 120,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/39bfcffca9bb9a84",
+      "plots": 0,
+      "run_id": "39bfcffca9bb9a84"
+    },
+    {
+      "complete_jobs": 16,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/66e17657d0ed7605",
+      "plots": 0,
+      "run_id": "66e17657d0ed7605"
+    },
+    {
+      "complete_jobs": 4,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/7152b85c55e0409a",
+      "plots": 0,
+      "run_id": "7152b85c55e0409a"
+    },
+    {
+      "complete_jobs": 20,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/88ff7158931b1e17",
+      "plots": 0,
+      "run_id": "88ff7158931b1e17"
+    },
+    {
+      "complete_jobs": 20,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/a5429f333536c6fd",
+      "plots": 0,
+      "run_id": "a5429f333536c6fd"
+    },
+    {
+      "complete_jobs": 40,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/e86b008cbd23ee4e",
+      "plots": 0,
+      "run_id": "e86b008cbd23ee4e"
+    },
+    {
+      "complete_jobs": 20,
+      "errors": [],
+      "path": "artifacts/runs/numerical-calibration/ec905f964f816041",
+      "plots": 0,
+      "run_id": "ec905f964f816041"
+    },
+    {
+      "complete_jobs": 48,
+      "errors": [],
+      "path": "artifacts/runs/sparse-information-comparison/1bbeb97e90a21732",
+      "plots": 2,
+      "run_id": "1bbeb97e90a21732"
+    },
+    {
+      "complete_jobs": 600,
+      "errors": [],
+      "path": "artifacts/runs/sparse-information-comparison/39fda531e133aadd",
+      "plots": 4,
+      "run_id": "39fda531e133aadd"
+    },
+    {
+      "complete_jobs": 200,
+      "errors": [],
+      "path": "artifacts/runs/sparse-information-comparison/bfb492bf24e181eb",
+      "plots": 0,
+      "run_id": "bfb492bf24e181eb"
+    },
+    {
+      "complete_jobs": 128,
+      "errors": [],
+      "path": "artifacts/runs/zero-sum-joint-confirmation/b64dbc092dba08fd",
+      "plots": 0,
+      "run_id": "b64dbc092dba08fd"
+    },
+    {
+      "complete_jobs": 16,
+      "errors": [],
+      "path": "artifacts/runs/zero-sum-joint-preflight/97f1ca30f39a95fe",
+      "plots": 0,
+      "run_id": "97f1ca30f39a95fe"
+    },
+    {
+      "complete_jobs": 448,
+      "errors": [],
+      "path": "artifacts/runs/zero-sum-joint-refinement/0912bb3d4fef6239",
+      "plots": 0,
+      "run_id": "0912bb3d4fef6239"
+    },
+    {
+      "complete_jobs": 1984,
+      "errors": [],
+      "path": "artifacts/runs/zero-sum-joint-selection/58d16f3d3f95c681",
+      "plots": 0,
+      "run_id": "58d16f3d3f95c681"
+    },
+    {
+      "complete_jobs": 8,
+      "errors": [],
+      "path": "artifacts/runs_diag/guard-lobeke2-baselines/0d56ebff86efe159",
+      "plots": 0,
+      "run_id": "0d56ebff86efe159"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/0e9b65ab9b8e3cf7",
+      "plots": 1,
+      "run_id": "0e9b65ab9b8e3cf7"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963",
+      "plots": 1,
+      "run_id": "1bf4e2c2708bc963"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/2bc8070910d26f93",
+      "plots": 1,
+      "run_id": "2bc8070910d26f93"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/5545353f5d9e6034",
+      "plots": 1,
+      "run_id": "5545353f5d9e6034"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/a600e38274aa1675",
+      "plots": 1,
+      "run_id": "a600e38274aa1675"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/cf588f36b99c2154",
+      "plots": 1,
+      "run_id": "cf588f36b99c2154"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/e02111e35c7f2299",
+      "plots": 1,
+      "run_id": "e02111e35c7f2299"
+    },
+    {
+      "complete_jobs": 6,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-sparse/e4c907c3d17aaacf",
+      "plots": 1,
+      "run_id": "e4c907c3d17aaacf"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/1ce1667b436aea7e",
+      "plots": 1,
+      "run_id": "1ce1667b436aea7e"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/23ab7ed71a6e6dfb",
+      "plots": 1,
+      "run_id": "23ab7ed71a6e6dfb"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/3bbe073779344dc6",
+      "plots": 1,
+      "run_id": "3bbe073779344dc6"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/65a85ce60b793404",
+      "plots": 1,
+      "run_id": "65a85ce60b793404"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/6c7925fbad422543",
+      "plots": 1,
+      "run_id": "6c7925fbad422543"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/7cf3dc9bc1d5aac4",
+      "plots": 1,
+      "run_id": "7cf3dc9bc1d5aac4"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/a7c0c29cfec6ea75",
+      "plots": 1,
+      "run_id": "a7c0c29cfec6ea75"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/af9e72f29fba3935",
+      "plots": 1,
+      "run_id": "af9e72f29fba3935"
+    },
+    {
+      "complete_jobs": 12,
+      "errors": [],
+      "path": "artifacts/smoke/runs/smoke-toy/c4c3e335b3f8eaef",
+      "plots": 1,
+      "run_id": "c4c3e335b3f8eaef"
+    }
+  ]
+}

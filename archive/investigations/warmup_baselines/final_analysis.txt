@@ -1,0 +1,133 @@
+FINAL PROTECTED EVALUATION
+
+metric=target_suboptimality
+  active_warm              mean=0.00020315202 se=4.04e-05 ci95=[0.00012196817, 0.00028433588] median=7.9590379e-05
+  active_no_warm           mean=0.00014947529 se=2.8e-05 ci95=[9.3154369e-05, 0.00020579621] median=5.711113e-05
+  fixed_random_warm        mean=0.0013478857 se=0.000184 ci95=[0.00097801974, 0.0017177518] median=0.00091519153
+  fixed_random_no_warm     mean=0.0023810457 se=0.000196 ci95=[0.001986353, 0.0027757384] median=0.0034333119
+  online_random_warm       mean=0.0010824104 se=0.000183 ci95=[0.0007147731, 0.0014500478] median=0.00050574389
+  online_random_no_warm    mean=0.0029352222 se=0.000786 ci95=[0.0013561735, 0.0045142709] median=0.0027846542
+  fixed_expert_mle         mean=0.00315421 se=0.000124 ci95=[0.0029046199, 0.0034038] median=0.0034333119
+  zero_sum_ols             mean=7.0345117e-05 se=1.2e-05 ci95=[4.6197591e-05, 9.4492643e-05] median=2.9960423e-05
+  follower_ols             mean=0.030456004 se=0.00338 ci95=[0.02365973, 0.037252278] median=0.049278324
+
+metric=target_fisher_error
+  active_warm              mean=0.036606764 se=0.00274 ci95=[0.031092656, 0.042120871] median=0.032115297
+  active_no_warm           mean=0.029930122 se=0.00213 ci95=[0.025658444, 0.0342018] median=0.026507168
+  fixed_random_warm        mean=0.080268776 se=0.0072 ci95=[0.06579599, 0.094741562] median=0.081632038
+  fixed_random_no_warm     mean=0.31802052 se=0.0502 ci95=[0.21714093, 0.41890011] median=0.15811811
+  online_random_warm       mean=0.069627676 se=0.00707 ci95=[0.055426904, 0.083828449] median=0.063576911
+  online_random_no_warm    mean=0.22797254 se=0.0355 ci95=[0.15668241, 0.29926267] median=0.13233814
+  fixed_expert_mle         mean=0.32162224 se=0.0325 ci95=[0.25639272, 0.38685177] median=0.24063988
+  zero_sum_ols             mean=0.063193256 se=0.00687 ci95=[0.049388043, 0.07699847] median=0.052513916
+  follower_ols             mean=0.87245339 se=0.089 ci95=[0.69369806, 1.0512087] median=1.2774062
+
+metric=coefficient_l2_error
+  active_warm              mean=0.60176257 se=0.071 ci95=[0.45903886, 0.74448628] median=0.45088447
+  active_no_warm           mean=0.45954349 se=0.0833 ci95=[0.2921318, 0.62695518] median=0.21719468
+  fixed_random_warm        mean=0.67447122 se=0.0648 ci95=[0.5443237, 0.80461874] median=0.56816143
+  fixed_random_no_warm     mean=1.3034923 se=0.082 ci95=[1.138623, 1.4683616] median=1.1116368
+  online_random_warm       mean=0.6516046 se=0.0709 ci95=[0.50903311, 0.79417609] median=0.57224616
+  online_random_no_warm    mean=1.0615563 se=0.0786 ci95=[0.90359204, 1.2195205] median=1.0551994
+  fixed_expert_mle         mean=0.76621876 se=0.0351 ci95=[0.69576202, 0.83667549] median=0.6859231
+  zero_sum_ols             mean=0.29781603 se=0.0189 ci95=[0.25983872, 0.33579333] median=0.30206505
+  follower_ols             mean=1.9027059 se=0.0908 ci95=[1.7201403, 2.0852714] median=2.3631187
+
+metric=averaged_transfer_suboptimality
+  active_warm              mean=0.0001088834 se=1.67e-05 ci95=[7.5226279e-05, 0.00014254052] median=6.9648339e-05
+  active_no_warm           mean=7.7281635e-05 se=1.94e-05 ci95=[3.8249742e-05, 0.00011631353] median=2.2504611e-05
+  fixed_random_warm        mean=0.0001792108 se=2.02e-05 ci95=[0.00013860488, 0.00021981673] median=0.00012859148
+  fixed_random_no_warm     mean=0.00045195707 se=3.22e-05 ci95=[0.00038731835, 0.00051659578] median=0.00051318101
+  online_random_warm       mean=0.00014266732 se=1.8e-05 ci95=[0.00010644562, 0.00017888902] median=0.00011807612
+  online_random_no_warm    mean=0.00039636981 se=3.93e-05 ci95=[0.00031740072, 0.00047533891] median=0.00036549715
+  fixed_expert_mle         mean=0.00053162366 se=3.02e-05 ci95=[0.00047093675, 0.00059231057] median=0.00063825827
+  zero_sum_ols             mean=6.997132e-05 se=9.74e-06 ci95=[5.0398233e-05, 8.9544407e-05] median=5.3772489e-05
+  follower_ols             mean=0.00067197376 se=1.33e-05 ci95=[0.00064525401, 0.00069869351] median=0.00068089279
+
+metric=averaged_transfer_fisher_error
+  active_warm              mean=0.04570623 se=0.00311 ci95=[0.03946308, 0.05194938] median=0.041661739
+  active_no_warm           mean=0.035810939 se=0.00332 ci95=[0.029147839, 0.04247404] median=0.030243659
+  fixed_random_warm        mean=0.063255428 se=0.00394 ci95=[0.055341348, 0.071169509] median=0.064040541
+  fixed_random_no_warm     mean=0.20976889 se=0.0308 ci95=[0.14790772, 0.27163006] median=0.1288197
+  online_random_warm       mean=0.053427617 se=0.0034 ci95=[0.046588984, 0.06026625] median=0.055291682
+  online_random_no_warm    mean=0.17034108 se=0.0237 ci95=[0.1227248, 0.21795736] median=0.10617605
+  fixed_expert_mle         mean=0.19920098 se=0.0214 ci95=[0.15624447, 0.2421575] median=0.14193345
+  zero_sum_ols             mean=0.075604207 se=0.00732 ci95=[0.060892168, 0.090316246] median=0.059547258
+  follower_ols             mean=0.89015341 se=0.0903 ci95=[0.70863229, 1.0716745] median=1.4260987
+
+PAIRED FINAL DIFFERENCES
+
+metric=target_suboptimality
+active_warm - active_no_warm: mean=5.3676733e-05 se=5.18e-05 ci95=[-5.0494596e-05, 0.00015784806] median=7.1039451e-06 left_better=25/50
+fixed_random_warm - fixed_random_no_warm: mean=-0.00103316 se=0.000285 ci95=[-0.0016057124, -0.0004606076] median=-0.00082305656 left_better=29/50
+online_random_warm - online_random_no_warm: mean=-0.0018528118 se=0.000826 ci95=[-0.0035119022, -0.00019372132] median=-0.00094127302 left_better=32/50
+zero_sum_ols - active_warm: mean=-0.00013280691 se=4.08e-05 ci95=[-0.00021484566, -5.0768152e-05] median=-4.3370788e-05 left_better=32/50
+zero_sum_ols - active_no_warm: mean=-7.9130174e-05 se=2.72e-05 ci95=[-0.00013373075, -2.4529594e-05] median=-3.9750658e-05 left_better=33/50
+zero_sum_ols - fixed_expert_mle: mean=-0.0030838648 se=0.000127 ci95=[-0.0033381629, -0.0028295668] median=-0.0033983877 left_better=49/50
+zero_sum_ols - follower_ols: mean=-0.030385658 se=0.00339 ci95=[-0.037188274, -0.023583043] median=-0.049139422 left_better=50/50
+
+metric=target_fisher_error
+active_warm - active_no_warm: mean=0.006676642 se=0.00375 ci95=[-0.00085531887, 0.014208603] median=0.0063949947 left_better=21/50
+fixed_random_warm - fixed_random_no_warm: mean=-0.23775174 se=0.051 ci95=[-0.3401805, -0.13532299] median=-0.082769636 left_better=34/50
+online_random_warm - online_random_no_warm: mean=-0.15834486 se=0.037 ci95=[-0.23261046, -0.084079257] median=-0.059265632 left_better=34/50
+zero_sum_ols - active_warm: mean=0.026586493 se=0.00698 ci95=[0.012553655, 0.040619331] median=0.02114146 left_better=19/50
+zero_sum_ols - active_no_warm: mean=0.033263135 se=0.00709 ci95=[0.019023086, 0.047503184] median=0.023169403 left_better=14/50
+zero_sum_ols - fixed_expert_mle: mean=-0.25842899 se=0.0331 ci95=[-0.32501499, -0.19184298] median=-0.1748897 left_better=45/50
+zero_sum_ols - follower_ols: mean=-0.80926014 se=0.0901 ci95=[-0.99035438, -0.62816589] median=-1.1685988 left_better=46/50
+
+metric=coefficient_l2_error
+active_warm - active_no_warm: mean=0.14221908 se=0.0986 ci95=[-0.055856477, 0.34029464] median=0.10911139 left_better=17/50
+fixed_random_warm - fixed_random_no_warm: mean=-0.62902109 se=0.106 ci95=[-0.84284123, -0.41520096] median=-0.67001541 left_better=41/50
+online_random_warm - online_random_no_warm: mean=-0.40995166 se=0.0964 ci95=[-0.60372877, -0.21617455] median=-0.33813568 left_better=36/50
+zero_sum_ols - active_warm: mean=-0.30394654 se=0.0751 ci95=[-0.45485434, -0.15303875] median=-0.11310852 left_better=36/50
+zero_sum_ols - active_no_warm: mean=-0.16172746 se=0.086 ci95=[-0.33456091, 0.011105986] median=0.018371766 left_better=24/50
+zero_sum_ols - fixed_expert_mle: mean=-0.46840273 se=0.0446 ci95=[-0.55798901, -0.37881645] median=-0.41524955 left_better=47/50
+zero_sum_ols - follower_ols: mean=-1.6048898 se=0.0932 ci95=[-1.7922222, -1.4175574] median=-2.0628866 left_better=50/50
+
+metric=averaged_transfer_suboptimality
+active_warm - active_no_warm: mean=3.1601764e-05 se=2.45e-05 ci95=[-1.7660246e-05, 8.0863774e-05] median=2.7135182e-05 left_better=16/50
+fixed_random_warm - fixed_random_no_warm: mean=-0.00027274626 se=3.96e-05 ci95=[-0.00035225949, -0.00019323303] median=-0.00030600179 left_better=38/50
+online_random_warm - online_random_no_warm: mean=-0.0002537025 se=4.77e-05 ci95=[-0.00034947881, -0.00015792618] median=-0.00024849401 left_better=38/50
+zero_sum_ols - active_warm: mean=-3.8912079e-05 se=2e-05 ci95=[-7.9073751e-05, 1.2495921e-06] median=-1.1163811e-06 left_better=26/50
+zero_sum_ols - active_no_warm: mean=-7.3103151e-06 se=2.19e-05 ci95=[-5.1383399e-05, 3.6762769e-05] median=1.916929e-05 left_better=19/50
+zero_sum_ols - fixed_expert_mle: mean=-0.00046165234 se=3.39e-05 ci95=[-0.00052980315, -0.00039350153] median=-0.00054252022 left_better=45/50
+zero_sum_ols - follower_ols: mean=-0.00060200244 se=1.85e-05 ci95=[-0.00063923675, -0.00056476813] median=-0.00063713318 left_better=50/50
+
+metric=averaged_transfer_fisher_error
+active_warm - active_no_warm: mean=0.0098952905 se=0.00433 ci95=[0.0011840645, 0.018606516] median=0.012772545 left_better=13/50
+fixed_random_warm - fixed_random_no_warm: mean=-0.14651346 se=0.0313 ci95=[-0.20942499, -0.083601931] median=-0.073908399 left_better=40/50
+online_random_warm - online_random_no_warm: mean=-0.11691346 se=0.0249 ci95=[-0.16695752, -0.066869405] median=-0.038450739 left_better=40/50
+zero_sum_ols - active_warm: mean=0.029897977 se=0.00794 ci95=[0.013937518, 0.045858436] median=0.027008514 left_better=17/50
+zero_sum_ols - active_no_warm: mean=0.039793268 se=0.00832 ci95=[0.023074441, 0.056512095] median=0.023625958 left_better=13/50
+zero_sum_ols - fixed_expert_mle: mean=-0.12359678 se=0.0228 ci95=[-0.16942429, -0.077769263] median=-0.08554562 left_better=42/50
+zero_sum_ols - follower_ols: mean=-0.81454921 se=0.0905 ci95=[-0.99640174, -0.63269667] median=-1.3194128 left_better=50/50
+
+CHECKPOINTS AND FINAL OMEGA
+active_warm              checkpoints=[200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[-0.2807166, 0.9853336, -0.413305] omega_sd=[0.4490676, 0.079701, 0.5172695]
+active_no_warm           checkpoints=[0, 160, 320, 480, 640, 800, 960, 1120, 1280, 1440, 1600] omega_mean=[-0.2028925, 0.9981873, -0.4546257] omega_sd=[0.4694085, 0.0649071, 0.5000478]
+fixed_random_warm        checkpoints=[200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[-0.0916867, 0.9979364, -0.6748747] omega_sd=[0.4432691, 0.0719317, 0.6808813]
+fixed_random_no_warm     checkpoints=[0, 160, 320, 480, 640, 800, 960, 1120, 1280, 1440, 1600] omega_mean=[-0.0302858, 0.9914847, -0.3495588] omega_sd=[0.6729639, 0.0737418, 1.2281584]
+online_random_warm       checkpoints=[200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[-0.0750271, 0.9829094, -0.6250183] omega_sd=[0.4433346, 0.0693076, 0.6897535]
+online_random_no_warm    checkpoints=[0, 160, 320, 480, 640, 800, 960, 1120, 1280, 1440, 1600] omega_mean=[0.0377146, 0.9847021, -0.6066527] omega_sd=[0.5851597, 0.085044, 1.0506347]
+fixed_expert_mle         checkpoints=[40, 200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[0.0258445, 0.961782, 0.0807317] omega_sd=[0.1534947, 0.0655832, 0.2459603]
+zero_sum_ols             checkpoints=[40, 200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[0.1394854, 0.9794873, -0.7653847] omega_sd=[0.1088534, 0.2351551, 0.1048227]
+follower_ols             checkpoints=[40, 200, 360, 520, 680, 840, 1000, 1160, 1320, 1480, 1600] omega_mean=[0.1759492, 0.9300869, 0.3303241] omega_sd=[1.0495806, 0.2857526, 1.3684707]
+
+TRANSFER GRID: PAIRED BUDGET EFFECTS AT FIXED LAMBDA
+lambda/eta^2=1: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=-2.78e-05 ci=[-9.67e-05,+4.1e-05]; K0=100 diff=+1.37e-05 ci=[-5.62e-05,+8.35e-05]; K0=200 diff=-1.8e-05 ci=[-7.67e-05,+4.06e-05]; K0=400 diff=+2.11e-05 ci=[-5.03e-05,+9.25e-05]
+lambda/eta^2=2: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+1.34e-05 ci=[-5.19e-05,+7.86e-05]; K0=100 diff=+4.54e-06 ci=[-6.49e-05,+7.39e-05]; K0=200 diff=+3.24e-06 ci=[-5.91e-05,+6.56e-05]; K0=400 diff=-1.21e-05 ci=[-7.94e-05,+5.52e-05]
+lambda/eta^2=3: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+4.96e-05 ci=[-5.09e-06,+0.000104]; K0=100 diff=+8.9e-05 ci=[+8.54e-06,+0.000169]; K0=200 diff=+1.67e-05 ci=[-4.71e-05,+8.05e-05]; K0=400 diff=+5.05e-05 ci=[-3.33e-05,+0.000134]
+lambda/eta^2=4: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+1.24e-05 ci=[-6.83e-05,+9.31e-05]; K0=100 diff=+4.76e-05 ci=[-4.47e-05,+0.00014]; K0=200 diff=-4.74e-05 ci=[-0.00013,+3.51e-05]; K0=400 diff=-3.73e-05 ci=[-0.000106,+3.13e-05]
+lambda/eta^2=6: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=-7.17e-06 ci=[-9.54e-05,+8.11e-05]; K0=100 diff=+3.73e-05 ci=[-4.52e-05,+0.00012]; K0=200 diff=-4.77e-05 ci=[-0.000127,+3.19e-05]; K0=400 diff=-5.93e-05 ci=[-0.000133,+1.4e-05]
+lambda/eta^2=8: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=-9.8e-06 ci=[-9.98e-05,+8.02e-05]; K0=100 diff=-4.45e-06 ci=[-0.000116,+0.000107]; K0=200 diff=-6.91e-05 ci=[-0.000151,+1.26e-05]; K0=400 diff=-6.86e-05 ci=[-0.000143,+6.07e-06]
+lambda/eta^2=12: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+6.35e-06 ci=[-8.82e-05,+0.000101]; K0=100 diff=+3.91e-05 ci=[-7.24e-05,+0.000151]; K0=200 diff=-3.86e-05 ci=[-0.000108,+3.1e-05]; K0=400 diff=-2.84e-05 ci=[-9.75e-05,+4.06e-05]
+lambda/eta^2=16: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+1.27e-05 ci=[-7.17e-05,+9.71e-05]; K0=100 diff=+0.0001 ci=[-1.84e-05,+0.000219]; K0=200 diff=-1.62e-05 ci=[-9.78e-05,+6.55e-05]; K0=400 diff=-2.64e-05 ci=[-9.62e-05,+4.33e-05]
+lambda/eta^2=24: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+2.16e-05 ci=[-5.71e-05,+0.0001]; K0=100 diff=+2.42e-05 ci=[-6.59e-05,+0.000114]; K0=200 diff=-3.73e-05 ci=[-0.000128,+5.3e-05]; K0=400 diff=-4.41e-05 ci=[-0.000111,+2.33e-05]
+lambda/eta^2=32: K0=0 diff=+0 ci=[+0,+0]; K0=50 diff=+1.06e-05 ci=[-7.03e-05,+9.15e-05]; K0=100 diff=+2.22e-05 ci=[-7.38e-05,+0.000118]; K0=200 diff=-4.54e-05 ci=[-0.000117,+2.59e-05]; K0=400 diff=-4.94e-05 ci=[-0.000115,+1.6e-05]
+
+TRANSFER GRID: PREDECLARED COMPARISONS
+final warm setting - final no-warm setting: mean=-3.9200737e-06 se=2.53e-05 ci95=[-5.6953065e-05, +4.9112917e-05] left_better=10/20
+warm-up effect at lambda=12: mean=-3.8557975e-05 se=3.32e-05 ci95=[-0.00010813656, +3.1020605e-05] left_better=11/20
+warm-up effect at lambda=3: mean=+1.6702267e-05 se=3.05e-05 ci95=[-4.7133039e-05, +8.0537573e-05] left_better=11/20
+theorem reference warm-up effect at lambda=1: mean=+1.3661212e-05 se=3.34e-05 ci95=[-5.6173992e-05, +8.3496415e-05] left_better=11/20
+grid minimum: K0=50, lambda/eta^2=1, mean=5.1163585e-05

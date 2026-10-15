@@ -1,0 +1,8 @@
+# Scientific outputs are binary artifacts. This keeps diffs readable and avoids
+# applying text whitespace checks to valid PDF cross-reference tables.
+*.npz binary
+*.pdf binary
+*.png binary
+
+/archive export-ignore
+/.codex export-ignore

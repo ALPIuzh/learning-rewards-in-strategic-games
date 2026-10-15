@@ -1,0 +1,32 @@
+# @package experiment
+
+_target_: mairl_exp.studies.confirmation.FrozenJointCandidateConfirmationStudy
+
+name: guard-lobeke-no-warm-confirmation
+seed_start: 20000
+seed_count: 64
+minimum_seed_count: 30
+
+final_evaluation_seed_start: 100
+final_evaluation_seed_count: 50
+
+total_samples: 1600
+warmup_budgets: [0]
+lambda_information_multipliers: [1.0, 3.0]
+reference_warmup_budget: 0
+reference_multiplier: 1.0
+candidate_warmup_budget: 0
+candidate_multiplier: 3.0
+candidate_pairs:
+  - [0, 1.0]
+  - [0, 3.0]
+selection_run_id: 9e985f76d0b8ed3a
+selection_seed_start: 10000
+selection_seed_count: 64
+
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 1600
+tuning_metric: stackelberg_suboptimality
+guardrail_metric: fisher_transfer_error
+confirmation_standard_errors: 2.0

@@ -1,0 +1,5 @@
+_target_: experiments.guard.application.GuardApplication
+game_name: nw_chinatown_sfg_isg_1
+feature_mode: target_coverage
+eta: 1.25
+radius_multiplier: 1.5

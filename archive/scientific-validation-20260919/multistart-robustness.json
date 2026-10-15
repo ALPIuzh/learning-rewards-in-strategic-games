@@ -1,0 +1,626 @@
+{
+  "seconds": 38.58806325000478,
+  "selection": "first two tasks/seeds for retained protocols and expert controls; also ten largest primary fast-to-strict changes",
+  "checks": [
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 2.5473623210814367e-11,
+      "suboptimality_change": -2.5473401166209442e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 2.168676349612042e-11,
+      "suboptimality_change": -2.1686541451515495e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 8.75632899521861e-13,
+      "suboptimality_change": -8.754108549169359e-13
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": -8.188005828912992e-12,
+      "suboptimality_change": 8.188227873517917e-12
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": -1.8110268840132449e-10,
+      "suboptimality_change": 1.811029104459294e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 2.220446049250313e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.7763568394002505e-15,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": -1.0438773179188843e-09,
+      "suboptimality_change": 1.0438775399634892e-09
+    },
+    {
+      "suite": 202609200,
+      "task": 0,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 2.220446049250313e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 1.8182189087667666e-10,
+      "suboptimality_change": -1.8182155780976927e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 3.3306690738754696e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": -3.167655027169758e-10,
+      "suboptimality_change": 3.167658357838832e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 3.3306690738754696e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 2.4548918453604074e-11,
+      "suboptimality_change": -2.4548585386696686e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 3.3306690738754696e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 4.4660608544688785e-11,
+      "suboptimality_change": -4.46602754777814e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 1,
+      "protocol": "fixed_expert_ridge10",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 3.3306690738754696e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 3.3306690738754696e-16
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092002,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 4.5090431388672414e-11,
+      "suboptimality_change": -4.509037587752118e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092018,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": -2.655798359008088e-10,
+      "suboptimality_change": 2.6557989141196003e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_ridge0.01",
+      "seed": 2026092002,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 5.551115123125783e-17
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_ridge0.01",
+      "seed": 2026092018,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 2.1782903258937836e-10,
+      "suboptimality_change": -2.1782897707822713e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_ridge0.1",
+      "seed": 2026092002,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": -1.15413678614118e-10,
+      "suboptimality_change": 1.1541373412526923e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 8,
+      "protocol": "fixed_expert_ridge0.1",
+      "seed": 2026092018,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": -2.819826594446795e-10,
+      "suboptimality_change": 2.819827149558307e-10
+    },
+    {
+      "suite": 202609200,
+      "task": 72,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092015,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": -5.80455128407209e-11,
+      "suboptimality_change": 5.8045623863023366e-11
+    },
+    {
+      "suite": 202609200,
+      "task": 72,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092036,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 5.156375326720308e-12,
+      "suboptimality_change": -5.156264304417846e-12
+    },
+    {
+      "suite": 202609200,
+      "task": 72,
+      "protocol": "fixed_expert_ridge0.01",
+      "seed": 2026092015,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 4.580003043486158e-12,
+      "suboptimality_change": -4.579892021183696e-12
+    },
+    {
+      "suite": 202609200,
+      "task": 72,
+      "protocol": "fixed_expert_ridge0.01",
+      "seed": 2026092036,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 1.1102230246251565e-16
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": -4.951150600618348e-12,
+      "suboptimality_change": 4.951150600618348e-12
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": -1.407953753584934e-10,
+      "suboptimality_change": 1.407953753584934e-10
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 3.3306690738754696e-16,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": -6.881495373534108e-11,
+      "suboptimality_change": 6.881495373534108e-11
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 6.661338147750939e-16,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 5.689541060505121e-10,
+      "suboptimality_change": -5.689541060505121e-10
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.6653345369377348e-15,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 6.394433871292904e-10,
+      "suboptimality_change": -6.394433871292904e-10
+    },
+    {
+      "suite": 202609201,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 5.773159728050814e-15,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 1.1466925187164634e-09,
+      "suboptimality_change": -1.1466925187164634e-09
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 2.220446049250313e-16
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 2.220446049250313e-16
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 2.220446049250313e-16,
+      "suboptimality_change": 0.0
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 2.220446049250313e-16
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 8.104628079763643e-15,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": -2.268596421828306e-11,
+      "suboptimality_change": 2.2686186262887986e-11
+    },
+    {
+      "suite": 202609201,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 4.440892098500626e-16,
+      "oracle_improvement": 2.220446049250313e-16,
+      "deployed_value_change": 7.031932813816866e-10,
+      "suboptimality_change": -7.031930593370816e-10
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 0.0
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": -3.7799763319412705e-12,
+      "suboptimality_change": 3.7799763319412705e-12
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 0.0
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 0.0
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 0.0
+    },
+    {
+      "suite": 202609202,
+      "task": 0,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 0.0,
+      "deployed_value_change": -1.9697621311820512e-10,
+      "suboptimality_change": 1.9697621311820512e-10
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 1.0909484426946392e-10,
+      "suboptimality_change": -1.0909473324716146e-10
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 5.706080052902962e-11,
+      "suboptimality_change": -5.706068950672716e-11
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": -6.16795503560752e-12,
+      "suboptimality_change": 6.168066057909982e-12
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 1.1065159899459331e-10,
+      "suboptimality_change": -1.1065148797229085e-10
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 1.2200351839908308e-11,
+      "suboptimality_change": -1.2200240817605845e-11
+    },
+    {
+      "suite": 202609202,
+      "task": 1,
+      "protocol": "fixed_expert_matched_ridge",
+      "seed": 2026092001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.1102230246251565e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 1.1102230246251565e-16
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 5.551115123125783e-17
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 8.721212640949716e-11,
+      "suboptimality_change": -8.721207089834593e-11
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": -1.3662515563339639e-11,
+      "suboptimality_change": 1.366257107449087e-11
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 5.551115123125783e-17
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "fixed_expert_selected_ridge10",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 5.551115123125783e-17
+    },
+    {
+      "suite": 202609300,
+      "task": 0,
+      "protocol": "fixed_expert_selected_ridge10",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 2.220446049250313e-16,
+      "oracle_improvement": 5.551115123125783e-17,
+      "deployed_value_change": -7.896239218041501e-12,
+      "suboptimality_change": 7.896294729192732e-12
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 1.1102230246251565e-16,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": -3.479999621802676e-11,
+      "suboptimality_change": 3.480016275148046e-11
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 1.6653345369377348e-16
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": 1.714151043330503e-11,
+      "suboptimality_change": -1.7141343899851336e-11
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": -3.415545624108063e-12,
+      "suboptimality_change": 3.4157121575617566e-12
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "fixed_expert_selected_ridge10",
+      "seed": 2026093000,
+      "fitted_objective_improvement": 5.551115123125783e-17,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": 3.950578753020295e-11,
+      "suboptimality_change": -3.950562099674926e-11
+    },
+    {
+      "suite": 202609300,
+      "task": 1,
+      "protocol": "fixed_expert_selected_ridge10",
+      "seed": 2026093001,
+      "fitted_objective_improvement": 0.0,
+      "oracle_improvement": 1.6653345369377348e-16,
+      "deployed_value_change": 0.0,
+      "suboptimality_change": 1.6653345369377348e-16
+    }
+  ]
+}

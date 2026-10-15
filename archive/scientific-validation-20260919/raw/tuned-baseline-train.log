@@ -1,0 +1,30 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p03 in 115.2s
+completed active_warm200_lambda0p003 in 97.6s
+completed fixed_expert_matched_ridge in 15.1s
+completed training batch 0
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p03 in 121.9s
+completed active_warm200_lambda0p003 in 99.5s
+completed fixed_expert_matched_ridge in 21.6s
+completed training batch 10
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p03 in 158.2s
+completed active_warm200_lambda0p003 in 123.9s
+completed fixed_expert_matched_ridge in 24.0s
+completed training batch 20
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p03 in 136.7s
+completed active_warm200_lambda0p003 in 123.0s
+completed fixed_expert_matched_ridge in 21.3s
+completed training batch 30
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p03 in 156.9s
+completed active_warm200_lambda0p003 in 119.2s
+completed fixed_expert_matched_ridge in 17.4s
+completed training batch 40

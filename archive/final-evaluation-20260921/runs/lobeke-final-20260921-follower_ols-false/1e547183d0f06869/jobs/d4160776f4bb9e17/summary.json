@@ -1,0 +1,65 @@
+{
+  "algorithm_seconds": 0.9168104361742735,
+  "converged_checkpoints": 40,
+  "equation_mode": "follower_only",
+  "final_metrics": {
+    "coefficient_l2_error": 2.239172016567171,
+    "fisher_transfer_error": 1.6031221054070963,
+    "self_concordance_distance": 1.8021224688678736,
+    "stackelberg_suboptimality": 0.04078293317612003
+  },
+  "final_rank": 3,
+  "fixed_leader_policy": [
+    0.04289018273434959,
+    0.04474720899020965,
+    0.044767216405203,
+    0.04290340591626056,
+    0.043089178413820935,
+    0.046536270309498674,
+    0.04364581146998333,
+    0.04289018273434959,
+    0.043064751917525235,
+    0.043336307729659455,
+    0.04429529606467136,
+    0.04316800932412841,
+    0.04289454736803316,
+    0.04294061231538083,
+    0.0433532734403622,
+    0.04372536588310469,
+    0.04337927778583363,
+    0.043070774982216335,
+    0.04293103951396849,
+    0.042970454192323176,
+    0.043161110072853594,
+    0.043064751917525235,
+    0.043174970518738906
+  ],
+  "job": {
+    "method": "follower_ols",
+    "seed": 2026097044,
+    "warmup_enabled": false
+  },
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "normalized_r_max": 1.0,
+    "raw_maximum": -0.004032258064516129,
+    "raw_minimum": -1.0,
+    "raw_range": 0.9959677419354839
+  },
+  "observed_action_counts": {
+    "follower": 1600,
+    "leader": 0
+  },
+  "samples": 1600,
+  "sampling_protocol": "follower_actions_only",
+  "total_checkpoints": 40,
+  "warmup": {
+    "enabled": false,
+    "not_applicable": "OLS samples every action from one fixed policy throughout; there is no policy to build a warm-up phase out of",
+    "samples": 0
+  },
+  "warnings": {
+    "estimate_outside_ball": 40,
+    "frequency_smoothing": 10
+  }
+}

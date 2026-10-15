@@ -1,0 +1,70 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p003 in 89.2s
+completed active_no_warm_lambda0p03 in 90.2s
+completed active_warm200_lambda0p003 in 76.4s
+completed active_warm200_lambda0p03 in 82.0s
+completed fixed_expert_matched_ridge in 10.7s
+completed fixed_random_no_warm in 14.1s
+completed fixed_random_warm200 in 8.4s
+completed random_each_round_no_warm in 17.3s
+completed random_each_round_warm200 in 5.1s
+completed follower_ols in 1.4s
+completed zero_sum_ols in 1.6s
+batch 0 complete in 396.5s
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p003 in 92.7s
+completed active_no_warm_lambda0p03 in 97.1s
+completed active_warm200_lambda0p003 in 85.5s
+completed active_warm200_lambda0p03 in 83.1s
+completed fixed_expert_matched_ridge in 15.3s
+completed fixed_random_no_warm in 13.5s
+completed fixed_random_warm200 in 5.9s
+completed random_each_round_no_warm in 23.2s
+completed random_each_round_warm200 in 6.1s
+completed follower_ols in 1.4s
+completed zero_sum_ols in 1.5s
+batch 10 complete in 425.2s
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p003 in 105.1s
+completed active_no_warm_lambda0p03 in 105.8s
+completed active_warm200_lambda0p003 in 77.1s
+completed active_warm200_lambda0p03 in 82.8s
+completed fixed_expert_matched_ridge in 12.2s
+completed fixed_random_no_warm in 15.7s
+completed fixed_random_warm200 in 3.8s
+completed random_each_round_no_warm in 19.7s
+completed random_each_round_warm200 in 8.2s
+completed follower_ols in 2.3s
+completed zero_sum_ols in 3.5s
+batch 20 complete in 436.3s
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p003 in 98.0s
+completed active_no_warm_lambda0p03 in 103.1s
+completed active_warm200_lambda0p003 in 77.1s
+completed active_warm200_lambda0p03 in 75.6s
+completed fixed_expert_matched_ridge in 16.3s
+completed fixed_random_no_warm in 18.6s
+completed fixed_random_warm200 in 3.8s
+completed random_each_round_no_warm in 18.5s
+completed random_each_round_warm200 in 10.3s
+completed follower_ols in 1.3s
+completed zero_sum_ols in 1.7s
+batch 30 complete in 424.4s
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_no_warm_lambda0p003 in 107.7s
+completed active_no_warm_lambda0p03 in 94.9s
+completed active_warm200_lambda0p003 in 79.1s
+completed active_warm200_lambda0p03 in 81.0s
+completed fixed_expert_matched_ridge in 10.6s
+completed fixed_random_no_warm in 17.0s
+completed fixed_random_warm200 in 5.7s
+completed random_each_round_no_warm in 19.4s
+completed random_each_round_warm200 in 8.0s
+completed follower_ols in 1.4s
+completed zero_sum_ols in 1.6s
+batch 40 complete in 426.5s

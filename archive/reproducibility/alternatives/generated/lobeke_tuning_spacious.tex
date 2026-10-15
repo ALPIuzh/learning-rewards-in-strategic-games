@@ -1,0 +1,77 @@
+% Exploratory alternative; generated from protected tuning data.
+\begin{tikzpicture}
+\begin{axis}[
+  name=warmselect,
+  mairl axis,
+  width=0.59\textwidth,
+  height=6.45cm,
+  title={(a) Joint selection with warm-up},
+  xmode=log,
+  log basis x=2,
+  xmin=0.85, xmax=38,
+  xtick={1,2,4,8,16,32},
+  xticklabels={1,2,4,8,16,32},
+  xlabel={Information multiplier $\lambda/\eta^2$},
+  ylabel={Final $\operatorname{SubOpt}(\hat\mu)$ ($10^{-4}$)},
+  ymin=0.75, ymax=3.15,
+  legend style={at={(0.03,0.97)}, anchor=north west, legend columns=2,
+                 font=\tiny, column sep=4pt, row sep=-1pt}
+]
+\addplot[draw=mairlActive!45!mairlInk, mark=*, mark size=1.55pt, line width=0.55pt] coordinates {(4,2.8107223) (8,1.6914503) (12,2.3274487)};
+\addlegendentry{$K_0=50$}
+\addplot[draw=mairlActive!60!mairlInk, mark=square*, mark size=1.55pt, line width=0.55pt] coordinates {(1,2.3771049)};
+\addlegendentry{$K_0=100$}
+\addplot[draw=mairlActive!75!mairlInk, mark=triangle*, mark size=1.55pt, line width=0.55pt] coordinates {(1,2.0987168) (4,2.0015138) (8,2.3425492) (12,1.4975976)};
+\addlegendentry{$K_0=200$}
+\addplot[draw=mairlActive, mark=diamond*, mark size=1.55pt, line width=0.55pt] coordinates {(8,2.467421) (12,1.7657254) (16,1.9724279) (24,1.6925536) (32,1.7668794)};
+\addlegendentry{$K_0=400$}
+\addplot[only marks, mark=o, mark size=2.9pt, line width=0.8pt,
+         draw=mairlInk, forget plot] coordinates {(12,1.4975976)};
+\node[anchor=south east, font=\tiny, text=mairlMuted]
+  at (rel axis cs:0.98,0.03) {ring: selected};
+\end{axis}
+\begin{axis}[
+  at={($(warmselect.south east)+(1.12cm,3.35cm)$)},
+  anchor=south west,
+  name=nowarmselect,
+  mairl axis,
+  width=0.34\textwidth,
+  height=3.18cm,
+  title={(b) No warm-up selection},
+  xmode=log,
+  log basis x=2,
+  xmin=0.85, xmax=38,
+  xtick={1,2,4,8,16,32},
+  xticklabels={1,2,4,8,16,32},
+  x tick label style={font=\tiny},
+  xlabel={$\lambda/\eta^2$},
+  ylabel={SubOpt ($10^{-4}$)},
+  ylabel style={font=\tiny},
+  ymin=0.7, ymax=3.5
+]
+\addplot+[mairl active, mark=*, mark size=1.2pt,
+  error bars/.cd, y dir=both, y explicit] coordinates {(1,2.3696767) +- (0,0.88178473) (2,2.0182344) +- (0,0.60505302) (3,1.6159463) +- (0,0.51571203) (4,2.0443596) +- (0,0.66539943) (6,2.2247406) +- (0,0.91426142) (8,1.8321397) +- (0,0.74497179) (12,1.7743169) +- (0,0.62716614) (16,1.9036302) +- (0,0.67604084) (32,2.6528753) +- (0,1.1541302)};
+\addplot[only marks, mark=o, mark size=2.7pt, line width=0.8pt,
+         draw=mairlInk, forget plot] coordinates {(3,1.6159463)};
+\end{axis}
+\begin{axis}[
+  at={($(warmselect.south east)+(1.12cm,0)$)},
+  anchor=south west,
+  mairl axis,
+  width=0.34\textwidth,
+  height=3.18cm,
+  title={(c) Held-out confirmation},
+  xmin=0.55, xmax=2.45,
+  xtick={1,2},
+  xticklabels={Warm-up,No warm-up},
+  x tick label style={font=\tiny},
+  ylabel={Paired $\Delta$SubOpt ($10^{-4}$)},
+  ylabel style={font=\tiny},
+  ymin=-2.1, ymax=1.5
+]
+\draw[mairlInk, densely dotted, line width=0.45pt]
+  (axis cs:0.55,0) -- (axis cs:2.45,0);
+\addplot+[mairl active, only marks, mark=*, mark size=1.7pt,
+  error bars/.cd, y dir=both, y explicit] coordinates {(1,-0.22616189) +- (0,1.5336093) (2,-0.5051084) +- (0,0.98885054)};
+\end{axis}
+\end{tikzpicture}

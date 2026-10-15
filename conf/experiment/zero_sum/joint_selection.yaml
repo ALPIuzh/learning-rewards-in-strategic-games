@@ -1,0 +1,66 @@
+# @package experiment
+
+_target_: mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy
+
+name: zero-sum-joint-selection
+seed_start: 40000
+seed_count: 64
+minimum_seed_count: 30
+
+final_evaluation_seed_start: 60000
+final_evaluation_seed_count: 100
+
+total_samples: 200
+warmup_budgets: [0, 24, 40, 80, 120, 160, 200]
+lambda_information_multipliers: [1.0, 2.0, 4.0, 8.0, 16.0]
+
+# At K0=200 there is no online phase, hence lambda is immaterial and only the
+# reference multiplier is evaluated. Every other pair uses exactly the same
+# protected seeds.
+candidate_pairs:
+  - [0, 1.0]
+  - [0, 2.0]
+  - [0, 4.0]
+  - [0, 8.0]
+  - [0, 16.0]
+  - [24, 1.0]
+  - [24, 2.0]
+  - [24, 4.0]
+  - [24, 8.0]
+  - [24, 16.0]
+  - [40, 1.0]
+  - [40, 2.0]
+  - [40, 4.0]
+  - [40, 8.0]
+  - [40, 16.0]
+  - [80, 1.0]
+  - [80, 2.0]
+  - [80, 4.0]
+  - [80, 8.0]
+  - [80, 16.0]
+  - [120, 1.0]
+  - [120, 2.0]
+  - [120, 4.0]
+  - [120, 8.0]
+  - [120, 16.0]
+  - [160, 1.0]
+  - [160, 2.0]
+  - [160, 4.0]
+  - [160, 8.0]
+  - [160, 16.0]
+  - [200, 1.0]
+
+reference_warmup_budget: 0
+reference_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 200
+
+# This source game has no independent known Stackelberg reward: its leader is
+# the other player in the regularized zero-sum QRE. We therefore select for
+# reward accuracy in the fixed-expert Fisher norm and guard against degrading
+# reconstruction of the source expert's regularized leader policy.
+tuning_metric: fixed_leader_fisher_error
+guardrail_metric: regularized_qre_leader_l1_error
+guardrail_standard_errors: 2.0
+shortlist_standard_errors: 1.0

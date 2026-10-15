@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: lobeke
+  - /experiment: lobeke/no_warm_selection
+  - /numerics: lobeke
+  - _self_

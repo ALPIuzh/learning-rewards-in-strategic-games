@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: zero_sum
+  - /experiment: zero_sum/warmup_tuning
+  - /numerics: default
+  - _self_

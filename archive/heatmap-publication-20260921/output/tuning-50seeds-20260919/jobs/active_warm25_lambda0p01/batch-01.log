@@ -1,0 +1,3 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+completed active_warm25_lambda0p01 in 128.0s

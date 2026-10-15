@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper."
+title: "Learning Rewards in Strategic Games"
+type: software
+authors:
+  - given-names: "Antoine"
+    family-names: "Bergerault"
+  - given-names: "Cyrille"
+    family-names: "Kone"
+  - given-names: "Giorgia"
+    family-names: "Ramponi"
+license: MIT
+repository-code: "https://github.com/ALPIuzh/learning-rewards-in-strategic-games"
+preferred-citation:
+  type: article
+  title: "Learning Rewards in Strategic Games"
+  authors:
+    - given-names: "Antoine"
+      family-names: "Bergerault"
+    - given-names: "Cyrille"
+      family-names: "Kone"
+    - given-names: "Giorgia"
+      family-names: "Ramponi"
+  status: preprint
+  year: 2026
+  month: 10
+  doi: "10.48550/arXiv.2610.21912"
+  url: "https://arxiv.org/abs/2610.21912"

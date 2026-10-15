@@ -1,0 +1,138 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/toy/run.py",
+    "experiment.seed_count=1",
+    "experiment.total_samples=20",
+    "experiment.warmup_budget=10",
+    "experiment.evaluation_interval=5",
+    "run.require_clean_git=false"
+  ],
+  "created_at": "2026-07-30T13:08:36.666768+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "7bc92d84ef89b3b873e17cfb30db58921f336047",
+    "dirty": true,
+    "fingerprint": "225535b5755f472d9a61b0994596a75a1b1695cbf2c15744f4b08223d2d0c0e3",
+    "status": [
+      " M README.md",
+      " M conf/application/toy.yaml",
+      " M docs/experiments.md",
+      " M pyproject.toml",
+      " M src/mairl_exp/__init__.py",
+      " D src/mairl_exp/applications/__init__.py",
+      " D src/mairl_exp/applications/base.py",
+      " D src/mairl_exp/applications/toy.py",
+      " M src/mairl_exp/calibration.py",
+      " D src/mairl_exp/cli/compare_baselines.py",
+      " M src/mairl_exp/cli/run_experiment.py",
+      " D src/mairl_exp/cli/verify_toy.py",
+      " M src/mairl_exp/runner.py",
+      " M src/mairl_exp/studies.py",
+      " D src/mairl_exp/toy.py",
+      " M tests/test_experiment_system.py",
+      " M tests/test_package_boundaries.py",
+      "?? experiments/__init__.py",
+      "?? experiments/toy/__init__.py",
+      "?? experiments/toy/application.py",
+      "?? experiments/toy/run.py",
+      "?? src/mairl_exp/application.py"
+    ],
+    "untracked": [
+      {
+        "path": "experiments/__init__.py",
+        "sha256": "dc312fed44dce6948afaf92a2f3102c6c94b12204262385e69243ce32c037e73"
+      },
+      {
+        "path": "experiments/toy/__init__.py",
+        "sha256": "5322c6efef977a97ce58a7fac12c2ff3d2f660e6eb2f05edd0cdadffefcb9637"
+      },
+      {
+        "path": "experiments/toy/application.py",
+        "sha256": "902d178707376fb515276abbb7ea8ef7fa38f99ae90d14b5bb39eee0dde3f365"
+      },
+      {
+        "path": "experiments/toy/run.py",
+        "sha256": "a7286538608431db6562d3d1f472ad5c87bbb0408c1f2ef0e4a6fddaa3212e3c"
+      },
+      {
+        "path": "src/mairl_exp/application.py",
+        "sha256": "15566a0a3f904f106a93c6a20c11925e4d0b4daccea4425a1ab9c32b2b5c0330"
+      }
+    ]
+  },
+  "last_error": "warm-up budget is too small for the paper's rounding condition: budget=10, required at least 23 for support=3 and tolerance=0.15",
+  "progress": {
+    "complete": 0,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.03137900000001537,
+    "estimated_remaining_seconds": null,
+    "failed": 1,
+    "pending": 5,
+    "running": 0,
+    "total": 6
+  },
+  "resume_granularity": "job",
+  "run_id": "3fb7f1691365ed94",
+  "schema_version": 1,
+  "semantic_config_sha256": "55c5950cde79b9afcb5f889909904b27031045e717dd18e063d5266f34134a4a",
+  "status": "failed",
+  "study_name": "baseline-comparison",
+  "updated_at": "2026-07-30T13:08:36.671605+00:00"
+}

@@ -1,0 +1,88 @@
+application:
+  _target_: experiments.guard.paper.application.LobekeZeroSumApplication
+  behavioral_fit_tolerance: 1.0e-06
+  eta: 1.25
+  num_columns: 5
+  num_rows: 5
+  num_timesteps: 10
+  qre_max_evaluations: 10000
+  qre_tolerance: 1.0e-10
+  radius_multiplier: 1.5
+experiment:
+  _target_: experiments.guard.paper.study.LobekeComparisonStudy
+  confidence_delta: 0.05
+  evaluation_interval: 40
+  fixed_expert_mle_ridge: 1.0e-06
+  lambda_warm: 0.01
+  methods:
+  - random_each_round
+  name: lobeke-final-20260921-random_each_round-true
+  no_warmup_lambda_information_multiplier: 0.1
+  ols:
+    _target_: mairl.inference.fixed_leader_ols.FixedLeaderOLSConfig
+    ball_max_iterations: 400
+    ball_root_tolerance: 1.0e-12
+    ball_tolerance: 1.0e-06
+    constraint: ball
+    follower_reference_action: 22
+    identifiability: require_unique
+    leader_reference_action: 22
+    pseudocount: 0.5
+    rank_absolute_tolerance: 1.0e-12
+    rank_relative_tolerance: 1.0e-10
+    smoothing_warning_ratio: 0.1
+  seed_count: 50
+  seed_start: 2026097000
+  total_samples: 1600
+  warmup_budget: 50
+  warmup_lambda_information_multiplier: 0.03
+  warmup_modes:
+  - true
+numerics:
+  _target_: mairl_exp.config.ExperimentNumerics
+  active_policy:
+    _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+    batch_prefilter_iterations: 4
+    batch_refine_starts: 2
+    max_iterations: 1000
+    method: multistart
+    projected_gradient_tolerance: 1.0e-05
+    random_starts: 16
+    refine_grid_solution: true
+    tolerance: 1.0e-09
+  evaluation_policy:
+    _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+    batch_prefilter_iterations: 4
+    batch_refine_starts: 2
+    max_iterations: 1000
+    method: multistart
+    projected_gradient_tolerance: 1.0e-05
+    random_starts: 16
+    refine_grid_solution: true
+    tolerance: 1.0e-09
+  mle:
+    _target_: mairl.inference.mle.MLEConfig
+    constraint_tolerance: 1.0e-09
+    kkt_tolerance: 1.0e-09
+    max_iterations: 1000
+    objective_tolerance: 1.0e-13
+    projected_gradient_tolerance: 1.0e-06
+    ridge: 1.0e-06
+    solver: newton
+    trust_region_barrier_tolerance: 1.0e-12
+    trust_region_gradient_tolerance: 1.0e-12
+    trust_region_step_tolerance: 1.0e-14
+  warmup:
+    _target_: mairl_exp.config.WarmupNumerics
+    design_tolerance: 0.15
+    line_search_max_iterations: 500
+    line_search_tolerance: 1.0e-12
+    matrix_tolerance: 1.0e-09
+    max_iterations: 10000
+    support_tolerance: 1.0e-12
+run:
+  require_clean_git: true
+  resume: true
+  root: artifacts/runs
+  seed_batch_size: 50
+schema_version: 1

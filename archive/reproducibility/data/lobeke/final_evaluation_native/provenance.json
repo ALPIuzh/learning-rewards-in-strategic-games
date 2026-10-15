@@ -1,0 +1,889 @@
+{
+  "arrays": {
+    "active_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "active_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "active_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "active_no_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "active_no_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "active_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "active_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "active_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "active_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "active_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "fixed_expert_mle__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "fixed_expert_mle__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_expert_mle__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_expert_mle__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "fixed_random_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_random_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_random_no_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "fixed_random_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "fixed_random_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_random_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_random_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "follower_ols__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "follower_ols__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "follower_ols__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "follower_ols__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "follower_ols__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "online_random_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "online_random_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "online_random_no_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "online_random_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "online_random_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "online_random_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "online_random_warm__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "online_random_warm__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        10
+      ]
+    },
+    "zero_sum_ols__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "zero_sum_ols__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "zero_sum_ols__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "zero_sum_ols__self_concordance_distance": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__taskwise_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__taskwise_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        10,
+        50,
+        11
+      ]
+    }
+  },
+  "checkpoint_policy": {
+    "display_interval": 160,
+    "display_stride": 4,
+    "final_checkpoint_always_retained": true,
+    "source_interval": 40
+  },
+  "data_sha256": "d58a4917dd83d23c7fa2f1b39a187b77740ca370b65fa55918d31ff92fcf607e",
+  "experiment": "Lobeke native final evaluation",
+  "generation_command": "python -m experiments.guard.paper.figures.export_final --run-dir artifacts/runs/guard-lobeke-paper/8c4ab05e9b2fe388 --output-dir reproducibility/data/lobeke/final_evaluation_native",
+  "methods": {
+    "active_no_warm": {
+      "method": "active",
+      "warmup_enabled": false
+    },
+    "active_warm": {
+      "method": "active",
+      "warmup_enabled": true
+    },
+    "fixed_expert_mle": {
+      "method": "fixed_expert_mle",
+      "warmup_enabled": false
+    },
+    "fixed_random_no_warm": {
+      "method": "fixed_random",
+      "warmup_enabled": false
+    },
+    "fixed_random_warm": {
+      "method": "fixed_random",
+      "warmup_enabled": true
+    },
+    "follower_ols": {
+      "method": "follower_ols",
+      "warmup_enabled": false
+    },
+    "online_random_no_warm": {
+      "method": "random_each_round",
+      "warmup_enabled": false
+    },
+    "online_random_warm": {
+      "method": "random_each_round",
+      "warmup_enabled": true
+    },
+    "zero_sum_ols": {
+      "method": "zero_sum_ols",
+      "warmup_enabled": false
+    }
+  },
+  "metrics": {
+    "averaged_transfer_fisher_error": "within-seed arithmetic mean of taskwise transfer-lemma Fisher errors",
+    "averaged_transfer_suboptimality": "within-seed arithmetic mean of taskwise SubOpt over the fixed task suite",
+    "coefficient_l2_error": "Euclidean coefficient error",
+    "self_concordance_distance": "simulation-only max_mu d_mu(true omega, estimated omega); the theorem's local certificate holds at values no larger than 1 / eta",
+    "target_fisher_error": "maximum Fisher coefficient-error norm at the target-optimal and estimate-optimal target policies",
+    "target_suboptimality": "target-reward last-iterate SubOpt(hat mu)",
+    "taskwise_transfer_fisher_error": "per-task and per-seed transfer-lemma Fisher errors",
+    "taskwise_transfer_suboptimality": "per-task and per-seed SubOpt for every protected transfer reward"
+  },
+  "protocol": {
+    "active": {
+      "comparison": "separately tuned protocols, not a matched-lambda ablation",
+      "no_warm_lambda_information_multiplier": 3.0,
+      "warm_lambda_information_multiplier": 12.0,
+      "warmup_budget": 200
+    },
+    "fixed_expert_mle": {
+      "expert_definition": "source_stackelberg_optimum",
+      "leader_policy": [
+        0.0,
+        0.13027751857210126,
+        0.1432468014793416,
+        0.0,
+        0.0,
+        0.7264756799485571,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ridge": 1.0
+    },
+    "ols": {
+      "expert_definition": "joint_qre",
+      "follower_reference_action": 22,
+      "leader_reference_action": 22,
+      "zero_sum_sampling": "paired empirical leader and follower actions"
+    },
+    "rng": {
+      "implementation_sha256": "d52f421598786d5f61ed417535eaac8d7c5b1820f3d0cb9f6c1b4e9ce664175f",
+      "schema": "purpose-separated streams keyed by seed and absolute sample index"
+    }
+  },
+  "schema_version": 3,
+  "seed_policy": {
+    "count": 50,
+    "paired": true,
+    "seeds": [
+      30000,
+      30001,
+      30002,
+      30003,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011,
+      30012,
+      30013,
+      30014,
+      30015,
+      30016,
+      30017,
+      30018,
+      30019,
+      30020,
+      30021,
+      30022,
+      30023,
+      30024,
+      30025,
+      30026,
+      30027,
+      30028,
+      30029,
+      30030,
+      30031,
+      30032,
+      30033,
+      30034,
+      30035,
+      30036,
+      30037,
+      30038,
+      30039,
+      30040,
+      30041,
+      30042,
+      30043,
+      30044,
+      30045,
+      30046,
+      30047,
+      30048,
+      30049
+    ]
+  },
+  "self_concordance_certificate": {
+    "eta": 2.1650635094610964,
+    "simulation_only": true,
+    "threshold": 0.46188021535170065
+  },
+  "source": {
+    "git_commit": "004633439fdd892c5887345d1e96c3295cd005a0",
+    "manifest_sha256": "5f988ac074c3ee7b10d631f136e905dd7f19d682877b97b6120fd5416346526f",
+    "resolved_config_sha256": "0befa71b7e747e6dd33c52616564d20edc97af264901bc766ad627bb78a9dfd0",
+    "result_count": 450,
+    "result_set_sha256": "d416df1341afb3d30b4f23eeba142d8ff82bf362c7bcfd2f87ea45b98d52c84c",
+    "run_id": "8c4ab05e9b2fe388",
+    "semantic_config_sha256": "dbce3bd9dc0a216ab35fdeb56d25c2ea261664600dd7ee990fe6abcf80fcfdbb",
+    "study_name": "guard-lobeke-paper"
+  },
+  "transfer_cache": {
+    "context_includes_problem_and_optimizer": true,
+    "implementation_sha256": "657644af90020daefbeea0c019335aea5098ac2e3ebb154d97dfdb9ae620e8a5",
+    "namespace": "v3/8c4ab05e9b2fe388",
+    "schema_version": 3
+  },
+  "transfer_task_policy": {
+    "candidate_pool": 500,
+    "count": 10,
+    "disjoint_from_tuning": true,
+    "name": "fixed_transfer_diagnostic",
+    "normalization": "unit Frobenius norm per leader-reward matrix",
+    "scale": 1.0,
+    "seed": 9200,
+    "tuning_task_seed": 9100
+  }
+}

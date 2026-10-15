@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: lobeke
+  - /experiment: lobeke/full_grid_1000_completion
+  - /numerics: lobeke
+  - _self_
+
+run:
+  seed_batch_size: 20

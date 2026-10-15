@@ -1,0 +1,59 @@
+# @package experiment
+
+_target_: mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy
+
+# Complete the cells absent from the existing protected selection artifacts.
+# Their exact N=1000 prefixes are reused by the derived-data exporter, so this
+# run evaluates only the missing cells plus one duplicated reference cell.
+name: guard-lobeke-full-grid-1000-completion
+seed_start: 10000
+seed_count: 20
+minimum_seed_count: 20
+
+final_evaluation_seed_start: 30000
+final_evaluation_seed_count: 50
+
+total_samples: 1000
+warmup_budgets: [0, 50, 100, 200, 400]
+lambda_information_multipliers: [1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0, 24.0, 32.0]
+
+reference_warmup_budget: 100
+reference_multiplier: 1.0
+candidate_pairs:
+  - [0, 24.0]
+  - [50, 1.0]
+  - [50, 2.0]
+  - [50, 3.0]
+  - [50, 6.0]
+  - [50, 16.0]
+  - [50, 24.0]
+  - [50, 32.0]
+  - [100, 1.0]  # duplicated reference checks prefix reuse exactly
+  - [100, 2.0]
+  - [100, 3.0]
+  - [100, 4.0]
+  - [100, 6.0]
+  - [100, 8.0]
+  - [100, 12.0]
+  - [100, 16.0]
+  - [100, 24.0]
+  - [100, 32.0]
+  - [200, 2.0]
+  - [200, 3.0]
+  - [200, 6.0]
+  - [200, 16.0]
+  - [200, 24.0]
+  - [200, 32.0]
+  - [400, 1.0]
+  - [400, 2.0]
+  - [400, 3.0]
+  - [400, 4.0]
+  - [400, 6.0]
+
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 1000
+tuning_metric: stackelberg_suboptimality
+guardrail_metric: fisher_transfer_error
+guardrail_standard_errors: 2.0
+shortlist_standard_errors: 1.0

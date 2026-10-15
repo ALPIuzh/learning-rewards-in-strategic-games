@@ -1,0 +1,10 @@
+{
+  "command": "evaluate",
+  "seconds": 291.46886025000276,
+  "python": "3.14.3",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "commit": "39c3481c9a322bb482832777ffab467cae5ce3d5",
+  "source_sha256": "9b2153e6bd65e73d7642a6609b5a62fb20aea41399dceed84b653e6bf3c4f132",
+  "protocol_sha256": "b2227066e8bde29dff8cbd342ddeff58997efa3a40dc638afd4bada3ec60799e"
+}

@@ -1,0 +1,37 @@
+_target_: mairl_exp.config.ExperimentNumerics
+
+mle:
+  _target_: mairl.inference.mle.MLEConfig
+  ridge: 1.0e-4
+  solver: newton
+  objective_tolerance: 1.0e-13
+  projected_gradient_tolerance: 1.0e-6
+  constraint_tolerance: 1.0e-9
+  max_iterations: 1000
+  trust_region_gradient_tolerance: 1.0e-12
+  trust_region_step_tolerance: 1.0e-14
+  trust_region_barrier_tolerance: 1.0e-12
+  kkt_tolerance: 1.0e-9
+
+warmup:
+  _target_: mairl_exp.config.WarmupNumerics
+
+active_policy:
+  _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+  method: multistart
+  tolerance: 1.0e-9
+  projected_gradient_tolerance: 1.0e-6
+  max_iterations: 1000
+  random_starts: 1
+  batch_prefilter_iterations: 4
+  batch_refine_starts: 1
+
+evaluation_policy:
+  _target_: mairl.exploration.simplex.PolicyOptimizationConfig
+  method: multistart
+  tolerance: 1.0e-10
+  projected_gradient_tolerance: 1.0e-6
+  max_iterations: 1000
+  random_starts: 1
+  batch_prefilter_iterations: 4
+  batch_refine_starts: 1

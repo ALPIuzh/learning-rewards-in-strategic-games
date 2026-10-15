@@ -1,0 +1,127 @@
+% Replacement passages for the supplied manuscript; the original PDF is unchanged.
+
+% Abstract/conclusion: distinguish horizon dependence from full minimax optimality.
+We derive a high-probability $\widetilde O(K^{-1/2})$ guarantee after a sufficient
+burn-in period, matching the horizon dependence of a worst-case expected-risk
+lower bound. The bounds retain different dependence on other problem parameters.
+
+% Section 4, comparison of the displayed upper and lower bounds.
+The upper and lower bounds both have inverse-square-root dependence on the
+number of online interactions, up to logarithmic factors in the upper bound.
+The upper bound retains additional dependence on dimension, inverse temperature,
+the parameter radius, and confidence. The displayed expected-risk lower bound
+does not establish optimal dependence on the confidence parameter.
+
+% Section 5, scope of empirical evidence.
+We evaluate the practical algorithm in a GUARD-derived anti-poaching game with
+a correctly specified simulated logit follower. The experiments compare complete
+data-collection and estimation protocols: active methods choose leader policies,
+fixed-expert MLE receives observations under a source-optimal leader, and the
+OLS baselines use a joint-QRE expert. Zero-sum OLS also observes leader actions.
+The source payoff is used by the evaluator and demonstration oracle, not as an
+input to the reward estimator. If both that payoff and its exact zero-sum
+relationship were available to the learner, no source reward estimation would
+be necessary.
+The results concern this game and the evaluated downstream objectives; they do
+not establish superiority across arbitrary games or robustness to model
+misspecification.
+
+% Appendix I.2 and Figure 8. Preserve the existing heatmap.
+Figure~\ref{fig:appendix-lobeke-hyperparameters} reports post-selection sensitivity
+to the warm-up budget and online information regularizer. The grid crosses
+warm-up budgets $\{0,50,200\}$ with multipliers
+$\lambda/\eta^2\in\{0.003,0.01,0.03,0.3,1\}$, using $1{,}600$ follower observations,
+eight paired learning seeds, and $100$ fixed normalized transfer tasks. MLE ridge
+is zero and is distinct from the online information regularizer. Outlines mark
+the retained protocols, not the lowest cells in this later sensitivity grid.
+They were selected in an earlier ridge-$10^{-4}$ stage and were not reselected
+from this figure. The subsequent ridge-zero replay reused an earlier confirmation
+split. These analyses do not establish a unique optimal regularizer.
+The retained multipliers refer to the numerical inverse temperature
+$\eta\approx2.165$, giving $\lambda=0.0140625$ with warm-up and $0.140625$ without.
+
+% Appendix I.3.1: complete sparse-information setup and interpretation.
+Let $\mathcal A=[m]$, $\mathcal B=[2]$, and
+$r^2_\omega(a,b)=\omega\mathbf{1}\{a=1,b=2\}$, with true coefficient $\omega=1$
+and known inverse temperature $\eta=2$. The leader earns
+$r^1(1,b)=\mathbf{1}\{b=2\}$ and $r^1(a,b)=3/4$ for $a>1$.
+Only the first pure leader action is informative. A mixed policy assigning it
+mass $x$ induces response probability $p=\sigma(\eta\omega x)$ and Fisher information
+\begin{equation*}
+I_x(\omega)=\eta^2x^2p(1-p).
+\end{equation*}
+Information is zero exactly when $x=0$; random mixed policies generally provide
+positive but diluted information. At the initial estimate $\hat\omega=0$, the
+ratio of maximal information to information averaged over a uniform-simplex
+policy is $m(m+1)/2$. The online information optimizer can choose an interior
+mass at other estimates, so warm-up and online selection need not always play
+the same pure action. We report the no-warm-up variant to isolate online selection.
+
+% Appendix I.3.2 and Figure 10: interpretation of the hard-family experiment.
+The hard family changes with the observation budget:
+$\omega=\epsilon e_i$, where $\epsilon=\tfrac12\sqrt{d/K}$.
+A uniform leader policy that ignores the observations already has loss
+\begin{equation*}
+\operatorname{SubOpt}(\mu_{\mathrm{uniform}})=\sigma(\epsilon)-\sigma(\epsilon/d)=O(\sqrt{d/K}).
+\end{equation*}
+The empirical curves therefore illustrate behavior on this shrinking-separation
+family. Their slope alone does not demonstrate learning on a fixed instance,
+prove a lower bound over all algorithms, or establish minimax optimality.
+The theoretical guarantee rests on the proof, independently of this illustration.
+The experiment uses $d\in\{33,64\}$ and $16$ independent replicates of every active
+coordinate; the uniform-coordinate mean therefore includes $16d$ trajectories
+per budget and dimension.
+
+% Model description: retain the normalization-induced temperature rescaling.
+We use $\phi=\phi_{\mathrm{raw}}/L$, where
+$L=\max_{a,b}\lVert\phi_{\mathrm{raw}}(a,b)\rVert_2$, together with
+$\eta=L\eta_{\mathrm{raw}}$ and $\eta_{\mathrm{raw}}=1.25$.
+This preserves response probabilities while keeping the reward coefficients
+$\omega^\star=(0,1,-2/3)$ unchanged. The numerical inverse temperature is
+approximately $2.165$ in this instance.
+
+% Optional implementation justification for the hard-family vertex reduction.
+On the hard family, the information objective admits a vertex maximizer when
+$\lVert\hat\omega\rVert_2\leq1$ and $\eta=1$. Let
+$v(z)=\sigma(z)(1-\sigma(z))$ and let $G$ be the diagonal regularized information
+matrix produced by previous vertex observations. The objective is
+$v(\mu^\top\hat\omega)\sum_i\mu_i^2/G_{ii}$.
+On $[-1,1]$, $|\frac{d}{dz}\log v(z)|\leq\tanh(1/2)$, while
+$|\mu^\top\hat\omega-\hat\omega_i|\leq2(1-\mu_i)$. For $\mu_i>0$,
+\begin{equation*}
+\log\frac{\mu_i v(\mu^\top\hat\omega)}{v(\hat\omega_i)}\leq\log\mu_i+2\tanh(1/2)(1-\mu_i)\leq0.
+\end{equation*}
+The inequality also holds without logarithms at $\mu_i=0$. Consequently,
+\begin{equation*}
+v(\mu^\top\hat\omega)\sum_i\frac{\mu_i^2}{G_{ii}}\leq\sum_i\mu_i\frac{v(\hat\omega_i)}{G_{ii}}\leq\max_i\frac{v(\hat\omega_i)}{G_{ii}}.
+\end{equation*}
+Evaluating all vertices therefore gives a global maximizer for this specialized
+instance; this does not certify global policy optimization in the Lob\'ek\'e game.
+
+% Additional fixed-settings confirmation, separate from the retained figures.
+We additionally evaluated the two retained Active protocols on $50$ fresh
+learning seeds and $100$ fixed new transfer tasks, using $1{,}600$ follower
+observations per run. Mean transfer SubOpt was $0.000286$ without warm-up and
+$0.000261$ with warm-up, compared with $0.003488$ for ridge-zero fixed-expert MLE.
+The paired differences were $-0.003202$ and $-0.003227$, with simultaneous
+$95\%$ intervals $[-0.004272,-0.002133]$ and $[-0.004277,-0.002177]$ for the two
+comparisons. These intervals are over learning seeds, conditional on the task
+suite. The full multistart deployment evaluation repairs missed solutions from
+the initial fast numerical evaluation. Matched-regularizer warm-up comparisons
+were inconclusive. An exploratory expert-ridge sweep substantially reduced the
+baseline loss, motivating a separate fresh confirmation against its selected
+setting; the large ridge-zero comparison should not be presented as an advantage
+over all regularized expert estimators.
+
+% Independent selected-baseline check. Do not claim adjusted significance.
+We selected fixed-expert MLE ridge $10$ from $\{0,0.01,0.1,1,10\}$ on the first
+confirmation suite, then evaluated it against the unchanged Active protocols
+on another $50$ learning seeds and $50$ transfer tasks. Mean SubOpt was
+$0.000251$ for no-warm-up Active, $0.000205$ for warm-up Active, and $0.000347$
+for the selected expert baseline. The paired differences were $-0.000096$
+and $-0.000142$, with simultaneous $95\%$ intervals
+$[-0.000262,0.000069]$ and $[-0.000286,0.000003]$ for the two comparisons.
+Holm-adjusted $p$-values were $0.185$ and $0.055$. Thus regularization closes
+much of the unregularized baseline gap, and this independent check does not
+establish superiority over the selected regularized expert. The inference is
+conditional on these synthetic tasks in one fixed game.

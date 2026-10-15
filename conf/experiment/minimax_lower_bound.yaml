@@ -1,0 +1,9 @@
+_target_: experiments.minimax_lower_bound.study.MinimaxLowerBoundStudy
+
+name: minimax-lower-bound
+dimensions: [33, 64]
+samples_per_dimension: [4, 8, 16, 32, 64]
+seed_start: 92000
+replicates_per_coordinate: 16
+coordinate_design_seed: 7319
+confidence_delta: 0.05

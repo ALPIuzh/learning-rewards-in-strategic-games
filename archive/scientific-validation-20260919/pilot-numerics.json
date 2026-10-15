@@ -1,0 +1,302 @@
+[
+  {
+    "task": 0,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 4.840683409668145e-10,
+    "deployed_value_change": -8.298367752956892e-07,
+    "normal_subopt": 0.002568607897464381,
+    "strict_subopt": 0.0025694377376193067
+  },
+  {
+    "task": 0,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 5.625500065775668e-13,
+    "deployed_value_change": 1.6198155261548663e-08,
+    "normal_subopt": 0.0007137592273994686,
+    "strict_subopt": 0.000713743032623837
+  },
+  {
+    "task": 0,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 2.1736390465321165e-11,
+    "deployed_value_change": -4.91132762237001e-08,
+    "normal_subopt": 0.001858695561823942,
+    "strict_subopt": 0.0018587446784797956
+  },
+  {
+    "task": 0,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 1.7885692926711272e-13,
+    "deployed_value_change": -7.391484935226345e-08,
+    "normal_subopt": 0.0037976184250928524,
+    "strict_subopt": 0.0037976923433218346
+  },
+  {
+    "task": 0,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 3.0535509676354877e-09,
+    "deployed_value_change": 2.3898415402179296e-06,
+    "normal_subopt": 0.0008278091970596035,
+    "strict_subopt": 0.0008254193588990155
+  },
+  {
+    "task": 0,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 4.422218147226431e-11,
+    "deployed_value_change": -3.6885223098082065e-08,
+    "normal_subopt": 0.0002962918517493973,
+    "strict_subopt": 0.0002963287403521253
+  },
+  {
+    "task": 0,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 7.737988028111431e-11,
+    "deployed_value_change": -1.408429086691143e-07,
+    "normal_subopt": 9.477758723452911e-05,
+    "strict_subopt": 9.491843352282814e-05
+  },
+  {
+    "task": 0,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 2.0158530400493646e-10,
+    "deployed_value_change": 1.1018402323870191e-07,
+    "normal_subopt": 0.0008722163005131511,
+    "strict_subopt": 0.0008721061198695423
+  },
+  {
+    "task": 0,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091900,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 6.650058281820748e-11,
+    "deployed_value_change": -1.5799569441643513e-07,
+    "normal_subopt": 0.0027207527327399728,
+    "strict_subopt": 0.002720910731814019
+  },
+  {
+    "task": 0,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091901,
+    "oracle_improvement": 3.379629909261439e-12,
+    "fitted_objective_improvement": 1.3108403251749223e-12,
+    "deployed_value_change": -1.3690441513780627e-07,
+    "normal_subopt": 0.0023864436904498243,
+    "strict_subopt": 0.002386580598244592
+  },
+  {
+    "task": 1,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 1.36405664541428e-10,
+    "deployed_value_change": -7.399653023654196e-08,
+    "normal_subopt": 0.001642881833785581,
+    "strict_subopt": 0.0016429558303164837
+  },
+  {
+    "task": 1,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 5.251421519858468e-11,
+    "deployed_value_change": 3.557472718629384e-07,
+    "normal_subopt": 0.0012064543173860853,
+    "strict_subopt": 0.0012060985701148885
+  },
+  {
+    "task": 1,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 9.048317650695026e-13,
+    "deployed_value_change": 3.244306290284271e-08,
+    "normal_subopt": 0.0008617785650958387,
+    "strict_subopt": 0.000861746122033602
+  },
+  {
+    "task": 1,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 3.885780586188048e-15,
+    "deployed_value_change": 1.3340573090658836e-10,
+    "normal_subopt": 9.127403345354779e-07,
+    "strict_subopt": 9.126069294707051e-07
+  },
+  {
+    "task": 1,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 6.4036553837354404e-12,
+    "deployed_value_change": -1.1575886849080064e-07,
+    "normal_subopt": 0.00024780426272219547,
+    "strict_subopt": 0.0002479200215913524
+  },
+  {
+    "task": 1,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 1.620814593650266e-12,
+    "deployed_value_change": -6.115641326687182e-09,
+    "normal_subopt": 4.980313562774619e-06,
+    "strict_subopt": 4.98642920476744e-06
+  },
+  {
+    "task": 1,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 1.1102230246251565e-15,
+    "deployed_value_change": -5.109801470837283e-12,
+    "normal_subopt": 9.322124183697156e-09,
+    "strict_subopt": 9.327234651301808e-09
+  },
+  {
+    "task": 1,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 3.3306690738754696e-16,
+    "deployed_value_change": -7.486899988862206e-12,
+    "normal_subopt": 1.3209237226252668e-07,
+    "strict_subopt": 1.3209985982864936e-07
+  },
+  {
+    "task": 1,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091900,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 1.7672308061378317e-11,
+    "deployed_value_change": 2.532936376198336e-07,
+    "normal_subopt": 0.003189117355958948,
+    "strict_subopt": 0.0031888640623219944
+  },
+  {
+    "task": 1,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091901,
+    "oracle_improvement": 6.661338147750939e-16,
+    "fitted_objective_improvement": 2.220446049250313e-16,
+    "deployed_value_change": 1.1102230246251565e-16,
+    "normal_subopt": 0.007135682532920962,
+    "strict_subopt": 0.007135682532921517
+  },
+  {
+    "task": 2,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 2.0103796405379626e-10,
+    "deployed_value_change": 1.3364559292572409e-08,
+    "normal_subopt": 0.0010854811618006277,
+    "strict_subopt": 0.0010854678626532888
+  },
+  {
+    "task": 2,
+    "protocol": "active_no_warm_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 6.492617554698654e-11,
+    "deployed_value_change": -1.4967709605073765e-07,
+    "normal_subopt": 0.0009377842921148294,
+    "strict_subopt": 0.0009379340346228338
+  },
+  {
+    "task": 2,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 2.73145950302478e-11,
+    "deployed_value_change": -1.0180220050282074e-07,
+    "normal_subopt": 0.00027448973301846813,
+    "strict_subopt": 0.0002745916006309246
+  },
+  {
+    "task": 2,
+    "protocol": "active_no_warm_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 2.6477098291621814e-11,
+    "deployed_value_change": 1.7072180868993314e-07,
+    "normal_subopt": 0.00020753228083281172,
+    "strict_subopt": 0.00020736162443607542
+  },
+  {
+    "task": 2,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091900,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 1.030560081716203e-10,
+    "deployed_value_change": 2.641983894990929e-07,
+    "normal_subopt": 0.0001309581046778363,
+    "strict_subopt": 0.00013069397170029085
+  },
+  {
+    "task": 2,
+    "protocol": "active_warm200_lambda0p003",
+    "seed": 2026091901,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 4.951450360834997e-11,
+    "deployed_value_change": 7.971157048314303e-07,
+    "normal_subopt": 0.0035615844330571522,
+    "strict_subopt": 0.0035607873827642744
+  },
+  {
+    "task": 2,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091900,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 2.5474067300024217e-13,
+    "deployed_value_change": -1.4659285452189863e-09,
+    "normal_subopt": 5.7092083652177106e-05,
+    "strict_subopt": 5.7093614992675956e-05
+  },
+  {
+    "task": 2,
+    "protocol": "active_warm200_lambda0p03",
+    "seed": 2026091901,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 2.7206570329951774e-12,
+    "deployed_value_change": -1.0014912898981265e-08,
+    "normal_subopt": 0.00013963655999843505,
+    "strict_subopt": 0.00013964664032328766
+  },
+  {
+    "task": 2,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091900,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 7.12545578096524e-11,
+    "deployed_value_change": 3.46823176067268e-07,
+    "normal_subopt": 0.001499974757683098,
+    "strict_subopt": 0.0014996279999189843
+  },
+  {
+    "task": 2,
+    "protocol": "fixed_expert_matched_ridge",
+    "seed": 2026091901,
+    "oracle_improvement": 6.541195363141128e-11,
+    "fitted_objective_improvement": 0.0,
+    "deployed_value_change": 0.0,
+    "normal_subopt": 0.005892422485026139,
+    "strict_subopt": 0.005892422550438092
+  }
+]

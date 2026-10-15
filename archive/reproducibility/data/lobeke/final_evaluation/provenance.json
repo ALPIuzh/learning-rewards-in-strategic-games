@@ -1,0 +1,621 @@
+{
+  "arrays": {
+    "active_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "active_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "active_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "active_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "active_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "active_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "active_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "active_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "active_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_expert_mle__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "fixed_expert_mle__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_expert_mle__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_expert_mle__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_expert_mle__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "fixed_random_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_random_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_random_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "fixed_random_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "fixed_random_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "fixed_random_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "fixed_random_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "fixed_random_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "follower_ols__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "follower_ols__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "follower_ols__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "follower_ols__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "follower_ols__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "online_random_no_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "online_random_no_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "online_random_no_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_no_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "online_random_warm__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        10
+      ]
+    },
+    "online_random_warm__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "online_random_warm__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "online_random_warm__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "online_random_warm__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        10
+      ]
+    },
+    "zero_sum_ols__averaged_transfer_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__averaged_transfer_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__checkpoints": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "zero_sum_ols__coefficient_l2_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__final_omega": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        3
+      ]
+    },
+    "zero_sum_ols__seeds": {
+      "dtype": "int64",
+      "shape": [
+        50
+      ]
+    },
+    "zero_sum_ols__target_fisher_error": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    },
+    "zero_sum_ols__target_suboptimality": {
+      "dtype": "float64",
+      "shape": [
+        50,
+        11
+      ]
+    }
+  },
+  "checkpoint_policy": {
+    "display_interval": 160,
+    "display_stride": 4,
+    "final_checkpoint_always_retained": true,
+    "source_interval": 40
+  },
+  "data_sha256": "2309e6ee4855c559a30c91399a2f4b93cdecca723f481bd3e66646a82c11bc9e",
+  "experiment": "Lobeke protected final evaluation",
+  "generation_command": "python -m experiments.guard.paper.figures.export_final --run-dir artifacts/runs/guard-lobeke-paper/a4b1b2a1cdf886dd --output-dir reproducibility/data/lobeke/final_evaluation",
+  "methods": {
+    "active_no_warm": {
+      "method": "active",
+      "warmup_enabled": false
+    },
+    "active_warm": {
+      "method": "active",
+      "warmup_enabled": true
+    },
+    "fixed_expert_mle": {
+      "method": "fixed_expert_mle",
+      "warmup_enabled": false
+    },
+    "fixed_random_no_warm": {
+      "method": "fixed_random",
+      "warmup_enabled": false
+    },
+    "fixed_random_warm": {
+      "method": "fixed_random",
+      "warmup_enabled": true
+    },
+    "follower_ols": {
+      "method": "follower_ols",
+      "warmup_enabled": false
+    },
+    "online_random_no_warm": {
+      "method": "random_each_round",
+      "warmup_enabled": false
+    },
+    "online_random_warm": {
+      "method": "random_each_round",
+      "warmup_enabled": true
+    },
+    "zero_sum_ols": {
+      "method": "zero_sum_ols",
+      "warmup_enabled": false
+    }
+  },
+  "metrics": {
+    "averaged_transfer_fisher_error": "within-seed arithmetic mean of taskwise transfer-lemma Fisher errors",
+    "averaged_transfer_suboptimality": "within-seed arithmetic mean of taskwise SubOpt over protected tasks",
+    "coefficient_l2_error": "Euclidean coefficient error",
+    "target_fisher_error": "maximum Fisher coefficient-error norm at the target-optimal and estimate-optimal target policies",
+    "target_suboptimality": "target-reward last-iterate SubOpt(hat mu)"
+  },
+  "schema_version": 2,
+  "seed_policy": {
+    "count": 50,
+    "paired": true,
+    "seeds": [
+      30000,
+      30001,
+      30002,
+      30003,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011,
+      30012,
+      30013,
+      30014,
+      30015,
+      30016,
+      30017,
+      30018,
+      30019,
+      30020,
+      30021,
+      30022,
+      30023,
+      30024,
+      30025,
+      30026,
+      30027,
+      30028,
+      30029,
+      30030,
+      30031,
+      30032,
+      30033,
+      30034,
+      30035,
+      30036,
+      30037,
+      30038,
+      30039,
+      30040,
+      30041,
+      30042,
+      30043,
+      30044,
+      30045,
+      30046,
+      30047,
+      30048,
+      30049
+    ]
+  },
+  "source": {
+    "git_commit": "16fbdd73c74a6340790a2081e87d01ab672a9222",
+    "manifest_sha256": "ea493c3d769581d4e476e4d255a571ff17038b42c9e25098e03942c1a4791030",
+    "resolved_config_sha256": "54322732a3b846dca01665873439aaff421518fab8fd2455cbdaac004fde8fa9",
+    "result_count": 450,
+    "result_set_sha256": "97144ad5f323828b6fbd334add679281f89524da022ad12625ab0cc2581416f5",
+    "run_id": "a4b1b2a1cdf886dd",
+    "semantic_config_sha256": "f711930ae46640d2fee04dcca279114ec882cf8ca970c56c419844742510636c",
+    "study_name": "guard-lobeke-paper"
+  },
+  "transfer_task_policy": {
+    "candidate_pool": 500,
+    "count": 10,
+    "disjoint_from_tuning": true,
+    "name": "protected_transfer_evaluation",
+    "normalization": "unit Frobenius norm per leader-reward matrix",
+    "scale": 1.0,
+    "seed": 9200,
+    "tuning_task_seed": 9100
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/toy/run.py",
+    "experiment.name=smoke-toy",
+    "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs",
+    "run.require_clean_git=false",
+    "experiment.total_samples=32",
+    "experiment.warmup_budget=24",
+    "experiment.seed_count=2",
+    "experiment.evaluation_interval=4"
+  ],
+  "created_at": "2026-09-18T15:42:53.270291+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "simplify/cleanup-pass",
+    "commit": "eab54738bdb7af0a182787faa9b19f7a50a45aea",
+    "dirty": true,
+    "fingerprint": "633172f77f66469cc86f591067c06d619515cea0ce3730087ecc85cc6af46631",
+    "status": [
+      " M experiments/guard/geographic/map_lobeke.py",
+      " M experiments/guard/paper/figures/appendix_comparison.py",
+      " M experiments/guard/paper/figures/illustrations.py",
+      " M experiments/guard/paper/figures/joint_discovery.py",
+      " M experiments/guard/paper/figures/story.py",
+      " M experiments/guard/paper/figures/style.py",
+      " M experiments/guard/paper/figures/temporal.py",
+      " M experiments/guard/paper/figures/transfer_assets.py",
+      " M src/mairl_exp/mpl.py"
+    ],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 12,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.5059265420022712,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 12
+  },
+  "resume_granularity": "job",
+  "run_id": "a7c0c29cfec6ea75",
+  "schema_version": 1,
+  "semantic_config_sha256": "aec30f0ea302268ad9a25894c43c1281aac2532ef406e4a8f17239f8e6f8efbe",
+  "status": "complete",
+  "study_name": "smoke-toy",
+  "updated_at": "2026-09-18T15:42:53.756940+00:00"
+}

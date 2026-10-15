@@ -1,0 +1,92 @@
+% Exploratory alternative; generated from protected zero-sum data.
+\begin{minipage}{\textwidth}
+\centering
+{\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 1, group name=zssource, horizontal sep=1.45cm},
+  mairl log axis,
+  width=0.445\textwidth,
+  height=4.35cm
+]
+\nextgroupplot[
+  title={(a) Fixed-expert Fisher error},
+  xmin=0, xmax=200,
+  ylabel={Estimation error},
+  legend style={at={(0.98,0.98)}, anchor=north east, font=\tiny, row sep=-1pt}
+]
+\addplot[name path=alt-fisher-active-upper, draw=none, forget plot] coordinates {(20,0.29696352) (40,0.18762867) (60,0.14021475) (80,0.11159533) (100,0.095945729) (120,0.084796812) (140,0.079492832) (160,0.075815293) (180,0.074938604) (200,0.071503607)};
+\addplot[name path=alt-fisher-active-lower, draw=none, forget plot] coordinates {(20,0.23812169) (40,0.14789469) (60,0.11203549) (80,0.08900912) (100,0.07634822) (120,0.067689812) (140,0.064369672) (160,0.060730439) (180,0.059593317) (200,0.057543549)};
+\addplot[fill=mairlActive, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-fisher-active-upper and alt-fisher-active-lower];
+\addplot[draw=mairlActive, line width=0.65pt] coordinates {(20,0.2675426) (40,0.16776168) (60,0.12612512) (80,0.10030223) (100,0.086146975) (120,0.076243312) (140,0.071931252) (160,0.068272866) (180,0.067265961) (200,0.064523578)};
+\addlegendentry{Active IRL}
+\addplot[name path=alt-fisher-zero_sum_ols-upper, draw=none, forget plot] coordinates {(20,0.30824649) (40,0.2117347) (60,0.17850348) (80,0.16052732) (100,0.1532107) (120,0.13076731) (140,0.12169845) (160,0.1117308) (180,0.10659712) (200,0.10190982)};
+\addplot[name path=alt-fisher-zero_sum_ols-lower, draw=none, forget plot] coordinates {(20,0.25304391) (40,0.16953101) (60,0.13914625) (80,0.12632633) (100,0.12230415) (120,0.10606111) (140,0.099098394) (160,0.08998323) (180,0.085696091) (200,0.083227176)};
+\addplot[fill=mairlZeroSum, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-fisher-zero_sum_ols-upper and alt-fisher-zero_sum_ols-lower];
+\addplot[draw=mairlZeroSum, line width=0.65pt] coordinates {(20,0.2806452) (40,0.19063285) (60,0.15882486) (80,0.14342683) (100,0.13775743) (120,0.11841421) (140,0.11039842) (160,0.10085701) (180,0.096146603) (200,0.092568498)};
+\addlegendentry{Zero-sum OLS}
+\addplot[name path=alt-fisher-follower_ols-upper, draw=none, forget plot] coordinates {(20,0.31888585) (40,0.22788076) (60,0.18885757) (80,0.17373928) (100,0.16299897) (120,0.14263881) (140,0.13229876) (160,0.12597025) (180,0.12102899) (200,0.11599503)};
+\addplot[name path=alt-fisher-follower_ols-lower, draw=none, forget plot] coordinates {(20,0.266196) (40,0.18893579) (60,0.1545964) (80,0.14472943) (100,0.13754575) (120,0.12225665) (140,0.11269394) (160,0.10705221) (180,0.1022944) (200,0.098426616)};
+\addplot[fill=mairlFollower, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-fisher-follower_ols-upper and alt-fisher-follower_ols-lower];
+\addplot[draw=mairlFollower, line width=0.65pt] coordinates {(20,0.29254093) (40,0.20840828) (60,0.17172698) (80,0.15923435) (100,0.15027236) (120,0.13244773) (140,0.12249635) (160,0.11651123) (180,0.11166169) (200,0.10721082)};
+\addlegendentry{Follower-only OLS}
+\nextgroupplot[
+  title={(b) Source QRE policy error},
+  xmin=0, xmax=200,
+  ylabel={Leader-policy $\ell_1$ error}
+]
+\addplot[name path=alt-policy-active-upper, draw=none, forget plot] coordinates {(20,0.22100473) (40,0.12283925) (60,0.08672846) (80,0.072012759) (100,0.059402092) (120,0.054280039) (140,0.051648169) (160,0.047963862) (180,0.046771816) (200,0.044757034)};
+\addplot[name path=alt-policy-active-lower, draw=none, forget plot] coordinates {(20,0.17364004) (40,0.090541532) (60,0.065098842) (80,0.055042587) (100,0.045402938) (120,0.04027062) (140,0.039361937) (160,0.036250745) (180,0.034871837) (200,0.034261458)};
+\addplot[fill=mairlActive, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-policy-active-upper and alt-policy-active-lower];
+\addplot[draw=mairlActive, line width=0.65pt] coordinates {(20,0.19732238) (40,0.10669039) (60,0.075913651) (80,0.063527673) (100,0.052402515) (120,0.04727533) (140,0.045505053) (160,0.042107303) (180,0.040821827) (200,0.039509246)};
+\addplot[name path=alt-policy-zero_sum_ols-upper, draw=none, forget plot] coordinates {(20,0.076248994) (40,0.057072014) (60,0.048485277) (80,0.044662326) (100,0.042521775) (120,0.037675302) (140,0.034633145) (160,0.031639191) (180,0.029287498) (200,0.028529923)};
+\addplot[name path=alt-policy-zero_sum_ols-lower, draw=none, forget plot] coordinates {(20,0.059420775) (40,0.04385313) (60,0.035221568) (80,0.031503349) (100,0.029579912) (120,0.02807298) (140,0.026096366) (160,0.023701651) (180,0.021661715) (200,0.021108768)};
+\addplot[fill=mairlZeroSum, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-policy-zero_sum_ols-upper and alt-policy-zero_sum_ols-lower];
+\addplot[draw=mairlZeroSum, line width=0.65pt] coordinates {(20,0.067834884) (40,0.050462572) (60,0.041853423) (80,0.038082837) (100,0.036050843) (120,0.032874141) (140,0.030364755) (160,0.027670421) (180,0.025474607) (200,0.024819346)};
+\addplot[name path=alt-policy-follower_ols-upper, draw=none, forget plot] coordinates {(20,0.31722286) (40,0.28910127) (60,0.2729952) (80,0.28594297) (100,0.28333335) (120,0.27666279) (140,0.26577693) (160,0.26516692) (180,0.24793718) (200,0.24508285)};
+\addplot[name path=alt-policy-follower_ols-lower, draw=none, forget plot] coordinates {(20,0.25566473) (40,0.2320719) (60,0.21226535) (80,0.22414129) (100,0.22342294) (120,0.21138648) (140,0.20348186) (160,0.20598577) (180,0.189889) (200,0.18750217)};
+\addplot[fill=mairlFollower, fill opacity=0.09, draw=none, forget plot] fill between[of=alt-policy-follower_ols-upper and alt-policy-follower_ols-lower];
+\addplot[draw=mairlFollower, line width=0.65pt] coordinates {(20,0.28644379) (40,0.26058659) (60,0.24263028) (80,0.25504213) (100,0.25337815) (120,0.24402463) (140,0.23462939) (160,0.23557634) (180,0.21891309) (200,0.21629251)};
+\end{groupplot}
+\node[font=\small, text=mairlInk, anchor=north]
+  at ($(zssource c1r1.south)!0.5!(zssource c2r1.south)+(0,-0.38cm)$)
+  {Number of observed follower actions};
+\end{tikzpicture}}
+
+\vspace{0.78cm}
+
+{\begin{tikzpicture}
+\begin{axis}[
+  mairl axis,
+  /pgfplots/ymode=log,
+  width=0.92\textwidth,
+  height=4.15cm,
+  title={(c) Transfer to downstream leader objectives},
+  xmin=0.55, xmax=3.45,
+  xtick={1,2,3},
+  xticklabels={Task 1,Task 2,Task 3},
+  ylabel={Final $\operatorname{SubOpt}(\hat\mu)$},
+  ymin=1.0e-6,
+  legend style={at={(0.5,0.98)}, anchor=north, legend columns=3,
+                 font=\tiny, column sep=7pt}
+]
+\addplot[draw=mairlActive, line width=0.45pt, forget plot] coordinates {(0.84,6.1469849e-05) (0.84,0.0026448657)};
+\addplot[draw=mairlActive, line width=0.45pt, forget plot] coordinates {(1.84,1e-06) (1.84,0.00019365148)};
+\addplot[draw=mairlActive, line width=0.45pt, forget plot] coordinates {(2.84,0.0019769157) (2.84,0.0051344073)};
+\addplot[draw=mairlActive, line width=0.45pt, forget plot] coordinates {(3.84,0.0064536536) (3.84,0.011336175)};
+\addplot[draw=mairlActive, line width=0.45pt, forget plot] coordinates {(4.84,0.0011493573) (4.84,0.0034304448)};
+\addplot[only marks, draw=mairlActive, fill=mairlActive, mark=*, mark size=1.45pt] coordinates {(0.84,0.0013531678) (1.84,6.4891891e-05) (2.84,0.0035556615) (3.84,0.0088949141) (4.84,0.0022899011)};
+\addplot[draw=mairlZeroSum, line width=0.45pt, forget plot] coordinates {(1,0.00025951556) (1,0.0030979596)};
+\addplot[draw=mairlZeroSum, line width=0.45pt, forget plot] coordinates {(2,1e-06) (2,1e-06)};
+\addplot[draw=mairlZeroSum, line width=0.45pt, forget plot] coordinates {(3,0.0021120636) (3,0.0062741534)};
+\addplot[draw=mairlZeroSum, line width=0.45pt, forget plot] coordinates {(4,0.0077241236) (4,0.013560989)};
+\addplot[draw=mairlZeroSum, line width=0.45pt, forget plot] coordinates {(5,0.0051213304) (5,0.013360524)};
+\addplot[only marks, draw=mairlZeroSum, fill=mairlZeroSum, mark=*, mark size=1.45pt] coordinates {(1,0.0016787376) (2,1e-06) (3,0.0041931085) (4,0.010642556) (5,0.0092409273)};
+\addplot[draw=mairlFollower, line width=0.45pt, forget plot] coordinates {(1.16,0.090201692) (1.16,0.1758481)};
+\addplot[draw=mairlFollower, line width=0.45pt, forget plot] coordinates {(2.16,0.0020662512) (2.16,0.005634556)};
+\addplot[draw=mairlFollower, line width=0.45pt, forget plot] coordinates {(3.16,0.0091941526) (3.16,0.016852765)};
+\addplot[draw=mairlFollower, line width=0.45pt, forget plot] coordinates {(4.16,0.025766362) (4.16,0.032730349)};
+\addplot[draw=mairlFollower, line width=0.45pt, forget plot] coordinates {(5.16,0.023533967) (5.16,0.040953073)};
+\addplot[only marks, draw=mairlFollower, fill=mairlFollower, mark=*, mark size=1.45pt] coordinates {(1.16,0.1330249) (2.16,0.0038504036) (3.16,0.013023459) (4.16,0.029248356) (5.16,0.03224352)};
+\end{axis}
+\end{tikzpicture}}
+\end{minipage}

@@ -1,0 +1,13 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+refitted four ridge values from zero on the same 50 trajectories
+ridge grid: 10/100 tasks; 10.4s
+ridge grid: 20/100 tasks; 15.7s
+ridge grid: 30/100 tasks; 20.7s
+ridge grid: 40/100 tasks; 26.0s
+ridge grid: 50/100 tasks; 31.2s
+ridge grid: 60/100 tasks; 36.4s
+ridge grid: 70/100 tasks; 41.8s
+ridge grid: 80/100 tasks; 47.2s
+ridge grid: 90/100 tasks; 52.5s
+ridge grid: 100/100 tasks; 58.1s

@@ -1,0 +1,14 @@
+plot:
+  _target_: mairl_exp.plotting.FisherTransferPlot
+  allow_incomplete: false
+  band: mean_ci
+  band_alpha: 0.08
+  confidence_level: 0.95
+  dpi: 180
+  lower_quantile: 0.1
+  metric: fisher_transfer_error
+  name: fisher-transfer
+  upper_quantile: 0.9
+require_clean_git: false
+run_dir: /Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs/smoke-sparse/1bf4e2c2708bc963
+schema_version: 1

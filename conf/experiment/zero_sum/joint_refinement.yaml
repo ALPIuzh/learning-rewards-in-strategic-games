@@ -1,0 +1,38 @@
+# @package experiment
+
+_target_: mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy
+
+name: zero-sum-joint-refinement
+seed_start: 40000
+seed_count: 64
+minimum_seed_count: 30
+
+final_evaluation_seed_start: 60000
+final_evaluation_seed_count: 100
+
+total_samples: 200
+warmup_budgets: [0, 140, 160, 180]
+lambda_information_multipliers: [1.0, 4.0, 8.0]
+
+# The coarse sweep found a flat lambda response and an interior warm-up optimum
+# at K0=160. Refine only the scientifically meaningful local neighborhood;
+# do not search extra lambda values to chase selection noise.
+candidate_pairs:
+  - [0, 1.0]
+  - [140, 4.0]
+  - [140, 8.0]
+  - [160, 4.0]
+  - [160, 8.0]
+  - [180, 4.0]
+  - [180, 8.0]
+
+reference_warmup_budget: 0
+reference_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 200
+
+tuning_metric: fixed_leader_fisher_error
+guardrail_metric: regularized_qre_leader_l1_error
+guardrail_standard_errors: 2.0
+shortlist_standard_errors: 1.0

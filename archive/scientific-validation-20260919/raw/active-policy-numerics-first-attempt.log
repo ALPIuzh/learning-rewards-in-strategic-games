@@ -1,0 +1,7 @@
+behavioral feature fit error: 3.574e-16
+true omega (coverage, value, coverage*value) = [-0.      1.     -0.6667]
+Traceback (most recent call last):
+  File "/Users/antoine/GitHub/Research/mairl-iclr/archive/scientific-validation-20260919/active_policy_numerics.py", line 17, in <module>
+    config = replace(numerics.policy, random_starts=64, tolerance=1e-12)
+                     ^^^^^^^^^^^^^^^
+AttributeError: 'ExperimentNumerics' object has no attribute 'policy'

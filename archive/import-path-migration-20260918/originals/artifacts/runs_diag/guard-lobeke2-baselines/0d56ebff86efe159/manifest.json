@@ -1,0 +1,124 @@
+{
+  "command": [
+    "prog",
+    "--config-name=guard_config",
+    "application=guard_lobeke2_behavioral",
+    "application.game_name=etosha_sfg_gsg_1",
+    "experiment=guard_lobeke2_baselines",
+    "numerics=guard_lobeke2_numerics",
+    "experiment.seed_count=2",
+    "experiment.total_samples=50",
+    "experiment.warmup_budget=45",
+    "experiment.evaluation_interval=50",
+    "run.root=artifacts/runs_diag"
+  ],
+  "created_at": "2026-08-04T10:54:03.004486+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "guard",
+    "commit": "29b78b2677de85df65ecd8995efd25ec8b42cf97",
+    "dirty": true,
+    "fingerprint": "ee3f88fcc594eef361f2835438ab42f42177fef225067f9cd69daeb56c9ad5cd",
+    "status": [
+      "?? experiments/ssg/ssg-experiment-spec.md"
+    ],
+    "untracked": [
+      {
+        "path": "experiments/ssg/ssg-experiment-spec.md",
+        "sha256": "f57a02843c4d481d253f8d01a3f1df5dc9b131921d865d5dd6ea3beee6ce7108"
+      }
+    ]
+  },
+  "progress": {
+    "complete": 8,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 82.3347497079958,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 8
+  },
+  "resume_granularity": "job",
+  "run_id": "0d56ebff86efe159",
+  "schema_version": 1,
+  "semantic_config_sha256": "32c3b9798ae34c708ef32bdfa7e34b2f95f7677cf877089fca38798d86748c10",
+  "status": "complete",
+  "study_name": "guard-lobeke2-baselines",
+  "updated_at": "2026-08-04T10:55:25.310335+00:00"
+}

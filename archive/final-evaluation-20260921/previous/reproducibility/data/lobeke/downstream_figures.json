@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "summary": {
+      "path": "reproducibility/data/lobeke/downstream_assets/summary.json",
+      "sha256": "e24be5ba567534208285c8f77f19504711af02acc0e09d064e232f63594a53c2"
+    },
+    "policy_grids": {
+      "path": "reproducibility/data/lobeke/downstream_assets/policy_grids.npz",
+      "sha256": "33c003f9a82ec13890e99ab2d96f7479557d8e3925e72712b153d541c8f3d77d"
+    },
+    "environment": {
+      "path": "reproducibility/data/lobeke/environment/provenance.json",
+      "sha256": "578c7ffbe77116a99088dd0337c90412149fc4e808c4d9461602fbcf166be575"
+    }
+  }
+}

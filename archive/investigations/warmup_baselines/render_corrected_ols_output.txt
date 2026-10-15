@@ -1,0 +1,22 @@
+{
+  "Active IRL, no warm-up": {
+    "final_target_fisher_error_mean": 0.029930121617420046,
+    "final_target_suboptimality_mean": 0.00014947529128523596
+  },
+  "Fixed-expert MLE": {
+    "final_target_fisher_error_mean": 0.3216222413893034,
+    "final_target_suboptimality_mean": 0.0031542099503782807
+  },
+  "Follower-only OLS, stable reference": {
+    "final_target_fisher_error_mean": 0.7121563980994092,
+    "final_target_suboptimality_mean": 0.02121918217689974
+  },
+  "Zero-sum OLS, exact leader \u03c0 (legacy)": {
+    "final_target_fisher_error_mean": 0.06319325629758228,
+    "final_target_suboptimality_mean": 7.034511713565838e-05
+  },
+  "Zero-sum OLS, paired samples (corrected)": {
+    "final_target_fisher_error_mean": 0.20902550971600087,
+    "final_target_suboptimality_mean": 0.0021487763044999407
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "algorithm_seconds": 16.416773362476377,
+  "completed_at": "2026-09-21T13:12:17.602687+00:00",
+  "job_id": "c5b288e27433f4cd",
+  "label": "warmup/active/seed=2026097016",
+  "result_sha256": "9ec454f42a06858d3c2185bc05a3435fa854feb797e7dd976265113e37a20349",
+  "spec": {
+    "method": "active",
+    "seed": 2026097016,
+    "warmup_enabled": true
+  },
+  "status": "complete",
+  "updated_at": "2026-09-21T13:12:17.602702+00:00"
+}

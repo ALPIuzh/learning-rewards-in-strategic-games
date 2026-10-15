@@ -1,0 +1,130 @@
+\section{Additional experiments}
+
+\subsection{Lob\'ek\'e environment from the GUARD benchmark}
+
+\input{reproducibility/tex/sections/lobeke_setup}
+
+\begin{figure}[H]
+  \centering
+  \resizebox{0.94\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i1_environment}%
+  }
+  \caption{Rewards, patrols, and poacher behavior in the Lob\'ek\'e environment.
+  The 23 accessible poaching targets are embedded in a $5\times5$ park grid;
+  darker cells indicate larger values within each map, and the triangle marks
+  the ranger base. The source task is zero-sum: the ranger reward is the
+  negative of the poacher utility. A mixed ranger policy induces target-level
+  coverage probabilities, and the bounded-rational poacher responds to their
+  expected utilities according to the logit model.}
+  \label{fig:appendix-lobeke-environment}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i1_source_diagnostics}%
+  }
+  \caption{Target, estimation, and averaged-transfer diagnostics as a function
+  of the number of observed poacher actions. Columns separate the active-design
+  and fixed-expert data-access assumptions.}
+  \label{fig:appendix-lobeke-diagnostics}
+\end{figure}
+\clearpage
+
+Figure~\ref{fig:appendix-lobeke-diagnostics} uses positive-affine reward
+representations in $[0,1]$, so that $R_{\max}=1$, without changing leader-policy
+orderings. The left column compares active-design protocols that may choose the
+leader policy used to elicit each poacher observation; the right column compares
+fixed-expert estimators that instead assume observations from a source-task
+expert. Corresponding rows use identical axes, while the separate legends keep
+these data-access assumptions explicit. Below the labeled divider, transfer
+metrics are averaged taskwise over a fixed deterministic suite of ten downstream
+leader rewards and then across 50 evaluation seeds; bands are 95\% confidence
+intervals conditional on that task suite. The pale region marks the first 200
+observations used by warm-up variants.
+
+\begin{figure}[t]
+  \centering
+  \input{reproducibility/tex/generated/appendix/i1_downstream}%
+  \caption{Patrol coverage under both data-access assumptions. Each task column
+  pairs an active-design method on the left with a fixed-expert estimator on the
+  right; the two halves are independent methods, not a matched comparison.
+  Active IRL, Fixed random, and Online random estimate the poacher reward from
+  leader policies selected by their own exploration protocols and assume no
+  access to a source-task expert. Fixed-expert MLE observes poacher actions
+  under the source Stackelberg-optimal leader and retains the general logit
+  likelihood; both OLS estimators instead require a fixed
+  entropy-regularized joint-QRE expert, with zero-sum OLS additionally assuming
+  a zero-sum source game and observing one expert leader action per poacher
+  action, and follower-only OLS using only the follower equations. Every method
+  is shown in its no-warm-up configuration, the only one the fixed-expert
+  estimators admit; the parenthesised value below each active-design map is the
+  same method's SubOpt with warm-up, whose recovered policies are visually
+  indistinguishable. The downstream columns are the nearest, median, and
+  farthest behavioral shifts from the predeclared ten-task suite, selected
+  solely by total variation between true optimal leader policies and
+  independently of algorithm performance.}
+  \label{fig:appendix-lobeke-transfer}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i1_behavioral_transfer_gap}%
+  }
+  \caption{Transfer SubOpt by the downstream value gap of the true
+  source-optimal leader policy. The $180$ normalized downstream rewards and
+  their tie-aware buckets are fixed without reading any method output; each
+  cell averages every task in its bucket and all $50$ learning seeds. Gap is
+  smooth enough to form exactly balanced $60/60/60$ terciles. Columns separate
+  methods with general data-collection access from methods requiring a fixed
+  source expert, and color is logarithmic.}
+  \label{fig:appendix-lobeke-behavioral-transfer-gap}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i1_hyperparameters}%
+  }
+  \caption{Hyperparameter sensitivity of Active IRL after 1,600 observed
+  poacher actions, with MLE ridge $10^{-6}$. Cells show mean transfer
+  $\operatorname{SubOpt}(\hat\mu)$ over 100 fixed normalized tasks and 32 paired
+  learning seeds; darker cells indicate larger loss. Performance varies across
+  settings, although uncertainty across seeds makes their relative ranking
+  difficult to resolve. This sweep does not select the settings of the main
+  comparisons, which use zero MLE ridge.}
+  \label{fig:appendix-lobeke-hyperparameters}
+\end{figure}
+
+\subsection{Performance in synthetic environments}
+
+\subsubsection{Sparse-information game}
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i2_sparse_information}%
+  }
+  \caption{Target SubOpt and Target Fisher error in a game with one informative
+  pure leader action. Mixed policies remain informative whenever they assign
+  positive mass to that action; uniform-simplex random policies typically assign
+  it less mass as the number of actions increases.}
+  \label{fig:appendix-sparse-information}
+\end{figure}
+
+\subsection{Active IRL on the lower-bound instance}
+
+\begin{figure}[t]
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \input{reproducibility/tex/generated/appendix/i3_lower_bound}%
+  }
+  \caption{Empirical behavior on the minimax hard family. The reward separation
+  decreases with the observation budget, $\epsilon=\tfrac12\sqrt{d/K}$, so even
+  a policy that ignores observations has SubOpt of order $\sqrt{d/K}$.
+  This is an illustration of the family, not empirical proof of a minimax
+  guarantee or a convergence rate on one fixed instance. Each budget and dimension
+  includes 16 independent replicates of every active coordinate.}
+  \label{fig:appendix-lower-bound}
+\end{figure}

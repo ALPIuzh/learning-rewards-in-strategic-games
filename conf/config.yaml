@@ -1,0 +1,8 @@
+schema_version: 1
+
+run:
+  root: artifacts/runs
+  resume: true
+  # Persist each batch before starting the next one.
+  seed_batch_size: 64
+  require_clean_git: true

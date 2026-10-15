@@ -1,0 +1,53 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/mairl-run",
+    "experiment.seed_start=6003",
+    "experiment.seed_count=1",
+    "experiment.total_samples=360",
+    "experiment.methods=[fixed_random]",
+    "experiment.warmup_modes=[false]",
+    "run.require_clean_git=false"
+  ],
+  "created_at": "2026-07-30T12:41:31.714373+00:00",
+  "expected_jobs": [
+    {
+      "job_id": "bec328db14c30c37",
+      "label": "no-warmup/fixed_random/seed=6003",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 6003,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "21660b29a782a4e1153a07fe21ed1e974fd1dfe3",
+    "dirty": true,
+    "fingerprint": "801e8c97b9abebc548890d5d9bf15f8eae0f5af049b9745262bf06a57640c869",
+    "status": [
+      " M src/mairl/inference/mle.py",
+      " M tests/test_gradients_and_solvers.py"
+    ],
+    "untracked": []
+  },
+  "last_error": "MLE failed post-solve checks: attempt 1 (SLSQP): projected-gradient residual 1.133e-06 > 1.000e-06 | attempt 2 (SLSQP): projected-gradient residual 1.302e-06 > 1.000e-06 | attempt 3 (trust-constr): projected-gradient residual 3.720e-06 > 1.000e-06 | exact boundary KKT: root solver: The iteration is not making good progress, as measured by the \n improvement from the last ten iterations.",
+  "progress": {
+    "complete": 0,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 2.5549105829995824,
+    "estimated_remaining_seconds": null,
+    "failed": 1,
+    "pending": 0,
+    "running": 0,
+    "total": 1
+  },
+  "resume_granularity": "job",
+  "run_id": "12505108863e268f",
+  "schema_version": 1,
+  "semantic_config_sha256": "bdf3238c43eec3e554f629022af65f13614a7f6e065eb6cd00b80a3a42fa0a38",
+  "status": "failed",
+  "study_name": "baseline-comparison",
+  "updated_at": "2026-07-30T12:41:34.245757+00:00"
+}

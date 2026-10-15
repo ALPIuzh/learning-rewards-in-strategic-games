@@ -1,0 +1,64 @@
+{
+  "algorithm_seconds": 2.298097089026123,
+  "batch_algorithm_seconds": 114.90485445130616,
+  "batch_seed_count": 50,
+  "final_metrics": {
+    "coefficient_l2_error": 0.6172665280772667,
+    "fisher_transfer_error": 0.12171588520538953,
+    "self_concordance_distance": 0.22992237983735986,
+    "stackelberg_suboptimality": 0.0034472118946058394
+  },
+  "job": {
+    "method": "random_each_round",
+    "seed": 2026097045,
+    "warmup_enabled": true
+  },
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "normalized_r_max": 1.0,
+    "raw_maximum": -0.004032258064516129,
+    "raw_minimum": -1.0,
+    "raw_range": 0.9959677419354839
+  },
+  "samples": 1600,
+  "warmup": {
+    "allocation_counts": [
+      22,
+      10,
+      18
+    ],
+    "coverage_eigenvalues": [
+      0.09534609857975297,
+      0.744541484962208,
+      1.3328837367654025
+    ],
+    "design_weights": [
+      0.4451477813623248,
+      0.0,
+      0.20845032213659515,
+      0.0,
+      0.0,
+      0.3464018965010801,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "enabled": true,
+    "samples": 50,
+    "support_size": 3
+  }
+}

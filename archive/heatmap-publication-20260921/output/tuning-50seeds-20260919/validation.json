@@ -1,0 +1,8 @@
+{
+  "seed_runs": 270,
+  "task_evaluations": 27000,
+  "protected_files_unchanged": 1570,
+  "max_mle_residual": 9.995528154987925e-07,
+  "max_simplex_error": 8.881784197001252e-16,
+  "max_omega_norm": 2.000000000000248
+}

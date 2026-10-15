@@ -1,0 +1,20 @@
+# @package experiment
+
+_target_: experiments.sparse_information.study.SparseInformationSweepStudy
+
+name: sparse-information-action-sweep
+leader_action_counts: [2, 4, 8, 16, 32]
+seed_start: 72000
+seed_count: 100
+total_samples: 200
+evaluation_interval: 10
+
+# eta^2 = 4. The effective information regularizer is therefore 16.
+lambda_information_multiplier: 4.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+methods:
+  - active
+  - fixed_random
+  - random_each_round

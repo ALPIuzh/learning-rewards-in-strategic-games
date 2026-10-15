@@ -1,0 +1,56 @@
+{
+  "algorithm_seconds": 2.0202057259716093,
+  "estimator_mode": "fixed_expert_mle",
+  "expert_definition": "source_stackelberg_optimum",
+  "final_metrics": {
+    "coefficient_l2_error": 2.0786908505621655,
+    "fisher_transfer_error": 0.037101058525501864,
+    "self_concordance_distance": 0.9081056530578213,
+    "stackelberg_suboptimality": 0.0007512580357962317
+  },
+  "fixed_leader_policy": [
+    0.0,
+    0.13028547139191426,
+    0.1432130490259047,
+    4.538161737046114e-17,
+    1.569889815257309e-17,
+    0.7265014795821809,
+    0.0,
+    8.087898779134283e-17,
+    0.0,
+    5.429265342301015e-17,
+    1.473974895348187e-16,
+    2.935523264588266e-17,
+    0.0,
+    0.0,
+    2.6083042804066976e-17,
+    4.125570320562624e-17,
+    0.0,
+    1.5315749612078454e-17,
+    5.672800093644253e-17,
+    7.337905916227556e-17,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "job": {
+    "method": "fixed_expert_mle",
+    "seed": 2026097032,
+    "warmup_enabled": false
+  },
+  "leader_reward_normalization": {
+    "definition": "(r - min(r)) / (max(r) - min(r))",
+    "normalized_r_max": 1.0,
+    "raw_maximum": -0.004032258064516129,
+    "raw_minimum": -1.0,
+    "raw_range": 0.9959677419354839
+  },
+  "ridge": 1e-06,
+  "samples": 1600,
+  "vectorized_batch_seconds": 101.01028629858047,
+  "warmup": {
+    "enabled": false,
+    "not_applicable": "every sample is collected under the fixed source-task expert",
+    "samples": 0
+  }
+}

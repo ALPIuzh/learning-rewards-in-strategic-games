@@ -1,0 +1,4 @@
+_target_: experiments.minimax_lower_bound.application.MinimaxLowerBoundApplication
+validation_dimension: 32
+validation_total_samples: 128
+validation_seed: 92000

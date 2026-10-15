@@ -1,0 +1,3162 @@
+{
+  "command": [
+    "/Users/antoine/GitHub/Research/mairl-iclr/experiments/toy/run.py",
+    "experiment.name=smoke-toy",
+    "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/smoke/runs",
+    "run.require_clean_git=false",
+    "experiment.total_samples=32",
+    "experiment.warmup_budget=24",
+    "experiment.seed_count=2",
+    "experiment.evaluation_interval=4"
+  ],
+  "created_at": "2026-09-18T14:32:16.279454+00:00",
+  "execution_batch_size": 64,
+  "expected_jobs": [
+    {
+      "job_id": "892b22fb0df1895b",
+      "label": "warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "03fb448f35643971",
+      "label": "warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c4a1de0b1ac3df76",
+      "label": "warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "02181da44bc57db6",
+      "label": "warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c0698b7d10152557",
+      "label": "warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "01de7a5e7051bf26",
+      "label": "warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e9591ebcf7c112c8",
+      "label": "no-warmup/active/seed=100",
+      "spec": {
+        "method": "active",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "af3be8f9aaf99234",
+      "label": "no-warmup/active/seed=101",
+      "spec": {
+        "method": "active",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "224f79fe552eceab",
+      "label": "no-warmup/fixed_random/seed=100",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "3a5a173319ac59a9",
+      "label": "no-warmup/fixed_random/seed=101",
+      "spec": {
+        "method": "fixed_random",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "383850d078ac6a33",
+      "label": "no-warmup/random_each_round/seed=100",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 100,
+        "warmup_enabled": false
+      }
+    },
+    {
+      "job_id": "02b79edf70e618ea",
+      "label": "no-warmup/random_each_round/seed=101",
+      "spec": {
+        "method": "random_each_round",
+        "seed": 101,
+        "warmup_enabled": false
+      }
+    }
+  ],
+  "git": {
+    "branch": "main",
+    "commit": "bf2613987f8fed8a10172fef57c313bfbcc7cc3d",
+    "dirty": true,
+    "fingerprint": "aa2720f1630f6cf24b1d37fb0854ce5bf0d1a6c4a1b41df323922318ff2981a1",
+    "status": [
+      " M .gitattributes",
+      " M .gitignore",
+      " M README.md",
+      " D conf/application/guard_lobeke2_behavioral.yaml",
+      " D conf/experiment/guard_lobeke2_active.yaml",
+      " D conf/experiment/guard_lobeke2_baselines.yaml",
+      " D conf/numerics/guard_lobeke2_numerics.yaml",
+      " M docs/algorithm-spec.md",
+      " M docs/performance.md",
+      " M experiments/guard/README.md",
+      " D experiments/guard/behavioral/__init__.py",
+      " D experiments/guard/behavioral/behavioral_coefficients_etosha_sfg_gsg_1.png",
+      " D experiments/guard/behavioral/behavioral_coefficients_nw_chinatown_sfg_isg_1.png",
+      " D experiments/guard/behavioral/behavioral_comparison_etosha_sfg_gsg_1.png",
+      " D experiments/guard/behavioral/behavioral_comparison_nw_chinatown_sfg_isg_1.png",
+      " D experiments/guard/behavioral/tune_warmup.py",
+      " D experiments/guard/behavioral/validate_behavioral.py",
+      " D experiments/guard/behavioral/warmup_sweep_nw_chinatown_sfg_isg_1.png",
+      " D experiments/guard/geographic/lobeke_map.png",
+      " M experiments/guard/geographic/map_lobeke.py",
+      " M experiments/guard/paper/Makefile",
+      " M experiments/guard/paper/README.md",
+      " M experiments/guard/paper/figures/ridge_zero_tuning_data.py",
+      " M experiments/guard/paper/paths.py",
+      " D experiments/guard/paper/results/figure2_assets/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets/summary.json",
+      " D experiments/guard/paper/results/figure2_assets/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/summary.json",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v1/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/summary.json",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_behavioral_v2/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_corrected/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/summary.json",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_corrected/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_native/INVALID.md",
+      " D experiments/guard/paper/results/figure2_assets_native/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/summary.json",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_native_v2/values.tex",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/policy_grids.npz",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/reference-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/source.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/summary.json",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task1-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task2-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-active.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-active_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-expert.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-follower.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-liao.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-oracle.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-random.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/task3-random_nowarm.pdf",
+      " D experiments/guard/paper/results/figure2_assets_unit_reward/values.tex",
+      " D experiments/guard/paper/results/illustrations/behavior-model.pdf",
+      " D experiments/guard/paper/results/illustrations/behavior-model.png",
+      " D experiments/guard/paper/results/illustrations/environment.pdf",
+      " D experiments/guard/paper/results/illustrations/environment.png",
+      " D experiments/guard/paper/results/illustrations/interaction.pdf",
+      " D experiments/guard/paper/results/illustrations/interaction.png",
+      " D experiments/guard/paper/results/illustrations/transfer-patrols.pdf",
+      " D experiments/guard/paper/results/illustrations/transfer-patrols.png",
+      " D experiments/guard/paper/results/lobeke_joint_discovery.pdf",
+      " D experiments/guard/paper/results/lobeke_joint_discovery.png",
+      " D experiments/guard/paper/results/lobeke_paper_comparison.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_comparison.png",
+      " D experiments/guard/paper/results/lobeke_paper_downstream_tasks.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_downstream_tasks.png",
+      " D experiments/guard/paper/results/lobeke_paper_environment_maps.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_environment_maps.png",
+      " D experiments/guard/paper/results/lobeke_paper_main_performance.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_main_performance.png",
+      " D experiments/guard/paper/results/lobeke_paper_story.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_story.png",
+      " D experiments/guard/paper/results/lobeke_paper_temporal_evolution.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_temporal_evolution.png",
+      " D experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.pdf",
+      " D experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.png",
+      " D experiments/guard/paper/results/warmup_sweep/active_warmup200.npz",
+      " D experiments/guard/paper/results/warmup_sweep/active_warmup50.npz",
+      " D experiments/guard/paper/tex/figure2_alternatives.tex",
+      " D experiments/guard/paper/tex/generated/figure1_convergence.tex",
+      " D experiments/guard/paper/tex/generated/figure1_convergence_unit_reward.tex",
+      " D experiments/guard/paper/tex/generated/figure2_transfer.tex",
+      " D experiments/guard/paper/tex/generated/figure2_transfer_unit_reward.tex",
+      " D experiments/guard/paper/tex/generated/figure2_transfer_unit_reward_compact.tex",
+      " D experiments/guard/paper/tex/generated/figure4_downstream_transfer_unit_reward.tex",
+      " D experiments/guard/paper/tex/generated/figure4_fixed_expert_transfer.tex",
+      " D experiments/guard/paper/tex/generated/figure4_general_transfer.tex",
+      " D experiments/guard/paper/tex/layout_mockups.tex",
+      " D experiments/guard/scale/__init__.py",
+      " D experiments/guard/scale/build_curves.py",
+      " D experiments/guard/scale/downstream_tasks.py",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed100.npz",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed101.npz",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed102.npz",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed103.npz",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed104.npz",
+      " D experiments/guard/scale/lobeke2_results/active_warmup1_seed105.npz",
+      " D experiments/guard/scale/lobeke2_results/curves/active_warmup1.json",
+      " D experiments/guard/scale/lobeke2_results/curves/fixed_random_warmup0.json",
+      " D experiments/guard/scale/lobeke2_results/curves/random_each_round_warmup0.json",
+      " D experiments/guard/scale/lobeke2_results/downstream_summary.json",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed100.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed101.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed102.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed103.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed104.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed105.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed100.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed101.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed102.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed103.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed104.npz",
+      " D experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed105.npz",
+      " D experiments/guard/scale/lobeke2_results/lobeke2_convergence_curves.png",
+      " D experiments/guard/scale/lobeke2_results/lobeke2_downstream_tasks.png",
+      " D experiments/guard/scale/lobeke2_results/lobeke2_methods_comparison.png",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed100.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed101.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed102.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed103.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed104.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed105.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed100.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed101.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed102.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed103.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed104.npz",
+      " D experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed105.npz",
+      " D experiments/guard/scale/run_lobeke2_study.py",
+      " M experiments/sparse_information/README.md",
+      " D experiments/sparse_information/fisher_transfer_error.png",
+      " D experiments/sparse_information/plots_manifest.json",
+      " D experiments/sparse_information/stackelberg_suboptimality.png",
+      " D experiments/ssg/ssg-experiment-spec.md",
+      " M experiments/toy/README.md",
+      " M experiments/toy/export_warmup_threshold_plots.py",
+      " D experiments/toy/warmup_0000_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0024_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0060_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0120_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0240_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0500_fisher_transfer_error.png",
+      " D experiments/toy/warmup_0800_fisher_transfer_error.png",
+      " D experiments/toy/warmup_1000_fisher_transfer_error.png",
+      " D experiments/toy/warmup_threshold_plots_manifest.json",
+      " M experiments/zero_sum_comparison/README.md",
+      " D experiments/zero_sum_comparison/downstream_tasks.png",
+      " M experiments/zero_sum_comparison/downstream_tasks.py",
+      " D experiments/zero_sum_comparison/downstream_tasks_leader_l1_error.png",
+      " D experiments/zero_sum_comparison/downstream_tasks_manifest.json",
+      " D experiments/zero_sum_comparison/estimator_comparison.png",
+      " M experiments/zero_sum_comparison/export_plots.py",
+      " D experiments/zero_sum_comparison/results_manifest.json",
+      " D experiments/zero_sum_comparison/warmup_tuning.png",
+      " D investigations/README.md",
+      " D investigations/active_expert_warmup/.gitignore",
+      " D investigations/active_expert_warmup/FINDINGS.md",
+      " D investigations/active_expert_warmup/analyze_transfer_suite.py",
+      " D investigations/active_expert_warmup/refit_fixed_expert.py",
+      " D investigations/active_expert_warmup/results/fixed_expert_ridge_refit_v1.json",
+      " D investigations/active_expert_warmup/results/lambda_confirmation_1600_v1/summary.json",
+      " D investigations/active_expert_warmup/results/lambda_grid_800_v1/summary.json",
+      " D investigations/active_expert_warmup/results/lambda_heldout_1600_v1/summary.json",
+      " D investigations/active_expert_warmup/results/lambda_refinement_1600_v1/summary.json",
+      " D investigations/active_expert_warmup/results/protocol_pilot_v1/summary.json",
+      " D investigations/active_expert_warmup/results/ridge_zero_heldout_1600_v1/summary.json",
+      " D investigations/active_expert_warmup/run_protocol_pilot.py",
+      " D investigations/behavioral_transfer/FINDINGS.md",
+      " D investigations/behavioral_transfer/explain_dense.py",
+      " D investigations/behavioral_transfer/oracle_stability.py",
+      " D investigations/behavioral_transfer/pilot.py",
+      " D investigations/behavioral_transfer/ridge_refit_audit.py",
+      " D investigations/behavioral_transfer/small_k_geometry.py",
+      " D investigations/behavioral_transfer/small_k_tuning.py",
+      " D investigations/behavioral_transfer/transfer_task_geometry.py",
+      " D investigations/warmup_baselines/FINDINGS.md",
+      " D investigations/warmup_baselines/analyze_final.py",
+      " D investigations/warmup_baselines/corrected_ols_curves_v1/data.npz",
+      " D investigations/warmup_baselines/corrected_ols_curves_v1/summary.json",
+      " D investigations/warmup_baselines/corrected_ols_reanalysis/data.npz",
+      " D investigations/warmup_baselines/corrected_ols_reanalysis/summary.json",
+      " D investigations/warmup_baselines/figures/corrected_ols_source_curves.json",
+      " D investigations/warmup_baselines/figures/corrected_ols_source_curves.pdf",
+      " D investigations/warmup_baselines/figures/corrected_ols_source_curves.png",
+      " D investigations/warmup_baselines/figures/mechanism_diagnostics.json",
+      " D investigations/warmup_baselines/figures/mechanism_diagnostics.pdf",
+      " D investigations/warmup_baselines/figures/mechanism_diagnostics.png",
+      " D investigations/warmup_baselines/final_analysis.txt",
+      " D investigations/warmup_baselines/geometry_analysis.txt",
+      " D investigations/warmup_baselines/geometry_diagnostics.py",
+      " D investigations/warmup_baselines/pre_correction_publication/README.md",
+      " D investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure1_convergence.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure2_transfer.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_fixed_expert_transfer.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_general_transfer.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_fixed_expert_assumptions.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_general_assumptions.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_environment.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_hyperparameters.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_source_diagnostics.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_sparse_information.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_structured_sensitivity.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum_directional.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i3_lower_bound.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/build_manifest.json",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m1_source_convergence.tex",
+      " D investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m2_downstream_transfer.tex",
+      " D investigations/warmup_baselines/recompute_ols_curves.py",
+      " D investigations/warmup_baselines/recompute_ols_protocols.py",
+      " D investigations/warmup_baselines/render_corrected_ols_figure.py",
+      " D investigations/warmup_baselines/render_corrected_ols_output.txt",
+      " D investigations/warmup_baselines/render_mechanism_figure.py",
+      " D investigations/warmup_baselines/render_mechanism_output.txt",
+      " M pyproject.toml",
+      " M reproducibility/Makefile",
+      " M reproducibility/README.md",
+      " D reproducibility/alternatives/README.md",
+      " D reproducibility/alternatives/__init__.py",
+      " D reproducibility/alternatives/comparison.tex",
+      " D reproducibility/alternatives/generated/lobeke_relation.tex",
+      " D reproducibility/alternatives/generated/lobeke_tuning_spacious.tex",
+      " D reproducibility/alternatives/generated/structured_whiskers.tex",
+      " D reproducibility/alternatives/generated/zero_sum_spacious.tex",
+      " D reproducibility/alternatives/preview.tex",
+      " D reproducibility/alternatives/render.py",
+      " M reproducibility/data/lobeke/downstream_figures.json",
+      " D reproducibility/data/lobeke/fixed_expert_mle_stackelberg_tuning.json",
+      " D reproducibility/data/lobeke/fixed_expert_mle_tuning.json",
+      " D reproducibility/data/lobeke/warmup_factorial_native/data.npz",
+      " D reproducibility/data/lobeke/warmup_factorial_native/provenance.json",
+      " M reproducibility/tex/generated/appendix/i1_downstream.tex",
+      " M reproducibility/tex/generated/build_manifest.json",
+      " M reproducibility/tex/generated/main/m2_downstream_transfer.tex",
+      " M reproducibility/tex/generated/main/m2_downstream_transfer_compact.tex",
+      " M scripts/smoke_experiments.py",
+      " M tests/test_behavioral_task_illustrations.py",
+      " D tests/test_behavioral_transfer_pilot.py",
+      " M tests/test_frozen_lobeke_figures.py",
+      " D tests/test_reproducibility_alternatives.py",
+      " M tests/test_reproducibility_figures.py",
+      "?? archive/README.md",
+      "?? archive/conf/application/guard_lobeke2_behavioral.yaml",
+      "?? archive/conf/experiment/guard_lobeke2_active.yaml",
+      "?? archive/conf/experiment/guard_lobeke2_baselines.yaml",
+      "?? archive/conf/numerics/guard_lobeke2_numerics.yaml",
+      "?? archive/experiments/guard/behavioral/__init__.py",
+      "?? archive/experiments/guard/behavioral/behavioral_coefficients_etosha_sfg_gsg_1.png",
+      "?? archive/experiments/guard/behavioral/behavioral_coefficients_nw_chinatown_sfg_isg_1.png",
+      "?? archive/experiments/guard/behavioral/behavioral_comparison_etosha_sfg_gsg_1.png",
+      "?? archive/experiments/guard/behavioral/behavioral_comparison_nw_chinatown_sfg_isg_1.png",
+      "?? archive/experiments/guard/behavioral/tune_warmup.py",
+      "?? archive/experiments/guard/behavioral/validate_behavioral.py",
+      "?? archive/experiments/guard/behavioral/warmup_sweep_nw_chinatown_sfg_isg_1.png",
+      "?? archive/experiments/guard/geographic/lobeke_map.png",
+      "?? archive/experiments/guard/paper/results/figure2_assets/policy_grids.npz",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/summary.json",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/policy_grids.npz",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/summary.json",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/policy_grids.npz",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/summary.json",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_corrected/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/INVALID.md",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/policy_grids.npz",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/summary.json",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_native_v2/values.tex",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/policy_grids.npz",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/source.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/summary.json",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-active.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-active_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-expert.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-follower.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-liao.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-oracle.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-random.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-random_nowarm.pdf",
+      "?? archive/experiments/guard/paper/results/figure2_assets_unit_reward/values.tex",
+      "?? archive/experiments/guard/paper/results/illustrations/behavior-model.pdf",
+      "?? archive/experiments/guard/paper/results/illustrations/behavior-model.png",
+      "?? archive/experiments/guard/paper/results/illustrations/environment.pdf",
+      "?? archive/experiments/guard/paper/results/illustrations/environment.png",
+      "?? archive/experiments/guard/paper/results/illustrations/interaction.pdf",
+      "?? archive/experiments/guard/paper/results/illustrations/interaction.png",
+      "?? archive/experiments/guard/paper/results/illustrations/transfer-patrols.pdf",
+      "?? archive/experiments/guard/paper/results/illustrations/transfer-patrols.png",
+      "?? archive/experiments/guard/paper/results/lobeke_joint_discovery.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_joint_discovery.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_comparison.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_comparison.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_downstream_tasks.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_downstream_tasks.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_environment_maps.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_environment_maps.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_main_performance.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_main_performance.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_story.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_story.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_temporal_evolution.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_temporal_evolution.png",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.pdf",
+      "?? archive/experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.png",
+      "?? archive/experiments/guard/paper/results/warmup_sweep/active_warmup200.npz",
+      "?? archive/experiments/guard/paper/results/warmup_sweep/active_warmup50.npz",
+      "?? archive/experiments/guard/paper/tex/figure2_alternatives.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure1_convergence.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure1_convergence_unit_reward.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure2_transfer.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure2_transfer_unit_reward.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure2_transfer_unit_reward_compact.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure4_downstream_transfer_unit_reward.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure4_fixed_expert_transfer.tex",
+      "?? archive/experiments/guard/paper/tex/generated/figure4_general_transfer.tex",
+      "?? archive/experiments/guard/paper/tex/layout_mockups.tex",
+      "?? archive/experiments/guard/scale/__init__.py",
+      "?? archive/experiments/guard/scale/build_curves.py",
+      "?? archive/experiments/guard/scale/downstream_tasks.py",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed100.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed101.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed102.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed103.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed104.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed105.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/curves/active_warmup1.json",
+      "?? archive/experiments/guard/scale/lobeke2_results/curves/fixed_random_warmup0.json",
+      "?? archive/experiments/guard/scale/lobeke2_results/curves/random_each_round_warmup0.json",
+      "?? archive/experiments/guard/scale/lobeke2_results/downstream_summary.json",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed100.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed101.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed102.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed103.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed104.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed105.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed100.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed101.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed102.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed103.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed104.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed105.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/lobeke2_convergence_curves.png",
+      "?? archive/experiments/guard/scale/lobeke2_results/lobeke2_downstream_tasks.png",
+      "?? archive/experiments/guard/scale/lobeke2_results/lobeke2_methods_comparison.png",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed100.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed101.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed102.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed103.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed104.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed105.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed100.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed101.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed102.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed103.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed104.npz",
+      "?? archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed105.npz",
+      "?? archive/experiments/guard/scale/run_lobeke2_study.py",
+      "?? archive/experiments/sparse_information/fisher_transfer_error.png",
+      "?? archive/experiments/sparse_information/plots_manifest.json",
+      "?? archive/experiments/sparse_information/stackelberg_suboptimality.png",
+      "?? archive/experiments/ssg/ssg-experiment-spec.md",
+      "?? archive/experiments/toy/warmup_0000_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0024_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0060_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0120_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0240_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0500_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_0800_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_1000_fisher_transfer_error.png",
+      "?? archive/experiments/toy/warmup_threshold_plots_manifest.json",
+      "?? archive/experiments/zero_sum_comparison/downstream_tasks.png",
+      "?? archive/experiments/zero_sum_comparison/downstream_tasks_leader_l1_error.png",
+      "?? archive/experiments/zero_sum_comparison/downstream_tasks_manifest.json",
+      "?? archive/experiments/zero_sum_comparison/estimator_comparison.png",
+      "?? archive/experiments/zero_sum_comparison/results_manifest.json",
+      "?? archive/experiments/zero_sum_comparison/warmup_tuning.png",
+      "?? archive/investigations/README.md",
+      "?? archive/investigations/active_expert_warmup/.gitignore",
+      "?? archive/investigations/active_expert_warmup/FINDINGS.md",
+      "?? archive/investigations/active_expert_warmup/analyze_transfer_suite.py",
+      "?? archive/investigations/active_expert_warmup/refit_fixed_expert.py",
+      "?? archive/investigations/active_expert_warmup/results/fixed_expert_ridge_refit_v1.json",
+      "?? archive/investigations/active_expert_warmup/results/lambda_confirmation_1600_v1/summary.json",
+      "?? archive/investigations/active_expert_warmup/results/lambda_grid_800_v1/summary.json",
+      "?? archive/investigations/active_expert_warmup/results/lambda_heldout_1600_v1/summary.json",
+      "?? archive/investigations/active_expert_warmup/results/lambda_refinement_1600_v1/summary.json",
+      "?? archive/investigations/active_expert_warmup/results/protocol_pilot_v1/summary.json",
+      "?? archive/investigations/active_expert_warmup/results/ridge_zero_heldout_1600_v1/summary.json",
+      "?? archive/investigations/behavioral_transfer/FINDINGS.md",
+      "?? archive/investigations/behavioral_transfer/explain_dense.py",
+      "?? archive/investigations/behavioral_transfer/oracle_stability.py",
+      "?? archive/investigations/behavioral_transfer/pilot.py",
+      "?? archive/investigations/behavioral_transfer/ridge_refit_audit.py",
+      "?? archive/investigations/behavioral_transfer/small_k_geometry.py",
+      "?? archive/investigations/behavioral_transfer/small_k_tuning.py",
+      "?? archive/investigations/behavioral_transfer/transfer_task_geometry.py",
+      "?? archive/investigations/warmup_baselines/FINDINGS.md",
+      "?? archive/investigations/warmup_baselines/analyze_final.py",
+      "?? archive/investigations/warmup_baselines/corrected_ols_curves_v1/data.npz",
+      "?? archive/investigations/warmup_baselines/corrected_ols_curves_v1/summary.json",
+      "?? archive/investigations/warmup_baselines/corrected_ols_reanalysis/data.npz",
+      "?? archive/investigations/warmup_baselines/corrected_ols_reanalysis/summary.json",
+      "?? archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.json",
+      "?? archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.pdf",
+      "?? archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.png",
+      "?? archive/investigations/warmup_baselines/figures/mechanism_diagnostics.json",
+      "?? archive/investigations/warmup_baselines/figures/mechanism_diagnostics.pdf",
+      "?? archive/investigations/warmup_baselines/figures/mechanism_diagnostics.png",
+      "?? archive/investigations/warmup_baselines/final_analysis.txt",
+      "?? archive/investigations/warmup_baselines/geometry_analysis.txt",
+      "?? archive/investigations/warmup_baselines/geometry_diagnostics.py",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/README.md",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure1_convergence.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure2_transfer.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_fixed_expert_transfer.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_general_transfer.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_fixed_expert_assumptions.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_general_assumptions.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_environment.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_hyperparameters.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_source_diagnostics.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_sparse_information.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_structured_sensitivity.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum_directional.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i3_lower_bound.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/build_manifest.json",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m1_source_convergence.tex",
+      "?? archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m2_downstream_transfer.tex",
+      "?? archive/investigations/warmup_baselines/recompute_ols_curves.py",
+      "?? archive/investigations/warmup_baselines/recompute_ols_protocols.py",
+      "?? archive/investigations/warmup_baselines/render_corrected_ols_figure.py",
+      "?? archive/investigations/warmup_baselines/render_corrected_ols_output.txt",
+      "?? archive/investigations/warmup_baselines/render_mechanism_figure.py",
+      "?? archive/investigations/warmup_baselines/render_mechanism_output.txt",
+      "?? archive/manifest.json",
+      "?? archive/previous_docs/experiments/guard/README.md",
+      "?? archive/previous_docs/experiments/guard/paper/README.md",
+      "?? archive/previous_docs/experiments/sparse_information/README.md",
+      "?? archive/previous_docs/experiments/toy/README.md",
+      "?? archive/previous_docs/experiments/zero_sum_comparison/README.md",
+      "?? archive/reproducibility/alternatives/README.md",
+      "?? archive/reproducibility/alternatives/__init__.py",
+      "?? archive/reproducibility/alternatives/comparison.tex",
+      "?? archive/reproducibility/alternatives/generated/lobeke_relation.tex",
+      "?? archive/reproducibility/alternatives/generated/lobeke_tuning_spacious.tex",
+      "?? archive/reproducibility/alternatives/generated/structured_whiskers.tex",
+      "?? archive/reproducibility/alternatives/generated/zero_sum_spacious.tex",
+      "?? archive/reproducibility/alternatives/preview.tex",
+      "?? archive/reproducibility/alternatives/render.py",
+      "?? archive/reproducibility/data/lobeke/fixed_expert_mle_stackelberg_tuning.json",
+      "?? archive/reproducibility/data/lobeke/fixed_expert_mle_tuning.json",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_native/data.npz",
+      "?? archive/reproducibility/data/lobeke/warmup_factorial_native/provenance.json",
+      "?? archive/tests/test_behavioral_transfer_pilot.py",
+      "?? archive/tests/test_reproducibility_alternatives.py",
+      "?? experiments/guard/paper/run_sensitivity.py",
+      "?? reproducibility/data/lobeke/downstream_assets/policy_grids.npz",
+      "?? reproducibility/data/lobeke/downstream_assets/summary.json"
+    ],
+    "untracked": [
+      {
+        "path": "archive/README.md",
+        "sha256": "76d0adbf1887d2386e3f325cd57b6f58c4dbc096c51b780c130ac8bdb9373824"
+      },
+      {
+        "path": "archive/conf/application/guard_lobeke2_behavioral.yaml",
+        "sha256": "e48edcba608699046c54b80cbcb40a8b7554a92c277315d2a09c0691cc0ed73d"
+      },
+      {
+        "path": "archive/conf/experiment/guard_lobeke2_active.yaml",
+        "sha256": "b0d5777c25a8ceae3c79b6e9ba43ec61db4bdafeccad9f9e92f95351da448a1a"
+      },
+      {
+        "path": "archive/conf/experiment/guard_lobeke2_baselines.yaml",
+        "sha256": "0d77be282dd585ddcf7a80880ec769ee45d9903fe2720a94632ca468ef6853d2"
+      },
+      {
+        "path": "archive/conf/numerics/guard_lobeke2_numerics.yaml",
+        "sha256": "04ab5740dc071cd9e6d861603bdc6e70c862d4e72e0bda493a46efdb3ddf15b5"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/behavioral_coefficients_etosha_sfg_gsg_1.png",
+        "sha256": "283499c5f8d121e28b80560155e0890dc05c23fbb41d36c8b7e53650b6d31079"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/behavioral_coefficients_nw_chinatown_sfg_isg_1.png",
+        "sha256": "1c9a3e736c80cdd928da9cd963a50df152d7dbec6f2b55745e42c3a33317e0e1"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/behavioral_comparison_etosha_sfg_gsg_1.png",
+        "sha256": "e1f862af25ce750e87c724b4832594b18be2da84129b519f06273c601ffb0f17"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/behavioral_comparison_nw_chinatown_sfg_isg_1.png",
+        "sha256": "ea345092e1d54168e787fbc0032bdd446947d5086e927e8138ba1ead452f06d4"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/tune_warmup.py",
+        "sha256": "9ffcc624af0e10ac5dd130c650b7da1a61fef68df8b84a6fadfed8a283141c4c"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/validate_behavioral.py",
+        "sha256": "1e25ea46d54c8d40547f11209a34af4af6fb13b1a3e0eb646bba952bf7b271e1"
+      },
+      {
+        "path": "archive/experiments/guard/behavioral/warmup_sweep_nw_chinatown_sfg_isg_1.png",
+        "sha256": "a788a5bbf2fddc2029bf70c2b5e3c641b3914660c461465f01ce9c795dc0eab3"
+      },
+      {
+        "path": "archive/experiments/guard/geographic/lobeke_map.png",
+        "sha256": "3eb16282bccfe7a122640c9c8f75c1be2935b5f490a0f79bf3755cd3aa2dd360"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/policy_grids.npz",
+        "sha256": "30074f52cce7c89c3c3e858cd877bba2e7025e24aefb8536f423317201f38da6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-active.pdf",
+        "sha256": "86508cfb8b88977fa760dd54a829a26584d78b2454d833f391ca20465a450a0f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-active_nowarm.pdf",
+        "sha256": "3f295a1a7e91756e0c602ff6990ed8f0a47297ea05c6d3eae08e39b513c09c87"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-expert.pdf",
+        "sha256": "586c6b7679d8d3e99b1c6447a0690d05509933dc1b035392f5e69de97c69e0c2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-fixed.pdf",
+        "sha256": "845917eb3939b8f9265d90ed93bfe942d66cd38a031a19a40980b2ade52a93e4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-fixed_nowarm.pdf",
+        "sha256": "7e6db2dac21b3863c5757e84d32b6eaa9046084d9f9062d8df7739d5463b6643"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-follower.pdf",
+        "sha256": "4eedce4453687b455a253b3e95e78714fe3d94e1a671cf28d0b700640ae0d370"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-liao.pdf",
+        "sha256": "5280135bfd3ea8000d04b23b1408910df441d90bc85cdb7944ce5dde62733934"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-oracle.pdf",
+        "sha256": "49263037232e61f479e6144323c0ea3ae38e485db65b9bb8a49259f6b183a233"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-random.pdf",
+        "sha256": "971ef3214423b2bbfce18f3dd0fc3e970858e801f016085001a7aecb73abcacf"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/reference-random_nowarm.pdf",
+        "sha256": "deea5ff6e470a158fb17179b00aa33b673768e521f46c7b8b6ceb3c11703880a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/source.pdf",
+        "sha256": "e3549406369ef44c9c544d5365e9016dcaef31c3b0dbf5a95b4b72e800f1e35b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/summary.json",
+        "sha256": "800c9bfd6478a29357e513c085076bb337eb1d80f828c5ab9cf4c96f2b40e9ed"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-active.pdf",
+        "sha256": "23a0af6a375f822b0bc72c2a9e035a5b509c50aef0a003134155292d4894253f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-active_nowarm.pdf",
+        "sha256": "ec7c462536bd99e97e36155f513ae363b430db336637e366d29eb5b37063a835"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-expert.pdf",
+        "sha256": "93f0ff0a3e303e3e39847b0f2ba487b31555b4dda4d9e19a60fc218a2d7ac7ce"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-fixed.pdf",
+        "sha256": "eb5786f058acdbd1cac25e2d6229034668964a345df74d71d06c582769688e10"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-fixed_nowarm.pdf",
+        "sha256": "2e6bbae89f4662a481c3a297afd44074b3b76b2e55ef22d2f4d969e7825438ee"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-follower.pdf",
+        "sha256": "c408860569e01a285aed864693b98664cb1536b8f6bc2f44761c5064450ea729"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-liao.pdf",
+        "sha256": "515ae22a79b76b3dfb0dc825cade3a4154dd8e6c713de61332663833dd21954e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-oracle.pdf",
+        "sha256": "0f25cc34ed80c8f95793843d19b969504b11fda9dc02e1dcbb467691744d0984"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-random.pdf",
+        "sha256": "c210f68a0145be20681c3bb00a98d8b0910c1dd47311f281fb56462c51351497"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task1-random_nowarm.pdf",
+        "sha256": "27cc166b789f9d49365dadb07fcfe5939db1423704ce7e0f63dbfd1a0c06daf5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-active.pdf",
+        "sha256": "783446bbddab35f9319bdecfa5429828fad88346ff1f3c57ed8ca20f563be1e1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-active_nowarm.pdf",
+        "sha256": "213d1c9dbfe4721077dff79e5ec9bd2bdf5b4407f731b35286313f1f52638c5f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-expert.pdf",
+        "sha256": "1d684acd17ad72f7d19bdc13eaf4b4d84ef9751eaf19d82b485eaaabcb54f849"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-fixed.pdf",
+        "sha256": "8471ee163a54695ebaefe71a05effe2fa51410ce071dea7b62f5ff703fa6355f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-fixed_nowarm.pdf",
+        "sha256": "add67e2b38ac21e7b238ca43b9bd5bc14657dfde7a4bc39922447cceb43f7846"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-follower.pdf",
+        "sha256": "b8c060ba0ef36d2fa4db6953605b441a306cfc74d6e6754a815895b60509bfcd"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-liao.pdf",
+        "sha256": "ac7545b5975a6fdf5cb40a91f15edeac68dac15f131761f2fd0b72b2309f11c2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-oracle.pdf",
+        "sha256": "f9d481826da4facd16ac7954c1792ba505c5fae5d39f9d073a438c8ce8d29ec3"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-random.pdf",
+        "sha256": "1fc5c05a72680d88fda4a08bb81ef54ec0d9a8eba4124a2f6b983c7e40b83d46"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task2-random_nowarm.pdf",
+        "sha256": "deb006483112c30927e841ab3af2c94d9ef6f84101dc3dd3e79a1fda535df08f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-active.pdf",
+        "sha256": "fb82223c333e2d899ad70cec8f7cf0f840ddf0b70b25a674be642cc6ab9bd930"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-active_nowarm.pdf",
+        "sha256": "360465d4723db3c3e88ee5692e00ee8b0d811899dc9b1a8e2202c8e5c3869863"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-expert.pdf",
+        "sha256": "31b81bd105f4c95b48319e5d4057c04488170817f369c64003ff3845e78d15a7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-fixed.pdf",
+        "sha256": "e28d31ed57151e79a010b924cf9adac8def818fa87da138acd02977afe6df1c5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-fixed_nowarm.pdf",
+        "sha256": "2c4b5c6e1f1b9bb8e8808976bf3071cd551f2328156408d0c7c12bf2dcb67132"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-follower.pdf",
+        "sha256": "84df079fb65a846468f12bacea2164625d93f343c12ac5fddf8bbb8352d2a657"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-liao.pdf",
+        "sha256": "823e5fbab6ce19185bb14c6e18650d907309de9c2c808043d2000476193b1f56"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-oracle.pdf",
+        "sha256": "2e9852a4b187b7c1062dd2a93bcb5816f61101ae383b233970cc813b5efec582"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-random.pdf",
+        "sha256": "24b7a88fd9575736819a8dc9917158c6a711f2d325b485086fa044ccf9bd6f00"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/task3-random_nowarm.pdf",
+        "sha256": "50ca27bdf1d95088a8249afcf2509dfbde20758c96e87f90498397b8107391f7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets/values.tex",
+        "sha256": "a79fe63105714c27f65d52a7e37774b7b06350d742202dc31d9be8f6109bab6c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/policy_grids.npz",
+        "sha256": "b9c412f0f4ab46216bbc4c916ab9527bb72e6a6eea302ca64eb28b22ba44c1ae"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active.pdf",
+        "sha256": "322912bba845ccd417baadbc6db5d13c63ea635c38672c6febbaa0acd76f9560"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-active_nowarm.pdf",
+        "sha256": "fcb916cde90aaf04ee4c7180bdd8dc61c280bf308610f8c967bdd284fda91ae0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-expert.pdf",
+        "sha256": "aae32837e4bde26f2a7f8b2d0348634f33fce695bf67eb5b4a25baae1055c93f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed.pdf",
+        "sha256": "cc3ee93755e1305bb3149166aaccf7b732e0d258579ffb83700f72d76f1611a1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-fixed_nowarm.pdf",
+        "sha256": "c0310303d80cf00cfec7df0a38310b8fd9a19bea9b7c894a5c4e75aec1183097"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-follower.pdf",
+        "sha256": "805fcafbbeda40f836af3c8482f577e572bca19c504472a40e24a9a1770eb92c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-liao.pdf",
+        "sha256": "d76d69b0f1b070c877b004226176e499f9d3649c277f97ac1089e05eb7b79b45"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-oracle.pdf",
+        "sha256": "f4ab6e84e22b0329f823f59954c35854f1872e6c7ba698153e03dda8c0e506ad"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random.pdf",
+        "sha256": "247213b30a5c98b3fa1713b85389f82b68f6ad989fa35c3782ead0efbaff500c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/reference-random_nowarm.pdf",
+        "sha256": "0c78ea581575dc8ce94f682c9fc094a8b5bac20c44413ee3da09d6c8f9739b09"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/source.pdf",
+        "sha256": "c7d0eead25e9440e87f875589b335bbc79d8ea76dd78f2b3be960f4141e89c4e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/summary.json",
+        "sha256": "dfe296783deef87d96cc540c14c3c226fb218f9f852bd1cc496ff49a4f6991a7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active.pdf",
+        "sha256": "33452a51ae100734366173b0abf24e66ca1988455594e2695873f7e89af61e30"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-active_nowarm.pdf",
+        "sha256": "cbe18f85bd224c9d77c3210e016a74e5ca38f210076d932cd74f2f7e8ce9d0bb"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-expert.pdf",
+        "sha256": "1526bbd5ac9c6108fd652829265b2158afcc91b72e314b9aaf00ddf80ed44e6c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed.pdf",
+        "sha256": "13e24bf01b3bb643bb9ea5e0795af55362cbe2d7dcf125ae3cfa459d5668c2d1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-fixed_nowarm.pdf",
+        "sha256": "5bf642c4628d84e77c234185bf77a8b768fa4fd7f27005800e57b67c4bd6dad2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-follower.pdf",
+        "sha256": "8c54da44152c2ebfae9ba3695a54e8c6133637d6a1d4f324953747eead7eee27"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-liao.pdf",
+        "sha256": "baa8c848600c58221b9e299a70921e60fb4d721f9d8349811da808840e060a4b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-oracle.pdf",
+        "sha256": "7cac1174eeac6c420ed8a91dab85d15656f9501af478cae6c4a4bfda8acd414b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random.pdf",
+        "sha256": "d5545f7efde8baee4234de6760d172be059af497a4d72af230ce129819aa4d4f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task1-random_nowarm.pdf",
+        "sha256": "0923fcb7dfc8e8c45a1e0c88dacbd3967578765b0cd4ac767b21f44babab93bf"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active.pdf",
+        "sha256": "d10f5efe0989457c8e49cc806779f1766a2d86d067477070f463ec38925806a0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-active_nowarm.pdf",
+        "sha256": "e46865c0251cd8f9f096ac031cb873abf90f16a428154ca97e98f2feb3043b4a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-expert.pdf",
+        "sha256": "52bde51a29689e47741625fa704977cc636b7be1ac2f53d753247e7af23d6dd9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed.pdf",
+        "sha256": "c84f3258355d1456fff7cb66ec6f0ffb2d8b27f142ce9cc9362810ef770ffbe4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-fixed_nowarm.pdf",
+        "sha256": "5f686e0f29519461cddf302118683f094d4ac39cfd9b75fbf9e0438a47ae5ce6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-follower.pdf",
+        "sha256": "0c417a25f73ac9db6e7412eca411ec46859b3bda51f9479f24b9830b2bbecdfb"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-liao.pdf",
+        "sha256": "4addf8ab5feb200080c97f7c933387c52af0a711cae8a3ba7a64a24c1a69c550"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-oracle.pdf",
+        "sha256": "17fe4e839baa86f3b22faef9df9b48b17c598d687536ea6498ad67feaf32bd15"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random.pdf",
+        "sha256": "467a37b5ccfed9ae4cf7c022b2af44990ff64644c9d956037d2cc8a7edbcda0f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task2-random_nowarm.pdf",
+        "sha256": "e370bdc931281697cccfa2deefa3c4653d6b3ba0f31fb2d5ad73cb3e28ce883f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active.pdf",
+        "sha256": "aa4d88c3b60c8541968c18690a3e58023237801c90c33a14a1593505f4bb3029"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-active_nowarm.pdf",
+        "sha256": "de69f44b40a8d9a5ec87c6aa753afe215c21c01d49eef6363d23b3e001e68b87"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-expert.pdf",
+        "sha256": "72ebd5b221dd651f2adb79ae35820d4dd92c890a7ce21ef48fa70708988f9416"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed.pdf",
+        "sha256": "0928677e815a9839f1e2e5b74354084db91cbd183e454785e1b3b606b1f00877"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-fixed_nowarm.pdf",
+        "sha256": "3499907427f03807dc59ccbe052e3bec0ad7f094d4bc8df69551ebf960e791df"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-follower.pdf",
+        "sha256": "b3dea2e889530ddf540e06fa8058063af60b057cc5cd38576fac3a9a91d38ae8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-liao.pdf",
+        "sha256": "b9852299187c8410ba7d8eb380076e92d02b6edffe9a07e709654763ce0b9194"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-oracle.pdf",
+        "sha256": "ba89352678a23ddfe7f75ea02f5bcc5a2f2bb71ce0395bc64ccd1cf86345a4b7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random.pdf",
+        "sha256": "9ea42f65abe75c108525cc0e2b598514ef6a81b29833d07dda8ec06bbb84b0d3"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/task3-random_nowarm.pdf",
+        "sha256": "d655242467123a8c3739c4c37b390b36ef57c40f5b80447ca85492215b59409a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v1/values.tex",
+        "sha256": "05694d3ab9dabca2ab2cd47b2ba6c26c0bec6ff727ed591e4593cab6e3011fa5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active.pdf",
+        "sha256": "9b79fbc117314b270d26c36c17efa76af64b2200683f15e0c3b8f0463348e009"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-active_nowarm.pdf",
+        "sha256": "157e36d4b2fdd621674120c8bf0131f48db3fabcf9307b6e491147dd24cba932"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-expert.pdf",
+        "sha256": "b08f283d312b0f6843f919db04af8638923589b5ac1a71f1d1ccec50a001c50b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed.pdf",
+        "sha256": "596dc8933d451c2f63f5893f3d98f97d632c9523c6963d4e0324db492315b726"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-fixed_nowarm.pdf",
+        "sha256": "9b8d2341531600be843d9172f76ad295c4a4066332f480fdfad0b96f1ab47c0e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-follower.pdf",
+        "sha256": "d2b45a817ce59679b3e2c78a6c51588ef584bb64daacfc8c1eaf072fd8ec50aa"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-liao.pdf",
+        "sha256": "37622b70dbf075d85efb451e1ae664705dae9113a95b7f95150beead90a14450"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-oracle.pdf",
+        "sha256": "2c7fb47c43eddb24f44e7225de1c0d445c3dc538d95c84b110f182e5a720f68a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random.pdf",
+        "sha256": "39a2403bf7de13923858ea4592063929af1febee3a273a88324d7559e36264c5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/reference-random_nowarm.pdf",
+        "sha256": "098b04b9ddafbdddceb794c2839d0c2122c303984bc80df9cc221ecf0e4f0d10"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/source.pdf",
+        "sha256": "da1f03abfe4a89d5c027b23f7214ba4b82165ea74a3ab15986a0c351ca389085"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active.pdf",
+        "sha256": "1343992f3c12f64fa48bf398d1f260b6419074713c834c94dec55c2038638ef0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-active_nowarm.pdf",
+        "sha256": "d1e026e20ff4ea1fb744896e050563a38002a4705b7979192ff2b8c603dd77ba"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-expert.pdf",
+        "sha256": "b862c5c33b553b218bdd4512e92810e60093716549a4e76c997db1e5ce4ac5c0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed.pdf",
+        "sha256": "9f0915cc8e681a1613326516c7dfd9b31bacd07b95e00bde6bdad5fdaee477ba"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-fixed_nowarm.pdf",
+        "sha256": "304023834a029f42707eb45eb6e2ddc461902ca40749a4412b06cd7ba0653453"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-follower.pdf",
+        "sha256": "6c33a3e50ad604bd9aa8b0fc99110efb5a4404ba6167bf610df3d17439db9097"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-liao.pdf",
+        "sha256": "91b3d55da29c039b894412960b72c6214d2edf985aa4cae528e33377a4d66b37"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-oracle.pdf",
+        "sha256": "8e13579e3fc4393b82f7de2adf451f259439454c6ee166d015ea0d969cd99184"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random.pdf",
+        "sha256": "533e425008ecd42a2ba8e52aabdee0cfa7187fcafdf03c3784375549b26a9c96"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task1-random_nowarm.pdf",
+        "sha256": "aa8e51cc1bcfbb846a53d9291670bb39669d29f31dbd4f4fdd52eb09a69a259c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active.pdf",
+        "sha256": "8a852ed946dd132a2e1d509bf57dc07e2fe7a580ef54e226a6ff551c07c26542"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-active_nowarm.pdf",
+        "sha256": "bca3ceb42a0978887b66c95fae2223aeaf555d236a11913882e8f69f2015432b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-expert.pdf",
+        "sha256": "308043a699e7dc4f78d90a629cd70e273daeac59d8f18d777f52bb79d6abc82a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed.pdf",
+        "sha256": "504bee23c21d6a027ed167303c4b8eb4e18156d6af4b65e1f9f5236bb9872a9b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-fixed_nowarm.pdf",
+        "sha256": "1c0d87847d2be3f6091316c48e24c7ab474ee50d870ae0ec0e82f2f02b43b34f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-follower.pdf",
+        "sha256": "53dc4d0c22c346fc01149f2de6f52679d0e1e94301ce2bb0ac41429bf9ab74a5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-liao.pdf",
+        "sha256": "364dec3ea425a8b5e8ebcb5894fbaa19cf3cd820efed3ff63ee967dadaa42f92"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-oracle.pdf",
+        "sha256": "3c13bdbd0673ea0f329f22fcfcde65bd1365d1eac884733c0ac335812fc07c7b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random.pdf",
+        "sha256": "ced3523b3a1a2b58fc08306b6b96adda5756824ccdf5b76056d1417b4aba9538"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task2-random_nowarm.pdf",
+        "sha256": "06c490aaa9883b2d38ff4e9b93d25d0b472a51eceed778469eaa11eadf51eddd"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active.pdf",
+        "sha256": "5c591bc6b7f73ff9f98078d3c318ad26743b69d3bfd39b0a48c2b69b6bfa0229"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-active_nowarm.pdf",
+        "sha256": "40a751136956a9750ecc6ba3bb09a547fd159b21619af94f484e340e845efa33"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-expert.pdf",
+        "sha256": "f6917393bcd11f5b1302e1084bcceb2023da7f783a530ea09a41730b92e9775a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed.pdf",
+        "sha256": "cdf5c3b281fbaeb3b7c3e8970a32fe68b2ee170215bd3702a3b4cb769f7b8644"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-fixed_nowarm.pdf",
+        "sha256": "7839714dc4a057f0853cd6591c421b67f4f7cba1c83ab7145dff4dc44fedb9dd"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-follower.pdf",
+        "sha256": "7eaa29a166643cc6feac40663e35c62ae1a8eede0b134ce0df05e7f03dad556c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-liao.pdf",
+        "sha256": "656d7bfc1e8f2b13bae8d68b45d8c018e123cea4ceab03157813e82c5fddaf18"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-oracle.pdf",
+        "sha256": "8438b938747ed5a4f2170beacd3c511b0da051425b8cac75dc21013b6b36dd88"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random.pdf",
+        "sha256": "173ed66197a613dee9c7c2e90c5ef5c449a99b8d3bd00f384163663bc5ee23ef"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/task3-random_nowarm.pdf",
+        "sha256": "9ddb097f11be885eeeca2b872525fd4d45617f6fc8f15171963bd7bca1ee8cfb"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_behavioral_v2/values.tex",
+        "sha256": "26d48e042f58ec8a897f4b53c0e1133d65cc3657100722871dcd7caad9c07731"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/policy_grids.npz",
+        "sha256": "a8f09ec784212b3934713a6b4ddb2184b48376745edfcce3b849723db3547fec"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-active.pdf",
+        "sha256": "20c334ba68fe298835e7e975b0794ce36fc1d6120e248d061c1df6d9f560b109"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-active_nowarm.pdf",
+        "sha256": "876dc0818024199a2bef5dd56afb9cee8a04f15a6ee25de3914a7a47c1bf52f8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-expert.pdf",
+        "sha256": "2e7f53dcc4800639fffaa6f42a259173fe88ffbd78409458376c470b597f7554"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-fixed.pdf",
+        "sha256": "155fb7e8f7295dfb63e2b1890a501793a6f449be606c6a5d8363340153d5113d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-fixed_nowarm.pdf",
+        "sha256": "3309abf7ecbc47ca91983d466a18531727462bedf56eed064e65ba50ed38ca8c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-follower.pdf",
+        "sha256": "d8b70c498e233f8208dc04849be61ef423a078e6eff3a5f5357bf422d3646d4e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-liao.pdf",
+        "sha256": "27d14e9ef769f6666c0780a211109a72c84dbe47846b15c08dea386e613e3ff1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-oracle.pdf",
+        "sha256": "0aef2d4ffd20807c01ebe8525d76e28f70aa4ebd9d6f19353dc596f7106ccf4d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-random.pdf",
+        "sha256": "955cd1d570e9d72425ee0f4ee8e1bfeb8a6bbfb08e1c2bf2fa5ef7287cf675d5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/reference-random_nowarm.pdf",
+        "sha256": "91ff1d23e6b944ef13d129b0815d6180db81e9910f5397575dffccdc0fe104b7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/source.pdf",
+        "sha256": "5cb5affb600fa659a04fe6459be8f5f07b22745ec3661e855b356e2a35a006f2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/summary.json",
+        "sha256": "c87a17a19cc6d8a9c4baaff8bbae5e4814d684ce9f90bce349f3e80d82343b4b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-active.pdf",
+        "sha256": "bfba1cae0e9b4a323b98042f3b69ebc916082bdffa80e9f84cd671deb68eb5b6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-active_nowarm.pdf",
+        "sha256": "56a62ff1fce507d5ee25f92d5f1268d16e8649534c4c94ff05be54c68b6a5bb1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-expert.pdf",
+        "sha256": "6d92c5e0a125cd653f47c1bf47265315717105af28dafe607e3c4e45aacad844"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-fixed.pdf",
+        "sha256": "73500d8c7ef49b3f77725a81d8819be6325153203a8a390b9e47ea509959a118"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-fixed_nowarm.pdf",
+        "sha256": "f99ab5ca4a9c07ae7463b091ffe591903d2b0a721b72ad5710c9a22b7aa2b8ad"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-follower.pdf",
+        "sha256": "4ec9f7832942ccb758571873ae05fa73b032eb0f6daf5792822432aa197fcaf9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-liao.pdf",
+        "sha256": "fa0799236f2a7fab94671e5a8e5b4902e61831485bfbebc1579740095ed46fea"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-oracle.pdf",
+        "sha256": "dabee4cf49a98062aea7de5bf01f9053af76abf96c2bdd482e70a52c5754c7ea"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-random.pdf",
+        "sha256": "4b98acacc85b916860673f072c5d21888d3ae4d61c129716191e14affe563ad3"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task1-random_nowarm.pdf",
+        "sha256": "2ec0e40da9767dc67e1608d1589df9b218b2ac7066d44e8558494d2156b5d1db"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-active.pdf",
+        "sha256": "47ebf412b098bcbeda9d9c0082db48c74c2b1ec3551343178df85f28a7236d2e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-active_nowarm.pdf",
+        "sha256": "33ca518250ec0b31e0e01694f1d8f7c13c4dcee1b4eede7684cc49ccf0e0aa9f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-expert.pdf",
+        "sha256": "4dea7ca7970ef4ed06f36a2951f5b7f61d6b17c4accf9c90166fb16c62dbe393"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-fixed.pdf",
+        "sha256": "95f14ea0214e07fe981668d0b2029dbfae020569a2ac64700f8be5a229ee0d16"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-fixed_nowarm.pdf",
+        "sha256": "51458941ccb01742bd4a54e8733cb3be055fc48ce1d31fbb4b4f05411f261f09"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-follower.pdf",
+        "sha256": "48bcc2c7111c188cf2578451089e7741d964d1284b7b79fa3d415a7a0a52babf"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-liao.pdf",
+        "sha256": "8f5ff34dafd1396c50e643eec07954fa57a99a44a8c08b45f03342f099c51f10"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-oracle.pdf",
+        "sha256": "83f299af86f408fff5e49ed31659fdde3d9e58687b172c46d6a97a5d871d602d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-random.pdf",
+        "sha256": "b1ba6e61eff9c4a4cf20c1b448eb1a29224bd471762008965b41646bdb1ae112"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task2-random_nowarm.pdf",
+        "sha256": "71eb0f2b77014b173139a147a583b42301901a2cfb54e1296a784b96d37d5ce1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-active.pdf",
+        "sha256": "4f8adc89f528daf8684bac7a512d23122eca80c69e368fed18b7a3f1c9ca667c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-active_nowarm.pdf",
+        "sha256": "74e8cf864dad604748e99c6c73c8bd72b8a4189fb18c2bba9356291361ac670b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-expert.pdf",
+        "sha256": "31bf05e0689ff4efd153418f974ab085e9fdbfb46b9c2e6f9ae89d7d81b9d882"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-fixed.pdf",
+        "sha256": "1760b6b8959e737f33ec61c71a74393a4d3a0fc389fd35f536afdecd6fe1aa17"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-fixed_nowarm.pdf",
+        "sha256": "cc4798230c5c574803f1740c9b44b111ccc3421f7c0ad614f2bca0556c658053"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-follower.pdf",
+        "sha256": "b6e05b571ea13c2c9057da2c814c0e4c916c3206428de429bc73d0ba1175e2ac"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-liao.pdf",
+        "sha256": "ca5e5d0ec8cdba2c802e0dcfd5e05ed72ba50de5ca11fbc698b99f6139c178dc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-oracle.pdf",
+        "sha256": "f23cab7e8d6e06226b2c15da2c57e030dbb044ce118156038d9ad54a4f9314cc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-random.pdf",
+        "sha256": "8bcb8b7c5f6ecd6a369fbdbe936e2ee0d0a70784fac994b5194eead7afbe779d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/task3-random_nowarm.pdf",
+        "sha256": "aeff2d0e0bade8ce1ed858bee2dc567866c8bcef691b9fd53b599f079d88033b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_corrected/values.tex",
+        "sha256": "77c945e5d9e890dbb81d89cd5e0ca8712dca2e9a5e7ede7eec523691d4ea0082"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/INVALID.md",
+        "sha256": "076814d8e2fa14dd358a1e7274135179a0d25dbd23ff07685ef4be6b23eb4891"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/policy_grids.npz",
+        "sha256": "01f21d285f8702855f79af8f9c9d675dd9653b24432eac53782e92b853727d0a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-active.pdf",
+        "sha256": "7db33ec96a6c6e749e4f2b78d7a6d6aa99fa74c4f25930fc845cc186287466cc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-active_nowarm.pdf",
+        "sha256": "24de406ccfb1750d300ea9170531a9e9e9ee57c8f0bbdc00ea544341dfecb217"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-expert.pdf",
+        "sha256": "ce7b5e9fdb30f2c5169912fa62f57bd9c0375f6e130c133871d62ec83fbfc9fc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-fixed.pdf",
+        "sha256": "344a24d172a69e5a03a0d605efbac917407588f6b50b4b21178b377b69e2b830"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-fixed_nowarm.pdf",
+        "sha256": "c67fbce7d6632ff9bb28c32c937f6ad82071b2b9510aca2e4cd2d52da578a632"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-follower.pdf",
+        "sha256": "46fb8f97ec18d576208fef83e5eaa0241d3b3fac85187aa29e919955e1b2fea9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-liao.pdf",
+        "sha256": "01a79edd8cd6eb25445ebe641c23b0a6f1a2aeb9a5456d2ae68d3857775df4b5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-oracle.pdf",
+        "sha256": "f0d777bdf53d290d6a0b39d6a3b50a7e0627571fea876194e81edae5bae107b3"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-random.pdf",
+        "sha256": "be1741416c6cb2a78f2d9725159cfcecbcfb4f186180affeca20a2ef63ce10df"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/reference-random_nowarm.pdf",
+        "sha256": "beb0692aa923bcd341a62482d6b8f4c1a1386cd11a074a17e95a1049193e2195"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/source.pdf",
+        "sha256": "66d26f220f5741fdf567d0fd24c0b81c55e4b82270dbb5ed5b421f3dbae3d024"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/summary.json",
+        "sha256": "e89cb76dba013c1b5080427f7a2d4a5f97da7d0b8ff53187069efc7430fd080c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-active.pdf",
+        "sha256": "2ed03c068bf702d8698d190b93657c0f676a0f777080834272022934a7dd268c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-active_nowarm.pdf",
+        "sha256": "ebe318252a07be9ca5c738e375c3188cd7d071d8876daaf0998a12b34bbbe4d5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-expert.pdf",
+        "sha256": "5ef4947fa154beef7b6c884dcf89d591d5377b6b7face09942fb11e90698b4d1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-fixed.pdf",
+        "sha256": "182842807a41ebb3036bad7a10dd3448f3fb6a37afdeae3651c0f460144ae8f2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-fixed_nowarm.pdf",
+        "sha256": "1c6fdee14d36e27d47b544a5bcc7620c6e6fccdb6251de2d0f8bf73c70dd5230"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-follower.pdf",
+        "sha256": "ee3f894e0fbbb510dee574a4e9358a35436ce4d9c746d371bfaf468deea33796"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-liao.pdf",
+        "sha256": "5665fe5e04076836f8afe9b26c2425fed6973d29073814b3d67d6e029ddd8b09"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-oracle.pdf",
+        "sha256": "308dd4e26f974624f1a6f657fdd00e3ee7748084263cbe223ec373de045bca22"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-random.pdf",
+        "sha256": "d08fc14fe5062dec32f7960c08fbfe94765cc5842b23aa232fa26ea58513b3e2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task1-random_nowarm.pdf",
+        "sha256": "17ffb5be3c28b1b0cd8cf048bdcdc27fa2da3808e19ca3b4031abea7a86e5015"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-active.pdf",
+        "sha256": "f3a8ed05ab54dff2627b0df04e7aed1a6355949aad42c0405d93f5e38d83ba08"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-active_nowarm.pdf",
+        "sha256": "dfabfdc578a5c2ab1c4b48066becafe9288a313bcc3c928554e08ed9fd4f2286"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-expert.pdf",
+        "sha256": "ff2cc59c9621a9ba0d6772dfcfbf66fa2c89cffec87ea7b056f0e4a8c47e94bf"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-fixed.pdf",
+        "sha256": "9fb837e4d28fa77a84ef19b9bdbc6e37238295c8e9796a28f3c07729371fd88c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-fixed_nowarm.pdf",
+        "sha256": "f1df90fa69eeb1f08aacdf4a1361c1470fb854540dff990c824bb0e75b199dae"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-follower.pdf",
+        "sha256": "70d1793d8237081187b17cd97050c64651ac35436afe10fec405f4bc84325bdd"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-liao.pdf",
+        "sha256": "44b2aaf4ea6d1d32a30cb0579318af7f3821c07869efcd09d276eaf595cc71f4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-oracle.pdf",
+        "sha256": "053145a545af3fa664db9e137a3feb21a4a2c3cc55a03a6a39e2f28336fb5594"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-random.pdf",
+        "sha256": "e4134f73865db7c26ed398d1ecde4ce81a034435fb9b67aac36eec2ef5dbd3c6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task2-random_nowarm.pdf",
+        "sha256": "f184c259f7aadef444997b705d3552baf785e1b852aa8d46e71912e36fb55e32"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-active.pdf",
+        "sha256": "a7a6ff5a900282ec4db31aebb1ddb2fd5b0fa18304d4ccbe772c486969da46b4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-active_nowarm.pdf",
+        "sha256": "1890f37cbacc35e95338d9e61c92a480f63bba2a95e8ea1b849ce0a372d5b334"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-expert.pdf",
+        "sha256": "686ea26bd4a37f744b716c0715f6071f3ad5acc431788358d2fea2763885f8bc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-fixed.pdf",
+        "sha256": "4351bcec4334c59a629bda438ca37c5660f9a9e11d5a0750b1268ddcddecf834"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-fixed_nowarm.pdf",
+        "sha256": "2e0dfa330548e6cd58946f0a5f0c4013b5e31f360933b4fceb3f36b22fb9ee70"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-follower.pdf",
+        "sha256": "f9d7a3d8a2a86fdbcc21160304b5593298715b5efaee344259423019e905569d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-liao.pdf",
+        "sha256": "a95113398238f1bd7032ee04dd64c787f3cfee91ff59cd755f1545351b1723cc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-oracle.pdf",
+        "sha256": "f7977dd3eac8e620d447f079df9476885ec56c5830d89dc71f3b37371bea5b50"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-random.pdf",
+        "sha256": "28efac42344180763e8fc140d5035cf1bce50de05cc049495d884195552e989e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/task3-random_nowarm.pdf",
+        "sha256": "1592a85559b475da87d8f5b8459745935c22f6df51357c98158b566f5ac838ec"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native/values.tex",
+        "sha256": "0bedd6ae15071cc080658c74b0b7d69d2ea5558237ee925ea82c0c33b8e0735e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-active.pdf",
+        "sha256": "e5b809f2918d06e11ddc45ee641b8267d6a269552a288141efbcc881ba09cc33"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-active_nowarm.pdf",
+        "sha256": "f1d62526b354a035a7cb518ed2d809051438d8ec83d04f75b598c4d2d606592c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-expert.pdf",
+        "sha256": "e2c86586697aca30eadc997add9e28ed69e17878b28c478b5a654b4b4a6202b3"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed.pdf",
+        "sha256": "757420be06edd9fc01086e033afbcdb7f37b00c845fb4b10a7dc055ad9456974"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-fixed_nowarm.pdf",
+        "sha256": "d4124bba0e1f929c9c8190963bf56cb82d42827e2fa469ffb73ea8cbdff0900b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-follower.pdf",
+        "sha256": "ed03057b7a3225e80adbb6875e0434adaafa2e1d8340f52ae79de35bf513b2b2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-liao.pdf",
+        "sha256": "8cb7505d43aa397c018501c386880cdb7fbd25ce3dc4f2d1098972c85191102f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-oracle.pdf",
+        "sha256": "a5bd3c99f7ec07ca8fa5c62e3c4fa837ac63a80ebb4a57f905c146be99b37b9d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-random.pdf",
+        "sha256": "0d32f83256dd10a6c205757a30e78f1518b145f58374f1c9de623ab12d5d4401"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/reference-random_nowarm.pdf",
+        "sha256": "462bf02ed8b1f2af9498ee89f186561f45a708765fb451e56dc06b8b025fa53a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/source.pdf",
+        "sha256": "9adc89b4dd5ffe168202b44896399559de8434b74f5bdf32ef8df76853c679f6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-active.pdf",
+        "sha256": "5b2a83f604851a9b9ff0a272fb88ea69c38c10845d47191f9e50fec2821c246f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-active_nowarm.pdf",
+        "sha256": "163ad1695545d87b1d7626d73d894a941fe72254387f4f604b8cfdb7dee8fd1d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-expert.pdf",
+        "sha256": "35b86ca066790b57a0996b7f05eff377f8afcbabc318c2e21bdd954093efcaf4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed.pdf",
+        "sha256": "d6371ae410ad4780420db8427e2011d1e84c823729ffcc1417b9867e0705e8b1"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-fixed_nowarm.pdf",
+        "sha256": "f51b31cf7949f823ea195e476897482ca854a929897a2a1afa81b914b79ba85d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-follower.pdf",
+        "sha256": "09a4d19b819f07192c9f7d81a4c4a4307677da6e9f8c203118fe2e0b1190908e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-liao.pdf",
+        "sha256": "dc01a08ba7a276b4bfea6ec3276600b28ed82160d2e7fd7f8372bb329830ebca"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-oracle.pdf",
+        "sha256": "d158360a51ef9e1bb611ed605500f70d80a02f0bc2901e4e0f349f5fc3bc1794"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-random.pdf",
+        "sha256": "857840f5b5aacecc6179ccbe7ba5e76932182c0f3356e041ff45b1ef86dfdf7d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task1-random_nowarm.pdf",
+        "sha256": "cefe375599073fb6e849925d6d5e2b464f90fe606cfa247f67b68211fe0f4da0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-active.pdf",
+        "sha256": "2e72b35d505e86f9ee7dfb875b3482ac38fc62f3881b0262587b09ab8d6431ac"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-active_nowarm.pdf",
+        "sha256": "8ba6e5e30f8a322aba58134d2f4baf88a04e257f358cc64fd16508a52a41e16e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-expert.pdf",
+        "sha256": "aaae2c7d4e86784eafdcd55a1cdd7809ec28a2a65d7db401fb2b6a4f780e8bf6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed.pdf",
+        "sha256": "07795ee50c1d489205ef62e7cabf5f1cf0184ad42fc7da6035d70f267b104b88"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-fixed_nowarm.pdf",
+        "sha256": "3800e41b93b72fb29dfc44b6c8d12e8c785aa21c0306bc47326fcb2c8b2a8243"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-follower.pdf",
+        "sha256": "a80fc5aeb9e5104ade22a227cd3345e97baf8153a36688f77081b807dafbe2ba"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-liao.pdf",
+        "sha256": "8aedbf47e7a3acf22c724253314de4f66ed337c5096ab9358bf41495119293a5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-oracle.pdf",
+        "sha256": "8d12c7275815f658644d52e96a36f958d339ca458fb0266806208db6b609380e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-random.pdf",
+        "sha256": "aadb262ded27564120882b0b3f2e71037c7c3eefdfb69cce7f7080ce68179dd6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task2-random_nowarm.pdf",
+        "sha256": "f788f72c441b71d0d1373903ad5c6b8bf8daaf7c586b71fb622230bd4ab9b381"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-active.pdf",
+        "sha256": "0f575507442c9d656ef990cd8e5ad1369370ae43a77ed04dd178571cc59b8510"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-active_nowarm.pdf",
+        "sha256": "47e15abd104cb1ed9abf0d1c58605b533aa5bb93f334dab0c431b8ef7406ee9d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-expert.pdf",
+        "sha256": "89d60aa31ced742235aab811d9930f1ee89480cc888d679177fb86da140a1089"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed.pdf",
+        "sha256": "eab6bb5a586feeb7045ea63c449771b3899402244cf6df5b548cbfa34199616e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-fixed_nowarm.pdf",
+        "sha256": "f90c8944843540ee3785df00ff471d7fa48948ca344fae52d8dd19fe3efa72e0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-follower.pdf",
+        "sha256": "5181e131c2c6aea1c256a5d8f11848bf9da3a527f356b3684499807722e96f20"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-liao.pdf",
+        "sha256": "3057d181c8c1b9125b56956d76ad5698352e31d100b735c19dc8dc90884c38a5"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-oracle.pdf",
+        "sha256": "0f5d776b30ee7f1a0954db9ed0607af2f7b4397ea55858c7c5ea3b3249aaed2a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-random.pdf",
+        "sha256": "d39cd8310b1d0e74c32906718c10eece9f069f528db125ec189855836a0ac5f4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/task3-random_nowarm.pdf",
+        "sha256": "87853052239adc97f2c0e7c33f7493d3d44cc323a199347af6368fd8dfa59299"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_native_v2/values.tex",
+        "sha256": "b1de5b29df7c102621081ed108dc945d2ca02bc4beaa5b1aabad1b48eb74ac9a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/policy_grids.npz",
+        "sha256": "55a8b3e5f40970c268c6f3bb7dd5f729aa908d0fcfe00d31176e2240481d20fb"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-active.pdf",
+        "sha256": "5cbc650b714a07fe5bd6db274e1a1f7f9ae227ed1b38f568f167cdea545a959d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-active_nowarm.pdf",
+        "sha256": "e58fab31e635d747634ef53e1a331fa9edba8de944225ae9b5f97ef536f29545"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-expert.pdf",
+        "sha256": "933c1d265c55688a0f2853c7171c76f4b9941a839fd14113c4cb543538ef1574"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed.pdf",
+        "sha256": "0b1cb80efd8adddb08389966fa26a110564a9984381fa2a775ca3b1a62ff66e7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-fixed_nowarm.pdf",
+        "sha256": "863735aa7823d57369dfe63e1000e77fdc66dcdbd47a7f62aeecc75c5b7918ff"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-follower.pdf",
+        "sha256": "634467554c28c66d456f7effb8a6a98ae5b369f886373e29bd95e15d6223f78b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-liao.pdf",
+        "sha256": "a5c60e70c40a5af9c3713e7c90a1f52acbda67ee15768d95ecec1832dbb78b9b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-oracle.pdf",
+        "sha256": "653e79ecb6990f82764b4a2d1b43f76f872fe51ff6d3efba5a017b18fe2a134f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-random.pdf",
+        "sha256": "c421fe94eb4eca929a476849d357ebed403a70b50f059986488eac93cb2793fa"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/reference-random_nowarm.pdf",
+        "sha256": "c4ed809c5d187cd63ca139377ab73e9dd7abe0855cf386c635b561c7060e36d9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/source.pdf",
+        "sha256": "26ac867e5418646033b7ed7d56b17825b2df4acc92919e68b305eef84dd477ae"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/summary.json",
+        "sha256": "b0f24d69c12262bb5b6914f639d88b0027f4445d02c8770c7ba03846bf910a4b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-active.pdf",
+        "sha256": "cadbe206159507b8c4312dfb1eb69f0045467743a1babbaa6b9ff5a02a66ef83"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-active_nowarm.pdf",
+        "sha256": "5e8412258f62afef510e859e661012f472fb297c3753ea2950fec24f1e5b3c68"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-expert.pdf",
+        "sha256": "047d479f2e107b96dc34782e4b94ed37b182e25a9a8e09129ca84d846fe99d9b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed.pdf",
+        "sha256": "9a2e71f949012626691f0e02576f70dc111a78cf4271d6ac096a7a30889af846"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-fixed_nowarm.pdf",
+        "sha256": "7eb57e6608ce30dbf2ef3a86ef0ed0056c839dfa206700d7bb33012617cc4846"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-follower.pdf",
+        "sha256": "37b5f8d24e4ef0410a230fc6b7bffa043c33666ffaf4947ac3f6d33c06f8d44b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-liao.pdf",
+        "sha256": "d14e985f3e3d293b9d23d584f863abe8040db403d5ce21509007bbdf9498683e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-oracle.pdf",
+        "sha256": "aa944dae8b79690080689659b363a275b0f4c64d14d74e121cc7aa6b6253655d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-random.pdf",
+        "sha256": "ee85499e80bdea9b912d2a2ba1d2e2cc5a76fd2821ef29370c111a0274ee1bb0"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task1-random_nowarm.pdf",
+        "sha256": "cd0b5d4ff672ff55b2be5427078f08850eeae26e137c7f4eae3db5d06e8ddfe8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-active.pdf",
+        "sha256": "d0d705f059e6a1644590e1196e3be02bffaaf7c02e5d4179ea384ceaa8fe39b4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-active_nowarm.pdf",
+        "sha256": "51efe64e08649045f50e1ac61ff9a6e1a397f927484126d828d1fd3dba22cd20"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-expert.pdf",
+        "sha256": "18a66b8d7b6af640e5812ff9146c3e88697b3952eabb53f2c9f5f12c1ef61e5d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed.pdf",
+        "sha256": "db9a38ceaa4a87fd18d37bb08c64f5cbeb2186cd7a177d74c21b6b32b4ce3f7e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-fixed_nowarm.pdf",
+        "sha256": "1eee0d582189d12e0a2ab59ba178c339729774d6b516e5e585499bc95ab4801b"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-follower.pdf",
+        "sha256": "7e26f066aa65d8e52926f9f27f37fbd48342533baf8e096bf5a65c438e42445a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-liao.pdf",
+        "sha256": "7e6c3340a1b0dd4b7182b1062ea3695c06519874f192986b83a276bdf28c67b9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-oracle.pdf",
+        "sha256": "d14f3a2c1974ea39a4475baf8d45bec3a8b0a4b26d8ca4c9c44f1ce99e5c352e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-random.pdf",
+        "sha256": "1a1949e5c02632dba914a3241c21fc0a5ea438a57056c3a76c3056837047da6a"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task2-random_nowarm.pdf",
+        "sha256": "f3b3fa6beac347cb4910fe0903f237039b87895b383ef3f553a5bb684227663e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-active.pdf",
+        "sha256": "b9058569a5ba590658ec5f859423b8e5b8f79adb8621af97a0dd3505e4d7983d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-active_nowarm.pdf",
+        "sha256": "46614a7c36810cc8fbe962fce40acb8177d0f7b61194113cbc8ceb5ae8b7d110"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-expert.pdf",
+        "sha256": "0bb237698122df7f61b8db9ce0a65f7387ec91052b90d4f4e0563281fafb0e28"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed.pdf",
+        "sha256": "146069130cf4d5b83f8c933b23ba5baca1a2e7b1b34059b7daa6db7d8856e6bf"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-fixed_nowarm.pdf",
+        "sha256": "037532e031b847beee79cc76a6b1c46eae10a0431dc650fc516320b917c465b2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-follower.pdf",
+        "sha256": "346b453a9a36cfb8630a38f8a7f4a6c43e9cc364fded1d2b20cad5d9c300bc53"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-liao.pdf",
+        "sha256": "74fe7cf8cb8160c0bab037710b3e8f17dda43c31eeec14833981e0edc1239f40"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-oracle.pdf",
+        "sha256": "ae77da427c15e8de64949f39d376e64e41a41bdf777c2c0e03bb35f0446db0be"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-random.pdf",
+        "sha256": "20dbd24fa05f5c60d37da5785f84b05e9c5b76f6bc1f7256f8021534b083ea10"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/task3-random_nowarm.pdf",
+        "sha256": "093cbaacd64c7d55b38e52037787ebf91bf60738a63d80f66df698c81a71214e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/figure2_assets_unit_reward/values.tex",
+        "sha256": "96c05f5aebe854a2779071fedfe97b5353457b60a17684dfe7a33189064302a9"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/behavior-model.pdf",
+        "sha256": "937b261beb34a8bdcf5973650b3e7477a71cc39168c1a5fe3643854c62e5b0ed"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/behavior-model.png",
+        "sha256": "9b447bf51fd23e52c9cebfd96f019f3a2a21f4ab6d284b8352ea4050dd52d8dd"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/environment.pdf",
+        "sha256": "5e140f103e80f2b3ae8fc3a6c8138e62ac5d52f09eb1fe0c8f5847bbd9689495"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/environment.png",
+        "sha256": "c766fbc6e20a98dfe4843a713ed2bf4c3ac2b39c18fc988df728e76288406293"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/interaction.pdf",
+        "sha256": "03edffc0de6109bd8ab4ae19a04a3d5dc969870901d780d706048e4d9f3cb58e"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/interaction.png",
+        "sha256": "b21fe6d3b3c0984d4fe3141b6240a9cfd5cfe8053cf07ac0eb54e51bdef0e10c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/transfer-patrols.pdf",
+        "sha256": "51dad2ba5f7f7f37c85165b8d6fa10118902321ad155112af8fcf713471cf627"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/illustrations/transfer-patrols.png",
+        "sha256": "e90a4cd67c648add2c7db1b6365268d3a4b9a4e81c171c5e0697d3f42c083983"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_joint_discovery.pdf",
+        "sha256": "6713e2b4cc089bfff69e2bd1a19a214df39b7e8822e6618355803f73e6f9c034"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_joint_discovery.png",
+        "sha256": "f80b7fa0a025ba10158d75ba0d0172070a806369c8b88126f7c8a5a395f6fd05"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_comparison.pdf",
+        "sha256": "c3ce5c263fb1781683c60d0cae7c207b0bf1977d3ebb26468d67ee07c162d466"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_comparison.png",
+        "sha256": "00eb5d1b38552aee3af601dcfc023137b136301e395730c2b6b4016d23b971a8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_downstream_tasks.pdf",
+        "sha256": "662693f40a34ab513eb8f485c78705bad88bda29973f349903fcc3fa4a32bc75"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_downstream_tasks.png",
+        "sha256": "c3b456d05976eaa9c17165ae3135fe6a70e281e0ae97381e011db47680759dae"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_environment_maps.pdf",
+        "sha256": "eff930a5b05b134d2cffcf7978ca67c3e464a1b1097903cd6f8237b6d52c4ba4"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_environment_maps.png",
+        "sha256": "de9cbca1607a8e079cbf68efc03b6cc3552f47db9182f3302d5d7ef780cdb0d6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_main_performance.pdf",
+        "sha256": "70a12d78bdbd36c37198c392dc174c8fb54904ed3057a4bef603ca0a76f16d89"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_main_performance.png",
+        "sha256": "75e4d58db425276f52db633ca169e4fe80e59022cb524e9d3b93b34c4694ffef"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_story.pdf",
+        "sha256": "10ef78b3202e1c4a11d84e0b2f7dc3ef0dd6b7c33414d41dd051e37b1ae5d89c"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_story.png",
+        "sha256": "eafc123e263b2a9a9b6f7c9c6817bd9c6fdbcf7ed0b799c76ad8f72a6815fbb8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_temporal_evolution.pdf",
+        "sha256": "151e3ca40a79ec29b418dfa62c729f3e8aeeb06a66ad50ba929735ad9c892af7"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_temporal_evolution.png",
+        "sha256": "6d744e4458b94fe0cbc09094147977458a33aaf5dd06948288f50512605ceb83"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.pdf",
+        "sha256": "b17df687b34eac19ae359306303cbef90ab52b974688c1b3f6b2106f0aedbb41"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/lobeke_paper_warmup_threshold_sweep.png",
+        "sha256": "478f4397ff2b623f4b55581157f5d2ee1625fe47bc67fd8e9db0f540334e8cd6"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/warmup_sweep/active_warmup200.npz",
+        "sha256": "0da8915bbe102c6413c39a180cf595748a9dbebc9387956f7cd9aa642dd95fbc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/results/warmup_sweep/active_warmup50.npz",
+        "sha256": "db323ddfb101e4ca881faec1c6490e2a41b49e1706d7ac32379e1f54d3614ca8"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/figure2_alternatives.tex",
+        "sha256": "323f71cac5347389f5cab9ee4fce4e8e1670261ca551d1efe323bb356807a27f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure1_convergence.tex",
+        "sha256": "455ca4df6346c47d09359ba3cd2b5343a3bbfb39a286f886b61865585a67155f"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure1_convergence_unit_reward.tex",
+        "sha256": "9edb97d69ffbc5e7b462ca7313b342b10ef81b59416b0b3b6ee1a5512391f194"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure2_transfer.tex",
+        "sha256": "27a235aff0b5711320881df12d2951eb7ceae743f761bf1dda6e5929ff30d235"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure2_transfer_unit_reward.tex",
+        "sha256": "6b9559a0e393b859e17d9a92669e0a80c9ef1a9aca88323288a64cb2bc61e54d"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure2_transfer_unit_reward_compact.tex",
+        "sha256": "4b846d789484739b3b28dc97c67b0c73635e3c4a40c2258f48016d2b027576c2"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure4_downstream_transfer_unit_reward.tex",
+        "sha256": "30f6be65185d3fb03ab2da7585cc67a82bfea6b6f2fcd741363f197aa587e2bc"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure4_fixed_expert_transfer.tex",
+        "sha256": "dc62cfd392578135b992d59caed4cbba148bf071ed4fd15e576bfdc7c759dc35"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/generated/figure4_general_transfer.tex",
+        "sha256": "8e8c619f3995bbfe71232e7deaca1ff931ff384f822fd977753e08465001c054"
+      },
+      {
+        "path": "archive/experiments/guard/paper/tex/layout_mockups.tex",
+        "sha256": "78586ed4ffa4d866674053ebd2c00a4f8ed3845f1204d5cc74dabdd0bc5bb921"
+      },
+      {
+        "path": "archive/experiments/guard/scale/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "archive/experiments/guard/scale/build_curves.py",
+        "sha256": "2b36231802338715b89c113ac4d722ad4954ef466cc2c7ec446e41d5e8e43487"
+      },
+      {
+        "path": "archive/experiments/guard/scale/downstream_tasks.py",
+        "sha256": "4551a779779982e6e1c907c18ada947da09ebfa5e22805d004fc9805a406bf5d"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed100.npz",
+        "sha256": "2704c9b8b2a04a6aaeef6856997e246b149eea21fa1f1dbfee4a3a35c0cc3b92"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed101.npz",
+        "sha256": "985097b65011f1b3e91e5ccf31725b3784cc82b2ae2601d670e4143665bf59d9"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed102.npz",
+        "sha256": "e4d3f32cd8297c0ffa188ef3a334e3091c79809422f25fd1ddd8985643d091b9"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed103.npz",
+        "sha256": "651923ffc4162335f8711a3f1a4416ce1c68afb1066d9f2e107068c92dc67544"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed104.npz",
+        "sha256": "80c0e8d1c50daacf2b917f7e354faf1254534a909cf539cf61e3a5f2d5ff5452"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/active_warmup1_seed105.npz",
+        "sha256": "105b7d33bdae0e05a5be6477970af1fd892fcab92aad03693695a9491b131433"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/curves/active_warmup1.json",
+        "sha256": "19bd682b1f8a0bade0b589b3db42e50ad8542f5a5373c5382d8dd3c53dccce5a"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/curves/fixed_random_warmup0.json",
+        "sha256": "806aff05612cf2df3f0c140182879d1909b4f2983db2221e64019f201650f8d8"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/curves/random_each_round_warmup0.json",
+        "sha256": "68685bd7aaf283158f069fce8186afb50abd571930bec7ecb70cae15cf740c37"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/downstream_summary.json",
+        "sha256": "93b5561621070a1febfef9246bdd3e6af029db1409a71525d9820b974b475719"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed100.npz",
+        "sha256": "f00643e5138d86cde9284104dc08914f89a7d5d09fe913ab29270cfa72b4d315"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed101.npz",
+        "sha256": "c5719f579e5893238c83e526950d536975607f6f8f8528383ce08276b0b847e0"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed102.npz",
+        "sha256": "69cda340947bc4069b12d54e82684ed960ab76b53e861c4ed723cca567ab4fb1"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed103.npz",
+        "sha256": "24aa116ae60fb8fb1f7d52d3433cb5c96d71711d44fe58700d4d2cf3cbc1647c"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed104.npz",
+        "sha256": "9402acfdfca21aae979511b800878eac26882d1061b4b985c47b76d11c17123c"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup0_seed105.npz",
+        "sha256": "cbd8313a12f0faf48a5528e3004b620d651e6074a7e4ee222dde86900803f735"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed100.npz",
+        "sha256": "182da68df4ef42d005cf77686e22669589bba08eed9e06558c5b7089dea5a9b6"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed101.npz",
+        "sha256": "2ed9aec9bcf9ea4e5c2456ed0b0df170aca39f8b0c50192f78b715a4f7716952"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed102.npz",
+        "sha256": "c636cf94492e45bfaf4295b064371e4870cb2719123cf1c7de01bbbf0d36611b"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed103.npz",
+        "sha256": "4bb68e009ce0ceba9d1bb9223b94a56d3ed2c310b7769bca5bf81220e94555c5"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed104.npz",
+        "sha256": "93cfc41334516f9b0dc5267a8a1a34158b97a4b3c513f0b186b6b100c67356fc"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/fixed_random_warmup1_seed105.npz",
+        "sha256": "dbfe949b49254f60a45a456eaa36b6815ac81e9e20a2347f08de91929f54f8d1"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/lobeke2_convergence_curves.png",
+        "sha256": "df0779609fd56f661ee04f2d75f024b21b5c554f3b58f3059af989c3cbd19d2e"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/lobeke2_downstream_tasks.png",
+        "sha256": "ebd225df84e8e0d1eae44b481a97c969b8e377f1ed81ee94420fe26ffd7ebfd1"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/lobeke2_methods_comparison.png",
+        "sha256": "7306d63a3f07179cc460a942bb08360cd9518890ba75fe1b8bfd98c9af24ba48"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed100.npz",
+        "sha256": "22d5f5836419ff12eeeb0f59ddb3681f34918dab27eec974d14c294d91a1aa3e"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed101.npz",
+        "sha256": "28bdc669f2a68574fe823ee3b7b8ff51321b1d142abb6ac97b065c5be41c248f"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed102.npz",
+        "sha256": "40155a6ffcc0ebcec88f9b2363dcd3329c5c3c732fc50e436000a513ce7e7606"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed103.npz",
+        "sha256": "fa948ea5c7cd738e7c972945b10f0f15a122c9d9977f310f98971102c970461b"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed104.npz",
+        "sha256": "7cab4e24c4d7cb34d1993413cdb148120d107a1ae9359b771fff3513712cf1aa"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup0_seed105.npz",
+        "sha256": "9013e38164cb94a76d59f338f5a8e7404c46958ef225101116e80ea950ff782c"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed100.npz",
+        "sha256": "9eb616d04898342ed0376f01b197c419957ea40ab2b404b7bcba0efc4d575a70"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed101.npz",
+        "sha256": "4ae9029acd6e99fe74b984a3cd1e1506dab86afa671e7e0172895f80b27c9009"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed102.npz",
+        "sha256": "99198b5874c1d8849644e82cb8c0eb8097851766302eb0524eb6b42292786507"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed103.npz",
+        "sha256": "0c4d697ccc278cc608b78cb302fffad83c2595f6413c1bcc80604448da12f8d5"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed104.npz",
+        "sha256": "03691110cd37dc64def58662eac7f33459d9761adbb73fc7866506f9ce4bc8b0"
+      },
+      {
+        "path": "archive/experiments/guard/scale/lobeke2_results/random_each_round_warmup1_seed105.npz",
+        "sha256": "e4a37b2ebf75cddd02bfc00dbaec47a2aafdef9e58911692a9edad495764708f"
+      },
+      {
+        "path": "archive/experiments/guard/scale/run_lobeke2_study.py",
+        "sha256": "434f4fdaef24f484fbf9188bd079528279597cead72b2e655d4d3b5f239a7201"
+      },
+      {
+        "path": "archive/experiments/sparse_information/fisher_transfer_error.png",
+        "sha256": "15b8dd200dbd1fd2d9a4ca8c137c80ea96207a4493945e07ad8b9b8e0ab2d362"
+      },
+      {
+        "path": "archive/experiments/sparse_information/plots_manifest.json",
+        "sha256": "a6c5d3a302de13c5daea5fb10576124eaaf55eede8c379dd1b73fa11cbe022b9"
+      },
+      {
+        "path": "archive/experiments/sparse_information/stackelberg_suboptimality.png",
+        "sha256": "38be9c66fd5b7f3a9bf6cf736e666e105b6dc312d0c5f5000966271bbfb2ed46"
+      },
+      {
+        "path": "archive/experiments/ssg/ssg-experiment-spec.md",
+        "sha256": "c344c44cd76bebef762158d1adac0f31ecaf948e5b5fd45210eb4969958ca796"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0000_fisher_transfer_error.png",
+        "sha256": "50d682cd6bdd48104a306063e126b70cf65dd4b355f1fd4b48fd73497475beff"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0024_fisher_transfer_error.png",
+        "sha256": "750b02a4d455d9dfcb2eacf559d12a234ddf55f92a937b479f551b6a71179e30"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0060_fisher_transfer_error.png",
+        "sha256": "6041167d287f337d6b72f1c1dced65d400ac4e23697665fd4963f071bbcbdd88"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0120_fisher_transfer_error.png",
+        "sha256": "511821220ede38150ac8bea15b66a3cd77c75ae01911230b0a555a3eea9fd248"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0240_fisher_transfer_error.png",
+        "sha256": "98c8c43968c8a75b29b83c4856efa0937f086a3be898ba59f35680e8e4289dd4"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0500_fisher_transfer_error.png",
+        "sha256": "363c6c66680aafb4dac3f3deab5e4c449184a6095909b6e4682bdb8ad170f22c"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_0800_fisher_transfer_error.png",
+        "sha256": "11b0ae3efd3e019b0516fc334c50d762c47033a49cd14c0ee150d711a80a7ae5"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_1000_fisher_transfer_error.png",
+        "sha256": "b786565714dbd482ccae248131abb539538efa7a9316f77c6f6cca49c9c357b0"
+      },
+      {
+        "path": "archive/experiments/toy/warmup_threshold_plots_manifest.json",
+        "sha256": "56387b37e809a8428d3a0190d726c4ca1059f4c3f4e3d5a6f980c154b6ce9c20"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/downstream_tasks.png",
+        "sha256": "94803c117c35b98e0c882921f9aff20d3e7aa04c5fb41ee6320d9e73cb670f7f"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/downstream_tasks_leader_l1_error.png",
+        "sha256": "00d584924dd41a663b2778597a2a32935c126581e8d26ac9b06748d58d9f300e"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/downstream_tasks_manifest.json",
+        "sha256": "7009dacac4ced5a3306011a89dab97ba18d6ff9f7661f60ee7a362ea9641a4e0"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/estimator_comparison.png",
+        "sha256": "fc8dd11da28225d147dd59690ba159b283ad9fe7c772735d395849ff6196564d"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/results_manifest.json",
+        "sha256": "4486a4c2a046289ba50fc94ee1062ea2695e02db0fe6c010b58a0d3d9ba0383e"
+      },
+      {
+        "path": "archive/experiments/zero_sum_comparison/warmup_tuning.png",
+        "sha256": "e7bb455955a8efe31c448d74b28b70c8a8accb2d5dc213492740a64850bb2d63"
+      },
+      {
+        "path": "archive/investigations/README.md",
+        "sha256": "cdf72d29cb915a747ea83a15f72e4854185874fa296c9f12ed50aa72104e8580"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/.gitignore",
+        "sha256": "8bd99d014fb1c0f1443974a4de448cd9b9df7e9187512ee20243850c5a9e8c09"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/FINDINGS.md",
+        "sha256": "d77ea7e0fb4915e644ccfce177dfe160cd777532429cd93591111b8fce29cae2"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/analyze_transfer_suite.py",
+        "sha256": "59135bd9c3251f8d23cc7765347f901dbe5126609eef5d42126173e7c03ef1bd"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/refit_fixed_expert.py",
+        "sha256": "9e5d03db205d6f5b5a72e04b6d5a01b97876bf20373093613591834b7461a12b"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/fixed_expert_ridge_refit_v1.json",
+        "sha256": "397ceee1fb36f2a9ef866c30f09c5066492bb161bf60c37d9c964da86728ff09"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/lambda_confirmation_1600_v1/summary.json",
+        "sha256": "3266575f533c4403ea8f5ef28adda6e866aa5303973faa6c9636717f7d478ac2"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/lambda_grid_800_v1/summary.json",
+        "sha256": "b3e4f6e845226c74076fd8223f1c4edab19ebe0a0daf532c44679b9127b6c2cc"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/lambda_heldout_1600_v1/summary.json",
+        "sha256": "3acb8b2e21416eb08e021cd9e2212925c7ebe0e913434b8992d2092aedd8da0c"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/lambda_refinement_1600_v1/summary.json",
+        "sha256": "92910e1672b1d9df03c93b382805a4b6be55a1be4b75d198a6f7b90266a88333"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/protocol_pilot_v1/summary.json",
+        "sha256": "96677a3113c19a40f87fe84e39da9a95d8dc53e25602c08aaf7c76119707b7d2"
+      },
+      {
+        "path": "archive/investigations/active_expert_warmup/results/ridge_zero_heldout_1600_v1/summary.json",
+        "sha256": "82919c3ad99bcbc2bd783248433b52e84d58e789776a7c8e07a943ec274b024d"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/FINDINGS.md",
+        "sha256": "167787cc8ad8cfa3ba455072f059df3555472ae3a10901c9b58faf787b8312e7"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/explain_dense.py",
+        "sha256": "5f9ef6d822f29ae069d6d57ce4bae93f97fd8a45ba385261a01acaf29206b17d"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/oracle_stability.py",
+        "sha256": "0f3ee070ccae89b7a77159036763f801c24f9ddf1f1eaa62334347844c05af82"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/pilot.py",
+        "sha256": "7f5ff8073b85ca82f784b02bcf418914629392f168c86c27e7ba6f76b7455722"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/ridge_refit_audit.py",
+        "sha256": "619639d9408f51fe7353c5f2ff8dda8146374a43b1c9d7fff20c8bce66c96086"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/small_k_geometry.py",
+        "sha256": "6f4eb5a244c07cbea661ea687e9d48f581c5d771bf32522f46b8a6d55d47b5fb"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/small_k_tuning.py",
+        "sha256": "1b068ff4a0b205483a7580c7f39b80e37e6e4d385af47fdddc20ab911bfab329"
+      },
+      {
+        "path": "archive/investigations/behavioral_transfer/transfer_task_geometry.py",
+        "sha256": "0cccd7cfad24267899c99252a8aa983c0c4fb83ac4a44ae5565b32860f702f1c"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/FINDINGS.md",
+        "sha256": "f3b0c0f2816b349235be85ddbc6da63626dc914a1a5c676078508792935a1aac"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/analyze_final.py",
+        "sha256": "2fcfe3ddd9351c3f439c17802f4b4b1cd70e7d95f0491eba9c677ca1a80f990e"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/corrected_ols_curves_v1/data.npz",
+        "sha256": "e9ad3148a54bd4e69cce5d46972c1424ddc3ba26d342fb58c6878a679f15e43a"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/corrected_ols_curves_v1/summary.json",
+        "sha256": "9c60925fa16a8fef3e136dcb7b194d50485c33042c4aa6476714520a35310886"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/corrected_ols_reanalysis/data.npz",
+        "sha256": "707252e5ff93a7e087f4a4adacd6b01090e742ba9b8c3902f6a7f6c23500e6c9"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/corrected_ols_reanalysis/summary.json",
+        "sha256": "3b5f1496767b4e8b59bc41dd6cdba77b150c396ee0dae9a2ddb642bd82b9b67d"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.json",
+        "sha256": "db3d9c3b1bba2c873e460d7b2cd31b12ab7799cfa9635a6efdeab08391179b3a"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.pdf",
+        "sha256": "c8778919c0a60c492fdba75be8ba39a8c3010234b5f7b94dfa480c57a9eba1b7"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/corrected_ols_source_curves.png",
+        "sha256": "d58cef1fe88056eaa1d244e24ec245be9274f6d1c32b6b86ce14648d84bb4eed"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/mechanism_diagnostics.json",
+        "sha256": "161bf658c8e3cba0dc5b1482bccb097345ce976dd539839c6e15749825780346"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/mechanism_diagnostics.pdf",
+        "sha256": "3e6043ba5d455a17e5f1c1359ac1dfe87abd53f8646407c9e5b664b7f0a75297"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/figures/mechanism_diagnostics.png",
+        "sha256": "fdd32256b3af6874ab7d5e38e6d7eb8c030c844d7e3c56cd5a289fca28d944de"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/final_analysis.txt",
+        "sha256": "9c9f274480b4bf25e9ae165500693e3bac63021ade656f78296c72eb9bcccd97"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/geometry_analysis.txt",
+        "sha256": "b7dc4e955886ef54e1f94f2ee96862a444e61df49beef85690ace60473bd9b6b"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/geometry_diagnostics.py",
+        "sha256": "9af74e006157c344794f54035728f374bde5ff0cc6ddffe9c4da936ba57593cd"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/README.md",
+        "sha256": "ac4ccca611b2d4f16be73416ae10c40dc9d13d471c60df7eb90bb0f9c1cb1189"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure1_convergence.tex",
+        "sha256": "68a0b3337f68a3e1f012f3a4cdf987f01d8e59c5690851fce34b2fe68c86403b"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure2_transfer.tex",
+        "sha256": "730fb47e8e11e2c5dcc64c8f0f11a528011ae306e9d77ac760ba3a6218b224e9"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_fixed_expert_transfer.tex",
+        "sha256": "0aa693af30fdad0127b274e36d5edf916b963e65d3b0af88a20a985769504d89"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/experiments_generated/figure4_general_transfer.tex",
+        "sha256": "572307e18cc424cd7b0a5a47abe1928940068ac0ff350cde5effe6a7e756172b"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_fixed_expert_assumptions.tex",
+        "sha256": "f50f548aab89793c67a1d8690f69ae77b9085ca3cb887fc3a973ae9b5c811626"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_downstream_general_assumptions.tex",
+        "sha256": "7b77b4c797661d8320d908a7b166903c31f885fcc05734e7cea83d16e520b76a"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_environment.tex",
+        "sha256": "a19396400391efc6a2dc767dcdd46444e98ae2927e0d6e7b8345f3df286275df"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_hyperparameters.tex",
+        "sha256": "82a42eeb39dc778b9213cd85e47957f269d44fc89212441ba7f83f0b04fa4a72"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i1_source_diagnostics.tex",
+        "sha256": "406a2f2e8d43554dbe5aa03697529663734fbbb1b04de97bb07e947e212b3b3f"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_sparse_information.tex",
+        "sha256": "e31a60b9802c4277bbbd0bfe0cc373ee8854168cbf10ab79377da810a557b55e"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_structured_sensitivity.tex",
+        "sha256": "988726814cc640b98f0d5ebf81d5a4503f5631a83f7955fc7e81a58da41e08ed"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum.tex",
+        "sha256": "fc244e197d0e72f2b52c2a5c7e94144f647d977e64388822919778d793340bfe"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i2_zero_sum_directional.tex",
+        "sha256": "6b0299c340cba3d1b09e0f6818d48989d5da0eef917a9c8cf5f1b90f827a9c3c"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/appendix/i3_lower_bound.tex",
+        "sha256": "41411b16f50a2263c13456152d840b4dc69118e54105635e09c43c3ee6ac68d6"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/build_manifest.json",
+        "sha256": "2a2d0373d7a192ed9d488bfc9e613d46d4c97967d0573b1abdb89ccc4d2d22c8"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m1_source_convergence.tex",
+        "sha256": "e3bea256d4fccfd66d48c239c5483fc69bfa08992d033a07247f4a6390e36b0d"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/pre_correction_publication/reproducibility_generated/main/m2_downstream_transfer.tex",
+        "sha256": "3e83c4ca49d3a5908433eeca7f3e0f721d33600e49536066754de1b37fc7d9ba"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/recompute_ols_curves.py",
+        "sha256": "3f6ca70dbca57fec1a58e46cbb95f642d83434289fbc76804e1813dd16841944"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/recompute_ols_protocols.py",
+        "sha256": "ada7717b0d950faa2c862af761c2534364cf96423ecece45199fc4c0ad00a980"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/render_corrected_ols_figure.py",
+        "sha256": "0adefff640ab8a50e6f8ef2d4762f8b8e60a16a81901fada928dce7392c1b419"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/render_corrected_ols_output.txt",
+        "sha256": "db3d9c3b1bba2c873e460d7b2cd31b12ab7799cfa9635a6efdeab08391179b3a"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/render_mechanism_figure.py",
+        "sha256": "8bedbe8071c33351f07cf2218cfae02f57324714aaff08f03a2f29c76305924b"
+      },
+      {
+        "path": "archive/investigations/warmup_baselines/render_mechanism_output.txt",
+        "sha256": "8be987687cd16419d7b227b0adbe8f51e9baf495cc3fb9a524bcb93df75bae19"
+      },
+      {
+        "path": "archive/manifest.json",
+        "sha256": "db38fbfcac0d7c0610ac51a6c3d6b5ceb5cd2baf2c46bb4146ee51aef3d1471f"
+      },
+      {
+        "path": "archive/previous_docs/experiments/guard/README.md",
+        "sha256": "cc3e5b9d709fab549da5ce5e882fac5b39efc38d4406228841d2ecda4954107f"
+      },
+      {
+        "path": "archive/previous_docs/experiments/guard/paper/README.md",
+        "sha256": "e84c81c5b0a89e5f2852e0138a6b0f64013cfa7d8dd2f6d746a4891dfffb4e0e"
+      },
+      {
+        "path": "archive/previous_docs/experiments/sparse_information/README.md",
+        "sha256": "e47235544f6f005a6378b52851139722911e03614b3c577f629cd7635bd22f5e"
+      },
+      {
+        "path": "archive/previous_docs/experiments/toy/README.md",
+        "sha256": "8e5dee7011360d82a8696767714db06bf4f25adf4a88a64deedf0d5fa6de4f71"
+      },
+      {
+        "path": "archive/previous_docs/experiments/zero_sum_comparison/README.md",
+        "sha256": "7033ce001b0adb7dfd47caad2938b3e0decd2d9258ac96e3911019cd1c174787"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/README.md",
+        "sha256": "bf955cb6b79755327d7a652c7999b7e809ea63793b1c223688e2fc300ec67dee"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/__init__.py",
+        "sha256": "460591c66cf33cb7d96b9967d2c5338f29c792d44d8a207cc016aeefe39b09d7"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/comparison.tex",
+        "sha256": "ee631fba46ef9523d774fb4fe7b2c2d6c643a6b5b3d5974373c4f44994c16c72"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/generated/lobeke_relation.tex",
+        "sha256": "9267ec722af397a3a3d5774e076e20a2c5e5775f27bfc43956669a2d9d466611"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/generated/lobeke_tuning_spacious.tex",
+        "sha256": "b036d4bac5f0b0e38279e3be51560a6958a4d5a2e10da17fc0af7f4e27a78eab"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/generated/structured_whiskers.tex",
+        "sha256": "0a046ec0917d35f8bc618da87e8391536fd9cea57f27b37f3cf235f56bc4b6b1"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/generated/zero_sum_spacious.tex",
+        "sha256": "ca6dda39e4d20a8355297ef3ae9bede52c6f31346a52f1c2c0f6109c0726c543"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/preview.tex",
+        "sha256": "74eafc137857be5337f006b0cbb84a115a0aded835a2f2cc95bb873d086723bd"
+      },
+      {
+        "path": "archive/reproducibility/alternatives/render.py",
+        "sha256": "c01e1f78c2d9c0bd3a493d30ad7d2a21c38b7d7176d6605f37e6c880dde6fe03"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/fixed_expert_mle_stackelberg_tuning.json",
+        "sha256": "0286a8303311d108d5d478062b367173cee9bf397be1b4cbdd0812086c94ab4a"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/fixed_expert_mle_tuning.json",
+        "sha256": "1882764a854183a201483077be7089e5b79ac8129b4344dd20b89d422c82513f"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_native/data.npz",
+        "sha256": "1e34a94830aed7adc1c764af901b7b45e7471e6ae9aba8536817736d1f851dfc"
+      },
+      {
+        "path": "archive/reproducibility/data/lobeke/warmup_factorial_native/provenance.json",
+        "sha256": "9cabfb1229a231bbea69e0ef17aed4e046071e41af88809210b43994816e9939"
+      },
+      {
+        "path": "archive/tests/test_behavioral_transfer_pilot.py",
+        "sha256": "92e0858fc191f3a4014842f52d858d6d71894a77557addfd26e93a13def6d4f3"
+      },
+      {
+        "path": "archive/tests/test_reproducibility_alternatives.py",
+        "sha256": "4b6d42731f7a59630935524e6965d343514ebf0c5764ce55ecf06d006b79dad9"
+      },
+      {
+        "path": "experiments/guard/paper/run_sensitivity.py",
+        "sha256": "2d5e4ec0ff97198923877a94fdf7245a8ec7147e4d6c2b680be4c554dc539282"
+      },
+      {
+        "path": "reproducibility/data/lobeke/downstream_assets/policy_grids.npz",
+        "sha256": "33c003f9a82ec13890e99ab2d96f7479557d8e3925e72712b153d541c8f3d77d"
+      },
+      {
+        "path": "reproducibility/data/lobeke/downstream_assets/summary.json",
+        "sha256": "e24be5ba567534208285c8f77f19504711af02acc0e09d064e232f63594a53c2"
+      }
+    ]
+  },
+  "progress": {
+    "complete": 12,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 0.6457379579987901,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 12
+  },
+  "resume_granularity": "job",
+  "run_id": "65a85ce60b793404",
+  "schema_version": 1,
+  "semantic_config_sha256": "aec30f0ea302268ad9a25894c43c1281aac2532ef406e4a8f17239f8e6f8efbe",
+  "status": "complete",
+  "study_name": "smoke-toy",
+  "updated_at": "2026-09-18T14:32:16.817120+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "seconds": 109.56859270800487,
+  "rule": "deploy optimally under omega=0; no follower observations",
+  "suites": {
+    "202609200": {
+      "mean": 0.01298933580588868,
+      "minimum": 0.0,
+      "maximum": 0.04501384042999279,
+      "tasks": 100
+    },
+    "202609201": {
+      "mean": 0.013868746065780495,
+      "minimum": 0.0,
+      "maximum": 0.04335154556210896,
+      "tasks": 50
+    },
+    "202609202": {
+      "mean": 0.014533241292870919,
+      "minimum": 0.0,
+      "maximum": 0.0426943630538098,
+      "tasks": 50
+    }
+  }
+}

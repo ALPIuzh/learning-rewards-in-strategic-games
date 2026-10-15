@@ -1,0 +1,8 @@
+{
+  "data_sha256": "6ee2330352d6d2c7f7d9d2cc1cfba64218dce5ae8cb839ab1bf0d800e9950fcf",
+  "random_starts": 64,
+  "script_sha256": "703b07aea0aa48fa3dca947a4f305a1becdc9e7eca5d36f67e3c28cf9072b5ef",
+  "seconds": 4798.197350916002,
+  "tolerance": 1e-12,
+  "workers": 4
+}

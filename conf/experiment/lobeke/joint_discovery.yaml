@@ -1,0 +1,28 @@
+# @package experiment
+
+_target_: mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy
+
+name: guard-lobeke-joint-discovery
+seed_start: 40000
+seed_count: 32
+minimum_seed_count: 16
+
+# Keep discovery independent of the final flagship evaluation.
+final_evaluation_seed_start: 100
+final_evaluation_seed_count: 50
+
+total_samples: 1600
+warmup_budgets: [0, 50, 100, 200, 400]
+lambda_information_multipliers: [1.0, 2.0, 4.0, 8.0, 16.0]
+
+# Current paper configuration: used only as the no-harm reference.
+reference_warmup_budget: 100
+reference_multiplier: 1.0
+
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 1600
+tuning_metric: stackelberg_suboptimality
+guardrail_metric: fisher_transfer_error
+guardrail_standard_errors: 2.0
+shortlist_standard_errors: 1.0

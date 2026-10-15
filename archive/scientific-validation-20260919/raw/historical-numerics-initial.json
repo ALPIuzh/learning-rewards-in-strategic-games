@@ -1,0 +1,61 @@
+{
+  "methods": {
+    "active_no_warm": {
+      "changed_over_1e6": 1,
+      "max_absolute_change": 1.1597742830549151e-06,
+      "original_mean": 0.00029253832107700706,
+      "strict_mean": 0.00029254542505139925
+    },
+    "active_warm": {
+      "changed_over_1e6": 2,
+      "max_absolute_change": 1.034078430883767e-06,
+      "original_mean": 0.0002413147087501044,
+      "strict_mean": 0.00024132927577920915
+    },
+    "fixed_expert_mle": {
+      "changed_over_1e6": 23,
+      "max_absolute_change": 2.2868905146244956e-06,
+      "original_mean": 0.0029775745216198634,
+      "strict_mean": 0.002977565037723051
+    },
+    "fixed_random_no_warm": {
+      "changed_over_1e6": 13,
+      "max_absolute_change": 2.0694801982079625e-06,
+      "original_mean": 0.00289791391058914,
+      "strict_mean": 0.0028979180631379707
+    },
+    "fixed_random_warm": {
+      "changed_over_1e6": 11,
+      "max_absolute_change": 1.6147448200776182e-06,
+      "original_mean": 0.0011243080395023565,
+      "strict_mean": 0.0011242988069349509
+    },
+    "follower_ols": {
+      "changed_over_1e6": 51,
+      "max_absolute_change": 2.697130256690272e-06,
+      "original_mean": 0.005275578027326643,
+      "strict_mean": 0.005275485120214274
+    },
+    "online_random_no_warm": {
+      "changed_over_1e6": 15,
+      "max_absolute_change": 5.486700399737199e-06,
+      "original_mean": 0.0024809469600583015,
+      "strict_mean": 0.002480925581655683
+    },
+    "online_random_warm": {
+      "changed_over_1e6": 12,
+      "max_absolute_change": 2.3893162695021175e-06,
+      "original_mean": 0.0010226867328035404,
+      "strict_mean": 0.001022675366402097
+    },
+    "zero_sum_ols": {
+      "changed_over_1e6": 24,
+      "max_absolute_change": 2.9024906637031833e-06,
+      "original_mean": 0.0030881596238308833,
+      "strict_mean": 0.003088154010699642
+    }
+  },
+  "seconds": 419.9596723750001,
+  "source_sha256": "66baef2a39e01f0ad294860ec476b406a56596088cf2959fdee1ff5afafb1278",
+  "workers": 2
+}

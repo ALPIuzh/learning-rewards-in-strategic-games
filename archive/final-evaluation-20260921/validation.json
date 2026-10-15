@@ -1,0 +1,193 @@
+{
+  "checkpoint_refits": [
+    {
+      "checkpoint": 200,
+      "max_mle_residual": 4.54924458423849e-07,
+      "method": "fixed_random_warm"
+    },
+    {
+      "checkpoint": 400,
+      "max_mle_residual": 8.3854345108121e-07,
+      "method": "fixed_random_warm"
+    },
+    {
+      "checkpoint": 800,
+      "max_mle_residual": 6.947466908892595e-07,
+      "method": "fixed_random_warm"
+    },
+    {
+      "checkpoint": 1200,
+      "max_mle_residual": 9.792792056609976e-07,
+      "method": "fixed_random_warm"
+    },
+    {
+      "checkpoint": 200,
+      "max_mle_residual": 8.099854101758691e-07,
+      "method": "online_random_warm"
+    },
+    {
+      "checkpoint": 400,
+      "max_mle_residual": 8.973715350980447e-07,
+      "method": "online_random_warm"
+    },
+    {
+      "checkpoint": 800,
+      "max_mle_residual": 7.918767342391357e-07,
+      "method": "online_random_warm"
+    },
+    {
+      "checkpoint": 1200,
+      "max_mle_residual": 9.697518529161064e-07,
+      "method": "online_random_warm"
+    }
+  ],
+  "composition": "af723e8342f72d6e",
+  "input_sha256": "5b505ac317fedb9c561217a8b58c7c66b02ce1fd4d5938ed9af1590007c3790c",
+  "max_mle_residual": 9.964375225907539e-07,
+  "runs": [
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "d77f9db6c7260838358a952901322591f392575aa9025836d3962c8d20178f64",
+      "methods": [
+        "active"
+      ],
+      "resolved_config_sha256": "9a0da17f8be9475ed413485b1ff909ef1cbb01b023000e70287342f396fbb530",
+      "result_count": 50,
+      "result_set_sha256": "0d72b2156d185e0388f71dac16f0f62a38592aa480a9c34b9febe25f11ca5b08",
+      "run_id": "cf5754570312d8f6",
+      "semantic_config_sha256": "52b5df27807e2d2c0d6707838d16a0c7b6f3443bb4d7caee28bd4255e2996201",
+      "study_name": "lobeke-final-20260921-active-false"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "c447ede312572549b464cb5eeadb6d314888d4895eb7f60ffa7549f48ce8db21",
+      "methods": [
+        "active"
+      ],
+      "resolved_config_sha256": "f71f53123f249c9018775429b7e7f186d012d2649b5bf5b74b041a0bd54e9350",
+      "result_count": 50,
+      "result_set_sha256": "dfde725e7a6733fa87ea039676e8fdb825e1fcf731d6ad6ee0c8c8f8d7492f8d",
+      "run_id": "3db10e8b163aff82",
+      "semantic_config_sha256": "065338da6632e3207108aa864d313da74cba05e85fbb96b30c1dc510f8b70857",
+      "study_name": "lobeke-final-20260921-active-true"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "f5712a932999fa64f2f59f847cac10fd65b93a3bc442343a2e84c618a3b05438",
+      "methods": [
+        "fixed_expert_mle"
+      ],
+      "resolved_config_sha256": "6be55b258c4283d8be230359b3922f5aa8408b94670296db96596992dc6a8ab2",
+      "result_count": 50,
+      "result_set_sha256": "6b49a9efedc7ba530ae49c5b036588d793bbe41481c496cf35e67dba413b2575",
+      "run_id": "5ec6c593d578796b",
+      "semantic_config_sha256": "c0f83be932459acc4639e6c84019dd8c6ddd9f7818aaf2732adbb32d827338d5",
+      "study_name": "lobeke-final-20260921-fixed_expert_mle-false"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "3d60763896b41c2079d051c0eb68b193806b5769baffdce3b4658e27ef7a90c5",
+      "methods": [
+        "fixed_random"
+      ],
+      "resolved_config_sha256": "7b7ad22d76e07db5ab304c442343713f5242db8f4085b16898e782eb364bd1bb",
+      "result_count": 50,
+      "result_set_sha256": "626f554009aa8e58bf412aa3827d73bb5f622776c20057d6d0644f7848592cb8",
+      "run_id": "a05bf7c411c02857",
+      "semantic_config_sha256": "a060a9ad05f65e7d20af8daec2da6750c2e5b6007d18daba9d50abad51b34982",
+      "study_name": "lobeke-final-20260921-fixed_random-false"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "9be4f06daf11bd180ac1330e0b2723d42b2cb55d093dff11e128fec0c4b5cea2",
+      "methods": [
+        "fixed_random"
+      ],
+      "resolved_config_sha256": "a6a0b1f06200fbfe1e7463073160dc12b2294a79355bd7fb35d3c1b5de3d3e36",
+      "result_count": 50,
+      "result_set_sha256": "9c5636bb6338acb5bc12425e414995de2a492cb2ad2d42d1a8b66d67c118c732",
+      "run_id": "b1797bafd68771ee",
+      "semantic_config_sha256": "24d188ddc18b6f2a1674fbc278f3643a4d0f50305bdf953d92241e5fc79fb5f7",
+      "study_name": "lobeke-final-20260921-fixed_random-true"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "abe8fea38a61e3c979a7efe74e7c3b4d45f4ea9edc8dec7eed107f0b986aa968",
+      "methods": [
+        "follower_ols"
+      ],
+      "resolved_config_sha256": "99e240a8e7fc5504c9a08a5c0ce73024cb6f77efb355e7211b033c942a5e602e",
+      "result_count": 50,
+      "result_set_sha256": "bcf56a7a5db660fa888bacff6240589847ca9b4c67d4fb98f7a77f712daa1b41",
+      "run_id": "1e547183d0f06869",
+      "semantic_config_sha256": "2bd38fa150836663d00c7a61b7954e76945eb35a73bf178c897bdc97e937e644",
+      "study_name": "lobeke-final-20260921-follower_ols-false"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "937140ddfdc25bfdc4eb500464018fe0faab0a4914ae6d982198291c2581d945",
+      "methods": [
+        "random_each_round"
+      ],
+      "resolved_config_sha256": "d49f9239cca1213e6c3a32f03137bc74bab25dffe4773a0182e8f4a043fe8916",
+      "result_count": 50,
+      "result_set_sha256": "1bac95b97de4574d404c08b213b89bde0c45c8432ddbc6083fd442cf544477cb",
+      "run_id": "c683a7ad353f052c",
+      "semantic_config_sha256": "a92ec6c1117143e956d6abb65843489329778ae03636281933d9f6f729d20e4f",
+      "study_name": "lobeke-final-20260921-random_each_round-false"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "2b50d647bec1a44b2d17efa7c09980689be7b73b8e78ce7b7025fe28db7e54f7",
+      "methods": [
+        "random_each_round"
+      ],
+      "resolved_config_sha256": "7759fbe4b50b31494c64d3ef235adec22fff872c5ca6e6946542aba51a44dc6a",
+      "result_count": 50,
+      "result_set_sha256": "b4007d996cf8b48a9950b5ae48b2a18586e5a8ed5c70d1ee6817f7edabd68e34",
+      "run_id": "0b40bd16492607a0",
+      "semantic_config_sha256": "d86abf592e8d5c9bd3fe198e1a5116f6317c5a69179fecda58f5ae99371ef718",
+      "study_name": "lobeke-final-20260921-random_each_round-true"
+    },
+    {
+      "git_commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+      "git_dirty": false,
+      "manifest_sha256": "4915b731c9c9fbe010ded8c1c7df01b7e4b0489679ef75abbd86c31dfc54ff58",
+      "methods": [
+        "zero_sum_ols"
+      ],
+      "resolved_config_sha256": "de425f5bb34f12504a15cc7a13c39273f101a56f46c50a60fc95c4bd60ff00a4",
+      "result_count": 50,
+      "result_set_sha256": "80c28c30dc44c742b5271501bc63121c09eac8e259f17c2818697f8979bf179a",
+      "run_id": "0e74669bebad1f45",
+      "semantic_config_sha256": "4ecc76be490db2a0d2c21c570ce7c3bbdbcd58f814f58f2be3fecea568ca68d1",
+      "study_name": "lobeke-final-20260921-zero_sum_ols-false"
+    }
+  ],
+  "script_sha256": "b66742419ee618f5a3468e9d2f5a1a1ffeb40ecddeda8006aa9f4be9ae00b551",
+  "task_sets": {
+    "behavioral": {
+      "candidate_pool": 180,
+      "count": 180,
+      "name": "fresh_behavioral",
+      "scale": 1.0,
+      "seed": 202609701
+    },
+    "primary": {
+      "candidate_pool": 500,
+      "count": 10,
+      "name": "fresh_primary",
+      "scale": 1.0,
+      "seed": 202609700
+    }
+  },
+  "validated_seed_runs": 450
+}

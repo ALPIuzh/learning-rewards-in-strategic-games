@@ -1,0 +1,62 @@
+[
+  {
+    "protocol": "online_random_no_warm",
+    "task": 5,
+    "seed": 30039,
+    "samples": 320,
+    "original_loss": 0.05309590786388252,
+    "repaired_loss": 0.0006518751466227934,
+    "fitted_objective_improvement_256": 0.0,
+    "deployed_value_change_256": 0.0,
+    "original_mean_at_checkpoint": 0.004575156185507465,
+    "repaired_mean_at_checkpoint": 0.004470197370732192
+  },
+  {
+    "protocol": "fixed_expert_mle",
+    "task": 5,
+    "seed": 30007,
+    "samples": 200,
+    "original_loss": 0.05309590786388252,
+    "repaired_loss": 0.0012857265648474892,
+    "fitted_objective_improvement_256": 0.0,
+    "deployed_value_change_256": 0.0,
+    "original_mean_at_checkpoint": 0.006386913387433909,
+    "repaired_mean_at_checkpoint": 0.006283251943525972
+  },
+  {
+    "protocol": "fixed_expert_mle",
+    "task": 5,
+    "seed": 30009,
+    "samples": 360,
+    "original_loss": 0.05309590786388252,
+    "repaired_loss": 0.0007867615815219664,
+    "fitted_objective_improvement_256": 1.1102230246251565e-16,
+    "deployed_value_change_256": 4.1052328203505795e-11,
+    "original_mean_at_checkpoint": 0.008373866255364935,
+    "repaired_mean_at_checkpoint": 0.008269249805088759
+  },
+  {
+    "protocol": "fixed_expert_mle",
+    "task": 5,
+    "seed": 30024,
+    "samples": 1160,
+    "original_loss": 0.05309590786388252,
+    "repaired_loss": 0.0008043500420271132,
+    "fitted_objective_improvement_256": 0.0,
+    "deployed_value_change_256": 0.0,
+    "original_mean_at_checkpoint": 0.003967152260257495,
+    "repaired_mean_at_checkpoint": 0.0038625336226890375
+  },
+  {
+    "protocol": "fixed_expert_mle",
+    "task": 5,
+    "seed": 30040,
+    "samples": 520,
+    "original_loss": 0.05309590786388252,
+    "repaired_loss": 0.0009347999184235456,
+    "fitted_objective_improvement_256": 1.6653345369377348e-16,
+    "deployed_value_change_256": -2.815608857176244e-11,
+    "original_mean_at_checkpoint": 0.006542059510374413,
+    "repaired_mean_at_checkpoint": 0.006437714884329719
+  }
+]

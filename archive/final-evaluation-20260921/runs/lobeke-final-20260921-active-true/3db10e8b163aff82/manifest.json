@@ -1,0 +1,500 @@
+{
+  "command": [
+    "/home/antber/mairl-iclr/experiments/run.py",
+    "--config-name",
+    "runs/lobeke/comparison",
+    "experiment.name=lobeke-final-20260921-active-true",
+    "experiment.seed_start=2026097000",
+    "experiment.seed_count=50",
+    "experiment.total_samples=1600",
+    "experiment.evaluation_interval=40",
+    "experiment.warmup_budget=50",
+    "experiment.no_warmup_lambda_information_multiplier=0.1",
+    "experiment.warmup_lambda_information_multiplier=0.03",
+    "experiment.methods=[active]",
+    "experiment.warmup_modes=[true]",
+    "numerics.mle.ridge=1e-6",
+    "experiment.fixed_expert_mle_ridge=1e-6",
+    "run.seed_batch_size=50"
+  ],
+  "created_at": "2026-09-21T12:58:18.878968+00:00",
+  "execution_batch_size": 50,
+  "expected_jobs": [
+    {
+      "job_id": "9ea2c82c11a7f822",
+      "label": "warmup/active/seed=2026097000",
+      "spec": {
+        "method": "active",
+        "seed": 2026097000,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b8e7a62f30a35c03",
+      "label": "warmup/active/seed=2026097001",
+      "spec": {
+        "method": "active",
+        "seed": 2026097001,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "452dd4a4542e8d4c",
+      "label": "warmup/active/seed=2026097002",
+      "spec": {
+        "method": "active",
+        "seed": 2026097002,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5641412b8b313431",
+      "label": "warmup/active/seed=2026097003",
+      "spec": {
+        "method": "active",
+        "seed": 2026097003,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "5724e2bf1340c05d",
+      "label": "warmup/active/seed=2026097004",
+      "spec": {
+        "method": "active",
+        "seed": 2026097004,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "56063ab705e66ba3",
+      "label": "warmup/active/seed=2026097005",
+      "spec": {
+        "method": "active",
+        "seed": 2026097005,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e1dd5063b3ae41cc",
+      "label": "warmup/active/seed=2026097006",
+      "spec": {
+        "method": "active",
+        "seed": 2026097006,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "42cbf529226e8e74",
+      "label": "warmup/active/seed=2026097007",
+      "spec": {
+        "method": "active",
+        "seed": 2026097007,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "add0d3acb6ae3e31",
+      "label": "warmup/active/seed=2026097008",
+      "spec": {
+        "method": "active",
+        "seed": 2026097008,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dab5d771ea5527c8",
+      "label": "warmup/active/seed=2026097009",
+      "spec": {
+        "method": "active",
+        "seed": 2026097009,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "16d08ac41a1dfb1c",
+      "label": "warmup/active/seed=2026097010",
+      "spec": {
+        "method": "active",
+        "seed": 2026097010,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2ac6f9365591de5f",
+      "label": "warmup/active/seed=2026097011",
+      "spec": {
+        "method": "active",
+        "seed": 2026097011,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "3edc9ca0e37d71fe",
+      "label": "warmup/active/seed=2026097012",
+      "spec": {
+        "method": "active",
+        "seed": 2026097012,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "18de8c507fea4076",
+      "label": "warmup/active/seed=2026097013",
+      "spec": {
+        "method": "active",
+        "seed": 2026097013,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fc0734b8de78b3af",
+      "label": "warmup/active/seed=2026097014",
+      "spec": {
+        "method": "active",
+        "seed": 2026097014,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "defaca834b4d1630",
+      "label": "warmup/active/seed=2026097015",
+      "spec": {
+        "method": "active",
+        "seed": 2026097015,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c5b288e27433f4cd",
+      "label": "warmup/active/seed=2026097016",
+      "spec": {
+        "method": "active",
+        "seed": 2026097016,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "0bf58889c8b30311",
+      "label": "warmup/active/seed=2026097017",
+      "spec": {
+        "method": "active",
+        "seed": 2026097017,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a73aa2e44d49dd57",
+      "label": "warmup/active/seed=2026097018",
+      "spec": {
+        "method": "active",
+        "seed": 2026097018,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "492b17dca8f8710e",
+      "label": "warmup/active/seed=2026097019",
+      "spec": {
+        "method": "active",
+        "seed": 2026097019,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "51d30c50c096e727",
+      "label": "warmup/active/seed=2026097020",
+      "spec": {
+        "method": "active",
+        "seed": 2026097020,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7d7a2f6ca9c58691",
+      "label": "warmup/active/seed=2026097021",
+      "spec": {
+        "method": "active",
+        "seed": 2026097021,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "465f40691aa7d46d",
+      "label": "warmup/active/seed=2026097022",
+      "spec": {
+        "method": "active",
+        "seed": 2026097022,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "d13bd95281d51139",
+      "label": "warmup/active/seed=2026097023",
+      "spec": {
+        "method": "active",
+        "seed": 2026097023,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "b73032e906215a19",
+      "label": "warmup/active/seed=2026097024",
+      "spec": {
+        "method": "active",
+        "seed": 2026097024,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "53c0b4eef7b1fb09",
+      "label": "warmup/active/seed=2026097025",
+      "spec": {
+        "method": "active",
+        "seed": 2026097025,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "07294333693b9334",
+      "label": "warmup/active/seed=2026097026",
+      "spec": {
+        "method": "active",
+        "seed": 2026097026,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "eaf51961ca250b84",
+      "label": "warmup/active/seed=2026097027",
+      "spec": {
+        "method": "active",
+        "seed": 2026097027,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "6af1c8dba85bfcf0",
+      "label": "warmup/active/seed=2026097028",
+      "spec": {
+        "method": "active",
+        "seed": 2026097028,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "31d8948f4b59fb3e",
+      "label": "warmup/active/seed=2026097029",
+      "spec": {
+        "method": "active",
+        "seed": 2026097029,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "8487ba1b5ba7edec",
+      "label": "warmup/active/seed=2026097030",
+      "spec": {
+        "method": "active",
+        "seed": 2026097030,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "fadc39c6246896be",
+      "label": "warmup/active/seed=2026097031",
+      "spec": {
+        "method": "active",
+        "seed": 2026097031,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c8a05f3e786cb604",
+      "label": "warmup/active/seed=2026097032",
+      "spec": {
+        "method": "active",
+        "seed": 2026097032,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "edb7115222d614ac",
+      "label": "warmup/active/seed=2026097033",
+      "spec": {
+        "method": "active",
+        "seed": 2026097033,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "a2d295f4dc97e40f",
+      "label": "warmup/active/seed=2026097034",
+      "spec": {
+        "method": "active",
+        "seed": 2026097034,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "edf65a16eb80d27d",
+      "label": "warmup/active/seed=2026097035",
+      "spec": {
+        "method": "active",
+        "seed": 2026097035,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "df93d524b72e5561",
+      "label": "warmup/active/seed=2026097036",
+      "spec": {
+        "method": "active",
+        "seed": 2026097036,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "663d4dd72a01d7db",
+      "label": "warmup/active/seed=2026097037",
+      "spec": {
+        "method": "active",
+        "seed": 2026097037,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e72c4bb874e60bcb",
+      "label": "warmup/active/seed=2026097038",
+      "spec": {
+        "method": "active",
+        "seed": 2026097038,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "124bfd1fec56f7df",
+      "label": "warmup/active/seed=2026097039",
+      "spec": {
+        "method": "active",
+        "seed": 2026097039,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "07edbf7041d577b2",
+      "label": "warmup/active/seed=2026097040",
+      "spec": {
+        "method": "active",
+        "seed": 2026097040,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "dbc180ac3ed384c9",
+      "label": "warmup/active/seed=2026097041",
+      "spec": {
+        "method": "active",
+        "seed": 2026097041,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2f6fb23286322704",
+      "label": "warmup/active/seed=2026097042",
+      "spec": {
+        "method": "active",
+        "seed": 2026097042,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "7fb532ec7db69bea",
+      "label": "warmup/active/seed=2026097043",
+      "spec": {
+        "method": "active",
+        "seed": 2026097043,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "c29d4439656d47b3",
+      "label": "warmup/active/seed=2026097044",
+      "spec": {
+        "method": "active",
+        "seed": 2026097044,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "2dcec3fe60fa8ef4",
+      "label": "warmup/active/seed=2026097045",
+      "spec": {
+        "method": "active",
+        "seed": 2026097045,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "32d033a01c4154d3",
+      "label": "warmup/active/seed=2026097046",
+      "spec": {
+        "method": "active",
+        "seed": 2026097046,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "e3e53cbbee4c1469",
+      "label": "warmup/active/seed=2026097047",
+      "spec": {
+        "method": "active",
+        "seed": 2026097047,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "805b3647886a3234",
+      "label": "warmup/active/seed=2026097048",
+      "spec": {
+        "method": "active",
+        "seed": 2026097048,
+        "warmup_enabled": true
+      }
+    },
+    {
+      "job_id": "bbf19ff25085ce3e",
+      "label": "warmup/active/seed=2026097049",
+      "spec": {
+        "method": "active",
+        "seed": 2026097049,
+        "warmup_enabled": true
+      }
+    }
+  ],
+  "git": {
+    "branch": "master",
+    "commit": "138ef7e22cab16934b14badd5278f5a9fc9543e5",
+    "dirty": false,
+    "fingerprint": "7459a0e9a0d65fbb113cfe16560ab783e7ce415858d852ba98dda1894d92fc69",
+    "status": [],
+    "untracked": []
+  },
+  "progress": {
+    "complete": 50,
+    "current_job": null,
+    "current_job_progress": null,
+    "elapsed_seconds_this_session": 841.0766858011484,
+    "estimated_remaining_seconds": 0.0,
+    "failed": 0,
+    "pending": 0,
+    "running": 0,
+    "total": 50
+  },
+  "resume_granularity": "job",
+  "run_id": "3db10e8b163aff82",
+  "schema_version": 1,
+  "semantic_config_sha256": "065338da6632e3207108aa864d313da74cba05e85fbb96b30c1dc510f8b70857",
+  "status": "complete",
+  "study_name": "lobeke-final-20260921-active-true",
+  "updated_at": "2026-09-21T13:12:19.915325+00:00"
+}

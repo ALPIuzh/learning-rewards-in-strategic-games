@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+  - /config
+  - /application: lobeke
+  - /experiment: lobeke/comparison
+  - /numerics: lobeke
+  - _self_
+
+numerics:
+  mle:
+    ridge: 1.0e-6
+
+run:
+  seed_batch_size: 50

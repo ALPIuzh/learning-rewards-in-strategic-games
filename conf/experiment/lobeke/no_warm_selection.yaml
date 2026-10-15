@@ -1,0 +1,28 @@
+# @package experiment
+
+_target_: mairl_exp.studies.discovery.JointWarmupLambdaDiscoveryStudy
+
+name: guard-lobeke-no-warm-selection
+seed_start: 10000
+seed_count: 64
+minimum_seed_count: 30
+
+final_evaluation_seed_start: 100
+final_evaluation_seed_count: 50
+
+total_samples: 1600
+warmup_budgets: [0]
+lambda_information_multipliers: [1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0, 32.0]
+
+# Tune the no-warm-up variant separately: it has its own matched reference and
+# must not borrow the warm-up variant's Fisher guardrail.
+reference_warmup_budget: 0
+reference_multiplier: 1.0
+
+lambda_warm: 0.01
+confidence_delta: 0.05
+evaluation_interval: 1600
+tuning_metric: stackelberg_suboptimality
+guardrail_metric: fisher_transfer_error
+guardrail_standard_errors: 2.0
+shortlist_standard_errors: 1.0

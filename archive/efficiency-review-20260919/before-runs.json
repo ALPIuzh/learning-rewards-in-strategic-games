@@ -1,0 +1,72 @@
+{
+  "toy": {
+    "command": [
+      "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/python",
+      "-m",
+      "cProfile",
+      "-o",
+      "/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before-toy.prof",
+      "-m",
+      "experiments.run",
+      "--config-name",
+      "runs/toy",
+      "experiment.name=efficiency-toy",
+      "experiment.seed_count=3",
+      "experiment.total_samples=64",
+      "experiment.warmup_budget=24",
+      "experiment.evaluation_interval=8",
+      "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before",
+      "run.require_clean_git=false",
+      "run.resume=false"
+    ],
+    "seconds": 2.589797416003421,
+    "returncode": 0
+  },
+  "sparse": {
+    "command": [
+      "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/python",
+      "-m",
+      "cProfile",
+      "-o",
+      "/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before-sparse.prof",
+      "-m",
+      "experiments.run",
+      "--config-name",
+      "runs/sparse_information/comparison",
+      "experiment.name=efficiency-sparse",
+      "experiment.seed_count=3",
+      "experiment.total_samples=48",
+      "experiment.warmup_budget=16",
+      "experiment.evaluation_interval=8",
+      "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before",
+      "run.require_clean_git=false",
+      "run.resume=false"
+    ],
+    "seconds": 2.9452392910025083,
+    "returncode": 0
+  },
+  "lobeke": {
+    "command": [
+      "/Users/antoine/GitHub/Research/mairl-iclr/.venv/bin/python",
+      "-m",
+      "cProfile",
+      "-o",
+      "/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before-lobeke.prof",
+      "-m",
+      "experiments.run",
+      "--config-name",
+      "runs/lobeke/comparison",
+      "experiment.name=efficiency-lobeke",
+      "experiment.seed_count=3",
+      "experiment.total_samples=32",
+      "experiment.warmup_budget=0",
+      "experiment.evaluation_interval=8",
+      "run.root=/Users/antoine/GitHub/Research/mairl-iclr/artifacts/efficiency-review/before",
+      "run.require_clean_git=false",
+      "run.resume=false",
+      "experiment.warmup_modes=[false]"
+    ],
+    "seconds": 18.444974625002942,
+    "returncode": 0
+  }
+}

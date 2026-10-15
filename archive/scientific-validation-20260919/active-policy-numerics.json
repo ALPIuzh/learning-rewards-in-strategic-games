@@ -1,0 +1,645 @@
+{
+  "seconds": 26.62358362499799,
+  "checks": [
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092000,
+      "sample": 200,
+      "original_gain": 0.016106016365909692,
+      "full_gain": 0.016106016365909692,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092000,
+      "sample": 400,
+      "original_gain": 0.007733068209659403,
+      "full_gain": 0.007733068209659404,
+      "relative_improvement": 1.121626907292734e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092000,
+      "sample": 800,
+      "original_gain": 0.0038136664992582604,
+      "full_gain": 0.0038136664992582604,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092000,
+      "sample": 1599,
+      "original_gain": 0.0018911789618999092,
+      "full_gain": 0.0018911789618999092,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092001,
+      "sample": 200,
+      "original_gain": 0.015037865909366201,
+      "full_gain": 0.015037865909366203,
+      "relative_improvement": 1.1535702515450347e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092001,
+      "sample": 400,
+      "original_gain": 0.007504535021720262,
+      "full_gain": 0.007504535021720263,
+      "relative_improvement": 1.1557834502444342e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092001,
+      "sample": 800,
+      "original_gain": 0.003750236772188036,
+      "full_gain": 0.003750236772188036,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092001,
+      "sample": 1599,
+      "original_gain": 0.0018761326723278312,
+      "full_gain": 0.0018761326723278312,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092002,
+      "sample": 200,
+      "original_gain": 0.015030843511964861,
+      "full_gain": 0.015030843511964867,
+      "relative_improvement": 3.462327595778503e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092002,
+      "sample": 400,
+      "original_gain": 0.007515043105609343,
+      "full_gain": 0.007515043105609343,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092002,
+      "sample": 800,
+      "original_gain": 0.003752151949397202,
+      "full_gain": 0.003752151949397202,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092002,
+      "sample": 1599,
+      "original_gain": 0.0018772958510900502,
+      "full_gain": 0.0018772958510900502,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092003,
+      "sample": 200,
+      "original_gain": 0.015110164889385448,
+      "full_gain": 0.015110164889385448,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092003,
+      "sample": 400,
+      "original_gain": 0.007644828461431995,
+      "full_gain": 0.007644828461431995,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092003,
+      "sample": 800,
+      "original_gain": 0.0037932848796027097,
+      "full_gain": 0.0037932848796027097,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092003,
+      "sample": 1599,
+      "original_gain": 0.0018928736376825023,
+      "full_gain": 0.0018928736376825023,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092004,
+      "sample": 200,
+      "original_gain": 0.015057251741266361,
+      "full_gain": 0.015057251741266361,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092004,
+      "sample": 400,
+      "original_gain": 0.007503392497596473,
+      "full_gain": 0.007503392497596473,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092004,
+      "sample": 800,
+      "original_gain": 0.0037517527123944973,
+      "full_gain": 0.0037517527123944973,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p003",
+      "seed": 2026092004,
+      "sample": 1599,
+      "original_gain": 0.0018767221232866124,
+      "full_gain": 0.0018767221232866124,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "sample": 200,
+      "original_gain": 0.015077313043193662,
+      "full_gain": 0.015077313043193662,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "sample": 400,
+      "original_gain": 0.007493004185385554,
+      "full_gain": 0.007493004185385554,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "sample": 800,
+      "original_gain": 0.0037627643974021507,
+      "full_gain": 0.0037627643974021507,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092000,
+      "sample": 1599,
+      "original_gain": 0.0018806985493257436,
+      "full_gain": 0.0018806985493257436,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "sample": 200,
+      "original_gain": 0.014879397097223942,
+      "full_gain": 0.014879397097223942,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "sample": 400,
+      "original_gain": 0.00745667827524596,
+      "full_gain": 0.007456678275245961,
+      "relative_improvement": 1.1632012351502364e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "sample": 800,
+      "original_gain": 0.0037357167718353097,
+      "full_gain": 0.0037357167718353097,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092001,
+      "sample": 1599,
+      "original_gain": 0.0018711316229517122,
+      "full_gain": 0.0018711316229517122,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092002,
+      "sample": 200,
+      "original_gain": 0.01576816711789887,
+      "full_gain": 0.01576816711789887,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092002,
+      "sample": 400,
+      "original_gain": 0.007606922966259647,
+      "full_gain": 0.007606922966259647,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092002,
+      "sample": 800,
+      "original_gain": 0.003775109830990802,
+      "full_gain": 0.003775109830990802,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092002,
+      "sample": 1599,
+      "original_gain": 0.0018794227765767,
+      "full_gain": 0.0018794227765767,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092003,
+      "sample": 200,
+      "original_gain": 0.014719650815531874,
+      "full_gain": 0.014719650815531875,
+      "relative_improvement": 1.1785085785773957e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092003,
+      "sample": 400,
+      "original_gain": 0.007287577326199654,
+      "full_gain": 0.007287577326199654,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092003,
+      "sample": 800,
+      "original_gain": 0.0037360596345772596,
+      "full_gain": 0.0037360596345772596,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092003,
+      "sample": 1599,
+      "original_gain": 0.0018759143832614773,
+      "full_gain": 0.0018759143832614773,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092004,
+      "sample": 200,
+      "original_gain": 0.014189478297010564,
+      "full_gain": 0.014189478297010564,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092004,
+      "sample": 400,
+      "original_gain": 0.0073692675661816125,
+      "full_gain": 0.007369267566181619,
+      "relative_improvement": 8.238989982914666e-16
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092004,
+      "sample": 800,
+      "original_gain": 0.0037239429926143376,
+      "full_gain": 0.0037239429926143376,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_no_warm_lambda0p03",
+      "seed": 2026092004,
+      "sample": 1599,
+      "original_gain": 0.0018710486223009718,
+      "full_gain": 0.0018710486223009718,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "sample": 200,
+      "original_gain": 0.01606850216673753,
+      "full_gain": 0.017899291889916725,
+      "relative_improvement": 0.11393655140856923
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "sample": 400,
+      "original_gain": 0.007705100995114715,
+      "full_gain": 0.007705100995114715,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "sample": 800,
+      "original_gain": 0.0037988779870797365,
+      "full_gain": 0.0037988779870797365,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092000,
+      "sample": 1599,
+      "original_gain": 0.0018876905581141838,
+      "full_gain": 0.0018876905581141838,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "sample": 200,
+      "original_gain": 0.0166416052674268,
+      "full_gain": 0.016641605267426803,
+      "relative_improvement": 2.0848030560756569e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "sample": 400,
+      "original_gain": 0.0076346568738696234,
+      "full_gain": 0.007634656873869626,
+      "relative_improvement": 3.4082543026538725e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "sample": 800,
+      "original_gain": 0.0037850639666309567,
+      "full_gain": 0.0037850639666309567,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092001,
+      "sample": 1599,
+      "original_gain": 0.0018844553867608182,
+      "full_gain": 0.0018844553867608182,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092002,
+      "sample": 200,
+      "original_gain": 0.016151860222233413,
+      "full_gain": 0.016223071973013738,
+      "relative_improvement": 0.0044088884995612
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092002,
+      "sample": 400,
+      "original_gain": 0.007729628560405532,
+      "full_gain": 0.007729628560405532,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092002,
+      "sample": 800,
+      "original_gain": 0.003804210265025837,
+      "full_gain": 0.003804210265025837,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092002,
+      "sample": 1599,
+      "original_gain": 0.0018898498615036216,
+      "full_gain": 0.0018898498615036216,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092003,
+      "sample": 200,
+      "original_gain": 0.016558158210551274,
+      "full_gain": 0.016558158210551278,
+      "relative_improvement": 2.0953097004126918e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092003,
+      "sample": 400,
+      "original_gain": 0.007663003113181996,
+      "full_gain": 0.007663003113181996,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092003,
+      "sample": 800,
+      "original_gain": 0.0037883779371331913,
+      "full_gain": 0.003788377937133192,
+      "relative_improvement": 2.289533284117817e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092003,
+      "sample": 1599,
+      "original_gain": 0.0018855794222058472,
+      "full_gain": 0.0018855794222058472,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092004,
+      "sample": 200,
+      "original_gain": 0.01638243704220774,
+      "full_gain": 0.01638243704220774,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092004,
+      "sample": 400,
+      "original_gain": 0.0076605302252301865,
+      "full_gain": 0.0076605302252301865,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092004,
+      "sample": 800,
+      "original_gain": 0.003785513475633094,
+      "full_gain": 0.003785513475633095,
+      "relative_improvement": 2.2912657518498065e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p003",
+      "seed": 2026092004,
+      "sample": 1599,
+      "original_gain": 0.001885076046746199,
+      "full_gain": 0.001885076046746199,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092000,
+      "sample": 200,
+      "original_gain": 0.015550155595519656,
+      "full_gain": 0.015550155595519656,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092000,
+      "sample": 400,
+      "original_gain": 0.007580605945579039,
+      "full_gain": 0.007580605945579039,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092000,
+      "sample": 800,
+      "original_gain": 0.003772865461839397,
+      "full_gain": 0.003772865461839397,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092000,
+      "sample": 1599,
+      "original_gain": 0.0018840539065956828,
+      "full_gain": 0.0018840539065956832,
+      "relative_improvement": 2.3018495780613007e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092001,
+      "sample": 200,
+      "original_gain": 0.015952085827399237,
+      "full_gain": 0.015952085827399237,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092001,
+      "sample": 400,
+      "original_gain": 0.00752635199947576,
+      "full_gain": 0.00752635199947576,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092001,
+      "sample": 800,
+      "original_gain": 0.003755084620064372,
+      "full_gain": 0.003755084620064372,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092001,
+      "sample": 1599,
+      "original_gain": 0.0018766198399617297,
+      "full_gain": 0.0018766198399617297,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092002,
+      "sample": 200,
+      "original_gain": 0.015752293503993837,
+      "full_gain": 0.015752293503993837,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092002,
+      "sample": 400,
+      "original_gain": 0.007580663648688049,
+      "full_gain": 0.007580663648688049,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092002,
+      "sample": 800,
+      "original_gain": 0.003738245335146568,
+      "full_gain": 0.0037382453351465683,
+      "relative_improvement": 1.1601187993649918e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092002,
+      "sample": 1599,
+      "original_gain": 0.0018816046980821965,
+      "full_gain": 0.0018816046980821965,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092003,
+      "sample": 200,
+      "original_gain": 0.015871366509278454,
+      "full_gain": 0.015871366509278458,
+      "relative_improvement": 2.1859787245952412e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092003,
+      "sample": 400,
+      "original_gain": 0.007534180512127058,
+      "full_gain": 0.007534180512127058,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092003,
+      "sample": 800,
+      "original_gain": 0.003761179635287452,
+      "full_gain": 0.003761179635287452,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092003,
+      "sample": 1599,
+      "original_gain": 0.001878888326356385,
+      "full_gain": 0.001878888326356385,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092004,
+      "sample": 200,
+      "original_gain": 0.015499867656806592,
+      "full_gain": 0.015499867656806592,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092004,
+      "sample": 400,
+      "original_gain": 0.007550823434883547,
+      "full_gain": 0.007550823434883547,
+      "relative_improvement": 0.0
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092004,
+      "sample": 800,
+      "original_gain": 0.0037572266371645293,
+      "full_gain": 0.0037572266371645297,
+      "relative_improvement": 1.154257943091472e-16
+    },
+    {
+      "protocol": "active_warm200_lambda0p03",
+      "seed": 2026092004,
+      "sample": 1599,
+      "original_gain": 0.0018791103804231591,
+      "full_gain": 0.0018791103804231591,
+      "relative_improvement": 0.0
+    }
+  ]
+}

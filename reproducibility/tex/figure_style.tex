@@ -1,0 +1,81 @@
+% Shared semantic design for every TikZ/PGFPlots paper figure.
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{calc,matrix,positioning}
+\usepgfplotslibrary{fillbetween,groupplots}
+\pgfplotsset{compat=1.18}
+
+% Sequential Active-IRL blue scale for scalar heatmaps (dark is lower/better).
+\pgfplotsset{
+  colormap={mairl heat}{
+    rgb255(0cm)=(18,78,120)
+    rgb255(1cm)=(23,105,170)
+    rgb255(2cm)=(87,151,191)
+    rgb255(3cm)=(168,201,222)
+    rgb255(4cm)=(205,224,236)
+  },
+}
+
+% Recipes refer to method semantics, never raw color literals.
+\definecolor{mairlInk}{HTML}{17212B}
+\definecolor{mairlMuted}{HTML}{667085}
+\definecolor{mairlGrid}{HTML}{D9DEE7}
+\definecolor{mairlPanel}{HTML}{F7F8FA}
+\definecolor{mairlActive}{HTML}{1769AA}
+\definecolor{mairlExpert}{HTML}{D58B32}
+\definecolor{mairlZeroSum}{HTML}{16856F}
+\definecolor{mairlFollower}{HTML}{C4493D}
+\definecolor{mairlFixed}{HTML}{8A725D}
+\definecolor{mairlOnline}{HTML}{8A6FB0}
+\definecolor{mairlOracle}{HTML}{667085}
+\definecolor{mairlHeatOne}{HTML}{124E78}
+\definecolor{mairlHeatTwo}{HTML}{1769AA}
+\definecolor{mairlHeatThree}{HTML}{357EB0}
+\definecolor{mairlHeatFour}{HTML}{5797BF}
+\definecolor{mairlHeatFive}{HTML}{7FB0D0}
+\definecolor{mairlHeatSix}{HTML}{A8C9DE}
+\definecolor{mairlHeatSeven}{HTML}{CDE0EC}
+
+\pgfplotsset{
+  mairl axis/.style={
+    axis line style={draw=mairlGrid, line width=0.35pt},
+    tick style={draw=mairlGrid, line width=0.35pt},
+    tick label style={font=\scriptsize, text=mairlMuted},
+    label style={font=\footnotesize, text=mairlInk},
+    xlabel style={yshift=1.5pt},
+    ylabel style={
+      at={(axis description cs:-0.105,0.5)},
+      anchor=south,
+    },
+    title style={font=\small, text=mairlInk},
+    grid=major,
+    grid style={draw=mairlGrid, line width=0.25pt},
+    legend style={draw=none, fill=none, font=\scriptsize},
+    legend cell align=left,
+    clip mode=individual,
+  },
+  mairl log axis/.style={mairl axis, ymode=log},
+  mairl active/.style={draw=mairlActive, line width=0.65pt},
+  mairl expert/.style={draw=mairlExpert, line width=0.65pt},
+  mairl zero sum/.style={draw=mairlZeroSum, line width=0.65pt},
+  mairl follower/.style={draw=mairlFollower, line width=0.65pt},
+  mairl fixed/.style={draw=mairlFixed, line width=0.65pt},
+  mairl online/.style={draw=mairlOnline, line width=0.65pt},
+  mairl warm/.style={solid},
+  mairl no warm/.style={dashed},
+  mairl ci/.style={draw=none, fill opacity=0.09},
+}
+
+\tikzset{
+  mairl value box/.style={
+    fill=white,
+    rounded corners=0.5pt,
+    line width=0.25pt,
+    inner xsep=1.5pt,
+    inner ysep=0.6pt,
+    font=\tiny,
+  },
+}
+
+\newcommand{\mairlSubOpt}{\operatorname{SubOpt}(\hat\mu)}
+\newcommand{\mairlBudgetLabel}{Number of observed follower actions}

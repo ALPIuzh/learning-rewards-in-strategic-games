@@ -1,0 +1,20 @@
+_target_: experiments.toy.temperature_sweep.ToyTemperatureSweepStudy
+
+name: structured-toy-temperature-final
+seed_start: 83000
+seed_count: 100
+eta_values: [0.5, 0.75, 1.25, 2.0, 3.0]
+total_samples: 1000
+warmup_budget: 120
+evaluation_interval: 25
+
+# Holding lambda / eta^2 fixed isolates response sharpness from a simultaneous
+# change in the information regularizer.
+lambda_information_multiplier: 1.0
+lambda_warm: 0.01
+confidence_delta: 0.05
+
+methods:
+  - active
+  - fixed_random
+  - random_each_round
